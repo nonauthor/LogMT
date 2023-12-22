@@ -1,0 +1,322 @@
+[
+ [
+  "if (module.hasexportedtypes) {\tforeach (exportedtype exportedtype in module.exportedtypes) {\toutput.write(\".class extern \");\tif (exportedtype.isforwarder) output.write(\"forwarder \");\toutput.write(exportedtype.declaringtype != null ? exportedtype.name : exportedtype.fullname);\topenblock(false);\tif (exportedtype.declaringtype != null) output.writeline(\".class extern {0}\", disassemblerhelpers.escape(exportedtype.declaringtype.fullname));\tcloseblock();\t}\t}",
+  "output writeline",
+  0
+ ],
+ [
+  "cloudpool unboundpool = batchcli.pooloperations.createpool(poolid, poolfixture.vmsize, new cloudserviceconfiguration(poolfixture.osfamily), 0);\tunboundpool.displayname = originaldisplayname;\tassert.equal(originaldisplayname, unboundpool.displayname);\tunboundpool.commit();\ttry {\tcloudpool boundpool = batchcli.pooloperations.getpool(poolid);\tassert.equal(originaldisplayname, boundpool.displayname);\ttestutilities.assertthrows<invalidoperationexception>(() => boundpool.displayname = updateddisplayname);\t}\tfinally {",
+  "deleting pool",
+  0
+ ],
+ [
+  "public override void loaddata (xmlnode node) {\tif (node == null) throw new argumentnullexception (\"node\");\tif (node.name != \"namespace\") throw new formatexception (\"expecting <namespace>\");\tname = node.attributes  [\"name\"].value;\txmlnode classes = node.firstchild;\tif (classes == null) {",
+  "warning no classes for name",
+  0
+ ],
+ [
+  "public int indexof(t value) {\tif (value == null) throw new argumentnullexception(\"value\");\tint index = 0;\tforeach (trackedcollection<t>.valueel el in _inner.combinedvalues) {\tif (el.isinserted && el.insertedvalue.equals(value)) {",
+  "principalvaluecollection indexof found on inserted at",
+  0
+ ],
+ [
+  "position += readlength;\tif (position == buffer.length) {\tbyte [] newbuffer = new byte [buffer.length * 2];\tarray.copy (buffer, 0, newbuffer, 0, buffer.length);\tbuffer = newbuffer;\t}\t}\t} while(!lastline);\tstring line = encoding.getstring (buffer , 0 , position - 1);\tlastresponse = smtpresponse.parse (line);",
+  "smtp",
+  0
+ ],
+ [
+  "public static void testpersistsucurityinfo3() {\toracleconnection con = new oracleconnection(\"data source=palis;user id=scott;password=tiger\");",
+  "connectionstring before open",
+  0
+ ],
+ [
+  "static void writesymbol (streamwriter sw, string name, long size) {\tswitch (style){\tbreak;",
+  "osx section text text regular pure instructions globl data align",
+  0
+ ],
+ [
+  "static void help () {",
+  "file name do not download but use the specified file",
+  0
+ ],
+ [
+  "static partitionentrycountrequest() {\ttry {\tldapextendedresponse.register(replicationconstants.naming_context_count_res, system.type.gettype(\"novell.directory.ldap.extensions.partitionentrycountresponse\"));\t}\tcatch (system.exception e) {",
+  "could not register extended response class not found",
+  0
+ ],
+ [
+  "public void thread_in_receivedevent() {\tusing (serialport com1 = new serialport(tcsupport.localmachineserialinfo.firstavailableportname)) using (serialport com2 = new serialport(tcsupport.localmachineserialinfo.secondavailableportname)) {\treceivedeventhandler receivedeventhandler = new receivedeventhandler(com1, false, true);",
+  "verifying that if a thread is blocked in a recevedevent handler the port can still be closed",
+  0
+ ],
+ [
+  "for (int i = 0; i < constraintcount; ++i) {\tif (unique.equals(constraints[i])) {\t#if debug if (adapterswitches.dataschema.traceverbose) {\t}\t#endif unique = null;\tbreak;\t}\t}\tif (null != unique) {\t#if debug if (adapterswitches.dataschema.traceverbose) {",
+  "setupschema adding new uniqueconstraint",
+  0
+ ],
+ [
+  "static string searchtypes (string name, ref type retval, out int count) {\tstringbuilder sb = new stringbuilder ();\ttype current = null;\tcount = 0;\tstring [] assemblies = getknownassemblynames ();\tfor (int i = 0; i < assemblies.length; i++) {",
+  "loading",
+  0
+ ],
+ [
+  "string monolibrarypath = getmonolibrarypath (program, staticlinkmono, staticlinkcruntime);\tif (!file.exists (monolibrarypath) && program.isvstoolchain) {\tstring gcccompiler = target64bitapplication () ? \"x86_64-w64-mingw32-gcc.exe\" : \"i686-w64-mingw32-gcc.exe\";\tprogram = new toolchainprogram (gcccompiler, gcccompiler);\t}\treturn program;\t}\tstatic toolchainprogram getlibrarian () {\ttoolchainprogram vclibrarian = visualstudiosdktoolchainhelper.getinstance ().getvclibrarian ();\tif (vclibrarian == null || vclibrarian.path.length == 0) {",
+  "warning couldn t find installed visual studio sdk fallback to lib exe and default environment",
+  0
+ ],
+ [
+  "}\t}\tif (string.isnullorempty(sourcecolumn)) {\tthrow adp.invalidsourcecolumn(nameof(sourcecolumn));\t}\tswitch (mappingaction) {\tcase missingmappingaction.passthrough: #if debug if (adapterswitches.dataschema.traceinfo) {\t}\t#endif return new datacolumnmapping(sourcecolumn, sourcecolumn);\tcase missingmappingaction.ignore: #if debug if (adapterswitches.dataschema.tracewarning) {",
+  "mapping filter of sourcecolumn",
+  0
+ ],
+ [
+  "try {\treturn 2;\t} catch (nullreferenceexception) {\t}\tar1 = (actionref) delegate.createdelegate(typeof (actionref), typeof (emptystruct).getmethod(\"test2\"));\tif (ar1 (ref es) != 120) {\treturn 3;\t}\tar2 = (actionref2) delegate.createdelegate(typeof (actionref2), es, typeof (emptystruct).getmethod(\"test\"));\tif (ar2 () != 110) {",
+  "expected got",
+  0
+ ],
+ [
+  "if (errelem != null) {\twriteresult (tsres, ns, false, sd.wsdl + \"\\n\" + errelem.innertext);\t}\telse {\tstringwriter str = new stringwriter ();\txsl.transform (elem, null, str, null);\twriteresult (tsres, ns, false, sd.wsdl + \"\\n\" + str.tostring ());\t}\t}\telse {",
+  "bonus class",
+  0
+ ],
+ [
+  "private static bool valuetypewithboxingconversionfromuserdefinedstructinassignment() {\tint failcount = 0;\ts origin = new s(10);\tdynamic d = origin;\tvaluetype result = d;\tif (((s)result).f != origin.f) {\tfailcount++;",
+  "test failed at conversion result",
+  0
+ ],
+ [
+  "public static ienumerable<string> yieldreturnwithnestedtryfinally(bool breakinmiddle) {\tyield return \"start of method\";\ttry {\tyield return \"within outer try\";\ttry {\tyield return \"within inner try\";",
+  "within inner try",
+  0
+ ],
+ [
+  "sw.start();\tdo {\tipagedenumerable<subtaskinformation> results = batchcli.joboperations.listsubtasks(jobid, mycompletedtask.id);\tsubtasks = results.tolist();\tif (subtasks.all(t => t.state == subtaskstate.completed)) {\tbreak;\t}\tthread.sleep(500);\t} while (sw.elapsed <= checksubtasksstatetimeout);\tassert.true(sw.elapsed <= checksubtasksstatetimeout, string.format(\"the subtasks state is not set to complete after {0} seconds\", checksubtasksstatetimeout.totalseconds));",
+  "mpi test complete",
+  0
+ ],
+ [
+  "if (got != 2) return 3;\tint k = 10;\tout (ref k);\tif (k != 11) return 10;\tint [] arr2 = new int [2] {1, 2};\tif (addarray (arr2) != 3) return 11;\tfancyint f_one = new fancyint (1);\tfancyint f_two = new fancyint (2);\tif (addfancy (f_one) != 1) return 12;\tif (addfancy (f_one, f_two) != 3) return 13;",
+  "test passes",
+  0
+ ],
+ [
+  "public static void main () {\tbitmap bmp = new bitmap (600, 500);\tgraphics dc = graphics.fromimage (bmp);\trectanglef[] rects = dc.clip.getregionscans (new matrix());\tfor (int i = 0; i < rects.getlength(0); i++) console.writeline (\"clip: \" + rects[i].tostring());",
+  "isvisible rectangle",
+  0
+ ],
+ [
+  "public bool comparestring(string strexpected) {\tstring stractual = this.getstring();\tif (strexpected != stractual) {\tint explen = (strexpected == null ? 0 : strexpected.length);\tint actlen = (stractual == null ? 0 : stractual.length);\tint minlen = (explen < actlen ? explen : actlen);\tint i;\tfor (i = 0; i < minlen; i++) {\tif (strexpected[i] != stractual[i]) {",
+  "position",
+  0
+ ],
+ [
+  "public void loadurl(readertype readertype) {\ttry {\tloadxsl(\"..\", inputtype.uri, readertype);\t}\tcatch (system.unauthorizedaccessexception) {\treturn;\t}",
+  "exception not generated for non existent file parameter name",
+  0
+ ],
+ [
+  "return;\t} else if (result == certificatecheckresult.error) {\treturn;\t}\tif (confirmtrustcertificate (result)) {\tawait dotnetcoredevcertstool.trustcertificate (monitor.cancellationtoken);\t}\t} catch (operationcanceledexception) {\tthrow;\t} catch (exception ex) {",
+  "error trusting development certificate",
+  0
+ ],
+ [
+  "public static int main (string[] args) {\tint result = addabunchofints (__arglist ( 2, 3, 4 ));\tif (result != 9) return 1;\tresult = addasecondbunchofints (16, __arglist ( 2, 3, 4 ));",
+  "answer",
+  0
+ ],
+ [
+  "foreach (var scheduler in schedulers) {\taction<int> recursivework = null;\trecursivework = depth => {\tif (depth > 0) {\taction work = () => {\tvar sw = new spinwait();\twhile (!sw.nextspinwillyield) sw.spinonce();\trecursivework(depth - 1);\t};\ttaskfactory factory = new taskfactory(scheduler);",
+  "start tasks in scheduler",
+  0
+ ],
+ [
+  "class testclass {\t[methodimpl (value = methodimploptions.synchronized)]\tvoid testmethod () {\t}\t}\";\tvar output = @\" using system.runtime.compilerservices;\tclass testclass {\tobject locker = new object ();\tvoid testmethod () {\tlock (locker) {",
+  "foo",
+  0
+ ],
+ [
+  "isequenced<int> inner = new treeset<int>();\tinner.add(i); inner.add(i+1);\touter.add(inner);\t}\tisequenced<int> inner1 = new treeset<int>(), inner2 = new treeset<int>(), inner3 = new treeset<int>();\tinner1.addall<int>(new int[] { 2, 3, 5, 7, 11 });\tinner2.addall(inner1); inner2.add(13);\tinner3.addall(inner1);\touter.add(inner1);\tinner1.add(13);",
+  "equals",
+  0
+ ],
+ [
+  "public void writeformatheader(solutionformatversion version) {\twriter.writeline();",
+  "microsoft visual studio solution file format version",
+  0
+ ],
+ [
+  "public static void creategenerictestfile(string strfilename) {\tmemorystream ms = new memorystream();\ttextwriter tw = new streamwriter(ms);\ttw.writeline(\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\" standalone=\\\"no\\\"?>\");\ttw.writeline(\"<!-- comment1 -->\");\ttw.writeline(\"<?pi1a?>\");\ttw.writeline(\"<?pi1b?>\");\ttw.writeline(\"<?pi1c?>\");",
+  "entity",
+  0
+ ],
+ [
+  "return false;\t}\tif (_enumerator == null) {\t_enumerator = ((ienumerable)_combinedvalues).getenumerator();\tdebug.assert(_enumerator != null);\t}\tbool gotnextvalue = _enumerator.movenext();\tif (gotnextvalue) {\ttrackedcollection<t>.valueel el = (trackedcollection<t>.valueel)_enumerator.current;\tif (el.isinserted) {",
+  "trackedcollectionenumerator movenext current is inserted",
+  0
+ ],
+ [
+  "static void dumptimezonefile (string path, datetime? time) {\tvar buffer = file.readallbytes (path);\tvar zone = parsetzbuffer (path, buffer, buffer.length);\tconsole.write (\"rules for: {0}\", path);\twritezonerules (zone);\tconsole.writeline ();\tif (time.hasvalue) {\tvar offset = zone.getutcoffset (time.value);\tvar isdst  = zone.isdaylightsavingtime (time.value);",
+  "date offset isdst",
+  0
+ ],
+ [
+  "protected override void generatemethodreturnstatement (codemethodreturnstatement statement) {\ttextwriter output = output;\tif (statement.expression != null) {\toutput.write (\"return \");\tgenerateexpression (statement.expression);\toutput.writeline ();\t} else {",
+  "queryperformancecounter called",
+  1
+ ],
+ [
+  "private static async task stopsilo() {\tawait silo.stopasync();",
+  "create stored function sf to test date parameters",
+  1
+ ],
+ [
+  "using (xmlwriter w = utils.createwriter()) {\ttry {\tw.writeprocessinginstruction(\"xml\", \"version = \\\"1.0\\\"\");\tw.writestartdocument();\t}\tcatch (invalidoperationexception e) {\tcerror.compare(w.writestate, writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "incorrect method name expecting got a b method",
+  1
+ ],
+ [
+  "public override void renderbegintag (htmltextwriter w) {",
+  "wde debugcontroller servicecontainerstarted",
+  1
+ ],
+ [
+  "cerror.writelineignore(e.tostring());\tcerror.compare(w.writestate, (utils.writertype == writertype.charcheckingwriter) ? writestate.element : writestate.error, \"writestate should be error\");\treturn;\t}\tcatch (nullreferenceexception e) {\tcerror.writelineignore(e.tostring());\tcerror.compare(w.writestate, (utils.writertype == writertype.charcheckingwriter) ? writestate.element : writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "exceptions",
+  1
+ ],
+ [
+  "if (args.length != 2) return 1;\tif (!int.tryparse (args [0], out tcpport)) return 2;\tif (!int.tryparse (args [1], out processid)) return 3;\tvar thread = new thread (new parameterizedthreadstart (loop));\tthread.start (tcpport);\tvar sw = stopwatch.startnew ();\twhile (!disonnected) {\tsentevent.waitone ();\tsw.restart ();\tif (!responseevent.waitone (100)) {",
+  "four",
+  1
+ ],
+ [
+  "private static int dotest (string type, string expected, string actual, int failcode) {\tif (!actual.equals (expected)) {",
+  "bad command line arguments supplied",
+  1
+ ],
+ [
+  "public complexeventsequence1view(datatable dt, textwriter w) : base() {\t_w = w;",
+  "exception",
+  1
+ ],
+ [
+  "static bool confirm () {\tif (policychangesconfirmation) {\tstring answer = console.readline ();\tswitch (answer.toupper ()) {\tcase \"yes\": case \"y\": return true;",
+  "mono version",
+  1
+ ],
+ [
+  "public int getextnobject1(object args) {\tobject retobj;\tfor (int i = 1; i <= 100; i++) {\tretobj = xsltarg1.getextensionobject(((object[])args)[1].tostring());\tif (((myobject)retobj).myvalue() != 1) {",
+  "threadexception caught",
+  1
+ ],
+ [
+  "catch {\tfailed = true;\t}\tif (selfsign) {\tstore = getstorefromname (x509stores.names.trustedroot, machine);\t} else if (i == 0) {\tstore = getstorefromname (x509stores.names.otherpeople, machine);\t} else {\tstore = getstorefromname (x509stores.names.intermediateca, machine);\t}",
+  "cancelled",
+  1
+ ],
+ [
+  "if (generateautotools) path = path + \".am\";\tstreamwriter writer = new streamwriter (path);\tmakefile.write ( writer );\twriter.close ();\tcontext.addgeneratedfile (path);\tmonitor.reportsuccess ( gettextcatalog.getstring (\"{0} were successfully generated.\", filesstring ) );\tmonitor.step (1);\t}\tcatch ( exception e ) {\tmonitor.reporterror ( gettextcatalog.getstring (\"{0} could not be generated: \", filesstring ), e );",
+  "elem",
+  1
+ ],
+ [
+  "public static void runblockedinjectiontest() {",
+  "info for user",
+  1
+ ],
+ [
+  "public void flush_open_basestreamclose() {\tusing (serialport com = new serialport(tcsupport.localmachineserialinfo.firstavailableportname)) {\tcom.open();\tstream serialstream = com.basestream;\tcom.basestream.close();",
+  "namedpipechannellistener onacceptchannel",
+  1
+ ],
+ [
+  "private void onwebhostfocus (object sender, eventargs e) {",
+  "initialization failed for provider this name of type this gettype name in stage this options initstage in stopwatch elapsedmilliseconds milliseconds",
+  1
+ ],
+ [
+  "public static void save (textwriter writer, editortheme theme) {\twriter.writeline (\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?>\");\twriter.writeline (\"<!doctype plist public \\\"- writer.writeline (\"<plist version=\\\"1.0\\\">\");",
+  "return new constantstringvaluehandle handleoffset",
+  1
+ ],
+ [
+  "}\tif (!file.exists (runtime)){\terror ($\"the specified runtime at {runtime} does not exist\");\tenvironment.exit (1);\t}\tif (ctor_func != null){\terror (\"--static-ctor not supported with package bundling, you must use native compilation for this\");\treturn false;\t}\tvar maker = new packagemaker (output);",
+  "failed",
+  1
+ ],
+ [
+  "list<resourcefile> resfiles = new list<resourcefile>();\t}\telse {\t}\ttaskconstraints tc = ijm.constraints;\tif (null == tc) {\t}\telse {\t}\tif (ijm.useridentity != null) {",
+  "unable to show package sources in nuget config file",
+  1
+ ],
+ [
+  "try {\tw.writestartelement(\"root\");\tw.writeendelement();\tw.writecdata(\"foo\");\t}\tcatch (invalidoperationexception e) {\tcerror.compare(w.writestate, writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "coll has items should be",
+  1
+ ],
+ [
+  "double d7 = double.minvalue;\tm_xsltarg = new xsltargumentlist();\tm_xsltarg.addparam(\"myarg1\", szempty, d1);\tretobj = m_xsltarg.getparam(\"myarg1\", szempty);\tif (!double.ispositiveinfinity((double)retobj)) {\tassert.true(false);\t}\tm_xsltarg.addparam(\"myarg2\", szempty, d2);\tretobj = m_xsltarg.getparam(\"myarg2\", szempty);\tif (!double.isnegativeinfinity((double)retobj)) {",
+  "fully open instantiation of the typebuilder created type must have getconstructors working",
+  1
+ ],
+ [
+  "public static void createwhitespacehandlingtestfile(string strfilename) {\tstream s = new memorystream();\ttextwriter tw = new streamwriter(s);\ttw.writeline(\"]>\");",
+  "include glib h",
+  1
+ ],
+ [
+  "int n = 0;\tfor (int i = 0; i < log.count; i++) {\tif ((string) log [i] == names [n]) {\tn++;\tif (n == names.length) return true;\t}\t}\tif (n == names.length) {\treturn true;\t} else {",
+  "total skip",
+  1
+ ],
+ [
+  "private void emitrecord(recorddef record) {\tbool isconstantstringvalue = record.name == \"constantstringvalue\";\topenscope($\"public partial class {record.name} : metadatarecord\");\tif ((record.flags & recorddefflags.reentrantequals) != 0) {\topenscope($\"public {record.name}()\");\twriteline(\"_equalsreentrancyguard = new threadlocal<reentrancyguardstack>(() => new reentrancyguardstack());\");\tclosescope();\t}\topenscope(\"public override handletype handletype\");\topenscope(\"get\");",
+  "authzset sidlist processing sids",
+  1
+ ],
+ [
+  "public void lock (simlock lk, string frame) {\tforeach (lockrecord lr in locks) {",
+  "searching for service",
+  1
+ ],
+ [
+  "f2.wait();\tfinner.start();\tfinner.wait();\t}\tint count = 0;\ttask task1 = task.run(() => { count = 1; });\ttask1.wait();\tassert.true(count == 1, \"    > failed.  task completed but did not run.\");\tassert.true(task1.status == taskstatus.rantocompletion, \"    > failed.  task did not end in rantocompletion state.\");\ttask<int> future1 = task.run(() => { return 7; });",
+  "accepted invalid entity",
+  1
+ ],
+ [
+  "public void testglobaldata () {\tassemblybuilder ab = genassembly ();\tstring resfile = path.combine (tempdir, \"res\");\tusing (streamwriter sw = new streamwriter (resfile)) {",
+  "found file",
+  1
+ ],
+ [
+  "public void removecreator(string format, idesignerhost host) {",
+  "debug",
+  1
+ ],
+ [
+  "public override string tostring () {\tstringwriter sw = new stringwriter ();",
+  "members that were added can be filtered out of the diff by using the",
+  1
+ ],
+ [
+  "public static bool log(object actual, object expected, string source, string message, string details, tagerrorlevel eerrorlevel) {\ttagerrorlevel rsavedlevel = errorlevel;\terrorlevel = eerrorlevel;\ttry {\tif (testconsole != null) {\ttestconsole.log(common.format(actual), common.format(expected), source, message, details, tagconsoleflags.console_text, \"fake_filename\", 999 );\t}\telse if (error != null) {",
+  "sqlclient diagnostictest executenonqueryerrortest",
+  1
+ ],
+ [
+  "int failcount = 0;\tvar a = new[]\t{\t1, 2, 3 }\t;\tc origin = new c(0);\tdynamic d = origin;\tvar q = ( from m in a where d select m).toarray();\tif (q[1] != a[1]) {\tfailcount++;",
+  "got but expected",
+  1
+ ],
+ [
+  "public void generatereader (string readerclassname, arraylist maps) {\tif (_config == null || !_config.generateasinternal) writeline (\"public class \" + readerclassname + \" : xmlserializationreader\");",
+  "u assembly display name package name root rootdir gacdir gacdir",
+  1
+ ],
+ [
+  "public static int main () {",
+  "hello world",
+  1
+ ]
+]

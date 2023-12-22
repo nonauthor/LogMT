@@ -1,0 +1,90 @@
+[
+ [
+  [
+   "*64 - avatars3.githubusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - s2.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - nsclick.baidu.com : 80 close , 1121 bytes ( 1.09 KB ) sent , 289 bytes received , lifetime 00 : 30\n",
+   "*64 - accounts.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 close , 463 bytes sent , 4787 bytes ( 4.67 KB ) received , lifetime 00 : 11\n",
+   "*64 - fonts.gstatic.com : 443 close , 461 bytes sent , 4785 bytes ( 4.67 KB ) received , lifetime 00 : 22\n",
+   "*64 - googleads.g.doubleclick.net : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - csi.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - csi.gstatic.com : 443 close , 0 bytes sent , 0 bytes received , lifetime 00 : 10\n",
+   "*64 - lh4.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "node status running;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "boot_cmd success 1114095826 1 Command has completed successfully\n",
+   "boot_cmd success 1114095879 1 Command has completed successfully\n",
+   "boot_cmd success 1112052826 1 Command has completed successfully\n",
+   "boot_cmd success 1112717477 1 Command has completed successfully\n",
+   "boot_cmd success 1112186501 1 Command has completed successfully\n",
+   "boot_cmd success 1114095835 1 Command has completed successfully\n",
+   "boot_cmd success 1112086518 1 Command has completed successfully\n",
+   "boot_cmd success 1114095839 1 Command has completed successfully\n",
+   "boot_cmd success 1114095881 1 Command has completed successfully\n",
+   "boot_cmd success 1112673625 1 Command has completed successfully\n",
+   "boot_cmd success 1112417665 1 Command has completed successfully\n",
+   "boot_cmd success 1112718533 1 Command has completed successfully\n",
+   "boot_cmd success 1114095832 1 Command has completed successfully\n",
+   "boot_cmd success 1112170415 1 Command has completed successfully\n",
+   "shutdown_cmd success 1112673625 1 Command has completed successfully\n",
+   "boot_cmd success 1113189261 1 Command has completed successfully\n",
+   "boot_cmd success 1114096624 1 Command has completed successfully\n",
+   "boot_cmd success 1114095833 1 Command has completed successfully\n",
+   "boot_cmd success 1114095834 1 Command has completed successfully\n",
+   "boot_cmd success 1112720274 1 Command has completed successfully\n"
+  ],
+  [
+   "Connection request; Client attempting to establish new session; Established session timeout; Processed session termination;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 400 bytes sent , 1108 bytes ( 1.08 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 905 bytes sent , 33486 bytes ( 32.7 KB ) received , lifetime 02 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1042 bytes ( 1.01 KB ) sent , 598 bytes received , lifetime 02 : 00\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 257 bytes sent , 3379 bytes ( 3.29 KB ) received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1154 bytes ( 1.12 KB ) sent , 912 bytes received , lifetime 02 : 00\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 451 bytes sent , 353 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2579 bytes ( 2.51 KB ) sent , 327 bytes received , lifetime 02 : 00\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "- cgi.qqweb.qq.com : 80 close , 477 bytes sent , 448 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- tcpconn4.tencent.com : 80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk : 5070 - Proxy closed the connection unexpectedly.\n",
+   "- tcpconn5.tencent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- tcpconn5.tencent.com : 80 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- tcpconn4.tencent.com : 443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk : 5070 - Proxy closed the connection unexpectedly.\n",
+   "- tcpconn.tencent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- tcpconn.tencent.com : 443 close , 0 bytes sent , 0 bytes received , lifetime <1 sec\n",
+   "- cgi.qqweb.qq.com : 80 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 639 bytes sent , 339 bytes received , lifetime <1 sec\n",
+   "- tcpconn.tencent.com : 80 close , 0 bytes sent , 0 bytes received , lifetime <1 sec\n",
+   "- 183.60.48.250 : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- tcpconn5.tencent.com : 443 close , 0 bytes sent , 0 bytes received , lifetime <1 sec\n",
+   "- tcpconn5.tencent.com : 80 close , 0 bytes sent , 0 bytes received , lifetime <1 sec\n",
+   "- tcpconn.tencent.com : 80 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "open through proxy; Could not connect through proxy; bytes sent; bytes received; close;  Proxy closed the connection;\n"
+  ],
+  0
+ ]
+]

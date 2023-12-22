@@ -1,0 +1,22 @@
+[
+ [
+  "} catch (memberaccessexception) {\tfailcount += 1;\t}\ttry {\twrongcasefriendassembly.internalclass.internalstaticmethod();\t} catch (memberaccessexception) {\tfailcount += 1;\t}\ttry {\twrongcasefriendassembly.publicclass.internalstaticmethod();",
+  "marker rdue",
+  1
+ ],
+ [
+  "if (data != null) x509 = new x509certificate (data);\t}\tif (x509 != null) coll.add (x509);\tbreak;\tcase \".p12\": case \".pfx\": pkcs12 p12 = password == null ? pkcs12.loadfromfile (filename) : pkcs12.loadfromfile (filename, password);\tx509certificatecollection tmp = new x509certificatecollection (p12.certificates);\tfor (int i = 0; i != p12.keys.count; i++) {\tx509certificate cert = p12.certificates[i];\trsacryptoserviceprovider pk = p12.keys[i] as rsacryptoserviceprovider;\tif (pk == null || pk.publiconly) continue;",
+  "signature algorithm",
+  1
+ ],
+ [
+  "public void transformstrstr5(inputtype inputtype, readertype readertype) {\tstring szfullfilename = fullfilepath(\"fruits.xml\");\tif (loadxsl(\"showparam.xsl\", inputtype, readertype) == 1) {\ttry {\txslt.transform(szfullfilename, szinvalid);\t}\tcatch (system.argumentexception) {\treturn;\t}\t}",
+  "exception not generated for invalid output destination",
+  0
+ ],
+ [
+  "public toolboxitemcollection gettoolboxitems() {",
+  "toolboxservice gettoolboxitems",
+  0
+ ]
+]

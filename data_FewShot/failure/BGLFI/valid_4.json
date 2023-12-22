@@ -1,0 +1,162 @@
+[
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0
+ ],
+ [
+  "1106 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0
+ ],
+ [
+  "10684 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0
+ ],
+ [
+  "total of 2 ddr error(s) detected and corrected",
+  0
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:57142, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:60272: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:34546: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52365, Link has been severed",
+  6
+ ],
+ [
+  "MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed",
+  9
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=0, cpu=0, index=1207960132, total=33654976",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=12344, cpu=127, index=268892392, total=26869484",
+  5
+ ],
+ [
+  "Lustre mount FAILED : bglio817 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio3 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio879 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio777 : point /p/gb1",
+  7
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41987, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:59103, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52622, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58808, Connection reset by peer",
+  8
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x1d): L2 dcache unit data parity error",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x1d): L2 dcache unit data parity error",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x06): L3 major internal error",
+  2
+ ]
+]

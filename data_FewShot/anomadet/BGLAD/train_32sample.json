@@ -1,0 +1,162 @@
+[
+ [
+  "Can not get assembly information for node card",
+  0,
+  "9d5d6232"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "instruction address: 0x00004ed8",
+  0,
+  "0259e53a"
+ ],
+ [
+  "parity error in write buffer...................0",
+  0,
+  "b265915b"
+ ],
+ [
+  "Can not get assembly information for node card",
+  0,
+  "9d5d6232"
+ ],
+ [
+  "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",
+  0,
+  "abb57bda"
+ ],
+ [
+  "Can not get assembly information for node card",
+  0,
+  "9d5d6232"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "instruction address: 0x00004ed8",
+  0,
+  "0259e53a"
+ ],
+ [
+  "program interrupt: fp cr field .............0",
+  0,
+  "41c5149c"
+ ],
+ [
+  "critical input interrupt (unit=0x0b bit=0x03): warning for torus x- wire",
+  0,
+  "40645e82"
+ ],
+ [
+  "Node card VPD check: U01 node in processor card slot J02 do not match. VPD ecid 07420D019D2FFFFF080D1B308ED7, found 074B0D98E12FFFFF0D0D1BE046E8",
+  0,
+  "66c627c6"
+ ],
+ [
+  "general purpose registers:",
+  0,
+  "4149b6da"
+ ],
+ [
+  "mmcs_db_server has been started: /bgl/BlueLight/ppcfloor/bglsys/bin/mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all",
+  0,
+  "1e85eb57"
+ ],
+ [
+  "iar 003a92a0 dear 01290eb8",
+  0,
+  "1b700d02"
+ ],
+ [
+  "2 torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected",
+  0,
+  "c70dad25"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58844, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  1,
+  "130bb340"
+ ],
+ [
+  "data TLB error interrupt",
+  1,
+  "fd2fdc47"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58015, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=37143, cpu=16, index=958222500, total=269100416",
+  1,
+  "ca731736"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58453, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41386, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ]
+]

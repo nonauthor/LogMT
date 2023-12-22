@@ -1,0 +1,242 @@
+[
+ [
+  "byte ordering exception.....................0",
+  0
+ ],
+ [
+  "Found invalid node ecid in processor card slot J16, ecid 0000000000000000000000000000",
+  0
+ ],
+ [
+  "critical input interrupt (unit=0x0b bit=0x12): warning for tree B0 wire",
+  0
+ ],
+ [
+  "program interrupt: trap instruction.........0",
+  0
+ ],
+ [
+  "program interrupt: fp compare...............0",
+  0
+ ],
+ [
+  "exception syndrome register: 0x00800000",
+  0
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41325, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:49524, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58873, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:54635, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:35254: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:45600, Link has been severed",
+  6
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x06): L3 major internal error",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "MailboxMonitor::serviceMailboxes() lib_ido_error: -1033 BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "Microloader Assertion",
+  9
+ ],
+ [
+  "MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed",
+  9
+ ],
+ [
+  "idoproxy communication failure: socket closed",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=12065, cpu=16, index=1198391536, total=26910286",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=2, cpu=72, index=0, total=0",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1001",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52695, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58338, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53149, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53320, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53338, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52783, Connection reset by peer",
+  8
+ ],
+ [
+  "Lustre mount FAILED : bglio836 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio812 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio842 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio835 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio3 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio782 : point /p/gb1",
+  7
+ ]
+]

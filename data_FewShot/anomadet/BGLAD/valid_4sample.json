@@ -1,0 +1,22 @@
+[
+ [
+  "program interrupt: fp compare...............0",
+  0,
+  "cc8ff6de"
+ ],
+ [
+  "program interrupt: fp cr field .............0",
+  0,
+  "41c5149c"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ]
+]

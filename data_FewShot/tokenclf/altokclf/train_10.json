@@ -1,0 +1,542 @@
+[
+ [
+  "isapnp: no plug & play device found",
+  "play",
+  "OTHER",
+  5
+ ],
+ [
+  "<immacnotificationcentermanager: 0x7ff1b2e00ba0>:   dnd enabled: yes",
+  "dnd",
+  "OTHER",
+  5
+ ],
+ [
+  "page bounds {{0, 0}, {400, 400}}",
+  "bounds",
+  "OTHER",
+  5
+ ],
+ [
+  "device_generate_lock_screen_screenshot: authw 0x7fa82502bc00(2000)[0, 0, 0, 0] shield 0x7fa823930c00(2001), dev [1440,900]",
+  "dev",
+  "OTHER",
+  5
+ ],
+ [
+  "arpt: 711749.913729: iopmpowersource information: onsleep,  sleeptype: normal sleep,  'externalconnected': yes, 'timeremaining': 0,",
+  "iopmpowersource",
+  "OTHER",
+  5
+ ],
+ [
+  "kerberos authentication failed",
+  "authentication",
+  "OTHER",
+  5
+ ],
+ [
+  "arpt: 770518.944345: framerdy 0x0 bmccmd 3 framecnt 1024",
+  "framecnt",
+  "OTHER",
+  5
+ ],
+ [
+  "[com.apple.calendar.store.log.caldav.queue] [adding [<caldavaccountrefreshqueueableoperation: 0x7fa11d73f960; sequence: 0>] to failed operations.]",
+  "failed",
+  "OTHER",
+  5
+ ],
+ [
+  "en0: bssid changed to 5c:50:15:36:bc:03",
+  "to",
+  "OTHER",
+  5
+ ],
+ [
+  "183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 socks5",
+  "proxy",
+  "OTHER",
+  5
+ ],
+ [
+  "probe of vesafb0 failed with error -6",
+  "-6",
+  "STATE",
+  2
+ ],
+ [
+  "direct-access ansi scsi revision: 02",
+  "02",
+  "STATE",
+  2
+ ],
+ [
+  "synchronized to 10.100.26.250, stratum 3",
+  "3",
+  "STATE",
+  2
+ ],
+ [
+  "action_battery_changed pluggedtype: 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "ciod: cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "new process app=processrecord{6eaaf00 0:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "tcp_connection_destination_handle_tls_close_notify 111 closing socket due to tls close_notify alert",
+  "111",
+  "STATE",
+  2
+ ],
+ [
+  "previous sleep cause: 5",
+  "5",
+  "STATE",
+  2
+ ],
+ [
+  "blacklistdisablepercent is 33",
+  "33",
+  "STATE",
+  2
+ ],
+ [
+  "packetresponder 2 for block blk_1508705816376906895 terminating",
+  "2",
+  "STATE",
+  2
+ ],
+ [
+  "authentication failed from 163.27.187.39 (163.27.187.39): permission denied in replay cache code",
+  "163.27.187.39",
+  "IP",
+  7
+ ],
+ [
+  "www.google.com:443 error : could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - could not resolve proxy.cse.cuhk.edu.hk error 11001",
+  "proxy.cse.cuhk.edu.hk",
+  "IP",
+  7
+ ],
+ [
+  "failed password for invalid user default from 5.188.10.180 port 41538 ssh2",
+  "5.188.10.180",
+  "IP",
+  7
+ ],
+ [
+  "anonymous ftp login from 84.102.20.2 ,  (anonymous)",
+  "84.102.20.2",
+  "IP",
+  7
+ ],
+ [
+  "received disconnect from 183.62.140.253 : 11: bye bye [preauth]",
+  "183.62.140.253",
+  "IP",
+  7
+ ],
+ [
+  "niff: node node-69 detected a failed network connection on network 5.5.224.0 via interface alt0",
+  "5.5.224.0",
+  "IP",
+  7
+ ],
+ [
+  "failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2",
+  "185.190.58.151",
+  "IP",
+  7
+ ],
+ [
+  "connection from 202.82.200.188 () at thu jul  7 16:33:52 2005",
+  "202.82.200.188",
+  "IP",
+  7
+ ],
+ [
+  "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= 119.4.203.64",
+  "119.4.203.64",
+  "IP",
+  7
+ ],
+ [
+  "received disconnect from 103.207.39.212 : 11: closed due to user request. [preauth]",
+  "103.207.39.212",
+  "IP",
+  7
+ ],
+ [
+  "node card status: no alerts are active. clock mode is low. clock select is midplane. phy jtag reset is asserted. asic jtag reset is asserted. temperature mask is not active. no temperature error. temperature limit error latch is clear. pgood is not asserted. pgood error latch is active. mpgood is not ok. mpgood error latch is active. the 2.5 volt rail is ok. the 1.5 volt rail is ok.",
+  "1.5",
+  "COUNT",
+  1
+ ],
+ [
+  "block broadcast_18_piece0 stored as bytes in memory (estimated size 5.8 kb, free 454.4 kb)",
+  "5.8",
+  "COUNT",
+  1
+ ],
+ [
+  "while synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "writedatatodb size 327",
+  "327",
+  "COUNT",
+  1
+ ],
+ [
+  "total of 3 ddr error(s) detected and corrected over 8732 seconds",
+  "8732",
+  "COUNT",
+  1
+ ],
+ [
+  "notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), following (n.state), 3 (n.sid), 0x2 (n.peerepoch), following (my state)",
+  "3",
+  "COUNT",
+  1
+ ],
+ [
+  "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] attempting claim: memory 2048 mb, disk 20 gb, vcpus 1 cpu",
+  "20",
+  "COUNT",
+  1
+ ],
+ [
+  "cpu: intel pentium iii (coppermine) stepping 06",
+  "06",
+  "COUNT",
+  1
+ ],
+ [
+  "applethunderboltnhitype2::prepciwake - power up complete - took 1 us",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",
+  "8192",
+  "COUNT",
+  1
+ ],
+ [
+  "chargingspeed  wattage: -1 st: 5000000 --> 7500000",
+  "7500000",
+  "VAR",
+  0
+ ],
+ [
+  "session 101921 created",
+  "101921",
+  "VAR",
+  0
+ ],
+ [
+  "pam 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180",
+  "1",
+  "VAR",
+  0
+ ],
+ [
+  "ciod: z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map",
+  "32",
+  "VAR",
+  0
+ ],
+ [
+  "setsystemuivisibility vis=0 mask=1 oldval=40000500 newval=40000500 diff=0 fullscreenstackvis=0 dockedstackvis=0, fullscreenstackbounds=rect(0, 0 - 0, 0), dockedstackbounds=rect(0, 0 - 0, 0)",
+  "0",
+  "VAR",
+  0
+ ],
+ [
+  "running task 4.0 in stage 29.0 (tid 1324)",
+  "4.0",
+  "VAR",
+  0
+ ],
+ [
+  "[21:22:43.147] mv_lowlevelcheckifvideoplayableusingdecoder signalled err=-12956 (kfigmediavalidatorerror_videocodecnotsupported) (video codec 1) at  line 1921",
+  "1921",
+  "VAR",
+  0
+ ],
+ [
+  "pci_hotplug: pci hot plug pci core version: 0.5",
+  "0.5",
+  "VAR",
+  0
+ ],
+ [
+  "onstandstepchanged 3786",
+  "3786",
+  "VAR",
+  0
+ ],
+ [
+  "application requested orientation -1, got rotation 0 which has compatible metrics",
+  "0",
+  "VAR",
+  0
+ ],
+ [
+  "inserthihealthdata() end totaltime = 45",
+  "inserthihealthdata()",
+  "FUN",
+  6
+ ],
+ [
+  "getresources() for application_1445144423722_0020: ask=4 release= 0 newcontainers=0 finishedcontainers=0 resourcelimit=<memory:0, vcores:-27> knownnms=4",
+  "getresources()",
+  "FUN",
+  6
+ ],
+ [
+  "vm_compressor_fastwake_warmup (581519 - 591525) - starting",
+  "vm_compressor_fastwake_warmup",
+  "FUN",
+  6
+ ],
+ [
+  "savehealthdetaildata() deviceid = 2,clientid=1,id=1",
+  "savehealthdetaildata()",
+  "FUN",
+  6
+ ],
+ [
+  "hibernate_setup(0) took 8471 ms",
+  "hibernate_setup(0)",
+  "FUN",
+  6
+ ],
+ [
+  "[ iobluetoothhostcontroller::setconfigstate ] calling registerservice",
+  "iobluetoothhostcontroller::setconfigstate",
+  "FUN",
+  6
+ ],
+ [
+  "applethunderboltnhitype2::waitforok2go2sx - retries = 4",
+  "applethunderboltnhitype2::waitforok2go2sx",
+  "FUN",
+  6
+ ],
+ [
+  "handle_will_sleep_auth_and_shield_windows : reordering authw 0x7fa823a04400(2004) (lock state: 3)",
+  "handle_will_sleep_auth_and_shield_windows",
+  "FUN",
+  6
+ ],
+ [
+  "securityd_xpc_dictionary_handler cloudd[326] copy_matching error domain=nsosstatuserrordomain code=-50 \"query missing class name\" (paramerr: error in user parameter list) userinfo={nsdescription=query missing class name}",
+  "securityd_xpc_dictionary_handler",
+  "FUN",
+  6
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "hibernate_machine_init",
+  "FUN",
+  6
+ ],
+ [
+  "objc[35391]: class tsuatomiclrucache is implemented in both /library/quicklook/iwork.qlgenerator/contents/macos/iwork and /system/library/privateframeworks/officeimport.framework/versions/a/officeimport. one of the two will be used. which one is undefined.",
+  "/library/quicklook/iwork.qlgenerator/contents/macos/iwork",
+  "PATH",
+  8
+ ],
+ [
+  "path not allowed in target domain: type = pid, path = /system/library/stagedframeworks/safari/safarishared.framework/versions/a/xpcservices/com.apple.safari.history.xpc/contents/macos/com.apple.safari.history error = 147: the specified service did not ship in the requestor's bundle, origin = /system/library/stagedframeworks/safari/webkit.framework/versions/a/xpcservices/com.apple.webkit.webcontent.xpc",
+  "/system/library/stagedframeworks/safari/safarishared.framework/versions/a/xpcservices/com.apple.safari.history.xpc/contents/macos/com.apple.safari.history",
+  "PATH",
+  8
+ ],
+ [
+  "loaded properties from hadoop-metrics2.properties",
+  "hadoop-metrics2.properties",
+  "PATH",
+  8
+ ],
+ [
+  "dnssd_clientstub connecttoserver: connect() failed path:/var/run/mdnsresponder socket:4 err:-1 errno:1 operation not permitted",
+  "path:/var/run/mdnsresponder",
+  "PATH",
+  8
+ ],
+ [
+  "workerenv.init() ok /etc/httpd/conf/workers2.properties",
+  "/etc/httpd/conf/workers2.properties",
+  "PATH",
+  8
+ ],
+ [
+  "killing 23484: com.android.calendar/u0a13 (adj 906): empty for 1810s",
+  "com.android.calendar/u0a13",
+  "PATH",
+  8
+ ],
+ [
+  "the job-conf file on the remote fs is /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml",
+  "/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml",
+  "PATH",
+  8
+ ],
+ [
+  "2017-07-06 09:24:14.417 ksfetch[36728/0x7fff79824000] [lvl=2] main() ksfetch fetching url (<nsmutableurlrequest: 0x100602220> { url: https://tools.google.com/service/update2?cup2hreq=f5e83ec64ff3fc5533a3c206134a6517e274f9e1cb53df857e15049b6e4c9f8e&cup2key=7:1721929288 }) to folder: /tmp/ksoutofprocessfetcher.apwod5qmh1/download",
+  "/tmp/ksoutofprocessfetcher.apwod5qmh1/download",
+  "PATH",
+  8
+ ],
+ [
+  "[client 216.216.185.130 ] directory index forbidden by rule: /var/www/html/",
+  "/var/www/html/",
+  "PATH",
+  8
+ ],
+ [
+  "root=label=/ initrd=/x86_64/initrd-2.6.9-5.0.5.el-lustre-1.4.2-perfctr-admin console=tty0 console=ttys0,19200 fastboot boot_image= /x86_64/vmlinuz-2.6.9-5.0.5.el-lustre-1.4.2-perfctr",
+  "/x86_64/vmlinuz-2.6.9-5.0.5.el-lustre-1.4.2-perfctr",
+  "PATH",
+  8
+ ],
+ [
+  "extension com.apple.ncplugin.worldclock -> (null)",
+  "com.apple.ncplugin.worldclock",
+  "URL",
+  4
+ ],
+ [
+  "connecting to driver: spark://coarsegrainedscheduler@10.10.34.11:48069 ",
+  "spark://coarsegrainedscheduler@10.10.34.11:48069",
+  "URL",
+  4
+ ],
+ [
+  "183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 socks5",
+  "183.62.156.108:22",
+  "URL",
+  4
+ ],
+ [
+  "sandbox: com.apple.addres (34830) deny(1) network-outbound /private/var/run/mdnsresponder",
+  "com.apple.addres",
+  "URL",
+  4
+ ],
+ [
+  "tcpconn4.tencent.com:80 error : could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - proxy closed the connection unexpectedly.",
+  "tcpconn4.tencent.com:80",
+  "URL",
+  4
+ ],
+ [
+  "cancelnotificationlocked,remove = com.tencent.mobileqq",
+  "com.tencent.mobileqq",
+  "URL",
+  4
+ ],
+ [
+  "slow readprocessor read fields took 65020ms (threshold=30000ms); ack: seqno: -2 status: success status: error downstreamacktimenanos: 0, targets: [ 10.86.169.121:50010 , 10.190.173.170:50010]",
+  "10.86.169.121:50010",
+  "URL",
+  4
+ ],
+ [
+  "2017-07-05 16:18:06.450 googlesoftwareupdateagent[36128/0x7000002a0000] [lvl=2] -[ksoutofprocessfetcher beginfetchwithdelegate:] ksoutofprocessfetcher fetching from url: https://tools.google.com/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741",
+  "https://tools.google.com/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741",
+  "URL",
+  4
+ ],
+ [
+  "screen frozen for +1s0ms due to window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.newsdetailxmlactivity }",
+  "com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.newsdetailxmlactivity",
+  "URL",
+  4
+ ],
+ [
+  "remoting started; listening on addresses :[ akka.tcp://sparkexecutoractorsystem@mesos-slave-07:55904 ]",
+  "akka.tcp://sparkexecutoractorsystem@mesos-slave-07:55904",
+  "URL",
+  4
+ ],
+ [
+  "iothunderboltswitch<0>(0x0)::listenercallback - thunderbolt hpd packet for route = 0x0 port = 11 unplug = 0",
+  "11",
+  "PORT",
+  3
+ ],
+ [
+  "successfully started service 'org.apache.spark.network.netty.nettyblocktransferservice' on port 40984.",
+  "40984.",
+  "PORT",
+  3
+ ],
+ [
+  "error: bind to port 22 on 0.0.0.0 failed: address already in use.",
+  "22",
+  "PORT",
+  3
+ ],
+ [
+  "accepted password for fztu from 119.137.62.142 port 49116 ssh2",
+  "49116",
+  "PORT",
+  3
+ ],
+ [
+  "arpt: 673431.714836: wl0: setup_keepalive: local port: 50601, remote port: 5223",
+  "5223",
+  "PORT",
+  3
+ ],
+ [
+  "starting socket reader #1 for port 62260",
+  "62260",
+  "PORT",
+  3
+ ],
+ [
+  "failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2",
+  "55495",
+  "PORT",
+  3
+ ],
+ [
+  "13.client-channel.google.com:443 error : could not connect to proxy proxy.cse.cuhk.edu.hk: 5070 - connection attempt failed with error 10061",
+  "5070",
+  "PORT",
+  3
+ ],
+ [
+  "failed password for invalid user default from 5.188.10.180 port 41538 ssh2",
+  "41538",
+  "PORT",
+  3
+ ],
+ [
+  "failed password for root from 183.62.140.253 port 59788 ssh2",
+  "59788",
+  "PORT",
+  3
+ ]
+]

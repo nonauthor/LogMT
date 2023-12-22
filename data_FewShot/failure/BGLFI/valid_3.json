@@ -1,0 +1,122 @@
+[
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0
+ ],
+ [
+  "1 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 6",
+  0
+ ],
+ [
+  "10650 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:44890: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:49446, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47099, Link has been severed",
+  6
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "mmcs_server exited abnormally due to signal: Aborted",
+  9
+ ],
+ [
+  "kernel panic",
+  9
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=10144, cpu=127, index=0, total=0",
+  5
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53094, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58754, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58539, Connection reset by peer",
+  8
+ ],
+ [
+  "Lustre mount FAILED : bglio844 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio383 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio815 : point /p/gb1",
+  7
+ ]
+]

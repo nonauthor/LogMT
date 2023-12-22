@@ -1,0 +1,56 @@
+[
+ [
+  "hibernate_flush_memory: buffer_cache_gc freed up 3349 wired pages",
+  "3349",
+  "COUNT",
+  1
+ ],
+ [
+  "attempt_1445144423722_0020_r_000000_0 taskattempt transitioned from new to unassigned",
+  "taskattempt",
+  "OTHER",
+  5
+ ],
+ [
+  "int_src_ovr (bus 0 bus_irq 0 global_irq 2 dfl dfl)",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "yarn.client.max-cached-nodemanagers-proxies : 0",
+  "yarn.client.max-cached-nodemanagers-proxies",
+  "PATH",
+  8
+ ],
+ [
+  "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [ 187.141.143.180 ] failed - possible break-in attempt!",
+  "187.141.143.180",
+  "IP",
+  7
+ ],
+ [
+  "127.0.0.1:135 error : could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - proxy server cannot establish a connection with the target, status code 403",
+  "proxy.cse.cuhk.edu.hk:5070",
+  "URL",
+  4
+ ],
+ [
+  "[ iobluetoothhostcontroller::setconfigstate ] calling registerservice",
+  "iobluetoothhostcontroller::setconfigstate",
+  "FUN",
+  6
+ ],
+ [
+  "error: bind to port 22 on 0.0.0.0 failed: address already in use.",
+  "22",
+  "PORT",
+  3
+ ],
+ [
+  "finished task 1.0 in stage 29.0 (tid 1321). 2171 bytes result sent to driver",
+  "1.0",
+  "VAR",
+  0
+ ]
+]

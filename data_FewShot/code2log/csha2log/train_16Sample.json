@@ -1,0 +1,82 @@
+[
+ [
+  "private void printtableorview(dataview dv, string label) {\tconsole.writeline(\"\\n\" + label);",
+  "sort key",
+  0
+ ],
+ [
+  "string docname;\tstring docstring;\tint helpcontext;\tstring helpfile;\tutypeinfo.getdocumentation(-1, out docname, out docstring, out helpcontext, out helpfile);\tif (docname.equals(\"guid\")) docname = \"system.guid\";\tif (!comtype) return typelib.resolvetypedef(docname, comtype);\treturn docname;\t}\telse {",
+  "user x unknown",
+  0
+ ],
+ [
+  "static void initsilo(string[] args) {\thostwrapper = new orleanshostwrapper(args);\tif (!hostwrapper.run()) {",
+  "failed to initialize orleans silo",
+  0
+ ],
+ [
+  "public void ipinfotest_accessallproperties_noerrors() {\tforeach (networkinterface nic in networkinterface.getallnetworkinterfaces()) {",
+  "supports",
+  0
+ ],
+ [
+  "public void string_null_char() {\tusing (serialport com1 = tcsupport.initfirstserialport()) using (serialport com2 = tcsupport.initsecondserialport(com1)) {",
+  "verifying write with an string containing only the null character",
+  0
+ ],
+ [
+  "static void main (string[] args) {",
+  "hello world",
+  0
+ ],
+ [
+  "using (batchclient batchcli = testutilities.openbatchclientasync(testutilities.getcredentialsfromenvironment()).result) {\tstring jobid = microsoft.azure.batch.constants.defaultconvenienceprefix + testutilities.getmyname() + \"-testboundtaskterminateanddelete\";\ttry {\tcloudjob cloudjob = batchcli.joboperations.createjob(jobid, new poolinformation());\tcloudjob.poolinformation = new poolinformation() {\tpoolid = this.poolfixture.poolid };\tcloudjob.commit();\t{\tconst string taskid = \"t1\";\tcloudtask tasktoadd = new cloudtask(taskid, \"ping 127.0.0.1 -n 60\");",
+  "adding task",
+  0
+ ],
+ [
+  "public void testaddbracestoif() {\ttest<addbracescoderefactoringprovider>(@\"class testclass {\tvoid test() {",
+  "hello",
+  0
+ ],
+ [
+  "public void checkexpectederror(exception ex, string assembly) {\tcexceptionhandler handler = new cexceptionhandler(path.combine(_strpath, \"exceptions.xml\"), assembly, _output);\tbool result = handler.verifyexception(ex);\tif (handler.res != _expectederrorcode) {",
+  "loading xml",
+  1
+ ],
+ [
+  "public void getextobject8(xslinputtype xslinputtype, readertype readertype, outputtype outputtype, navtype navtype) {\tmyobject obj = new myobject(8, _output);\tm_xsltarg = new xsltargumentlist();\tm_xsltarg.addextensionobject(\"urn:my-object\", obj);\tretobj = m_xsltarg.getextensionobject(\"urn:my-object\");\tif (((myobject)retobj).myvalue() != obj.myvalue()) {\tassert.true(false);\t}\tretobj = m_xsltarg.getextensionobject(\"urn:my-object\");\tif (retobj != null) {",
+  "coderemoveeventstatement",
+  1
+ ],
+ [
+  "var diagnostic = await data.todiagnosticasync (analysisdocument, cancellationtoken, desc);\tresultlist.add (new diagnosticresult (diagnostic));\t}\treturn resultlist;\t} catch (operationcanceledexception) {\treturn enumerable.empty<result> ();\t} catch (aggregateexception ae) {\tae.flatten ().handle (ix => ix is operationcanceledexception);\treturn enumerable.empty<result> ();\t} catch (exception e) {",
+  "silos restarted",
+  1
+ ],
+ [
+  "}\t} catch (aggregateexception) {\t}\tif (t.status != taskstatus.faulted) {\tconsole.writeline (\"failed (status={0})\", t.status);\treturn false;\t}\tif (!(t.exception.innerexception is applicationexception)) {\treturn false;\t}",
+  "failed to initialize orleans silo",
+  1
+ ],
+ [
+  "cruntimesdks = cruntimesdks.orderbydescending (p => p.version.tostring (), new stringversioncomparer ()).tolist ();\tinstalledwindowssdks = windowssdks;\tinstalledcruntimesdks = cruntimesdks;\tif (!quiet && installedwindowssdks != null) {\tforeach (var windowssdk in installedwindowssdks) {\t}\tconsole.writeline (\"---------------\");\t}\tif (!quiet && installedcruntimesdks != null) {\tforeach (var cruntimesdk in installedcruntimesdks) {",
+  "test ok",
+  1
+ ],
+ [
+  "static void generatefile (list<tuple<string, string, string>> txtstrings, cmdoptions options) {\tusing (var str = options.outputfile == null ? console.out : new streamwriter (options.outputfile)) {\tstr.writeline (\"{\");\tvar dict = new dictionary<string, string> ();\tforeach (var entry in txtstrings) {\tvar value = tocsharpstring (entry.item2);\tstring found;\tif (dict.trygetvalue (entry.item1, out found)) {\tif (found == value) continue;",
+  "test failed at call result",
+  1
+ ],
+ [
+  "static byte [] faultresponse_qualified (socket socket) {\tstring responsecontent = \"<soap:envelope xmlns:soap=\\\"http: \"  <soap:body>\" + \"    <soap:fault>\" + \"      <soap:faultcode>soap:server</soap:faultcode>\" + \"      <soap:faultstring>failure processing request.</soap:faultstring>\" + \"      <soap:faultactor>mono web service</soap:faultactor>\" + \"      <soap:detail>\" + \"        <se:systemerror xmlns:se=\\\"http: \"          <se:code>5000</se:code>\" + \"          <se:description>invalid credentials.</se:description>\" + \"        </se:systemerror>\" + \"      </soap:detail>\" + \"    </soap:fault>\" + \"  </soap:body>\" + \"</soap:envelope>\";\tstringwriter sw = new stringwriter ();",
+  "peakdisk",
+  1
+ ],
+ [
+  "private void onauthenticate(task result, clientstate state) {\tsslstream sslstream = (sslstream)state.stream;\ttry {\tresult.getawaiter().getresult();\tsslstream.beginread(state.receivebuffer, 0, state.receivebuffer.length, onreceive, state);\t}\tcatch (authenticationexception authex) {\tstate.dispose();\t}\tcatch (exception ex) {",
+  "task add finished took",
+  1
+ ]
+]

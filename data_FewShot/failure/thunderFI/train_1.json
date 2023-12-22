@@ -1,0 +1,22 @@
+[
+ [
+  "an644/an644 instsvcdrv: dcdbas device driver unloaded",
+  0
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn116/dn116 kernel: EXT3-fs error (device sda3) in ext3_dirty_inode: IO failure",
+  4
+ ],
+ [
+  "dn312/dn312 kernel: scsi0 (0:0): rejecting I/O to offline device",
+  2
+ ],
+ [
+  "bn897/bn897 kernel: Losing some ticks... checking if CPU frequency changed.",
+  3
+ ]
+]

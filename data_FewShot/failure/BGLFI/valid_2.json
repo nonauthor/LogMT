@@ -1,0 +1,82 @@
+[
+ [
+  "floating pt ex mode 0 enable......0",
+  0
+ ],
+ [
+  "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",
+  0
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:36833",
+  9
+ ],
+ [
+  "No power module U58 found found on link card",
+  9
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52391, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:57850, Link has been severed",
+  6
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53138, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41843, Connection reset by peer",
+  8
+ ],
+ [
+  "rts: kernel terminated for reason 1007",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=22, cpu=255, index=1024, total=24",
+  5
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "Lustre mount FAILED : bglio785 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio3 : point /p/gb1",
+  7
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x1d): L2 dcache unit write data parity error",
+  2
+ ]
+]

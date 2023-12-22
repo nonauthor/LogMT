@@ -1,0 +1,42 @@
+[
+ [
+  "machine check: i-fetch......................0",
+  0
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47176, Link has been severed",
+  6
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "Lustre mount FAILED : bglio776 : point /p/gb1",
+  7
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=9, cpu=0, index=234420, total=1121843228,",
+  5
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41789, Connection reset by peer",
+  8
+ ],
+ [
+  "mmcs_server exited abnormally due to signal: Aborted",
+  9
+ ],
+ [
+  "machine check interrupt (bit=0x1d): L2 dcache unit write data parity error",
+  2
+ ]
+]

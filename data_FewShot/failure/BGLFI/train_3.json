@@ -1,0 +1,122 @@
+[
+ [
+  "3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 4582 seconds",
+  0
+ ],
+ [
+  "total of 1 ddr error(s) detected and corrected over 6126 seconds",
+  0
+ ],
+ [
+  "general purpose registers:",
+  0
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:42167: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:33859, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:41077: Link has been severed",
+  6
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00000000",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x06): L3 major internal error",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed",
+  9
+ ],
+ [
+  "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0030114e 602d0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",
+  9
+ ],
+ [
+  "MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000",
+  9
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 53, type=61747, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=0, cpu=0, index=1207960132, total=40913822",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41892, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:42160, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53076, Connection reset by peer",
+  8
+ ],
+ [
+  "Lustre mount FAILED : bglio143 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio842 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio826 : point /p/gb1",
+  7
+ ]
+]

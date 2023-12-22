@@ -1,0 +1,197 @@
+[
+ [
+  "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] attempting claim: memory 2048 mb, disk 20 [MASK] vcpus 1 cpu",
+  "gb",
+  2
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt [MASK]: 0.1475 time: 38 ms 3973 mb/s",
+  "gb",
+  2
+ ],
+ [
+  "[instance: 78dc1847-8848-49cc-933e-9239b12c9dcf] total disk: 15 [MASK] used: 0.00 gb",
+  "gb",
+  2
+ ],
+ [
+  "13 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 0.0528 [MASK]",
+  "sec",
+  6
+ ],
+ [
+  "hibernate_setup(0) took 8.4710 [MASK]",
+  "sec",
+  6
+ ],
+ [
+  "scheduled snapshot period at 10 [MASK]",
+  "sec",
+  6
+ ],
+ [
+  "1 [MASK] receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected",
+  "us",
+  7
+ ],
+ [
+  "applethunderboltgenerichal::earlywake - complete - took 0 [MASK]",
+  "us",
+  7
+ ],
+ [
+  "slow readprocessor read fields took 65020ms (threshold=30000ms); ack: seqno: -2 [MASK] success status: error downstreamacktimenanos: 0, targets: [10.86.169.121:50010, 10.190.173.170:50010]",
+  "us",
+  7
+ ],
+ [
+  "hibernate_machine_init pagesdone 451550 sum2 4886d9d9, time: 197 ms, disk(0x20000) 799 [MASK] comp bytes: 40017920 time: 27 ms 1412 mb/s, crypt bytes: 160550912 time: 39 ms 3904 mb/s",
+  "mb/s",
+  12
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 [MASK]",
+  "mb/s",
+  12
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 [MASK] comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "mb/s",
+  12
+ ],
+ [
+  "pm response took 1938 [MASK] (54, powerd)",
+  "ms",
+  4
+ ],
+ [
+  "booter start at 1251 [MASK] smc 0 ms, [18, 0, 0] total 367 ms, dsply 0, 0 ms, tramp 1080 ms",
+  "ms",
+  4
+ ],
+ [
+  "hibernate_page_list_setall time: 603 [MASK]",
+  "ms",
+  4
+ ],
+ [
+  "sqm: cleaning up report files older than 10 [MASK]",
+  "day",
+  9
+ ],
+ [
+  "user unknown timed out after 0.0104 [MASK] at sat jun 18 02:23:10 2005",
+  "day",
+  9
+ ],
+ [
+  "pm response took 0.0233 [MASK] (54, powerd)",
+  "day",
+  9
+ ],
+ [
+  "wake time set -0.331349 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "reading broadcast variable 12 took 0.03 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "applethunderboltgenerichal::earlywake - complete - took 0.001 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] attempting claim: memory 2048 [MASK] disk 20 gb, vcpus 1 cpu",
+  "mb",
+  1
+ ],
+ [
+  "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] attempting claim: memory 2048 mb, disk 20480 [MASK] vcpus 1 cpu",
+  "mb",
+  1
+ ],
+ [
+  "input size for job job_1445144423722_0020 = 1256521728. [MASK] of splits = 10",
+  "mb",
+  1
+ ],
+ [
+  "2 l3 edram error(s) (dcr 0x0157) detected and corrected over 4.7 [MASK]",
+  "min",
+  10
+ ],
+ [
+  "pm response took 32.466 [MASK] (54, powerd)",
+  "min",
+  10
+ ],
+ [
+  "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] took 0.3178 [MASK] to spawn the instance on the hypervisor.",
+  "min",
+  10
+ ],
+ [
+  "block rdd_16_1 stored as bytes in memory (estimated size 351.0 [MASK], free 387.4 kb)",
+  "bytes",
+  3
+ ],
+ [
+  "api.github.com:443 close, 797 bytes sent, 4814 [MASK] (4.70 kb) received, lifetime 00:11",
+  "bytes",
+  3
+ ],
+ [
+  "dquot-cache hash table entries: 1024 (order 0, 4096 [MASK]",
+  "bytes",
+  3
+ ],
+ [
+  "block broadcast_33 stored as values in memory (estimated size 82.1 [MASK] free 486.9 kb)",
+  "kb",
+  0
+ ],
+ [
+  "finished task 34.0 in stage 27.0 (tid 1274). 2.07 [MASK] result sent to driver",
+  "kb",
+  0
+ ],
+ [
+  "block broadcast_33 stored as values in memory (estimated size 82.1 kb, free 486.9 [MASK]",
+  "kb",
+  0
+ ],
+ [
+  "pm response took 0.5583 [MASK] (54, powerd)",
+  "h",
+  11
+ ],
+ [
+  "pm response took 0.5411 [MASK] (54, powerd)",
+  "h",
+  11
+ ],
+ [
+  "hibernate_newruntime_map time: 0 [MASK] iopolledfilepollersopen(), ml_get_interrupts_enabled 0",
+  "h",
+  11
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 4321 bytes @ 48 took 0.607292 sec. to complete, 7 reads >= 500 [MASK]",
+  "milliseconds",
+  8
+ ],
+ [
+  "we launched 1 speculations.  sleeping 15000 [MASK]",
+  "milliseconds",
+  8
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 4321 bytes @ 48 took 607.292 [MASK] to complete, 7 reads >= 0.5 sec.",
+  "milliseconds",
+  8
+ ]
+]

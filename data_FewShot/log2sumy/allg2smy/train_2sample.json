@@ -1,0 +1,37 @@
+[
+ [
+  [
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 64402\n",
+   "INFO storage.BlockManager : Found block rdd_2474_4 locally\n",
+   "INFO storage.BlockManager : Found block rdd_2474_2 locally\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = -179 , init = 217 , finish = 0\n",
+   "INFO executor.Executor : Running task 4.0 in stage 1608.0 ( TID 64404 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 64408\n",
+   "INFO python.PythonRunner : Times : total = 37 , boot = -150 , init = 187 , finish = 0\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 1629\n",
+   "INFO storage.MemoryStore : Block broadcast_1629_piece0 stored as bytes in memory ( estimated size 28.9 KB , free 6.4 MB )\n",
+   "INFO executor.Executor : Running task 2.0 in stage 1608.0 ( TID 64402 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 64406\n",
+   "INFO storage.BlockManager : Found block rdd_2474_8 locally\n",
+   "INFO storage.BlockManager : Found block rdd_2474_6 locally\n",
+   "INFO executor.Executor : Running task 8.0 in stage 1608.0 ( TID 64408 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 64404\n",
+   "INFO storage.BlockManager : Found block rdd_2474_0 locally\n",
+   "INFO storage.MemoryStore : Block broadcast_1629 stored as values in memory ( estimated size 77.8 KB , free 6.5 MB )\n",
+   "INFO executor.Executor : Running task 6.0 in stage 1608.0 ( TID 64406 )\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO ciod : generated 128 core files for program /g/g24/germann2/SPaSM_static/SPaSM_mpi\n"
+  ],
+  [
+   "generated core files for program;\n"
+  ],
+  0
+ ]
+]

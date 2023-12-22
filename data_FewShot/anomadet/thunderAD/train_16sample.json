@@ -1,0 +1,66 @@
+[
+ [
+  "en154/en154 kernel: mtrr: v2.0 (20020519)",
+  0
+ ],
+ [
+  "local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1684]: data_thread() got not answer from any [Thunderbird_A4] datasource",
+  0
+ ],
+ [
+  "dn811/dn811 kernel: ib1: InfiniHost0 port 2",
+  0
+ ],
+ [
+  "src@tbird-sm1 ib_sm.x[24904]: [INFO]: Configuration caused by some ports in INIT state",
+  0
+ ],
+ [
+  "bn659/bn659 sshd[8919]: Accepted publickey for root from ::ffff:10.100.248.19 port 54704 ssh2",
+  0
+ ],
+ [
+  "cn232/cn232 dataeng: dcsnmp32d shutdown succeeded",
+  0
+ ],
+ [
+  "local@tbird-admin1 VFS: file-max limit 65536 reached",
+  0
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011)",
+  0
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "bn971/bn971 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "an416/an416 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ]
+]

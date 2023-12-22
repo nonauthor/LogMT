@@ -1,0 +1,202 @@
+[
+ [
+  "ciod: Received signal 15, code=0, errno=0, address=0x000001b0",
+  0
+ ],
+ [
+  "program interrupt: fp cr update.............0",
+  0
+ ],
+ [
+  "total of 1 ddr error(s) detected and corrected",
+  0
+ ],
+ [
+  "1 ddr error(s) detected and corrected on rank 0, symbol 13 over 9787 seconds",
+  0
+ ],
+ [
+  "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",
+  0
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52534, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41975, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52540, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58865, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53107, Connection reset by peer",
+  8
+ ],
+ [
+  "program interrupt",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "mmcs_server exited abnormally due to signal: Segmentation fault",
+  9
+ ],
+ [
+  "MidplaneSwitchController::parityAlignment() pap failed: R56-M1-L3-U22-C, status=dfffffff fffffd80",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47404, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47528, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47350, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:39998, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:54362, Link has been severed",
+  6
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1003",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x10): L2 dcache unit read return parity error",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x06): L3 major internal error",
+  2
+ ],
+ [
+  "Lustre mount FAILED : bglio653 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio489 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio742 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio837 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio840 : point /p/gb1",
+  7
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ]
+]

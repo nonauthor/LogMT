@@ -1,0 +1,500 @@
+[
+ [
+  "[00:29:04.085] <<<< crabs >>>> crabswaitforload: [0x7fbc7ac683a0] wait time out - -1001 (msrequesttimeout -1)",
+  "wait",
+  "OTHER",
+  5
+ ],
+ [
+  "send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.",
+  "failed",
+  "OTHER",
+  5
+ ],
+ [
+  "using ioapic for interrupt routing",
+  "ioapic",
+  "OTHER",
+  5
+ ],
+ [
+  "getstreamvolume  treamtype: 5",
+  "5",
+  "OTHER",
+  5
+ ],
+ [
+  "received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864",
+  "blk_-4411589101766563890",
+  "OTHER",
+  5
+ ],
+ [
+  "insertevent success begin:25233975 end:25233979",
+  "success",
+  "OTHER",
+  5
+ ],
+ [
+  "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] took 20.09 seconds to spawn the instance on the hypervisor.",
+  "seconds",
+  "OTHER",
+  5
+ ],
+ [
+  "10.250.13.240:50010 served block blk_-3134225108208373949 to /10.250.13.240",
+  "blk_-3134225108208373949",
+  "OTHER",
+  5
+ ],
+ [
+  "starting pcmcia:  succeeded",
+  "starting",
+  "OTHER",
+  5
+ ],
+ [
+  "critical input interrupt (unit=0x0b bit=0x17): warning for tree c1 wire, suppressing further interrupts of same type",
+  "further",
+  "OTHER",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1003",
+  "1003",
+  "STATE",
+  2
+ ],
+ [
+  "db error: 1 \"no such table: tb_c2cmsg_2658655094\"",
+  "1",
+  "STATE",
+  2
+ ],
+ [
+  "targeting domains:node-d3 and nodes:node-[104-127] child of command 1963",
+  "1963",
+  "STATE",
+  2
+ ],
+ [
+  "jk2_init() found child 32390 in scoreboard slot 8",
+  "8",
+  "STATE",
+  2
+ ],
+ [
+  "keychaingeticdpstatus: keychain: -25300",
+  "-25300",
+  "STATE",
+  2
+ ],
+ [
+  "savehealthdetaildata() saveonedetaildata fail hihealthdata = 1513958400000,type = 40005",
+  "40005",
+  "STATE",
+  2
+ ],
+ [
+  "usbmsc identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3",
+  "3",
+  "STATE",
+  2
+ ],
+ [
+  "nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [x86_64] libnetcore-583.50.1 0   libsystem_network.dylib             0x00007fff92fabde9 __nw_create_backtrace_string + 123 1   libsystem_network.dylib             0x00007fff92fc289f nw_path_evaluator_start_helper_connection + 196 2   libdispatch.dylib                   0x00007fff980fa93d _dispatch_call_block_and_release + 12 3   libdispatch.dylib                   0x00007fff980ef40b _dispatch_client_callout + 8 4   libdispatch.dylib                   0x00007fff980f403b _dispatch_queue_drain + 754 5   libdispatch.dylib                   0x00007fff980fa707 _dispatch_queue_invoke + 549 6   libdispatch.dylib                   0x00007fff980f2d53 _dispatch_root_queue_drain + 538 7   libdispatch.dylib                   0x00007fff980f2b00 _dispatch_worker_thread3 + 91 8   libsystem_pthread.dylib             0x00007fff8ebc44de _pthread_wqthread + 1129 9   libsystem_pthread.dylib             0x00007fff8ebc2341 start_wqthread + 13",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "prepareforservice shutting down nodecard(mlctn(r25-m1-n2), mcardsernum(203231503833343000000000594c31304b34333431303158), mlp(ff:f2:9f:16:cf:0f:00:0d:60:e9:30:f0), mip(10.2.2.80), mtype(4)) as part of service action 310",
+  "310",
+  "STATE",
+  2
+ ],
+ [
+  "hibernate_machine_init: state 2 , image pages 446175, sum was d4e6c0b2, imagesize 0x2aea6000, image1size 0x215a4000, conflictcount 5848, nextfree 5887",
+  "2",
+  "STATE",
+  2
+ ],
+ [
+  "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= 183.62.140.253 user=root",
+  "183.62.140.253",
+  "IP",
+  7
+ ],
+ [
+  "enqueuenotificationinternal: pkg= com.tencent.mm id=4097 notification=notification(pri=1 contentview=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=private)",
+  "com.tencent.mm",
+  "IP",
+  7
+ ],
+ [
+  "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [ 187.141.143.180 ] failed - possible break-in attempt!",
+  "187.141.143.180",
+  "IP",
+  7
+ ],
+ [
+  "start: tftp pid=16563 from= 10.100.4.251",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 ( 10.100.0.250 ) from 00:11:43:e3:ba:c3 via eth1",
+  "10.100.0.250",
+  "IP",
+  7
+ ],
+ [
+  "dhcpoffer on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "final resource view: name= cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172mb used_ram=512mb phys_disk=15gb used_disk=0gb total_vcpus=16 used_vcpus=0 pci_stats=[]",
+  "cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "received block blk_-5814328448485070742 of size 67108864 from /10.251.74.134",
+  "/10.251.74.134",
+  "IP",
+  7
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "106.5.5.195",
+  "IP",
+  7
+ ],
+ [
+  "kern_open_file_for_direct_io took 6 ms",
+  "6",
+  "COUNT",
+  1
+ ],
+ [
+  "upper limit on the thread pool size is 500",
+  "500",
+  "COUNT",
+  1
+ ],
+ [
+  "number of reduces for job job_1445144423722_0020 = 1",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "setsystemuivisibility vis=0 mask=1 oldval=40000500 newval=40000500 diff=0 fullscreenstackvis=0 dockedstackvis=0, fullscreenstackbounds=rect(0, 0 - 0, 0), dockedstackbounds=rect(0, 0 - 0, 0)",
+  "0",
+  "COUNT",
+  1
+ ],
+ [
+  "failed to renew lease for [dfsclient_nonmapreduce_1537864556_1] for 138 seconds.  will retry shortly ...",
+  "138",
+  "COUNT",
+  1
+ ],
+ [
+  "18507114 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 198 seconds",
+  "18507114",
+  "COUNT",
+  1
+ ],
+ [
+  "hibernate_rebuild completed - took 10042450943433 msecs",
+  "10042450943433",
+  "COUNT",
+  1
+ ],
+ [
+  "user unknown timed out after 900 seconds at sat jun 18 02:23:10 2005",
+  "900",
+  "COUNT",
+  1
+ ],
+ [
+  "booter start at 1251 ms smc 0 ms, [18, 0, 0] total 367 ms, dsply 0, 0 ms, tramp 1080 ms",
+  "0",
+  "COUNT",
+  1
+ ],
+ [
+  "[11:50:13.362] itemasync_setproperty signalled err= -12785 (kfigbaseobjecterror_invalidated) (invalidated) at /library/caches/com.apple.xbs/sources/coremedia/coremedia-1731.15.207/prototypes/player/figplayer_async.c line 2306",
+  "2306",
+  "COUNT",
+  1
+ ],
+ [
+  "pci: pci bios revision 2.10 entry at 0xfc0ce, last bus=1",
+  "2.10",
+  "VAR",
+  0
+ ],
+ [
+  "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage",
+  "1",
+  "VAR",
+  0
+ ],
+ [
+  "hibernate_teardown completed - discarded 93932",
+  "93932",
+  "VAR",
+  0
+ ],
+ [
+  "got assigned task 1265",
+  "1265",
+  "VAR",
+  0
+ ],
+ [
+  "opened file /var/log/sleepwakestacks.bin, size 172032, extents 1, maxio 2000000 ssd 1",
+  "1",
+  "VAR",
+  0
+ ],
+ [
+  "activityrecord info: activityinfo{d1c8e63 com.tencent.mobileqq.activity.splashactivity}, euid: 0",
+  "0",
+  "VAR",
+  0
+ ],
+ [
+  "could discard act 74490 inact 9782 purgeable 34145 spec 56242 cleaned 0",
+  "56242",
+  "VAR",
+  0
+ ],
+ [
+  "sending alarm alarm{aa90550 type 3 when 509142332 pendingintent{1749923: pendingintentrecord{9600e20 android broadcastintent}}},repeatinterval = 0,listenertag =time_tick",
+  "509142332",
+  "VAR",
+  0
+ ],
+ [
+  "apm: bios version 1.2 flags 0x03 (driver version 1.16ac)",
+  "1.2",
+  "VAR",
+  0
+ ],
+ [
+  "getrunningappprocesses: caller 10113 does not hold real_get_tasks; limiting output",
+  "10113",
+  "VAR",
+  0
+ ],
+ [
+  "input_userauth_request : invalid user test2 [preauth]",
+  "input_userauth_request",
+  "FUN",
+  6
+ ],
+ [
+  "iohibernatepolleropen(0)",
+  "iohibernatepolleropen(0)",
+  "FUN",
+  6
+ ],
+ [
+  "mheadsupexistencechangedrunnable()",
+  "mheadsupexistencechangedrunnable()",
+  "FUN",
+  6
+ ],
+ [
+  "arpt: 762484.281874: airport_brcm43xx::powerchange : system wake - full wake/ dark wake / maintenance wake",
+  "airport_brcm43xx::powerchange",
+  "FUN",
+  6
+ ],
+ [
+  "jk2_init() can't find child 2085 in scoreboard",
+  "jk2_init()",
+  "FUN",
+  6
+ ],
+ [
+  "hibernate_teardown_pmap_structs done: last_valid_compact_indx 315096",
+  "hibernate_teardown_pmap_structs",
+  "FUN",
+  6
+ ],
+ [
+  "mvisiblity.getvalue is false",
+  "mvisiblity.getvalue",
+  "FUN",
+  6
+ ],
+ [
+  "ccdatatap::profileremoved , owner: com.apple.driver.airport.brcm4360.0, name: statesnapshots",
+  "ccdatatap::profileremoved",
+  "FUN",
+  6
+ ],
+ [
+  "arpt: 646193.687729: airport_brcm43xx::platformwowenable : wwen[disable]",
+  "airport_brcm43xx::platformwowenable",
+  "FUN",
+  6
+ ],
+ [
+  "successfully started service org.apache.spark.network.netty.nettyblocktransferservice on port 40984.",
+  "org.apache.spark.network.netty.nettyblocktransferservice",
+  "FUN",
+  6
+ ],
+ [
+  "loaded servicing stack v6.1.7601.23505 with core: c:\\windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\\cbscore.dll",
+  "c:\\windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\\cbscore.dll",
+  "PATH",
+  8
+ ],
+ [
+  "removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+  "/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+  "PATH",
+  8
+ ],
+ [
+  "ciod: z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map",
+  "/p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map",
+  "PATH",
+  8
+ ],
+ [
+  "opened file /var/log/sleepwakestacks.bin , size 172032, extents 1, maxio 2000000 ssd 1",
+  "/var/log/sleepwakestacks.bin",
+  "PATH",
+  8
+ ],
+ [
+  "yarn.client.max-cached-nodemanagers-proxies : 0",
+  "yarn.client.max-cached-nodemanagers-proxies",
+  "PATH",
+  8
+ ],
+ [
+  "lustre mount failed : bglio136 : point /p/gb1",
+  "/p/gb1",
+  "PATH",
+  8
+ ],
+ [
+  "skipping, withexcluded: false, tr.intent:intent { act=android.intent.action.view dat= file:///storage/emulated/0/tencent/qqfile_recv/b.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.packageinstalleractivity (has extras) }",
+  "file:///storage/emulated/0/tencent/qqfile_recv/b.apk",
+  "PATH",
+  8
+ ],
+ [
+  "com.apple.addres(32992) deny network-outbound /private/var/run/mdnsresponder",
+  "/private/var/run/mdnsresponder",
+  "PATH",
+  8
+ ],
+ [
+  "hibernate image path: /var/vm/sleepimage",
+  "/var/vm/sleepimage",
+  "PATH",
+  8
+ ],
+ [
+  "(root) cmd ( /projects/tbird/temps/get_temps a)",
+  "/projects/tbird/temps/get_temps",
+  "PATH",
+  8
+ ],
+ [
+  "ciod: error reading message prefix on ciostream socket to 172.16.96.116:41060 , connection timed out",
+  "172.16.96.116:41060",
+  "URL",
+  4
+ ],
+ [
+  "default file system [ hdfs://msra-sa-41:9000 ]",
+  "hdfs://msra-sa-41:9000",
+  "URL",
+  4
+ ],
+ [
+  "www.google.com:443 error : could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - could not resolve proxy.cse.cuhk.edu.hk error 11001",
+  "www.google.com:443",
+  "URL",
+  4
+ ],
+ [
+  "scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.qzonewebpluginproxyservice in 1000ms",
+  "com.tencent.mobileqq/cooperation.qzone.remote.logic.qzonewebpluginproxyservice",
+  "URL",
+  4
+ ],
+ [
+  "processhandlebroadcastaction action:android.intent.action.time_tick",
+  "action:android.intent.action.time_tick",
+  "URL",
+  4
+ ],
+ [
+  "2017-07-05 10:52:16.779 ksfetch[35863/0x7fff79824000] [lvl=2] main() fetcher received a request: <nsmutableurlrequest: 0x100501610> { url: https://tools.google.com/service/update2?cup2hreq=a7873a51b1cb55518e420d20dff47d463781ed3f7aa83c3153129eefb148070b&cup2key=7:2501762722 }",
+  "https://tools.google.com/service/update2?cup2hreq=a7873a51b1cb55518e420d20dff47d463781ed3f7aa83c3153129eefb148070b&cup2key=7:2501762722",
+  "URL",
+  4
+ ],
+ [
+  "accepted socket connection from /10.10.34.13:54310",
+  "/10.10.34.13:54310",
+  "URL",
+  4
+ ],
+ [
+  "183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 socks5",
+  "socks.cse.cuhk.edu.hk:5070",
+  "URL",
+  4
+ ],
+ [
+  "instantiated mrclientservice at minint-fnanli5.fareast.corp.microsoft.com/ 10.86.169.121:62260",
+  "10.86.169.121:62260",
+  "URL",
+  4
+ ],
+ [
+  "my election bind port: 0.0.0.0/0.0.0.0:3888",
+  "0.0.0.0/0.0.0.0:3888",
+  "URL",
+  4
+ ],
+ [
+  "successfully started service 'sparkexecutoractorsystem' on port 55904.",
+  "55904.",
+  "PORT",
+  3
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "50719",
+  "PORT",
+  3
+ ],
+ [
+  "jetty bound to port 62267",
+  "62267",
+  "PORT",
+  3
+ ]
+]

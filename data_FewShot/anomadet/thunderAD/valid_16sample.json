@@ -1,0 +1,66 @@
+[
+ [
+  "en85/en85 gmond: gmond shutdown failed",
+  0
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][ib_mad_dispatch][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_filter.c:292]mad_process failed (0) for InfiniHost0 port 1 QPN 0 (class 0x81, aid 0x0011)",
+  0
+ ],
+ [
+  "en241/en241 kernel: Intel E7520/7320/7525 detected.<6>pci_hotplug: PCI Hot Plug PCI Core version: 0.5",
+  0
+ ],
+ [
+  "dn770/dn770 dataeng: dcevt32d startup succeeded",
+  0
+ ],
+ [
+  "an451/an451 sshd[4977]: Accepted publickey for root from ::ffff:10.100.248.1 port 40234 ssh2",
+  0
+ ],
+ [
+  "an6/an6 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0",
+  0
+ ],
+ [
+  "dn373/dn373 sshd[10273]: Accepted publickey for root from ::ffff:10.100.248.9 port 60243 ssh2",
+  0
+ ],
+ [
+  "en418/en418 kernel: adagio_dp_opt_t[4501]: segfault at 0000000000000020 rip 000000000216837b rsp 0000007fbfffe1e8 error 4",
+  0
+ ],
+ [
+  "an933/an933 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ]
+]

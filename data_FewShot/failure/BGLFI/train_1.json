@@ -1,0 +1,42 @@
+[
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:40857, Link has been severed",
+  6
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "Lustre mount FAILED : bglio795 : point /p/gb1",
+  7
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41622, Connection reset by peer",
+  8
+ ],
+ [
+  "MailboxMonitor::serviceMailboxes() lib_ido_error: -1033 BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card",
+  9
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ]
+]

@@ -1,0 +1,22 @@
+[
+ [
+  "if (LOG.isDebugEnabled()) {\t}\t}\tif (!match) {\tadapter.noContent();\t} else {\tsupport.renderResourceListing(adapter, swaggerConfig, name, route, json, yaml, exchange.getContext().getClassResolver(), configuration);\t}\t}\t} catch (Exception e) {",
+  "deleting master node",
+  1
+ ],
+ [
+  "public void testGetJob() throws Exception {\tfinal Map<String, Object> headers = new HashMap<String, Object>();\theaders.put(\"CamelLinkedIn.job_id\", 0L);\theaders.put(\"CamelLinkedIn.fields\", null);\tfinal org.apache.camel.component.linkedin.api.model.Job result = requestBodyAndHeaders(\"direct: assertNotNull(\"getJob result\", result);",
+  "adding service check jar to classpath",
+  1
+ ],
+ [
+  "public void minorWithAborted() throws Exception {",
+  "starting minorwithaborted",
+  0
+ ],
+ [
+  "if (shutdownOnMasterFailure) {\ttry {\tstop();\t} catch (Exception e) {\t}\t} else {\ttry {\tstartAllConnectors();\tbroker.nowMasterBroker();\t} catch (Exception e) {",
+  "failed to startallconnectors",
+  0
+ ]
+]

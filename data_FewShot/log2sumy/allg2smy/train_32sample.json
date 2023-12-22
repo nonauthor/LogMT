@@ -1,0 +1,729 @@
+[
+ [
+  [
+   "WARN Interrupted while waiting for message on queue\n",
+   "INFO Received connection request /10.10.34.12 : 47084\n",
+   "WARN Connection broken for id 188978561024 , my id = 3 , error =\n",
+   "WARN Send worker leaving thread\n",
+   "INFO Received connection request /10.10.34.13 : 44348\n",
+   "INFO Received connection request /10.10.34.13 : 44350\n",
+   "INFO Received connection request /10.10.34.13 : 44345\n",
+   "WARN Interrupting SendWorker\n"
+  ],
+  [
+   "node status running; partition status running; partition status blocked; node status configured out; inconsistent nodesets;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1061 bytes ( 1.03 KB ) sent , 20210 bytes ( 19.7 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1121 bytes ( 1.09 KB ) sent , 8678 bytes ( 8.47 KB ) received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 440 bytes sent , 7416 bytes ( 7.24 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 445 bytes sent , 5174 bytes ( 5.05 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 436 bytes sent , 8613 bytes ( 8.41 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1121 bytes ( 1.09 KB ) sent , 4756 bytes ( 4.64 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 446 bytes sent , 19674 bytes ( 19.2 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1561 bytes ( 1.52 KB ) sent , 472 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 446 bytes sent , 3816 bytes ( 3.72 KB ) received , lifetime <1 sec\n"
+  ],
+  [
+   "Failed subcommands; Command Failed; We failed to determine the state; link errors remain current;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO Closed socket connection for client /10.10.34.13 : 54579 which had sessionid 0x34ed9ac1c1e0083\n",
+   "INFO Closed socket connection for client /10.10.34.25 : 55853 which had sessionid 0x34ed9ac1c1e0089\n",
+   "INFO Closed socket connection for client /10.10.34.28 : 49856 which had sessionid 0x34ed9ac1c1e0088\n",
+   "INFO Closed socket connection for client /10.10.34.12 : 59309 which had sessionid 0x34ed9ac1c1e0082\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 40569\n",
+   "INFO Closed socket connection for client /10.10.34.13 : 54580 which had sessionid 0x34ed9ac1c1e0084\n",
+   "INFO Closed socket connection for client /10.10.34.39 : 45030 which had sessionid 0x34ed9ac1c1e008c\n",
+   "INFO Closed socket connection for client /10.10.34.20 : 39662 which had sessionid 0x34ed9ac1c1e0087\n",
+   "INFO Closed socket connection for client /10.10.34.38 : 43518 which had sessionid 0x34ed9ac1c1e008b\n",
+   "INFO Closed socket connection for client /10.10.34.34 : 54706 which had sessionid 0x34ed9ac1c1e008a\n",
+   "INFO Closed socket connection for client /10.10.34.18 : 46783 which had sessionid 0x34ed9ac1c1e0086\n",
+   "WARN caught end of stream exception\n"
+  ],
+  [
+   "Retrying fetch; Found inactive connection; Exception; beginning fetch of outstanding blocks; \n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO storage.MemoryStore : Block broadcast_1121_piece0 stored as bytes in memory ( estimated size 29.0 KB , free 4.6 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_1121 stored as values in memory ( estimated size 77.8 KB , free 4.6 MB )\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 1121 took 4 ms\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -137 , init = 176 , finish = 0\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = -137 , init = 175 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_1524_7 locally\n",
+   "INFO storage.BlockManager : Found block rdd_1524_5 locally\n",
+   "INFO executor.Executor : Running task 5.0 in stage 1104.0 ( TID 44245 )\n",
+   "INFO storage.BlockManager : Found block rdd_1524_1 locally\n",
+   "INFO executor.Executor : Running task 9.0 in stage 1104.0 ( TID 44249 )\n",
+   "INFO storage.BlockManager : Found block rdd_1524_3 locally\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 1121\n",
+   "INFO executor.Executor : Running task 7.0 in stage 1104.0 ( TID 44247 )\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = -138 , init = 176 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_1524_9 locally\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -147 , init = 186 , finish = 0\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 44249\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 44247\n"
+  ],
+  [
+   "Running task; Block stored in memory; Reading broadcast variable; Found block; Finished task;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO storage.MemoryStore : Block broadcast_3965 stored as values in memory ( estimated size 10.3 KB , free 887.6 KB )\n",
+   "INFO executor.Executor : Finished task 24.0 in stage 3947.0 ( TID 158351 ) . 2142 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 158386\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 3965\n",
+   "INFO spark.CacheManager : Partition rdd_6369_2 not found , computing it\n",
+   "INFO python.PythonRunner : Times : total = 42 , boot = -35 , init = 76 , finish = 1\n",
+   "INFO executor.Executor : Finished task 35.0 in stage 3947.0 ( TID 158359 ) . 2142 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 2.0 in stage 3948.0 ( TID 158364 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 158364\n",
+   "INFO python.PythonRunner : Times : total = 183 , boot = -32 , init = 214 , finish = 1\n",
+   "INFO python.PythonRunner : Times : total = 220 , boot = -32 , init = 251 , finish = 1\n",
+   "INFO executor.Executor : Finished task 13.0 in stage 3947.0 ( TID 158340 ) . 2142 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 35.0 in stage 3948.0 ( TID 158396 )\n",
+   "INFO storage.MemoryStore : Block broadcast_3965_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 877.3 KB )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 158375\n",
+   "INFO executor.Executor : Finished task 2.0 in stage 3947.0 ( TID 158329 ) . 2142 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 13.0 in stage 3948.0 ( TID 158375 )\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 3965 took 5 ms\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 158396\n",
+   "INFO executor.Executor : Running task 24.0 in stage 3948.0 ( TID 158386 )\n"
+  ],
+  [
+   "A connection request was canceled; open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO output.FileOutputCommitter : File Output Committer Algorithm version is 1\n",
+   "INFO storage.BlockManager : Found block rdd_411_8 locally\n",
+   "INFO python.PythonRunner : Times : total = 40 , boot = -184 , init = 224 , finish = 0\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706081706_0271_m_000002_10842 : Committed\n",
+   "INFO storage.MemoryStore : Block broadcast_286_piece0 stored as bytes in memory ( estimated size 29.0 KB , free 2.4 MB )\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 286 took 5 ms\n",
+   "INFO python.PythonRunner : Times : total = 41 , boot = -188 , init = 229 , finish = 0\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706081706_0271_m_000006_10846' to hdfs : //10.10.34.11 : 9000/pjhe/test/2/_temporary/0/task_201706081706_0271_m_000006\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -185 , init = 224 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_411_4 locally\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -191 , init = 230 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_411_2 locally\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706081706_0271_m_000002_10842' to hdfs : //10.10.34.11 : 9000/pjhe/test/2/_temporary/0/task_201706081706_0271_m_000002\n",
+   "INFO storage.BlockManager : Found block rdd_411_6 locally\n",
+   "INFO storage.MemoryStore : Block broadcast_286 stored as values in memory ( estimated size 77.8 KB , free 2.4 MB )\n",
+   "INFO python.PythonRunner : Times : total = 41 , boot = -187 , init = 228 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_411_0 locally\n"
+  ],
+  [
+   "error detected; error corrected;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO Expiring session 0x34ed9ac1c1e0066 , timeout of 20000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e005b\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0067\n",
+   "INFO Expiring session 0x34ed9ac1c1e0065 , timeout of 20000ms exceeded\n",
+   "INFO Expiring session 0x14ed93111f2007e , timeout of 10000ms exceeded\n",
+   "WARN Connection request from old client /10.10.34.12 : 54676 ; will be dropped if server is in r-o mode\n",
+   "INFO Client attempting to establish new session at /10.10.34.12 : 54674\n",
+   "INFO Expiring session 0x34ed9ac1c1e0067 , timeout of 10000ms exceeded\n",
+   "INFO Established session 0x24ed9311942007f with negotiated timeout 10000 for client /10.10.34.12 : 54674\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f2007e\n",
+   "INFO Established session 0x24ed93119420080 with negotiated timeout 10000 for client /10.10.34.12 : 54676\n",
+   "INFO Established session 0x24ed9311942007e with negotiated timeout 10000 for client /10.10.34.12 : 54673\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0064\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0068\n",
+   "INFO Expiring session 0x34ed9ac1c1e005b , timeout of 10000ms exceeded\n",
+   "WARN Connection request from old client /10.10.34.12 : 54674 ; will be dropped if server is in r-o mode\n",
+   "INFO Client attempting to establish new session at /10.10.34.12 : 54676\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0066\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0065\n",
+   "INFO Expiring session 0x34ed9ac1c1e0064 , timeout of 10000ms exceeded\n"
+  ],
+  [
+   "Node card status; Clock Mode is Low; Phy JTAG Reset is asserted; PGOOD IS NOT ASSERTED; MPGOOD IS NOT OK; MPGOOD ERROR LATCH IS ACTIVE;  Node card is not fully functional; Can not get assembly information;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO BlockManagerInfo : Added broadcast_5_piece200 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece114 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece347 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece65 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece55 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece180 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece9 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece8 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece118 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece104 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece111 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece111 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece293 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece328 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece90 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece303 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece318 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.2 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece31 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece93 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece50 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n"
+  ],
+  [
+   "blockMap updated; PacketResponder terminating; Receiving block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "*64 - clients4.google.com : 443 close , 2574 bytes ( 2.51 KB ) sent , 602 bytes received , lifetime 01 : 41\n",
+   "*64 - clients6.google.com : 443 close , 6203 bytes ( 6.05 KB ) sent , 9913 bytes ( 9.68 KB ) received , lifetime 00 : 50\n",
+   "*64 - 5406241.fls.doubleclick.net : 443 close , 1686 bytes ( 1.64 KB ) sent , 5693 bytes ( 5.55 KB ) received , lifetime 00 : 33\n",
+   "*64 - play.google.com : 443 close , 35553 bytes ( 34.7 KB ) sent , 28227 bytes ( 27.5 KB ) received , lifetime 40 : 17\n",
+   "*64 - clientservices.googleapis.com : 443 close , 1051 bytes ( 1.02 KB ) sent , 491 bytes received , lifetime 00 : 28\n",
+   "*64 - stackoverflow.com : 443 close , 1220 bytes ( 1.19 KB ) sent , 639 bytes received , lifetime 08 : 25\n",
+   "*64 - www.googletagmanager.com : 443 close , 1012 bytes sent , 21473 bytes ( 20.9 KB ) received , lifetime 00 : 33\n",
+   "- bolt.dropbox.com : 443 close , 171998 bytes ( 167 KB ) sent , 17801 bytes ( 17.3 KB ) received , lifetime 41 : 15\n",
+   "*64 - trello.com : 443 close , 3925 bytes ( 3.83 KB ) sent , 22583 bytes ( 22.0 KB ) received , lifetime 00 : 33\n",
+   "*64 - f-log-extension.grammarly.io : 443 close , 1363 bytes ( 1.33 KB ) sent , 3549 bytes ( 3.46 KB ) received , lifetime 00 : 33\n",
+   "- bolt.dropbox.com : 443 close , 43651 bytes ( 42.6 KB ) sent , 15207 bytes ( 14.8 KB ) received , lifetime 41 : 14\n",
+   "*64 - www.evernote.com : 443 close , 2485 bytes ( 2.42 KB ) sent , 2296 bytes ( 2.24 KB ) received , lifetime 03 : 36\n",
+   "*64 - play.google.com : 443 close , 2130 bytes ( 2.08 KB ) sent , 1009 bytes received , lifetime 03 : 24\n",
+   "- bolt.dropbox.com : 443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk : 5070 - Proxy closed the connection unexpectedly.\n",
+   "- dict.youdao.com : 80 close , 410 bytes sent , 458 bytes received , lifetime 07 : 42\n",
+   "*64 - clients4.google.com : 443 close , 7063 bytes ( 6.89 KB ) sent , 15399 bytes ( 15.0 KB ) received , lifetime 00 : 21\n",
+   "*64 - clients6.google.com : 443 close , 3296 bytes ( 3.21 KB ) sent , 1282 bytes ( 1.25 KB ) received , lifetime 00 : 50\n",
+   "*64 - accounts.google.com : 443 close , 2564 bytes ( 2.50 KB ) sent , 6098 bytes ( 5.95 KB ) received , lifetime 00 : 33\n",
+   "- cidian.youdao.com : 80 close , 447 bytes sent , 2059 bytes ( 2.01 KB ) received , lifetime 03 : 39\n",
+   "- long.weixin.qq.com : 443 close , 20009 bytes ( 19.5 KB ) sent , 19171 bytes ( 18.7 KB ) received , lifetime 41 : 15\n"
+  ],
+  [
+   "partition status running; partition status blocked; starting; down; closing; node status not responding;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO python.PythonRunner : Times : total = 38 , boot = -161 , init = 199 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_1620_4 locally\n",
+   "INFO output.FileOutputCommitter : File Output Committer Algorithm version is 1\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 1107\n",
+   "INFO storage.MemoryStore : Block broadcast_1107 stored as values in memory ( estimated size 77.8 KB , free 5.0 MB )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 43689\n",
+   "INFO storage.BlockManager : Found block rdd_1620_6 locally\n",
+   "INFO storage.MemoryStore : Block broadcast_1107_piece0 stored as bytes in memory ( estimated size 29.0 KB , free 4.9 MB )\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 1107 took 3 ms\n",
+   "INFO storage.BlockManager : Found block rdd_1620_0 locally\n",
+   "INFO storage.BlockManager : Found block rdd_1620_8 locally\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = -140 , init = 178 , finish = 0\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = -144 , init = 182 , finish = 0\n",
+   "INFO executor.Executor : Running task 8.0 in stage 1090.0 ( TID 43689 )\n",
+   "INFO storage.BlockManager : Found block rdd_1620_2 locally\n"
+  ],
+  [
+   "Finished task; Saved output of task; File Output Committer Algorithm version; Running task; Got assigned task;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.75.228 : 50010 is added to blk_4415872078495062064 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.250.19.227 : 50010 is added to blk_8470131410807615828 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.65.203 : 50010 is added to blk_-1493554185781555272 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.91.15 : 50010 is added to blk_2451433577353052108 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.111.209 : 50010 is added to blk_8470131410807615828 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand3/_temporary/_task_200811101024_0005_m_001322_0/part-01322. blk_-2907365774477941580\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.106.37 : 50010 is added to blk_-3211001789083937610 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand3/_temporary/_task_200811101024_0005_m_001345_0/part-01345. blk_8730273807542355869\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.123.33 : 50010 is added to blk_-7250840406633757588 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.30.179 : 50010 is added to blk_2455949188793287039 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.194.147 : 50010 is added to blk_309571512947552208 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.250.6.191 : 50010 is added to blk_872837204796362044 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.71.97 : 50010 is added to blk_-5437289240853353633 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.89.155 : 50010 is added to blk_-4952346245563971593 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.29.239 : 50010 is added to blk_-1493554185781555272 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand3/_temporary/_task_200811101024_0005_m_001208_0/part-01208. blk_-3205182255856559575\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.214.18 : 50010 is added to blk_6602285322127165799 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand3/_temporary/_task_200811101024_0005_m_001450_0/part-01450. blk_-8380224376658834669\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.203.4 : 50010 is added to blk_-476805166327296006 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.250.15.240 : 50010 is added to blk_-7250840406633757588 size 67108864\n"
+  ],
+  [
+   "Processed session termination; Expiring session; timeout exceeded; Closed socket connection; caught exception;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.71.68 : 50010 is added to blk_-1886295043152742159 size 67108864\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_-4513615671112005170\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_9209516605233823360 terminating\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.105.189 : 50010 is added to blk_5085472776226767513 size 67108864\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_9209516605233823360 of size 67108864 from /10.251.197.226\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_-8423623469019218108\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.42.84 : 50010 is added to blk_-8884264645385711172 size 67108864\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_5601669058330320847 src : /10.250.19.16 : 43287 dest : /10.250.19.16 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_3000947732958086582 src : /10.251.197.226 : 55233 dest : /10.251.197.226 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_5601669058330320847 src : /10.251.195.70 : 48457 dest : /10.251.195.70 : 50010\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand/_temporary/_task_200811092030_0001_m_000190_0/part-00190. blk_6236687718597980422\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand/_temporary/_task_200811092030_0001_m_000322_0/part-00322. blk_-2618613639588073189\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_3091099087150179177\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.67.113 : 50010 is added to blk_-6955905015982651412 size 67108864\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_7859981215820637753 src : /10.250.15.240 : 52245 dest : /10.250.15.240 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-4075499163837453137 src : /10.251.26.131 : 45632 dest : /10.251.26.131 : 50010\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand/_temporary/_task_200811092030_0001_m_000006_0/part-00006. blk_-2581653693275159104\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.65.203 : 50010 is added to blk_194626696959819525 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.199.19 : 50010 is added to blk_3698016797273149670 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.121.224 : 50010 is added to blk_-1886295043152742159 size 67108864\n"
+  ],
+  [
+   "Processed session termination; Expiring session; Closed socket connection; Connection request will be dropped; timeout exceeded;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "node status 1098394862 0 running\n"
+  ],
+  [
+   "Got exception; Served block; Verification succeeded;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "- 120.204.0.139 : 8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "- 101.226.211.46 : 8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "- client.dropbox.com : 443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "- 120.204.0.149 : 80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "*64 - wpad : 80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "- client-lb.dropbox.com : 443 error : A connection request was canceled before the completion.\n",
+   "- wpad : 80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "- get.sogou.com : 80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n",
+   "- short.weixin.qq.com : 80 error : A connection request was canceled before the completion.\n",
+   "- long.weixin.qq.com : 8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk : 5070 - Proxy server cannot establish a connection with the target , status code 403\n",
+   "- 180.163.25.139 : 80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk : 5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO floating point operation....................0\n"
+  ],
+  [
+   "Got assigned task; Running task; Reading broadcast variable; Block stored in memory; Found block \n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO Kernel detected 4915188 integer alignment exceptions ( 4915181 ) iar 0x00544ea8 , dear 0x01ef6d40 ( 4915182 ) iar 0x00544eb8 , dear 0x01ef6d60 ( 4915183 ) iar 0x00544ea8 , dear 0x01ef6d80 ( 4915184 ) iar 0x00544eb8 , dear 0x01ef6da0 ( 4915185 ) iar 0x00544ee0 , dear 0x01ef6dc0 ( 4915186 ) iar 0x00544ef0 , dear 0x01ef6de0 ( 4915187 ) iar 0x00544ee0 , dear 0x01ef6e00 ( 4915188 ) iar 0x00544ef0 , dear 0x01ef6e20\n",
+   "RAS KERNEL INFO Kernel detected 4165136 integer alignment exceptions ( 4165129 ) iar 0x00544ea8 , dear 0x01efb4a0 ( 4165130 ) iar 0x00544eb8 , dear 0x01efb4c0 ( 4165131 ) iar 0x00544ea8 , dear 0x01efb4e0 ( 4165132 ) iar 0x00544eb8 , dear 0x01efb500 ( 4165133 ) iar 0x00544ee0 , dear 0x01efb520 ( 4165134 ) iar 0x00544ef0 , dear 0x01efb540 ( 4165135 ) iar 0x00544ee0 , dear 0x01efb560 ( 4165136 ) iar 0x00544ef0 , dear 0x01efb580\n",
+   "RAS KERNEL INFO Kernel detected 5788164 integer alignment exceptions ( 5788157 ) iar 0x00544ea8 , dear 0x01fca840 ( 5788158 ) iar 0x00544eb8 , dear 0x01fca860 ( 5788159 ) iar 0x00544ea8 , dear 0x01fca880 ( 5788160 ) iar 0x00544eb8 , dear 0x01fca8a0 ( 5788161 ) iar 0x00544ee0 , dear 0x01fca8c0 ( 5788162 ) iar 0x00544ef0 , dear 0x01fca8e0 ( 5788163 ) iar 0x00544ee0 , dear 0x01fca900 ( 5788164 ) iar 0x00544ef0 , dear 0x01fca920\n",
+   "RAS KERNEL INFO Kernel detected 3764940 integer alignment exceptions ( 3764933 ) iar 0x00544ea8 , dear 0x01ef7da0 ( 3764934 ) iar 0x00544eb8 , dear 0x01ef7dc0 ( 3764935 ) iar 0x00544ea8 , dear 0x01ef7de0 ( 3764936 ) iar 0x00544eb8 , dear 0x01ef7e00 ( 3764937 ) iar 0x00544ee0 , dear 0x01ef7e20 ( 3764938 ) iar 0x00544ef0 , dear 0x01ef7e40 ( 3764939 ) iar 0x00544ee0 , dear 0x01ef7e60 ( 3764940 ) iar 0x00544ef0 , dear 0x01ef7e80\n",
+   "RAS KERNEL INFO Kernel detected 3998188 integer alignment exceptions ( 3998181 ) iar 0x00544ea8 , dear 0x01f0afc0 ( 3998182 ) iar 0x00544eb8 , dear 0x01f0afe0 ( 3998183 ) iar 0x00544ea8 , dear 0x01f0b000 ( 3998184 ) iar 0x00544eb8 , dear 0x01f0b020 ( 3998185 ) iar 0x00544ee0 , dear 0x01f0b040 ( 3998186 ) iar 0x00544ef0 , dear 0x01f0b060 ( 3998187 ) iar 0x00544ee0 , dear 0x01f0b080 ( 3998188 ) iar 0x00544ef0 , dear 0x01f0b0a0\n",
+   "RAS KERNEL INFO Kernel detected 5175596 integer alignment exceptions ( 5175589 ) iar 0x00544ea8 , dear 0x01ef8ea0 ( 5175590 ) iar 0x00544eb8 , dear 0x01ef8ec0 ( 5175591 ) iar 0x00544ea8 , dear 0x01ef8ee0 ( 5175592 ) iar 0x00544eb8 , dear 0x01ef8f00 ( 5175593 ) iar 0x00544ee0 , dear 0x01ef8f20 ( 5175594 ) iar 0x00544ef0 , dear 0x01ef8f40 ( 5175595 ) iar 0x00544ee0 , dear 0x01ef8f60 ( 5175596 ) iar 0x00544ef0 , dear 0x01ef8f80\n",
+   "RAS KERNEL INFO Kernel detected 4609206 integer alignment exceptions ( 4609199 ) iar 0x00544ea8 , dear 0x01f0cbe0 ( 4609200 ) iar 0x00544eb8 , dear 0x01f0cc00 ( 4609201 ) iar 0x00544ea8 , dear 0x01f0cc20 ( 4609202 ) iar 0x00544eb8 , dear 0x01f0cc40 ( 4609203 ) iar 0x00544ee0 , dear 0x01f0cc60 ( 4609204 ) iar 0x00544ef0 , dear 0x01f0cc80 ( 4609205 ) iar 0x00544ee0 , dear 0x01f0cca0 ( 4609206 ) iar 0x00544ef0 , dear 0x01f0ccc0\n",
+   "RAS KERNEL INFO Kernel detected 4931086 integer alignment exceptions ( 4931079 ) iar 0x00544ea8 , dear 0x01efbd40 ( 4931080 ) iar 0x00544eb8 , dear 0x01efbd60 ( 4931081 ) iar 0x00544ea8 , dear 0x01efbd80 ( 4931082 ) iar 0x00544eb8 , dear 0x01efbda0 ( 4931083 ) iar 0x00544ee0 , dear 0x01efbdc0 ( 4931084 ) iar 0x00544ef0 , dear 0x01efbde0 ( 4931085 ) iar 0x00544ee0 , dear 0x01efbe00 ( 4931086 ) iar 0x00544ef0 , dear 0x01efbe20\n",
+   "RAS KERNEL INFO Kernel detected 4883782 integer alignment exceptions ( 4883775 ) iar 0x00544ea8 , dear 0x01ef6540 ( 4883776 ) iar 0x00544eb8 , dear 0x01ef6560 ( 4883777 ) iar 0x00544ea8 , dear 0x01ef6580 ( 4883778 ) iar 0x00544eb8 , dear 0x01ef65a0 ( 4883779 ) iar 0x00544ee0 , dear 0x01ef65c0 ( 4883780 ) iar 0x00544ef0 , dear 0x01ef65e0 ( 4883781 ) iar 0x00544ee0 , dear 0x01ef6600 ( 4883782 ) iar 0x00544ef0 , dear 0x01ef6620\n",
+   "RAS KERNEL INFO Kernel detected 3924052 integer alignment exceptions ( 3924045 ) iar 0x00544ea8 , dear 0x01ef3880 ( 3924046 ) iar 0x00544eb8 , dear 0x01ef38a0 ( 3924047 ) iar 0x00544ea8 , dear 0x01ef38c0 ( 3924048 ) iar 0x00544eb8 , dear 0x01ef38e0 ( 3924049 ) iar 0x00544ee0 , dear 0x01ef3900 ( 3924050 ) iar 0x00544ef0 , dear 0x01ef3920 ( 3924051 ) iar 0x00544ee0 , dear 0x01ef3940 ( 3924052 ) iar 0x00544ef0 , dear 0x01ef3960\n",
+   "RAS KERNEL INFO Kernel detected 5476258 integer alignment exceptions ( 5476251 ) iar 0x00544ea8 , dear 0x01fcbae0 ( 5476252 ) iar 0x00544eb8 , dear 0x01fcbb00 ( 5476253 ) iar 0x00544ea8 , dear 0x01fcbb20 ( 5476254 ) iar 0x00544eb8 , dear 0x01fcbb40 ( 5476255 ) iar 0x00544ee0 , dear 0x01fcbb60 ( 5476256 ) iar 0x00544ef0 , dear 0x01fcbb80 ( 5476257 ) iar 0x00544ee0 , dear 0x01fcbba0 ( 5476258 ) iar 0x00544ef0 , dear 0x01fcbbc0\n",
+   "RAS KERNEL INFO Kernel detected 4233978 integer alignment exceptions ( 4233971 ) iar 0x00544ea8 , dear 0x01fca6a0 ( 4233972 ) iar 0x00544eb8 , dear 0x01fca6c0 ( 4233973 ) iar 0x00544ea8 , dear 0x01fca6e0 ( 4233974 ) iar 0x00544eb8 , dear 0x01fca700 ( 4233975 ) iar 0x00544ee0 , dear 0x01fca720 ( 4233976 ) iar 0x00544ef0 , dear 0x01fca740 ( 4233977 ) iar 0x00544ee0 , dear 0x01fca760 ( 4233978 ) iar 0x00544ef0 , dear 0x01fca780\n",
+   "RAS KERNEL INFO Kernel detected 4078502 integer alignment exceptions ( 4078495 ) iar 0x00544ea8 , dear 0x01fc7380 ( 4078496 ) iar 0x00544eb8 , dear 0x01fc73a0 ( 4078497 ) iar 0x00544ea8 , dear 0x01fc73c0 ( 4078498 ) iar 0x00544eb8 , dear 0x01fc73e0 ( 4078499 ) iar 0x00544ee0 , dear 0x01fc7400 ( 4078500 ) iar 0x00544ef0 , dear 0x01fc7420 ( 4078501 ) iar 0x00544ee0 , dear 0x01fc7440 ( 4078502 ) iar 0x00544ef0 , dear 0x01fc7460\n",
+   "RAS KERNEL INFO Kernel detected 4531608 integer alignment exceptions ( 4531601 ) iar 0x00544ea8 , dear 0x01fc7200 ( 4531602 ) iar 0x00544eb8 , dear 0x01fc7220 ( 4531603 ) iar 0x00544ea8 , dear 0x01fc7240 ( 4531604 ) iar 0x00544eb8 , dear 0x01fc7260 ( 4531605 ) iar 0x00544ee0 , dear 0x01fc7280 ( 4531606 ) iar 0x00544ef0 , dear 0x01fc72a0 ( 4531607 ) iar 0x00544ee0 , dear 0x01fc72c0 ( 4531608 ) iar 0x00544ef0 , dear 0x01fc72e0\n",
+   "RAS KERNEL INFO Kernel detected 4170578 integer alignment exceptions ( 4170571 ) iar 0x00544ea8 , dear 0x01f0f5e0 ( 4170572 ) iar 0x00544eb8 , dear 0x01f0f600 ( 4170573 ) iar 0x00544ea8 , dear 0x01f0f620 ( 4170574 ) iar 0x00544eb8 , dear 0x01f0f640 ( 4170575 ) iar 0x00544ee0 , dear 0x01f0f660 ( 4170576 ) iar 0x00544ef0 , dear 0x01f0f680 ( 4170577 ) iar 0x00544ee0 , dear 0x01f0f6a0 ( 4170578 ) iar 0x00544ef0 , dear 0x01f0f6c0\n",
+   "RAS KERNEL INFO Kernel detected 3933172 integer alignment exceptions ( 3933165 ) iar 0x00544ea8 , dear 0x01efcda0 ( 3933166 ) iar 0x00544eb8 , dear 0x01efcdc0 ( 3933167 ) iar 0x00544ea8 , dear 0x01efcde0 ( 3933168 ) iar 0x00544eb8 , dear 0x01efce00 ( 3933169 ) iar 0x00544ee0 , dear 0x01efce20 ( 3933170 ) iar 0x00544ef0 , dear 0x01efce40 ( 3933171 ) iar 0x00544ee0 , dear 0x01efce60 ( 3933172 ) iar 0x00544ef0 , dear 0x01efce80\n",
+   "RAS KERNEL INFO Kernel detected 5364164 integer alignment exceptions ( 5364157 ) iar 0x00544ea8 , dear 0x01ef5340 ( 5364158 ) iar 0x00544eb8 , dear 0x01ef5360 ( 5364159 ) iar 0x00544ea8 , dear 0x01ef5380 ( 5364160 ) iar 0x00544eb8 , dear 0x01ef53a0 ( 5364161 ) iar 0x00544ee0 , dear 0x01ef53c0 ( 5364162 ) iar 0x00544ef0 , dear 0x01ef53e0 ( 5364163 ) iar 0x00544ee0 , dear 0x01ef5400 ( 5364164 ) iar 0x00544ef0 , dear 0x01ef5420\n",
+   "RAS KERNEL INFO Kernel detected 3640526 integer alignment exceptions ( 3640519 ) iar 0x00544ea8 , dear 0x01ef62a0 ( 3640520 ) iar 0x00544eb8 , dear 0x01ef62c0 ( 3640521 ) iar 0x00544ea8 , dear 0x01ef62e0 ( 3640522 ) iar 0x00544eb8 , dear 0x01ef6300 ( 3640523 ) iar 0x00544ee0 , dear 0x01ef6320 ( 3640524 ) iar 0x00544ef0 , dear 0x01ef6340 ( 3640525 ) iar 0x00544ee0 , dear 0x01ef6360 ( 3640526 ) iar 0x00544ef0 , dear 0x01ef6380\n",
+   "RAS KERNEL INFO Kernel detected 3601796 integer alignment exceptions ( 3601789 ) iar 0x00544ea8 , dear 0x01f0cdc0 ( 3601790 ) iar 0x00544eb8 , dear 0x01f0cde0 ( 3601791 ) iar 0x00544ea8 , dear 0x01f0ce00 ( 3601792 ) iar 0x00544eb8 , dear 0x01f0ce20 ( 3601793 ) iar 0x00544ee0 , dear 0x01f0ce40 ( 3601794 ) iar 0x00544ef0 , dear 0x01f0ce60 ( 3601795 ) iar 0x00544ee0 , dear 0x01f0ce80 ( 3601796 ) iar 0x00544ef0 , dear 0x01f0cea0\n",
+   "RAS KERNEL INFO Kernel detected 5367358 integer alignment exceptions ( 5367351 ) iar 0x00544ea8 , dear 0x01ef46c0 ( 5367352 ) iar 0x00544eb8 , dear 0x01ef46e0 ( 5367353 ) iar 0x00544ea8 , dear 0x01ef4700 ( 5367354 ) iar 0x00544eb8 , dear 0x01ef4720 ( 5367355 ) iar 0x00544ee0 , dear 0x01ef4740 ( 5367356 ) iar 0x00544ef0 , dear 0x01ef4760 ( 5367357 ) iar 0x00544ee0 , dear 0x01ef4780 ( 5367358 ) iar 0x00544ef0 , dear 0x01ef47a0\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "*64 - avatars3.githubusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - s2.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - nsclick.baidu.com : 80 close , 1121 bytes ( 1.09 KB ) sent , 289 bytes received , lifetime 00 : 30\n",
+   "*64 - accounts.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 close , 463 bytes sent , 4787 bytes ( 4.67 KB ) received , lifetime 00 : 11\n",
+   "*64 - fonts.gstatic.com : 443 close , 461 bytes sent , 4785 bytes ( 4.67 KB ) received , lifetime 00 : 22\n",
+   "*64 - googleads.g.doubleclick.net : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - csi.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - csi.gstatic.com : 443 close , 0 bytes sent , 0 bytes received , lifetime 00 : 10\n",
+   "*64 - lh4.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO executor.Executor : Running task 22.0 in stage 160.0 ( TID 6422 )\n",
+   "INFO executor.Executor : Running task 20.0 in stage 160.0 ( TID 6420 )\n",
+   "INFO executor.Executor : Finished task 18.0 in stage 160.0 ( TID 6418 ) . 2667 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_226_20 locally\n",
+   "INFO spark.CacheManager : Partition rdd_255_23 not found , computing it\n",
+   "INFO python.PythonRunner : Times : total = 41 , boot = 21 , init = 20 , finish = 0\n",
+   "INFO executor.Executor : Running task 23.0 in stage 160.0 ( TID 6423 )\n",
+   "INFO spark.CacheManager : Partition rdd_255_22 not found , computing it\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 6422\n",
+   "INFO storage.BlockManager : Found block rdd_226_23 locally\n",
+   "INFO storage.BlockManager : Found block rdd_226_22 locally\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 6421\n",
+   "INFO spark.CacheManager : Partition rdd_255_20 not found , computing it\n",
+   "INFO executor.Executor : Finished task 16.0 in stage 160.0 ( TID 6416 ) . 2667 bytes result sent to driver\n",
+   "INFO python.PythonRunner : Times : total = 41 , boot = 24 , init = 17 , finish = 0\n",
+   "INFO executor.Executor : Running task 21.0 in stage 160.0 ( TID 6421 )\n",
+   "INFO executor.Executor : Finished task 17.0 in stage 160.0 ( TID 6417 ) . 2667 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 6423\n",
+   "INFO storage.BlockManager : Found block rdd_226_21 locally\n",
+   "INFO spark.CacheManager : Partition rdd_255_21 not found , computing it\n"
+  ],
+  [
+   "Running task; Finished task; Partition not found; Got assigned task; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO dfs.DataNode$PacketResponder : Received block blk_4460809195925474680 of size 67108864 from /10.251.38.197\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_4481371059829829710 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-765458789120231677 of size 67108864 from /10.250.17.225\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-971731170846001768 src : /10.250.11.85 : 37295 dest : /10.250.11.85 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_4481371059829829710 of size 67108864 from /10.251.201.204\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_7010293833121197600 src : /10.251.31.242 : 44945 dest : /10.251.31.242 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_-765458789120231677 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_5962486671187835846 src : /10.251.38.197 : 60056 dest : /10.251.38.197 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_5962486671187835846 src : /10.251.38.197 : 54749 dest : /10.251.38.197 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_9175661777956801158 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-6037095340291856180 src : /10.250.10.6 : 38032 dest : /10.250.10.6 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_-7477020629297115524 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_9175661777956801158 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-6964185037719033218 src : /10.251.121.224 : 38833 dest : /10.251.121.224 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_9175661777956801158 of size 28489214 from /10.251.70.211\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-1209801886733086083 src : /10.251.110.196 : 46556 dest : /10.251.110.196 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_7594809454647811802 src : /10.250.17.225 : 41447 dest : /10.250.17.225 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_9175661777956801158 of size 28489214 from /10.251.109.236\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-7477020629297115524 of size 28485628 from /10.251.107.196\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_4460809195925474680 terminating\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "WARN dfs.DataNode$DataXceiver : 10.251.66.3 : 50010 : Got exception while serving blk_235250132267018487 to /10.251.66.3 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.67.4 : 50010 : Got exception while serving blk_-4577282322651229935 to /10.250.14.224 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.126.255 : 50010 : Got exception while serving blk_5480704328459135516 to /10.251.215.70 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.30.134 : 50010 : Got exception while serving blk_185471068956661871 to /10.251.107.242 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.111.209 : 50010 : Got exception while serving blk_-2777012929803877417 to /10.251.122.38 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.111.37 : 50010 Served block blk_-6803863322991948717 to /10.250.5.161\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_4249637637811404822\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.125.174 : 50010 : Got exception while serving blk_8628270474148074929 to /10.251.90.64 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.203.166 : 50010 Served block blk_8700052610399007012 to /10.250.6.4\n",
+   "WARN dfs.DataNode$DataXceiver : 10.250.15.198 : 50010 : Got exception while serving blk_-6614004906919784382 to /10.251.106.10 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.75.228 : 50010 Served block blk_-906171153259618006 to /10.251.75.228\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.105.189 : 50010 : Got exception while serving blk_-6574678101673765159 to /10.251.123.33 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.42.191 : 50010 : Got exception while serving blk_-1196725009940393058 to /10.251.123.1 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.43.192 : 50010 Served block blk_-69771378943419611 to /10.251.126.83\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.109.236 : 50010 Served block blk_2840957626913278396 to /10.251.122.38\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.31.85 : 50010 Served block blk_5286958145132257144 to /10.250.14.224\n",
+   "WARN dfs.DataNode$DataXceiver : 10.250.6.214 : 50010 : Got exception while serving blk_8916432715247683204 to /10.250.7.32 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.43.21 : 50010 : Got exception while serving blk_7026597120064168771 to /10.251.65.203 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.250.10.176 : 50010 : Got exception while serving blk_-6570132037908130081 to /10.251.199.86 :\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_8508825815488188923\n"
+  ],
+  [
+   "Got exception; Served block; Verification succeeded;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Established session 0x24ee30a54f50001 with negotiated timeout 10000 for client /10.10.34.11 : 44674\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 44676\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 44677\n",
+   "INFO Sending DIFF\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 44677\n",
+   "INFO Synchronizing with Follower sid : 1 maxCommittedLog = 0x0 minCommittedLog = 0x0 peerLastZxid = 0x700000000\n",
+   "INFO Accepted socket connection from /10.10.34.13 : 46340\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 44676\n",
+   "WARN Connection request from old client /10.10.34.11 : 44676 ; will be dropped if server is in r-o mode\n",
+   "WARN Connection request from old client /10.10.34.12 : 38021 ; will be dropped if server is in r-o mode\n",
+   "INFO Creating new log file : log.700000001\n",
+   "WARN Connection request from old client /10.10.34.11 : 44677 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x24ee30a54f50003 with negotiated timeout 10000 for client /10.10.34.11 : 44677\n",
+   "INFO Established session 0x24ee30a54f50000 with negotiated timeout 10000 for client /10.10.34.12 : 38021\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 44674\n",
+   "WARN Connection request from old client /10.10.34.11 : 44674 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x24ee30a54f50002 with negotiated timeout 10000 for client /10.10.34.11 : 44676\n",
+   "INFO Accepted socket connection from /10.10.34.12 : 38021\n",
+   "INFO Client attempting to establish new session at /10.10.34.12 : 38021\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 44674\n"
+  ],
+  [
+   "Established session timeout; Accepted socket connection; Creating new log file; Connection request will be dropped;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1040 bytes ( 1.01 KB ) sent , 15872 bytes ( 15.5 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1097 bytes ( 1.07 KB ) sent , 366 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1124 bytes ( 1.09 KB ) sent , 529 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1066 bytes ( 1.04 KB ) sent , 1782 bytes ( 1.74 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1052 bytes ( 1.02 KB ) sent , 8362 bytes ( 8.16 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1036 bytes ( 1.01 KB ) sent , 34151 bytes ( 33.3 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 0 bytes sent , 0 bytes received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 403 bytes sent , 426 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1091 bytes ( 1.06 KB ) sent , 367 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1060 bytes ( 1.03 KB ) sent , 1633 bytes ( 1.59 KB ) received , lifetime <1 sec\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS MMCS ERROR idoproxydb hit ASSERT condition : ASSERT expression = 0 Source file = idotransportmgr.cpp Source line = 1043 Function = int IdoTransportMgr : : SendPacket ( IdoUdpMgr* , BglCtlPavTrace* )\n"
+  ],
+  [
+   "RAS MMCS ERROR; idoproxydb hit ASSERT condition; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 449 bytes sent , 0 bytes received , lifetime 00 : 02\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1709 bytes ( 1.66 KB ) sent , 2267 bytes ( 2.21 KB ) received , lifetime 00 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 3398 bytes ( 3.31 KB ) sent , 7098 bytes ( 6.93 KB ) received , lifetime 00 : 09\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2325 bytes ( 2.27 KB ) sent , 23243 bytes ( 22.6 KB ) received , lifetime 00 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1664 bytes ( 1.62 KB ) sent , 1269 bytes ( 1.23 KB ) received , lifetime 04 : 00\n",
+   "*64 - 127.0.0.1 : 135 error : Could not connect through proxy proxy.cse.cuhk.edu.hk : 5070 - Proxy server cannot establish a connection with the target , status code 403\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 783 bytes sent , 176 bytes received , lifetime 00 : 15\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1908 bytes ( 1.86 KB ) sent , 9200 bytes ( 8.98 KB ) received , lifetime 00 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 0 bytes sent , 0 bytes received , lifetime 00 : 11\n",
+   "- 183.62.156.108 : 22 close , 3094 bytes ( 3.02 KB ) sent , 7297 bytes ( 7.12 KB ) received , lifetime 26 : 09\n",
+   "- 137.189.89.156 : 22 close , 2804 bytes ( 2.73 KB ) sent , 5401 bytes ( 5.27 KB ) received , lifetime 22 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1699 bytes ( 1.65 KB ) sent , 2128 bytes ( 2.07 KB ) received , lifetime 00 : 07\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; Could not connect through proxy; Proxy server cannot establish a connection;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 374805\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 374827\n",
+   "INFO python.PythonRunner : Times : total = 41 , boot = -21 , init = 61 , finish = 1\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 374816\n",
+   "INFO python.PythonRunner : Times : total = 40 , boot = -19 , init = 59 , finish = 0\n",
+   "INFO python.PythonRunner : Times : total = 43 , boot = -17 , init = 59 , finish = 1\n",
+   "INFO executor.Executor : Finished task 37.0 in stage 9358.0 ( TID 374798 ) . 2149 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_14944_26 locally\n",
+   "INFO storage.BlockManager : Found block rdd_14944_37 locally\n",
+   "INFO executor.Executor : Finished task 26.0 in stage 9358.0 ( TID 374790 ) . 2149 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_14944_4 locally\n",
+   "INFO executor.Executor : Running task 26.0 in stage 9359.0 ( TID 374827 )\n",
+   "INFO executor.Executor : Finished task 4.0 in stage 9358.0 ( TID 374768 ) . 2438 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 15.0 in stage 9359.0 ( TID 374816 )\n",
+   "INFO python.PythonRunner : Times : total = 41 , boot = -24 , init = 64 , finish = 1\n",
+   "INFO storage.MemoryStore : Block broadcast_9381 stored as values in memory ( estimated size 9.7 KB , free 6.4 MB )\n",
+   "INFO executor.Executor : Finished task 15.0 in stage 9358.0 ( TID 374779 ) . 2149 bytes result sent to driver\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 9381 took 3 ms\n",
+   "INFO executor.Executor : Running task 4.0 in stage 9359.0 ( TID 374805 )\n",
+   "INFO storage.BlockManager : Found block rdd_14944_15 locally\n"
+  ],
+  [
+   "Found block; Finished task; Running task; Got assigned task;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Expiring session 0x14ed93111f20044 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24ed93119420054 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f2003e\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420052\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420051\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420054\n",
+   "INFO Expiring session 0x34ed9ac1c1e002b , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f20044\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420053\n",
+   "INFO Expiring session 0x14ed93111f2003e , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e002c\n",
+   "INFO Expiring session 0x34ed9ac1c1e0028 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14ed93111f20045 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ed9ac1c1e0023 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0023\n",
+   "INFO Expiring session 0x24ed93119420051 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24ed93119420052 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e002a\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e002b\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0029\n"
+  ],
+  [
+   "Expiring session; timeout exceeded; Processed session termination;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Processed session termination for sessionid : 0x24f4a631df9000f\n",
+   "INFO Expiring session 0x24f4a631df9000a , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34f4a63146b001a , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14f4a6318b8000f , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24f4a631df90014\n",
+   "INFO Processed session termination for sessionid : 0x14f4a6318b80017\n",
+   "INFO Expiring session 0x14f4a6318b80017 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24f4a631df90017\n",
+   "INFO Expiring session 0x34f4a63146b001b , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24f4a631df9000c , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24f4a631df90009 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24f4a631df90017 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24f4a631df90016\n",
+   "INFO Expiring session 0x24f4a631df90018 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24f4a631df90016 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14f4a6318b8000d , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24f4a631df90015\n",
+   "INFO Expiring session 0x14f4a6318b8000b , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14f4a6318b8000e , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24f4a631df90015 , timeout of 10000ms exceeded\n"
+  ],
+  [
+   "Processed session termination; Expiring session; timeout exceeded;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS KERNEL INFO 10714 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10706 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.\n",
+   "RAS KERNEL INFO 10646 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10727 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10712 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10662 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10702 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10738 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10734 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 10644 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n"
+  ],
+  [
+   "microseconds spent in the rbs signal handler; critical input interrupts;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO spark.CacheManager : Partition rdd_512_20 not found , computing it\n",
+   "INFO executor.Executor : Finished task 11.0 in stage 292.0 ( TID 12499 ) . 2667 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 12510\n",
+   "INFO python.PythonRunner : Times : total = 37 , boot = 20 , init = 17 , finish = 0\n",
+   "INFO executor.Executor : Running task 21.0 in stage 292.0 ( TID 12509 )\n",
+   "INFO executor.Executor : Finished task 13.0 in stage 292.0 ( TID 12501 ) . 2667 bytes result sent to driver\n",
+   "INFO storage.MemoryStore : Block rdd_512_14 stored as bytes in memory ( estimated size 523.0 B , free 3.9 MB )\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = 15 , init = 23 , finish = 0\n",
+   "INFO executor.Executor : Running task 20.0 in stage 292.0 ( TID 12508 )\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = 21 , init = 17 , finish = 0\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 12508\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 12509\n",
+   "INFO executor.Executor : Running task 22.0 in stage 292.0 ( TID 12510 )\n",
+   "INFO storage.BlockManager : Found block rdd_489_20 locally\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = 10 , init = 28 , finish = 0\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = 16 , init = 22 , finish = 0\n",
+   "INFO executor.Executor : Finished task 10.0 in stage 292.0 ( TID 12498 ) . 2667 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 14.0 in stage 292.0 ( TID 12502 ) . 2667 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 12.0 in stage 292.0 ( TID 12500 ) . 2667 bytes result sent to driver\n"
+  ],
+  [
+   "Block stored in memory; Finished task; Got assigned task; Running task;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS KERNEL INFO ciod : generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 55 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 56 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 60 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 61 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 62 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 63 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n"
+  ],
+  [
+   "generated core files for program;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "*64 - s2.googleusercontent.com : 443 close , 1193 bytes ( 1.16 KB ) sent , 6789 bytes ( 6.62 KB ) received , lifetime 04 : 00\n",
+   "*64 - notifications.google.com : 443 close , 2763 bytes ( 2.69 KB ) sent , 2794 bytes ( 2.72 KB ) received , lifetime 04 : 53\n",
+   "*64 - www.google.com.hk : 443 close , 3912 bytes ( 3.82 KB ) sent , 69387 bytes ( 67.7 KB ) received , lifetime 04 : 03\n",
+   "*64 - long.open.weixin.qq.com : 443 close , 1910 bytes ( 1.86 KB ) sent , 276 bytes received , lifetime 00 : 31\n",
+   "*64 - res.wx.qq.com : 443 close , 1582 bytes ( 1.54 KB ) sent , 40194 bytes ( 39.2 KB ) received , lifetime 03 : 01\n",
+   "*64 - www.google.com : 443 close , 2020 bytes ( 1.97 KB ) sent , 17986 bytes ( 17.5 KB ) received , lifetime 04 : 01\n",
+   "*64 - long.open.weixin.qq.com : 443 close , 1910 bytes ( 1.86 KB ) sent , 276 bytes received , lifetime 00 : 28\n",
+   "*64 - long.open.weixin.qq.com : 443 close , 0 bytes sent , 0 bytes received , lifetime 00 : 28\n",
+   "*64 - long.open.weixin.qq.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - changyan.itc.cn : 443 close , 1568 bytes ( 1.53 KB ) sent , 24883 bytes ( 24.2 KB ) received , lifetime 03 : 07\n",
+   "*64 - long.open.weixin.qq.com : 443 close , 1910 bytes ( 1.86 KB ) sent , 276 bytes received , lifetime 00 : 27\n",
+   "*64 - play.google.com : 443 close , 989 bytes sent , 5261 bytes ( 5.13 KB ) received , lifetime 04 : 00\n",
+   "*64 - changyan.sohu.com : 443 close , 1083 bytes ( 1.05 KB ) sent , 4329 bytes ( 4.22 KB ) received , lifetime 03 : 00\n",
+   "*64 - clients1.google.com : 443 close , 1236 bytes ( 1.20 KB ) sent , 976 bytes received , lifetime 04 : 00\n",
+   "*64 - www.evernote.com : 443 close , 4786 bytes ( 4.67 KB ) sent , 8180 bytes ( 7.98 KB ) received , lifetime 04 : 10\n",
+   "- qbwup.imtt.qq.com : 80 close , 494 bytes sent , 208 bytes received , lifetime 00 : 38\n",
+   "- qbwup.imtt.qq.com : 80 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1748 bytes ( 1.70 KB ) sent , 6426 bytes ( 6.27 KB ) received , lifetime 02 : 06\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2422 bytes ( 2.36 KB ) sent , 99175 bytes ( 96.8 KB ) received , lifetime 02 : 06\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2528 bytes ( 2.46 KB ) sent , 1342929 bytes ( 1.28 MB ) received , lifetime 02 : 09\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 357 bytes sent , 2030 bytes ( 1.98 KB ) received , lifetime 02 : 05\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1343 bytes ( 1.31 KB ) sent , 422903 bytes ( 412 KB ) received , lifetime 02 : 06\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ]
+]

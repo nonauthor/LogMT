@@ -1,0 +1,12 @@
+[
+ [
+  "}\tadditemtoallowrollback(ref addeditems, datacolumn);\tcolumncollection.add(datacolumn);\t}\tif (addprimarykeys && schemarow.iskey) {\tif (keys == null) {\tkeys = new datacolumn[schemarows.length];\t}\tkeys[keycount++] = datacolumn;\t#if debug if (adapterswitches.dataschema.traceverbose) {",
+  "client successfully connect to silo host",
+  1
+ ],
+ [
+  "public static void threadstart1 () {",
+  "started",
+  0
+ ]
+]

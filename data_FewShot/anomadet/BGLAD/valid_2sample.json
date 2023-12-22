@@ -1,0 +1,12 @@
+[
+ [
+  "general purpose registers:",
+  0,
+  "4149b6da"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ]
+]

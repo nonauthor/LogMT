@@ -1,0 +1,322 @@
+[
+ [
+  "1524480 double-hummer alignment exceptions",
+  0,
+  "6265c739"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "LinkCard power module U58 is not accessible",
+  0,
+  "ea2f4fd1"
+ ],
+ [
+  "1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected",
+  0,
+  "c3c18d52"
+ ],
+ [
+  "instruction address space.........0",
+  0,
+  "0259e53a"
+ ],
+ [
+  "rts internal error",
+  0,
+  "af999985"
+ ],
+ [
+  "machine check: i-fetch......................0",
+  0,
+  "d59f04cd"
+ ],
+ [
+  "10752 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "20:00000000 21:1feaa7b0 22:00000000 23:00000000",
+  0,
+  "a4f9731b"
+ ],
+ [
+  "1524480 double-hummer alignment exceptions",
+  0,
+  "6265c739"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "external input interrupt enable...0",
+  0,
+  "368b1120"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "program interrupt: fp cr update.............0",
+  0,
+  "87710483"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "ciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1405./hpl_DD: invalid or missing program image, No such file or directory",
+  0,
+  "57138c88"
+ ],
+ [
+  "CE sym 35, at 0x171288c0, mask 0x08",
+  0,
+  "65f23e3e"
+ ],
+ [
+  "1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "1 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 1",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "CE sym 35, at 0x06b46f60, mask 0x40",
+  0,
+  "65f23e3e"
+ ],
+ [
+  "Node card is not fully functional",
+  0,
+  "a2335b6b"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "773760 double-hummer alignment exceptions",
+  0,
+  "6265c739"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "symbol................0",
+  0,
+  "fac52822"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "10756 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "10654 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "floating point operation....................0",
+  0,
+  "89854e51"
+ ],
+ [
+  "CE sym 12, at 0x1c521d00, mask 0x04",
+  0,
+  "65f23e3e"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:40813, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:46891, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58927, Connection reset by peer",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47196, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47084, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52911, Connection reset by peer",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  1,
+  "130bb340"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:33822: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:40704: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:40324: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:39669, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "Power deactivated: R73-M0-N3",
+  1,
+  "05f7a599"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52709, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data TLB error interrupt",
+  1,
+  "fd2fdc47"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43411, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41612, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58483, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53167, Connection reset by peer",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ]
+]

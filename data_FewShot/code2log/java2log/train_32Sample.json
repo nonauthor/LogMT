@@ -1,0 +1,162 @@
+[
+ [
+  "public void testSetsLocalBrooklynPropertiesFromContents() throws Exception {\tBrooklynNode brooklynNode = app.createAndManageChild(newBrooklynNodeSpecForTest() .configure(BrooklynNode.BROOKLYN_LOCAL_PROPERTIES_REMOTE_PATH, pseudoBrooklynPropertiesFile.getAbsolutePath()) .configure(BrooklynNode.BROOKLYN_LOCAL_PROPERTIES_CONTENTS, \"abc=def\"));\tapp.start(locs);",
+  "started containing for",
+  0
+ ],
+ [
+  "private void restartBasedOnStartStates() {\tfinal Set<? extends String> startStates = getEntity().config().get(SaltConfig.START_STATES);\tfinal MutableSet<String> restartStates = addSuffix(startStates, \".restart\");\tfinal ProcessTaskWrapper<Integer> queued = queueAndBlock(SaltSshTasks.findStates(restartStates, false).summary(\"check restart states\"));\tfinal String stdout = queued.getStdout();\tString[] foundStates = Strings.isNonBlank(stdout) ? stdout.split(\"\\\\n\") : null;\tif (restartStates.size() > 0 && foundStates != null && (restartStates.size() == foundStates.length)) {",
+  "all start states have matching restart states applying these",
+  0
+ ],
+ [
+  "private List<HiveQueryId> getHqidListFromJsonArray(JSONArray jobs) {\tList<HiveQueryId> parsedJobs = new LinkedList<>();\tfor (Object job : jobs) {\ttry {\tHiveQueryId parsedJob = parseAtsHiveJob((JSONObject) job);\tparsedJobs.add(parsedJob);\t} catch (Exception ex) {",
+  "error while parsing ats job",
+  0
+ ],
+ [
+  "answer = new CopyCmdAnswer(newSnapshot);\t}\t} finally {\tif (vmMo != null) {\tManagedObjectReference snapshotMor = vmMo.getSnapshotMor(snapshotUuid);\tif (snapshotMor != null) {\tvmMo.removeSnapshot(snapshotUuid, false);\tif (backupResult != null && hasOwnerVm) {\tboolean chainConsolidated = false;\tfor (String vmdkDsFilePath : backupResult.third()) {",
+  "validate disk chain file",
+  0
+ ],
+ [
+  "printResults(hits);\t}\tprivate void printResults(Hits hits) {\tfor (int i = 0; i < hits.getNumberOfHits(); i++) {\t}\t}\t}).to(\"mock:searchResult\");\t}\t});\tcontext.start();",
+  "beginning lucenequeryproducer wildcard test",
+  0
+ ],
+ [
+  "EventFactory eventFactory = getSingleBeanOfType(applicationContext, EventFactory.class);\tif (eventFactory != null) {\tcamelContext.getManagementStrategy().setEventFactory(eventFactory);\t}\tUnitOfWorkFactory unitOfWorkFactory = getSingleBeanOfType(applicationContext, UnitOfWorkFactory.class);\tif (unitOfWorkFactory != null) {\tcamelContext.setUnitOfWorkFactory(unitOfWorkFactory);\t}\tRuntimeEndpointRegistry runtimeEndpointRegistry = getSingleBeanOfType(applicationContext, RuntimeEndpointRegistry.class);\tif (runtimeEndpointRegistry != null) {",
+  "using custom runtimeendpointregistry",
+  0
+ ],
+ [
+  "public void testBatchWithRowMutation() throws Exception {",
+  "starting testbatchwithrowmutation",
+  0
+ ],
+ [
+  "++numCompressedFiles;\tcompressedDataSize += status.getLen();\t}\t}\t}\tif (numCompressedFiles == 0) {\tthrow new RuntimeException(\"No compressed file found in the input\" + \" directory : \" + inputDir.toString() + \". To enable compression\" + \" emulation, run Gridmix either with \" + \" an input directory containing compressed input file(s) or\" + \" use the -generate option to (re)generate it. If compression\" + \" emulation is not desired, disable it by setting '\" + COMPRESSION_EMULATION_ENABLE + \"' to 'false'.\");\t}\tif (uncompressedDataSize > 0) {\tdouble ratio = ((double)compressedDataSize) / uncompressedDataSize;",
+  "input data compression ratio",
+  0
+ ],
+ [
+  "}\t}\tfinal VolumeTO volume = new VolumeTO(command.getVolumeId(), dskch.getType(), pool.getType(), pool.getUuid(), pool.getPath(), vol.getName(), vol.getName(), disksize, null);\tvolume.setBytesReadRate(dskch.getBytesReadRate());\tvolume.setBytesWriteRate(dskch.getBytesWriteRate());\tvolume.setIopsReadRate(dskch.getIopsReadRate());\tvolume.setIopsWriteRate(dskch.getIopsWriteRate());\tvolume.setCacheMode(dskch.getCacheMode());\treturn new CreateAnswer(command, volume);\t} catch (final CloudRuntimeException e) {",
+  "failed to create volume",
+  0
+ ],
+ [
+  "setupTable(connection, table, 10);\tLoadIncrementalHFiles lih = new LoadIncrementalHFiles(util.getConfiguration()) {\tprotected List<LoadQueueItem> tryAtomicRegionLoad( ClientServiceCallable<byte[]> serviceCallable, TableName tableName, final byte[] first, Collection<LoadQueueItem> lqis) throws IOException {\tint i = attmptedCalls.incrementAndGet();\tif (i == 1) {\tConnection errConn;\ttry {\terrConn = getMockedConnection(util.getConfiguration());\tserviceCallable = this.buildClientServiceCallable(errConn, table, first, lqis, true);\t} catch (Exception e) {",
+  "mocking cruft should never happen",
+  0
+ ],
+ [
+  "spec = createEntitySpecForApplication(potentialYaml);\t} catch (Exception e) {\tExceptions.propagateIfFatal(e);\tthrow WebResourceUtils.badRequest(e, \"Error in blueprint\");\t}\tif (spec != null) {\ttry {\treturn launch(potentialYaml, spec, Optional.absent());\t} catch (Exception e) {\tExceptions.propagateIfFatal(e);",
+  "failed rest deployment launching",
+  0
+ ],
+ [
+  "public SizeOfEngine copyWith(int maxDepth, boolean abortWhenMaxDepthExceeded) {",
+  "copying tracing sizeof engine maxdepth abort",
+  0
+ ],
+ [
+  "makeConsumer(Session.AUTO_ACKNOWLEDGE);\tcloseConsumer();\tpublish(30);\tint counter = 1;\tfor (int i = 0; i < 15; i++) {\tmakeConsumer(Session.AUTO_ACKNOWLEDGE);\tMessage message = consumer.receive(RECEIVE_TIMEOUT);\tassertTrue(\"Should have received a message!\", message != null);\tmessage = consumer.receive(RECEIVE_TIMEOUT);\tassertTrue(\"Should have received a message!\", message != null);",
+  "received message",
+  0
+ ],
+ [
+  "private void performCancel() {\titeration++;\tif (iteration % cancelRate == 0) {\tComputeTaskFuture<Integer> futToCancel = futures.get( new Random().nextInt(futures.size()) );\ttry {\tfutToCancel.cancel();\t}\tcatch (IgniteException e) {",
+  "future cancellation failed",
+  0
+ ],
+ [
+  "connection.open(UriToConnectTo.getHost(), UriToConnectTo.getPort());\tconnection.close();\tbreak;\t} else if (UriToConnectTo.getScheme().startsWith(\"tcp\")) {\tActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(UriToConnectTo);\tConnection connection = connectionFactory.createConnection(secProps.getProperty(\"activemq.username\"), secProps.getProperty(\"activemq.password\"));\tconnection.start();\tconnection.close();\tbreak;\t} else {",
+  "not validating connection to",
+  0
+ ],
+ [
+  "private void verifyDataNodeVolumeMetrics(final FileSystem fs, final MiniDFSCluster cluster, final Path fileName) throws IOException {\tList<DataNode> datanodes = cluster.getDataNodes();\tDataNode datanode = datanodes.get(0);\tfinal ExtendedBlock block = DFSTestUtil.getFirstBlock(fs, fileName);\tfinal FsVolumeSpi volume = datanode.getFSDataset().getVolume(block);\tDataNodeVolumeMetrics metrics = volume.getMetrics();\tMetricsRecordBuilder rb = getMetrics(volume.getMetrics().name());\tassertCounter(\"TotalDataFileIos\", metrics.getTotalDataFileIos(), rb);",
+  "totalmetadataoperations",
+  0
+ ],
+ [
+  "private void setHBaseFsTmpDir() throws IOException {\tString hbaseFsTmpDirInString = this.conf.get(\"hbase.fs.tmp.dir\");\tif (hbaseFsTmpDirInString == null) {\tthis.conf.set(\"hbase.fs.tmp.dir\",  getDataTestDirOnTestFS(\"hbase-staging\").toString());\t} else {",
+  "using property on endpoint which does not have a uriparam annotation please add the uriparam annotation to the field",
+  1
+ ],
+ [
+  "}\ttry {\tVmRulesetLogVO rulesetLog = _rulesetLogDao.findByVmId(work.getInstanceId());\tif (rulesetLog == null) {\tcontinue;\t}\twork.setLogsequenceNumber(rulesetLog.getLogsequence());\tsendRulesetUpdates(work);\t_mBean.logUpdateDetails(work.getInstanceId(), work.getLogsequenceNumber());\t} catch (Exception e) {",
+  "vm is rebooted successfully as a part of password reset",
+  1
+ ],
+ [
+  "chunkCntr++;\tlog.info(\"Pushing data chunk [chunkNo=\" + chunkCntr + \"]\");\tComputeTaskFuture<Void> fut = comp.executeAsync(new GridCachePutAllTask(nodeId, CACHE_NAME), data);\tresQueue.put(fut);\tfut.listen(new CI1<IgniteFuture<Void>>() {\tComputeTaskFuture<?> taskFut = (ComputeTaskFuture<?>)f;\ttry {\ttaskFut.get();\t}\tcatch (IgniteException e) {",
+  "executing listindexnames",
+  1
+ ],
+ [
+  "if (batchResetNeeded) {\tresetSize();\tsetMaxBatchSize(Math.min(regionDestination.getMaxPageSize(), size));\tresetBatch();\tthis.batchResetNeeded = false;\t}\tif (this.batchList.isEmpty() && this.size >0) {\ttry {\tdoFillBatch();\t} catch (Exception e) {",
+  "failure shutting down cluster",
+  1
+ ],
+ [
+  "continue;\t}\tAttribute memberEntryObjectClassAttribute = memberAttributes.get(\"objectClass\");\tNamingEnumeration<?> memberEntryObjectClassAttributeEnum = memberEntryObjectClassAttribute.getAll();\twhile (memberEntryObjectClassAttributeEnum.hasMoreElements()) {\tString objectClass = (String) memberEntryObjectClassAttributeEnum.nextElement();\tif (objectClass.equalsIgnoreCase(groupObjectClass)) {\tgroup = true;\tAttribute name = memberAttributes.get(groupNameAttribute);\tif (name == null) {",
+  "the ws endpoint is published",
+  1
+ ],
+ [
+  "private int[] cacheEvents(String evtPropsStr) throws Exception {\tString[] evtStr = evtPropsStr.split(\"\\\\s*,\\\\s*\");\tif (evtStr.length == 0) return EventType.EVTS_CACHE;\tint[] evts = new int[evtStr.length];\ttry {\tfor (int i = 0; i < evtStr.length; i++) evts[i] = CacheEvt.valueOf(evtStr[i].toUpperCase()).getId();\t}\tcatch (Exception e) {",
+  "clearing resource from the content cache",
+  1
+ ],
+ [
+  "private ConsoleProxyManagementState getLastManagementState() {\tString value = _configDao.getValue(Config.ConsoleProxyManagementLastState.key());\tif (value != null) {\tConsoleProxyManagementState state = ConsoleProxyManagementState.valueOf(value);\tif (state == null) {",
+  "resumed normal operation from maintenance mode",
+  1
+ ],
+ [
+  "cleanupCommittedMobFile = true;\tbulkloadRefFile(connection, table, bulkloadPathOfPartition, filePath.getName());\tcleanupCommittedMobFile = false;\tnewFiles.add(new Path(mobFamilyDir, filePath.getName()));\t}\ttry {\tcloseStoreFileReaders(mobFilesToCompact);\tcloseReaders = false;\tMobUtils.removeMobFiles(conf, fs, tableName, mobTableDir, column.getName(), mobFilesToCompact);\t} catch (IOException e) {",
+  "filtering",
+  1
+ ],
+ [
+  "public StrategyPriority canHandle(Map<VolumeInfo, DataStore> volumeMap, Host srcHost, Host destHost) {\tif (srcHost.getHypervisorType() == HypervisorType.VMware && destHost.getHypervisorType() == HypervisorType.VMware) {",
+  "sending signal to pid as user for container",
+  1
+ ],
+ [
+  "String libname = conf.get(\"io.compression.codec.bzip2.library\", \"system-native\");\tif (!bzip2LibraryName.equals(libname)) {\tnativeBzip2Loaded = false;\tbzip2LibraryName = libname;\tif (libname.equals(\"java-builtin\")) {\t} else if (conf.getBoolean( CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_KEY, CommonConfigurationKeys.IO_NATIVE_LIB_AVAILABLE_DEFAULT) && NativeCodeLoader.isNativeCodeLoaded()) {\ttry {\tBzip2Compressor.initSymbols(libname);\tBzip2Decompressor.initSymbols(libname);\tnativeBzip2Loaded = true;",
+  "looking up all in osgi",
+  1
+ ],
+ [
+  "public void pause() throws AxisFault {\tif (state != BaseConstants.STARTED) {\treturn;\t}\tstate = BaseConstants.PAUSED;",
+  "host that vm is running is no longer available console access to vm will be temporarily unavailable",
+  1
+ ],
+ [
+  "protected Table resolveTable(CompactionInfo ci) throws MetaException {\ttry {\treturn rs.getTable(ci.dbname, ci.tableName);\t} catch (MetaException e) {",
+  "echo ta rget port dummyhost",
+  1
+ ],
+ [
+  "for (String skipFile : skipFiles) {\tif (StringUtils.isBlank(skipFile)) continue;\tskipFileSet.add(new Path(skipFile));\t}\t}\tfor (String file : files) {\tif (!StringUtils.isNotBlank(file)) {\tcontinue;\t}\tif (skipFileSet != null && skipFileSet.contains(new Path(file))) {",
+  "is deprecated and will be removed in future fall back to automatically",
+  1
+ ],
+ [
+  "}\tif (DatabaseProduct.isDeadlock(dbProduct, e)) {\tif (deadlockCnt++ < ALLOWED_REPEATED_DEADLOCKS) {\tlong waitInterval = deadlockRetryInterval * deadlockCnt;\ttry {\tThread.sleep(waitInterval);\t} catch (InterruptedException ie) {\t}\tsendRetrySignal = true;\t} else {",
+  "leasechecker interruptandjoin",
+  1
+ ],
+ [
+  "try {\tdb = metastoreClient.getDatabase(hivePrivObject.getDbname());\t} catch (Exception e) {\tthrowGetObjErr(e, hivePrivObject);\t}\tif(db.getOwnerType() == PrincipalType.USER){\treturn userName.equals(db.getOwnerName());\t} else if(db.getOwnerType() == PrincipalType.ROLE){\treturn curRoles.contains(db.getOwnerName());\t} else {",
+  "skipped debian test",
+  1
+ ],
+ [
+  "public static Language lookupLanguageInRegistryWithFallback(CamelContext context, String name, LookupExceptionHandler exceptionHandler) {\tObject bean = lookupInRegistry(context, Language.class, false, exceptionHandler, name, name + LANGUAGE_FALLBACK_SUFFIX);\tif (bean instanceof Language) {\treturn (Language) bean;\t}\tif (bean != null) {",
+  "txn set auto commit to false",
+  1
+ ]
+]

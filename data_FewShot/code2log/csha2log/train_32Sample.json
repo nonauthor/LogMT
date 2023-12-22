@@ -1,0 +1,162 @@
+[
+ [
+  "}\tschedule sched = curwi.schedule;\tif (null == sched) {\t}\telse {\t}\tjobschedulestatistics stats = curwi.statistics;\tif (null == stats) {\t}\telse {",
+  "wallclocktime",
+  0
+ ],
+ [
+  "if (s8.f3 != 3+906) {\treturn 3;\t}\tif (s8.f4 != 4+906) {\treturn 4;\t}\tif (s8.f5 != 5+906) {\treturn 5;\t}\tif (s8.f6 != 6+906) {",
+  "got but expected",
+  0
+ ],
+ [
+  "public static void initialise () {\tif (schemas != null) return;\tschemas = new dictionary<string, htmlschema> ();\tforeach (doctypeextensionnode node in mono.addins.addinmanager.getextensionnodes (\"/monodevelop/html/doctypes\")) {\tif (!string.isnullorempty (node.xsdfile)) {\tstring path = node.addin.getfilepath (node.xsdfile);\ttry {\tixmlcompletionprovider provider = new xmlschemacompletiondata (path);\tschemas.add (node.name, new htmlschema (node.name, node.fullname, provider));\t} catch (exception ex) {",
+  "htmlschemaservice encountered an error registering the schema",
+  0
+ ],
+ [
+  "public void databits_4() {",
+  "verifying databits",
+  0
+ ],
+ [
+  "debug.assert(updategroupmembership != null);\tdirectoryentry de = (directoryentry)storectx.pushchangestonative(p);\tdebug.assert(de == p.underlyingobject);\ttry {\tde.commitchanges();\t}\tcatch (system.runtime.interopservices.comexception e) {\tthrow (exceptionhelper.getexceptionfromcomexception(e));\t}\tif ((p is groupprincipal) && (p.getchangestatusforproperty(propertynames.groupmembers))) {",
+  "sdsutils applychangestodirectory updating group membership",
+  0
+ ],
+ [
+  "public void loadgeneric11(xslinputtype xslinputtype, readertype readertype, outputtype outputtype, navtype navtype) {\tif (navtype.tostring() == \"datadocument\") return;\telse {\tstring expected = @\"<?xml version=\"\"1.0\"\" encoding=\"\"utf-8\"\"?><book> name </book>\";\tif (loadxsl(\"books_entity_ref.xsl\", xslinputtype.reader, readertype, new xmlurlresolver()) != 1) {",
+  "failed to load stylesheet books entity ref xsl",
+  0
+ ],
+ [
+  "static ienumerable getit (int [] args) {\tforeach (int arg in args) {",
+  "out",
+  0
+ ],
+ [
+  "public static documentid getdocumentid (microsoft.codeanalysis.workspace workspace, monodevelop.projects.project project, string filename) {\tif (project == null) throw new argumentnullexception (nameof(project));\tif (filename == null) throw new argumentnullexception (nameof(filename));\tfilename = fileservice.getfullpath (filename);\tvar projectid = ((monodevelopworkspace)workspace).getprojectid (project);\tif (projectid != null) {\treturn ((monodevelopworkspace)workspace).getdocumentid (projectid, filename);\t} else {",
+  "warning can t find in project",
+  0
+ ],
+ [
+  "}\tct.throwifcancellationrequested ();\tsystemrename (tempfile, cachefile);\tdeletetempfile = false;\treturn true;\t} finally {\tif (deletetempfile) {\ttry {\tfile.delete (tempfile);\t} catch (exception ex) {",
+  "failed to delete temp download file",
+  0
+ ],
+ [
+  "public void addextobject6(inputtype inputtype, readertype readertype, transformtype transformtype, doctype doctype) {\tstring expected = @\"<?xml version=\"\"1.0\"\" encoding=\"\"utf-8\"\"?><result> string  argument: system.string int32   argument: system.int32 boolean argument: system.boolean boolean argument: system.boolean double  argument: system.double string  argument: system.string</result>\";\tm_xsltarg = new xsltargumentlist();\tstring obj = \"0.00\";\tm_xsltarg.addextensionobject(\"myarg1\", obj);\tretobj = m_xsltarg.getextensionobject(\"myarg1\");",
+  "added value retrieved value",
+  0
+ ],
+ [
+  "sw.stop ();\t} else {\tif (method == null) throw new invalidoperationexception (\"invalid custom update handler. an implementation of icommandarrayupdatehandler was expected.\");\tif (!isarray) throw new invalidoperationexception (\"invalid signature for command update handler: \" + method.declaringtype + \".\" + method.name + \"()\");\tvar sw = stopwatch.startnew ();\tif (method.returntype == typeof (task)) {\tvar t = (task)method.invoke (cmdtarget, new object [] { info, info.asyncupdatecancellationtoken });\tinfo.setupdatetask (t);\t} else method.invoke (cmdtarget, new object [] { info });\tsw.stop ();",
+  "slow command update ms command method commandtargettype",
+  0
+ ],
+ [
+  "static bool callsecondclassindexer() {\tint failcount = 0; verify.firstcalled = false;\tif ( (!(bool)(firstclassreturndynamicclass.staticmethod()[2])) || (!verify.firstcalled)) {\tfailcount++;",
+  "test failed at call result",
+  0
+ ],
+ [
+  "public static void main(string[] args) {\truntwothreads(delegate { addandremove(15000); });\tcoll = new arraylist<int>();",
+  "adding and removing with locking",
+  0
+ ],
+ [
+  "public task joingame(igamegrain game) {\tcurrentgame = game;",
+  "player joined game",
+  0
+ ],
+ [
+  "private static void printhelp() {\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();\tconsole.writeline();",
+  "debug print process id in the beginning and wait for enter to give your time to attach the debugger",
+  0
+ ],
+ [
+  "protected internal override void rendercontents (htmltextwriter writer) {\tif (items.count == 0) return;\trepeatinfo ri = new repeatinfo ();\tri.repeatcolumns = repeatcolumns;\tri.repeatdirection = repeatdirection;\tri.repeatlayout = repeatlayout;\tri.captionalign = captionalign;\tri.caption = caption;\tri.useaccessibleheader = useaccessibleheader;",
+  "repeatlayout",
+  0
+ ],
+ [
+  "static type getregisteredtype (string name) {\ttype t;\tif (!policynames.trygetvalue (name, out t)) {",
+  "failed bool guid guid",
+  1
+ ],
+ [
+  "if (configuration.da) {\tappdomain differentappdomain = creatediffrentappdomain ();\tif (configuration.hda) {\tdifferentappdomain.unhandledexception += new unhandledexceptioneventhandler (differentdomainunhandledexceptionhandler);\t}\tdifferentdomainactor dda = (differentdomainactor) differentappdomain.createinstanceandunwrap ( assembly.getentryassembly().fullname, typeof (differentdomainactor).fullname);\tdda.act (configurationdescription);\t} else {\tif (configuration.dt) {\t} else {",
+  "eventlog close closed write handle",
+  1
+ ],
+ [
+  "public void basictest_accessinstanceproperties_noexceptions_osx() {\tforeach (networkinterface nic in networkinterface.getallnetworkinterfaces()) {\tstring description = nic.description;\tassert.false(string.isnullorempty(description), \"networkinterface.description should not be null or empty.\");\tstring id = nic.id;\tassert.false(string.isnullorempty(id), \"networkinterface.id should not be null or empty.\");\tassert.throws<platformnotsupportedexception>(() => nic.isreceiveonly);",
+  "key settings key",
+  1
+ ],
+ [
+  "private static bool callsecondclassinstanceproperty() {\tint failcount = 0;\tverify.firstcalled = false;\tvar s = new firstclassreturndynamicclass<int>();\tif ((!(bool)((s + 1).instanceproperty)) || (!verify.firstcalled)) {\tfailcount++;",
+  "gui code generation failed",
+  1
+ ],
+ [
+  "threadpriority before = testthread.priority;\ttestthread.priority = threadpriority.abovenormal;\ttestthread.name = \"testmethod\";\ttestthread.start();\tthreadpriority after = testthread.priority;\tif (before != threadpriority.normal) res = 1;\telse if (after != threadpriority.abovenormal) res = 2;\telse {\ttestthread.priority = threadpriority.normal;\tafter = testthread.priority;",
+  "orleans silo shutdown",
+  1
+ ],
+ [
+  "bool empty = true;\tfor (int i = 0; i < freqs.length; i++) {\tif (freqs[i] != 0) {\tconsole.writeline(\"freqs[\"+i+\"] == \"+freqs[i]);\tempty = false;\t}\t}\tif (!empty) {\tthrow new exception();\t}",
+  "br pre pre p",
+  1
+ ],
+ [
+  "_result.mapping = _typemap;\tarraylist maps = (arraylist) mapsbynamespace [_result.namespace];\tif (maps == null) {\tmaps = new arraylist ();\tmapsbynamespace [_result.namespace] = maps;\t}\tmaps.add (_result);\t}\tforeach (dictionaryentry entry in mapsbynamespace) {\tarraylist maps = (arraylist) entry.value;",
+  "derived",
+  1
+ ],
+ [
+  "static void trygdb (int pid, processdata data) {\tstring filename = path.gettempfilename ();\tusing (streamwriter sw = new streamwriter (new filestream (filename, filemode.open, fileaccess.write))) {",
+  "exception in ongettypedisplaydata",
+  1
+ ],
+ [
+  "datetime end = datetime.now;\ttimespan duration = end - start;\titest testinterface = test;\tstart = datetime.now;\tconsole.write (\"calling test.donothing<program>() on an interface reference...  \");\tfor (int i = 0; i < iterations; ++i) {\ttestinterface.donothing<program> ();\t}\tend = datetime.now;\tduration = end - start;",
+  "return testdriver runtests typeof tests args",
+  1
+ ],
+ [
+  "return true;\tcase \"/nostdlib-\": stdlib = true;\treturn true;\tcase \"/target\": if (value.length == 0) {\tenvironment.exit (1);\t}\tif (string.compare (\"exe\", value, true) == 0) {\t} else if (string.compare (\"library\", value, true) != 0) {\tenvironment.exit (1);\t} else {",
+  "output writeline",
+  1
+ ],
+ [
+  "} catch (exception e) {\tstate = 1;\tconsole.writeline(\"------------------------\");\tconsole.writeline(e);\tconsole.writeline(\"------------------------\");\t}\t} catch {\tstate = 2;\t}\tif (state != 2) return 1;",
+  "exception raised",
+  1
+ ],
+ [
+  "for (int i = 0; i < ntasks; i++) {\ttasks[i] = task.factory.startnew(delegate {\tcde.signal();\tmre.waitone();\t}, cancellationtoken.none, taskcreationoptions.longrunning, tm);\t}\tbool waitsucceeded = cde.wait(5000);\tif (!waitsucceeded) {\tint count = cde.currentcount;\tint initialcount = cde.initialcount;",
+  "send peek completed",
+  1
+ ],
+ [
+  "public static void createxmlspacetestfile(string strfilename) {\tstream s = new memorystream();\ttextwriter tw = new streamwriter(s);\ttw.writeline(\"<xmlspace1 xml:space=\\'default\\'>&lt; &gt;</xmlspace1>\");\ttw.write(\"<xmlspace2 xml:space=\\'preserve\\'>&lt; &gt;<a><b><c>space test</c><persona>dromio of syracuse</persona></b></a></xmlspace2>\");\ttw.writeline(\"<empty_xmlspace attr0=\\\"0\\\" xml:space=\\'default\\' />\");\ttw.writeline(\"<xmlspace2a xml:space=\\'default\\'>&lt; <xmlspace3 xml:space=\\'preserve\\'>  &lt; &gt; <xmlspace4 xml:space=\\'default\\'>  &lt; &gt;  </xmlspace4> test </xmlspace3> &gt;</xmlspace2a>\");",
+  "adding task",
+  1
+ ],
+ [
+  "string path = string.empty;\ttry {\tint length = filename_max + 1;\tstringbuilder location = new stringbuilder(length);\tint hr = msigetproductinfow(productcode, installproperty_installlocation, location, ref length);\tint error = marshal.getlastwin32error();\tif (hr == 0) {\tpath = location.tostring();\t}\telse {",
+  "err exception caught in scenario",
+  1
+ ],
+ [
+  "m_xsltarg.addparam(\"myarg2\", szempty, (uint16)i);\tm_xsltarg.removeparam(\"myarg2\", szempty);\tretobj = m_xsltarg.getparam(\"myarg2\", szempty);\tif (retobj != null) {\tassert.true(false);\t}\tm_xsltarg.addparam(\"myarg2\", szempty, (int32)i);\tm_xsltarg.removeparam(\"myarg2\", szempty);\tretobj = m_xsltarg.getparam(\"myarg2\", szempty);\tif (retobj != null) {",
+  "verifying write method with a large string size",
+  1
+ ],
+ [
+  "protected virtual void writeclassctor(codewriter writer, table table, database schema, generationcontext context) {\tusing (writer.writeregion(\"ctor\")) using (writer.writector(specificationdefinition.public, table.type.name, new parameterdefinition[0], null)) {\tforeach (var child in getclasschildren(table)) {\tvar entitysetmember = child.storage ?? child.member;\twriter.writeline(writer.getstatement( writer.getassignmentexpression( entitysetmember, writer.getnewexpression(writer.getmethodcallexpression( writer.getgenericname(typeextensions.getshortname(typeof(entityset<>)), child.type), getchildattachmethodname(child), getchilddetachmethodname(child) )) ) ));\t}\tforeach (var parent in getclassparents(table)) {\tvar entityrefmember = parent.storage;\twriter.writeline(writer.getstatement( writer.getassignmentexpression( entityrefmember, writer.getnewexpression(writer.getmethodcallexpression( writer.getgenericname(typeextensions.getshortname(typeof(entityref<>)), parent.type) )) ) ));\t}",
+  "null deref at",
+  1
+ ]
+]

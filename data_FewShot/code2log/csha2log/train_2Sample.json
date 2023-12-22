@@ -1,0 +1,12 @@
+[
+ [
+  "public void thread_in_pinchangedevent() {\tusing (serialport com1 = new serialport(tcsupport.localmachineserialinfo.firstavailableportname)) using (serialport com2 = new serialport(tcsupport.localmachineserialinfo.secondavailableportname)) {\tpinchangedeventhandler pinchangedeventhandler = new pinchangedeventhandler(com1, false, true);",
+  "stats for",
+  1
+ ],
+ [
+  "}\tif (key == null) return;\ttry {\tusing (registrykey rk = openregistrykey (key, true)) {\trk.setvalue (\"autogenkey\", buf, registryvaluekind.binary);\trk.setvalue (\"autogenkeycreationtime\", datetime.now.ticks, registryvaluekind.qword);\trk.setvalue (\"autogenkeyformat\", 2, registryvaluekind.dword);\trk.flush ();\t}\t} catch (exception ex) {",
+  "info auto generated encryption keys not saved",
+  0
+ ]
+]

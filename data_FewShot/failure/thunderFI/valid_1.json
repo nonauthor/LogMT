@@ -1,0 +1,26 @@
+[
+ [
+  "an171/an171 snmpd[2015]: Got trap from peer on fd 13",
+  0
+ ],
+ [
+  "an933/an933 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "an312/an312 kernel: EXT3-fs error (device sda5) in start_transaction: Journal has aborted",
+  4
+ ],
+ [
+  "dn734/dn734 Server Administrator: Instrumentation Service EventID: 1404 Memory device status is critical Memory device location: DIMM3_B Possible memory module event cause:Single bit error logging disabled",
+  5
+ ],
+ [
+  "dn312/dn312 kernel: scsi0 (0:0): rejecting I/O to offline device",
+  2
+ ],
+ [
+  "an43/an43 kernel: Losing some ticks... checking if CPU frequency changed.",
+  3
+ ]
+]

@@ -1,0 +1,42 @@
+[
+ [
+  "store operation.............................1",
+  0,
+  "abff2903"
+ ],
+ [
+  "critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire",
+  0,
+  "40645e82"
+ ],
+ [
+  "auxiliary processor.........................0",
+  0,
+  "b48b277c"
+ ],
+ [
+  "640764 floating point alignment exceptions",
+  0,
+  "1ae4a1e2"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:44520: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ]
+]

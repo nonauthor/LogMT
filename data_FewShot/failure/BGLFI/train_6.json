@@ -1,0 +1,242 @@
+[
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0
+ ],
+ [
+  "byte ordering exception.....................0",
+  0
+ ],
+ [
+  "ciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1405./hpl_DD: invalid or missing program image, No such file or directory",
+  0
+ ],
+ [
+  "Can not get assembly information for node card",
+  0
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0
+ ],
+ [
+  "10700 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:53251: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47374, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:45174: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:39197, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:52688: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:35393: Link has been severed",
+  6
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x1d): L2 dcache unit data parity error",
+  2
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010000",
+  2
+ ],
+ [
+  "machine check interrupt (bit=0x1d): L2 dcache unit data parity error",
+  2
+ ],
+ [
+  "MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000",
+  9
+ ],
+ [
+  "Power deactivated: R01-M1-NF",
+  9
+ ],
+ [
+  "Error: unable to mount filesystem",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000",
+  9
+ ],
+ [
+  "L3 major internal error",
+  9
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 53, type=20992, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 53, type=20992, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=0, cpu=0, index=1207960132, total=33654976",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52625, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41944, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52686, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53280, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52809, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58802, Connection reset by peer",
+  8
+ ],
+ [
+  "Lustre mount FAILED : bglio827 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio784 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio385 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio393 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio799 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio846 : point /p/gb1",
+  7
+ ]
+]

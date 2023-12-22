@@ -1,0 +1,162 @@
+[
+ [
+  "public void test_localhost_initialisingDb() throws Exception {\tPostgreSqlNode pgsql = app.createAndManageChild(EntitySpec.create(PostgreSqlNode.class) .configure(DatastoreCommon.CREATION_SCRIPT_CONTENTS, CREATION_SCRIPT) .configure(PostgreSqlNode.MAX_CONNECTIONS, 10) .configure(PostgreSqlNode.SHARED_MEMORY, \"512kB\") .configure(PostgreSqlNode.INITIALIZE_DB, true) );\tapp.start(ImmutableList.of(loc));\tString url = pgsql.getAttribute(DatastoreCommon.DATASTORE_URL);\tnew VogellaExampleAccess(\"org.postgresql.Driver\", url).readModifyAndRevertDataBase();",
+  "ran vogella postgresql example success",
+  0
+ ],
+ [
+  "protected final boolean verifyBlockDeletedFromDir(File dir, LocatedBlocks locatedBlocks) {\tfor (LocatedBlock lb : locatedBlocks.getLocatedBlocks()) {\tFile targetDir = DatanodeUtil.idToBlockDir(dir, lb.getBlock().getBlockId());\tFile blockFile = new File(targetDir, lb.getBlock().getBlockName());\tif (blockFile.exists()) {\treturn false;\t}\tFile metaFile = new File(targetDir, DatanodeUtil.getMetaName(lb.getBlock().getBlockName(), lb.getBlock().getGenerationStamp()));\tif (metaFile.exists()) {",
+  "metafile exists after deletion",
+  0
+ ],
+ [
+  "if (subDomainNames != null && subDomainNames.get(hostName) != null) {\tif (log.isDebugEnabled()) {\t}\treturn sessionInfoObj;\t}\t}\t}\t}\t}\tif (log.isDebugEnabled()) {",
+  "did not find a session info obj",
+  0
+ ],
+ [
+  "public void cleanupVolumeDuringSnapshotFailure(Long volumeId, Long snapshotId) {\tSnapshotVO snaphsot = _snapshotDao.findById(snapshotId);\tif (snaphsot != null) {\tif (snaphsot.getState() != Snapshot.State.BackedUp) {\tList<SnapshotDataStoreVO> snapshotDataStoreVOs = _snapshotStoreDao.findBySnapshotId(snapshotId);\tfor (SnapshotDataStoreVO snapshotDataStoreVO : snapshotDataStoreVOs) {\t_snapshotStoreDao.remove(snapshotDataStoreVO.getId());\t}",
+  "remove snapshot status from snapshot table",
+  0
+ ],
+ [
+  "private void validatePoolAndCluster() {\tif (agentInOvm3Cluster) {",
+  "clustering requires a pool setting pool to true",
+  0
+ ],
+ [
+  "while (bytesLeft > 0) {\tint n = input.readWithChecksum(buf, 0, (int) Math.min(bytesLeft, BYTES_TO_READ));\tif (n < 0) {\tthrow new IOException(\"read past end of stream reading \" + getMapId());\t}\tdisk.write(buf, 0, n);\tbytesLeft -= n;\tmetrics.inputBytes(n);\treporter.progress();\t}",
+  "read bytes from map output for",
+  0
+ ],
+ [
+  "public List<byte[]> getMetaTableRows(TableName tableName) throws IOException {\tTable t = getConnection().getTable(TableName.META_TABLE_NAME);\tList<byte[]> rows = new ArrayList<>();\tResultScanner s = t.getScanner(new Scan());\tfor (Result result : s) {\tRegionInfo info = MetaTableAccessor.getRegionInfo(result);\tif (info == null) {",
+  "no region info for row",
+  0
+ ],
+ [
+  "FileSystem outputFs = FileSystem.get(new Path(backupInfo.getBackupRootDir()).toUri(), conf);\tfor (TableName table : backupInfo.getTables()) {\tPath targetDirPath = new Path(getTableBackupDir(backupInfo.getBackupRootDir(), backupInfo.getBackupId(), table));\tif (outputFs.delete(targetDirPath, true)) {\t} else {\t}\tPath tableDir = targetDirPath.getParent();\tFileStatus[] backups = listStatus(outputFs, tableDir, null);\tif (backups == null || backups.length == 0) {\toutputFs.delete(tableDir, true);",
+  "is empty remove it",
+  0
+ ],
+ [
+  "daughterRegion = r;\tbreak;\t}\t}\tassertTrue(daughterRegion != null);\tfor (int i=0; i<100; i++) {\tif (!daughterRegion.hasReferences()) break;\tThreads.sleep(100);\t}\tassertFalse(\"Waiting for reference to be compacted\", daughterRegion.hasReferences());",
+  "daughter hri before split has been compacted",
+  0
+ ],
+ [
+  "protected ObjectName assertRegisteredObjectName(String name) throws MalformedObjectNameException, NullPointerException {\tObjectName objectName = new ObjectName(name);\tif (mbeanServer.isRegistered(objectName)) {",
+  "bean registered",
+  0
+ ],
+ [
+  "private void releaseDriverContext() {\tlDrvState.stateLock.lock();\ttry {\tif (driverCxt != null) {\tdriverCxt.shutdown();\tdriverCxt = null;\t}\t} catch (Exception e) {",
+  "exception while shutting down the task runner",
+  0
+ ],
+ [
+  "public void testEmptyBasic() {\tIterator<Integer> iter = set.iterator();\tassertFalse(iter.hasNext());\tassertEquals(0, set.size());\tassertTrue(set.isEmpty());",
+  "test empty done",
+  0
+ ],
+ [
+  "List<Put> puts = generatePuts(tablesInfo);\tif (puts == null) {\treturn false;\t}\tmeta.batchMutate(puts.toArray(new Put[puts.size()]), HConstants.NO_NONCE, HConstants.NO_NONCE);\tmeta.close();\tif (meta.getWAL() != null) {\tmeta.getWAL().close();\t}\tremoveHBCKMetaRecoveryWALDir(walFactoryId);",
+  "success hbase meta table rebuilt",
+  0
+ ],
+ [
+  "if (fs.exists(tempPath)) {\tcontinue;\t}\ttableInfoDirPath = new Path(tableInfoDir, filename);\ttry {\twriteTD(fs, tempPath, htd);\tfs.mkdirs(tableInfoDirPath.getParent());\tif (!fs.rename(tempPath, tableInfoDirPath)) {\tthrow new IOException(\"Failed rename of \" + tempPath + \" to \" + tableInfoDirPath);\t}",
+  "wrote descriptor into",
+  0
+ ],
+ [
+  "}\tString[] sessionIds = cookie.split(\";\");\tif (sessionIds == null || sessionIds.length == 0) {\tif (log.isDebugEnabled()) {\t}\treturn null;\t}\tfor (String sessionId : sessionIds){\tif(sessionId != null && sessionId.indexOf(\"JSESSIONID\") != -1) {\tif (log.isDebugEnabled()) {",
+  "extracted sessionid",
+  0
+ ],
+ [
+  "SecurityGroupRuleVO securityGroupRule = _securityGroupRuleDao.findByProtoPortsAndCidr(securityGroup.getId(), protocolFinal, startPortOrTypeFinal, endPortOrCodeFinal, cidr);\tif ((securityGroupRule != null) && (securityGroupRule.getRuleType() == ruleType)) {\tcontinue;\t}\tsecurityGroupRule = new SecurityGroupRuleVO(ruleType, securityGroup.getId(), startPortOrTypeFinal, endPortOrCodeFinal, protocolFinal, cidr);\tsecurityGroupRule = _securityGroupRuleDao.persist(securityGroupRule);\tnewRules.add(securityGroupRule);\t}\t}\tif (s_logger.isDebugEnabled()) {",
+  "added rules to security group",
+  0
+ ],
+ [
+  "public void setMetricLowerBound(Number val) {",
+  "configure component with customizer",
+  1
+ ],
+ [
+  "private void testProfilerInternal(boolean useDefault) throws Exception {\tif (!(new File(MiniMRYarnCluster.APPJAR)).exists()) {",
+  "renderResourceListing",
+  1
+ ],
+ [
+  "public void enforceViolationPolicy(TableName tableName, SpaceQuotaSnapshot snapshot) {\tSpaceQuotaStatus status = snapshot.getQuotaStatus();\tif (!status.isInViolation()) {\tthrow new IllegalStateException( tableName + \" is not in violation. Violation policy should not be enabled.\");\t}\tif (LOG.isTraceEnabled()) {",
+  "ssl sslcontext has been initialized",
+  1
+ ],
+ [
+  "public DistributedSchedulingAllocateResponse allocateForDistributedScheduling( DistributedSchedulingAllocateRequest request) throws YarnException, IOException {\tif (LOG.isDebugEnabled()) {",
+  "inserted or updated rows",
+  1
+ ],
+ [
+  "try {\tif (useExecutor && regionServerServices != null) {\tCompactedHFilesDischargeHandler handler = new CompactedHFilesDischargeHandler( (Server) regionServerServices, EventType.RS_COMPACTED_FILES_DISCHARGER, store);\tregionServerServices.getExecutorService().submit(handler);\t} else {\tstore.closeAndArchiveCompactedFiles();\t}\tif (LOG.isTraceEnabled()) {\t}\t} catch (Exception e) {",
+  "cancelling correlationid",
+  1
+ ],
+ [
+  "rec.nameLabel = nwName;\tvswitchNw = Network.create(conn, rec);\t} else {\tvswitchNw = networks.iterator().next();\t}\t_host.setVswitchNetwork(vswitchNw);\t}\treturn _host.getVswitchNetwork();\t} catch (final BadServerResponse e) {\t} catch (final XenAPIException e) {",
+  "failed to remove mirror destination for",
+  1
+ ],
+ [
+  "connectionAmbaridb.rollback();\t} catch (SQLException e1) {\t}\t} catch (ClassNotFoundException e2) {\tmigrationresult.setError(\"Class Not Found Exception: \" + e2.getMessage());\t} catch (ParseException e) {\tmigrationresult.setError(\"ParseException: \" + e.getMessage());\t} catch (URISyntaxException e) {\tmigrationresult.setError(\"URI Syntax Exception: \" + e.getMessage());\t} catch (PropertyVetoException e) {",
+  "executing listprincipalpartitiongrants",
+  1
+ ],
+ [
+  "boolean result;\ttry {\tif(purge) {\t} else {\tresult = Trash.moveToAppropriateTrash(fs, f, conf);\tif (result) {\treturn true;\t}\t}\t} catch (IOException ioe) {",
+  "lifelinesender for exiting",
+  1
+ ],
+ [
+  "public void setMessage(OMElement elem) {",
+  "checking segment response is",
+  1
+ ],
+ [
+  "public void releaseRemoteResources(Collection<ClusterNode> nodes, ReduceQueryRun r, long qryReqId, boolean distributedJoins) {\tif (distributedJoins) send(nodes, new GridQueryCancelRequest(qryReqId), null, false);\telse {\tfor (GridMergeIndex idx : r.indexes()) {\tif (!idx.fetchedAll()) {\tsend(nodes, new GridQueryCancelRequest(qryReqId), null, false);\tbreak;\t}\t}\t}",
+  "failed write and or rename retrying",
+  1
+ ],
+ [
+  "private ProcCacheChunk addOneCompressionBlockByteBuffer(ByteBuffer fullCompressionBlock, boolean isUncompressed, long cbStartOffset, long cbEndOffset, int lastChunkLength, BufferChunk lastChunk, List<ProcCacheChunk> toDecompress, List<MemoryBuffer> cacheBuffers, boolean doTrace) {\tMemoryBuffer futureAlloc = cacheWrapper.getDataBufferFactory().create();\tcacheBuffers.add(futureAlloc);\tProcCacheChunk cc = new ProcCacheChunk(cbStartOffset, cbEndOffset, !isUncompressed, fullCompressionBlock, futureAlloc, cacheBuffers.size() - 1);\ttoDecompress.add(cc);\tif (isTracingEnabled) {",
+  "exception when scheduling the event rollback re initialization of container",
+  1
+ ],
+ [
+  "for (HostVO ssvm : ssvms) {\tif (ssvm.getId() == ssAHostId) {\tcontinue;\t}\tAnswer answer = _agentMgr.easySend(ssvm.getId(), thiscpc);\tif (answer != null && answer.getResult()) {\tif (s_logger.isDebugEnabled()) {\t}\t} else {\tif (s_logger.isDebugEnabled()) {",
+  "grpc pingsyncasync method test start",
+  1
+ ],
+ [
+  "Object val = cache.get(key);\tassertEquals(1, val);\tboolean res = cache.remove(key);\tassertTrue(res);\tupdateKey(cache, key, 2);\ttx.commit();\t}\tfail();\t}\tcatch (TransactionOptimisticException e) {",
+  "jobscheduler removing job",
+  1
+ ],
+ [
+  "RegisterApplicationMasterResponse registerResponse = registerApplicationMaster(testAppId);\tAssert.assertNotNull(registerResponse);\tAssert.assertEquals(Integer.toString(testAppId), registerResponse.getQueue());\tFinishApplicationMasterResponse finshResponse = finishApplicationMaster(testAppId, FinalApplicationStatus.FAILED);\tAssert.assertNotNull(finshResponse);\tAssert.assertEquals(false, finshResponse.getIsUnregistered());\ttry {\tfinishApplicationMaster(testAppId, FinalApplicationStatus.SUCCEEDED);\tAssert .fail(\"The request to finish application master should have failed\");\t} catch (Throwable ex) {",
+  "invoking with args",
+  1
+ ],
+ [
+  "protected <T extends Serializable> Listener<T> answerWhen( Listener<T> listener, final String logStr) {\treturn Mockito.doAnswer(new Answer<Void>() {\tpublic Void answer(InvocationOnMock invocation) throws Throwable {\tJobHandleImpl arg = ((JobHandleImpl)invocation.getArguments()[0]);",
+  "ioexception when sending data to peer close peer connection and let it re open",
+  1
+ ],
+ [
+  "public BackportWorkerPool(int core, int max, int keepAlive, int queueLength, String threadGroupName, String threadGroupId) {\tif (log.isDebugEnabled()) {",
+  "using compact protocol",
+  1
+ ]
+]

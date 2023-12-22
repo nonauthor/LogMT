@@ -1,0 +1,42 @@
+[
+ [
+  "tw.write(\"<entity1 att1='xxx&lt;xxx&#65;xxx&#x43;xxxe1fooxxx'>xxx&gt;xxx&#66;xxx&#x44;xxxe1fooxxx</entity1>\");\ttw.writeline(\"<entity2 att1='xxx&lt;xxx&#65;xxx&#x43;xxxe1fooxxx'>xxx&gt;xxx&#66;xxx&#x44;xxxe1fooxxx</entity2>\");\ttw.writeline(\"<entity3 att1='xxx&lt;xxx&#65;xxx&#x43;xxxe1fooxxx'>xxx&gt;xxx&#66;xxx&#x44;xxxe1fooxxx</entity3>\");\ttw.writeline(\"<entity4 att1='xxx&lt;xxx&#65;xxx&#x43;xxxe1fooxxx'>xxx&gt;xxx&#66;xxx&#x44;xxxe1fooxxx</entity4>\");\ttw.writeline(\"<entity5>e1foo e3bzee </entity5>\");\ttw.writeline(\"<attribute1 />\");\ttw.writeline(\"<attribute2 a1='a1value' />\");\ttw.writeline(\"<attribute3 a1='a1value' a2='a2value' a3='a3value' />\");\ttw.writeline(\"<attribute4 a1='' />\");\ttw.writeline(string.format(\"<attribute5 crlf='x{0}x' cr='x{0}x' lf='x\\nx' ms='x     x' tab='x\\tx' />\", environment.newline));",
+  "bad view hash offset size startsentinel should be",
+  1
+ ],
+ [
+  "public void ipinfotest_accessallipv6properties_noerrors() {\tforeach (networkinterface nic in networkinterface.getallnetworkinterfaces()) {\tipinterfaceproperties ipproperties = nic.getipproperties();",
+  "exception",
+  1
+ ],
+ [
+  "public override string getsavedlicensekey(type type, assembly resourceassembly) {\tif (savedlicensekeys == null || savedlicensekeys[type.assemblyqualifiedname] == null) {",
+  "tests",
+  1
+ ],
+ [
+  "public void element_5(xmlwriterutils utils) {\tusing (xmlwriter w = utils.createwriter()) {\ttry {\tw.writestartelement(null);\t}\tcatch (argumentexception e) {",
+  "principalsearchresult dispose disposing",
+  1
+ ],
+ [
+  "static bool runtest (methodinfo test) {\tconsole.write (\"running test {0, -25}\", test.name);\ttry {\ttest.invoke (new tester (), null);",
+  "ok",
+  0
+ ],
+ [
+  "int choice_size = marshal.sizeof(typeof(ppd_choice));\tdefoption = null;\tptr = libcupsnative.ppdfindoption(ppd, option_name);\tif (ptr != intptr.zero) {\tppd_option = (ppd_option)marshal.ptrtostructure(ptr, typeof(ppd_option));\t#endif defoption = ppd_option.defchoice;\tptr = ppd_option.choices;\tfor (int c = 0; c < ppd_option.num_choices; c++) {\tchoice = (ppd_choice)marshal.ptrtostructure(ptr, typeof(ppd_choice));\tlist.add(choice.choice, choice.text);",
+  "choice text",
+  0
+ ],
+ [
+  "public async task usedefaultcredentials_settofalseandserverneedsauth_statuscodeunauthorized(bool useproxy) {\thttpclienthandler handler = createhttpclienthandler();\thandler.useproxy = useproxy;\thandler.usedefaultcredentials = false;\tusing (var client = new httpclient(handler)) {\turi uri = configuration.http.negotiateauthurifordefaultcreds(secure: false);",
+  "uri",
+  0
+ ],
+ [
+  "\"usage: git [--version] ... <command> [<args>]\", \"\", \"common options:\", { \"version\", \"show version info\", v => showversion = v != null }, { \"help\", \"show this message and exit\", v => showhelp = v != null }, \"\", \"these are common git commands used in various situations:\", \"\", \"start a working area (see also: git help tutorial)\", new command (\"clone\", \"clone a repository into a new directory\"), new command (\"init\",  \"create an empty git repository or reinitialize an existing one\"), new command (\"thisisaverylongcommandnameinordertoinducewrapping\", \"create an empty git repository or reinitialize an existing one. let's make this really long to cause a line wrap, shall we?\"), };\tvar expectedhelp = new stringwriter ();\texpectedhelp.writeline (\"\");\texpectedhelp.writeline (\"\");\texpectedhelp.writeline (\"\");\tassert.areequal (0, git.run (new [] { \"help\" }));\tassert.areequal (expectedhelp.tostring (), o.tostring ());\tvar expectedhelphelp    = new stringwriter ();\texpectedhelphelp.writeline ();\texpectedhelphelp.writeline ();",
+  "init create an empty git repository or reinitialize an",
+  0
+ ]
+]

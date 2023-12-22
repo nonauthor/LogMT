@@ -1,0 +1,82 @@
+[
+ [
+  "machine check enable..............0",
+  0
+ ],
+ [
+  "255 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 0",
+  0
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "L3 major internal error",
+  9
+ ],
+ [
+  "mmcs_server exited abnormally due to signal: Aborted",
+  9
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:44454: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47176, Link has been severed",
+  6
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53243, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41551, Connection reset by peer",
+  8
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=0, cpu=0, index=4435700, total=4432264, ma",
+  5
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "Lustre mount FAILED : bglio841 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio299 : point /p/gb1",
+  7
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ]
+]

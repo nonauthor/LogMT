@@ -1,0 +1,341 @@
+[
+ [
+  [
+   "INFO storage.MemoryStore : Block broadcast_4_piece348 stored as bytes in memory ( estimated size 4.0 MB , free 728.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece41 stored as bytes in memory ( estimated size 4.0 MB , free 692.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece221 stored as bytes in memory ( estimated size 4.0 MB , free 712.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece5 stored as bytes in memory ( estimated size 4.0 MB , free 676.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece286 stored as bytes in memory ( estimated size 4.0 MB , free 688.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece108 stored as bytes in memory ( estimated size 4.0 MB , free 704.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece300 stored as bytes in memory ( estimated size 4.0 MB , free 744.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece85 stored as bytes in memory ( estimated size 4.0 MB , free 684.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece299 stored as bytes in memory ( estimated size 4.0 MB , free 708.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece104 stored as bytes in memory ( estimated size 4.0 MB , free 696.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece183 stored as bytes in memory ( estimated size 4.0 MB , free 720.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece40 stored as bytes in memory ( estimated size 4.0 MB , free 740.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece32 stored as bytes in memory ( estimated size 4.0 MB , free 716.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece38 stored as bytes in memory ( estimated size 4.0 MB , free 724.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece272 stored as bytes in memory ( estimated size 4.0 MB , free 748.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece282 stored as bytes in memory ( estimated size 4.0 MB , free 700.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece319 stored as bytes in memory ( estimated size 4.0 MB , free 752.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece72 stored as bytes in memory ( estimated size 4.0 MB , free 736.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece285 stored as bytes in memory ( estimated size 4.0 MB , free 680.0 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_4_piece76 stored as bytes in memory ( estimated size 4.0 MB , free 732.0 MB )\n"
+  ],
+  [
+   "Deleting block file;"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO output.FileOutputCommitter : File Output Committer Algorithm version is 1\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706081139_1413_m_000019_56539 : Committed\n",
+   "INFO executor.Executor : Finished task 17.0 in stage 1413.0 ( TID 56537 ) . 2364 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 16.0 in stage 1413.0 ( TID 56536 ) . 2364 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 56541\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706081139_1413_m_000018_56538 : Committed\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706081139_1413_m_000018_56538' to hdfs : //10.10.34.11 : 9000/pjhe/test/277/_temporary/0/task_201706081139_1413_m_000018\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706081139_1413_m_000016_56536' to hdfs : //10.10.34.11 : 9000/pjhe/test/277/_temporary/0/task_201706081139_1413_m_000016\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706081139_1413_m_000019_56539' to hdfs : //10.10.34.11 : 9000/pjhe/test/277/_temporary/0/task_201706081139_1413_m_000019\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706081139_1413_m_000017_56537 : Committed\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -9 , init = 48 , finish = 0\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706081139_1413_m_000017_56537' to hdfs : //10.10.34.11 : 9000/pjhe/test/277/_temporary/0/task_201706081139_1413_m_000017\n",
+   "INFO executor.Executor : Finished task 18.0 in stage 1413.0 ( TID 56538 ) . 2364 bytes result sent to driver\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706081139_1413_m_000016_56536 : Committed\n",
+   "INFO executor.Executor : Finished task 19.0 in stage 1413.0 ( TID 56539 ) . 2364 bytes result sent to driver\n"
+  ],
+  [
+   "Running task; Found block; Finished task; Got assigned task;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO floating point operation....................0\n"
+  ],
+  [
+   "Got assigned task; Running task; Reading broadcast variable; Block stored in memory; Found block \n"
+  ],
+  1
+ ],
+ [
+  [
+   "del_member_cmd new 1142536591 1 Targeting domains : node-D4 and nodes : node-129\n",
+   "boot_cmd new 1144770973 1 Targeting domains : node-D2 and nodes : node-80\n",
+   "boot_cmd new 1144061387 1 Targeting domains : node-D0 and nodes : node-14\n",
+   "boot_cmd new 1144876881 1 Targeting domains : node-D6 and nodes : node-198\n",
+   "boot_cmd new 1142527499 1 Targeting domains : node-D7 and nodes : node- [ 232-255 ] child of command 4167\n",
+   "boot_cmd new 1142527499 1 Targeting domains : node-D7 and nodes : node- [ 224-231 ] child of command 4167\n",
+   "boot_cmd new 1142874478 1 Targeting domains : node-D7 and nodes : node-225\n",
+   "boot_cmd new 1143674013 1 Targeting domains : node-D4 and nodes : node-134\n",
+   "boot_cmd new 1145551541 1 Targeting domains : node-D [ 0-7 ] and nodes : node- [ 0-255 ]\n",
+   "boot_cmd new 1142545348 1 Targeting domains : node-D4 and nodes : node-129 child of command 4186\n",
+   "boot_cmd new 1143127196 1 Targeting domains : node-D6 and nodes : node-221\n",
+   "boot_cmd new 1143690617 1 Targeting domains : node-D3 and nodes : node-108\n",
+   "boot_cmd new 1142942505 1 Targeting domains : node-D0 and nodes : node-31\n",
+   "boot_cmd new 1142708653 1 Targeting domains : node-D5 and nodes : node-165\n",
+   "boot_cmd new 1143081415 1 Targeting domains : node-D6 and nodes : node-202\n",
+   "boot_cmd new 1143738995 1 Targeting domains : node-D4 and nodes : node- [ 150-152 ]\n",
+   "boot_cmd new 1142921420 1 Targeting domains : node-D7 and nodes : node-248\n",
+   "boot_cmd new 1145175220 1 Targeting domains : node-D1 and nodes : node-35\n",
+   "shutdown_cmd new 1142544749 1 Targeting domains : node-D4 and nodes : node-129\n",
+   "install_cmd new 1142536779 1 Targeting domains : node-D4 and nodes : node-129\n"
+  ],
+  [
+   "open through proxy; Could not connect through proxy; bytes sent; bytes received; close;  Proxy closed the connection;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO ciod : generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV\n"
+  ],
+  [
+   "LOGIN chdir failed; \n"
+  ],
+  1
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 432 bytes sent , 43094 bytes ( 42.0 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 0 bytes sent , 0 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 450 bytes sent , 1567 bytes ( 1.53 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 428 bytes sent , 8273 bytes ( 8.07 KB ) received , lifetime <1 sec\n"
+  ],
+  [
+   "Closed socket connection; caught stream exception;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO generating core.3860\n",
+   "RAS KERNEL INFO ciod : for node 9 , read continuation request but ioState is 0\n",
+   "RAS KERNEL INFO generating core.3999\n",
+   "RAS KERNEL INFO generating core.3871\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 8716 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO generating core.3991\n",
+   "RAS KERNEL INFO generating core.3989\n",
+   "RAS KERNEL INFO generating core.3869\n",
+   "RAS KERNEL INFO ciod : Message code 0 is not 51 or 4294967295\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 8717 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO ciod : for node 15 , read continuation request but ioState is 0\n",
+   "RAS KERNEL INFO generating core.3988\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 13330 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 13331 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO generating core.3863\n"
+  ],
+  [
+   "blockMap updated;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO 1 ddr errors ( s ) detected and corrected on rank 0 , symbol 4 , bit 1\n",
+   "RAS KERNEL INFO 2 ddr errors ( s ) detected and corrected on rank 0 , symbol 9 , bit 3\n",
+   "RAS KERNEL INFO CE sym 26 , at 0x07a95e80 , mask 0x10\n",
+   "RAS KERNEL INFO 1 ddr errors ( s ) detected and corrected on rank 0 , symbol 9 , bit 6\n",
+   "RAS KERNEL INFO CE sym 12 , at 0x1682ed20 , mask 0x01\n",
+   "RAS APP FATAL ciod : Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts : invalid or missing program image , Permission denied\n",
+   "RAS KERNEL INFO 1 ddr errors ( s ) detected and corrected on rank 0 , symbol 23 , bit 3\n",
+   "RAS KERNEL INFO 3 ddr errors ( s ) detected and corrected on rank 0 , symbol 4 , bit 2\n",
+   "RAS KERNEL INFO 1 ddr errors ( s ) detected and corrected on rank 0 , symbol 8 , bit 7\n",
+   "RAS KERNEL INFO 1 ddr errors ( s ) detected and corrected on rank 0 , symbol 26 , bit 3\n",
+   "RAS KERNEL INFO 1 L3 directory error ( s ) ( dcr 0x0152 ) detected and corrected\n",
+   "RAS KERNEL INFO 1 ddr errors ( s ) detected and corrected on rank 0 , symbol 12 , bit 7\n",
+   "RAS KERNEL INFO CE sym 9 , at 0x05ae8720 , mask 0x02\n",
+   "RAS KERNEL INFO 4 ddr errors ( s ) detected and corrected on rank 0 , symbol 22 , bit 7\n"
+  ],
+  [
+   "Kernel detected integer alignment exceptions;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "*64 - r1---sn-25g7sn7r.googlevideo.com : 443 close , 1175 bytes ( 1.14 KB ) sent , 11041 bytes ( 10.7 KB ) received , lifetime 00 : 01\n",
+   "*64 - r16---sn-i3b7knez.googlevideo.com : 443 close , 11055 bytes ( 10.7 KB ) sent , 2513525 bytes ( 2.39 MB ) received , lifetime 00 : 34\n",
+   "*64 - r1---sn-i3beln7k.googlevideo.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - i9.ytimg.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - s2.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- config.pinyin.sogou.com : 80 close , 545 bytes sent , 278 bytes received , lifetime 01 : 05\n",
+   "*64 - clients2.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - r1---sn-25g7sn7r.googlevideo.com : 443 close , 0 bytes sent , 0 bytes received , lifetime 00 : 10\n",
+   "*64 - s2.googleusercontent.com : 443 close , 470 bytes sent , 4691 bytes ( 4.58 KB ) received , lifetime <1 sec\n",
+   "*64 - r16---sn-i3b7knez.googlevideo.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - r1---sn-25g7sn7r.googlevideo.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - s2.googleusercontent.com : 443 close , 470 bytes sent , 4693 bytes ( 4.58 KB ) received , lifetime <1 sec\n",
+   "*64 - r6---sn-i3b7kn76.googlevideo.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.250.6.223 : 50010 is added to blk_-1168153805313851101 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/sortrand/_temporary/_task_200811092030_0002_r_000063_0/part-00063. blk_7361849816333104982\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.126.227 : 50010 is added to blk_-2642682127170383175 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.250.10.223 : 50010 is added to blk_-2870010551789499381 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/sortrand/_temporary/_task_200811092030_0002_r_000207_0/part-00207. blk_9006183797405113385\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.91.15 : 50010 is added to blk_-2338782478053531959 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.202.181 : 50010 is added to blk_-7327874840154306239 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.106.50 : 50010 is added to blk_5878532063885368400 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.74.79 : 50010 is added to blk_-8468568822958999852 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.91.15 : 50010 is added to blk_-2750582794536211429 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.106.50 : 50010 is added to blk_-8468568822958999852 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.30.179 : 50010 is added to blk_5878532063885368400 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/sortrand/_temporary/_task_200811092030_0002_r_000208_0/part-00208. blk_1061596943703898000\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_-7327874840154306239 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-7327874840154306239 of size 67108864 from /10.251.202.181\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.202.209 : 50010 is added to blk_4609513840562801707 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.250.10.223 : 50010 is added to blk_-2338782478053531959 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.106.50 : 50010 is added to blk_-2642682127170383175 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.66.63 : 50010 is added to blk_-1168153805313851101 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.66.102 : 50010 is added to blk_4609513840562801707 size 67108864\n"
+  ],
+  [
+   "Received block; PacketResponder terminating; blockMap updated; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO executor.Executor : Finished task 39.0 in stage 25.0 ( TID 1039 ) . 2087 bytes result sent to driver\n",
+   "INFO storage.MemoryStore : Block broadcast_35_piece0 stored as bytes in memory ( estimated size 5.5 KB , free 408.9 KB )\n",
+   "INFO executor.Executor : Running task 10.0 in stage 26.0 ( TID 1050 )\n",
+   "INFO executor.Executor : Running task 1.0 in stage 26.0 ( TID 1041 )\n",
+   "INFO spark.CacheManager : Partition rdd_35_1 not found , computing it\n",
+   "INFO executor.Executor : Running task 7.0 in stage 26.0 ( TID 1047 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 1041\n",
+   "INFO storage.MemoryStore : Block broadcast_35 stored as values in memory ( estimated size 9.8 KB , free 418.7 KB )\n",
+   "INFO executor.Executor : Finished task 35.0 in stage 25.0 ( TID 1035 ) . 2087 bytes result sent to driver\n",
+   "INFO spark.CacheManager : Partition rdd_35_13 not found , computing it\n",
+   "INFO executor.Executor : Finished task 38.0 in stage 25.0 ( TID 1038 ) . 2087 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 1053\n",
+   "INFO executor.Executor : Finished task 37.0 in stage 25.0 ( TID 1037 ) . 2087 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 1044\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 1047\n",
+   "INFO executor.Executor : Running task 13.0 in stage 26.0 ( TID 1053 )\n",
+   "INFO executor.Executor : Running task 4.0 in stage 26.0 ( TID 1044 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 1050\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 35 took 6 ms\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 35\n"
+  ],
+  [
+   "Running task; Finished task; Got assigned task; Block stored in memory; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS KERNEL INFO ciod : generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 55 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 56 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 60 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 61 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 62 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n",
+   "RAS KERNEL INFO ciod : generated 63 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts\n"
+  ],
+  [
+   "generated core files for program;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-3290524377626442163 of size 67108864 from /10.251.214.130\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_4833866694655184229 src : /10.251.105.189 : 44113 dest : /10.251.105.189 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-4684809933676903067 src : /10.251.214.130 : 35802 dest : /10.251.214.130 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_6193540227914661301 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_3243574385369000916 of size 3543975 from /10.251.43.210\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_6387448654029497698 of size 67108864 from /10.251.122.65\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_6193540227914661301 of size 3534137 from /10.251.203.80\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_-3290524377626442163 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-1550804587013493323 src : /10.251.42.9 : 53301 dest : /10.251.42.9 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_-5093985028357319188 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_6407000512197962753 of size 67108864 from /10.251.215.70\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_5886564488614346079 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_6387448654029497698 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_6407000512197962753 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-1552858841299377083 src : /10.251.67.4 : 42230 dest : /10.251.67.4 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_5886564488614346079 of size 67108864 from /10.250.5.237\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_6407000512197962753 of size 67108864 from /10.251.105.189\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_6407000512197962753 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-5093985028357319188 of size 67108864 from /10.250.10.213\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_3243574385369000916 terminating\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "node status 1082041080 1 running\n"
+  ],
+  [
+   "node status running;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 15035\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 15036\n",
+   "INFO executor.Executor : Finished task 21.0 in stage 368.0 ( TID 15022 ) . 2076 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_545_24 locally\n",
+   "INFO python.PythonRunner : Times : total = 37 , boot = 22 , init = 15 , finish = 0\n",
+   "INFO executor.Executor : Finished task 20.0 in stage 368.0 ( TID 15020 ) . 2076 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_545_20 locally\n",
+   "INFO storage.BlockManager : Found block rdd_545_22 locally\n",
+   "INFO storage.BlockManager : Found block rdd_545_21 locally\n",
+   "INFO executor.Executor : Finished task 23.0 in stage 368.0 ( TID 15026 ) . 2076 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 22.0 in stage 368.0 ( TID 15024 ) . 2076 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 35.0 in stage 368.0 ( TID 15035 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 15037\n",
+   "INFO storage.BlockManager : Found block rdd_545_23 locally\n",
+   "INFO executor.Executor : Running task 37.0 in stage 368.0 ( TID 15037 )\n",
+   "INFO python.PythonRunner : Times : total = 37 , boot = 14 , init = 23 , finish = 0\n",
+   "INFO executor.Executor : Running task 36.0 in stage 368.0 ( TID 15036 )\n",
+   "INFO executor.Executor : Running task 24.0 in stage 368.0 ( TID 15028 )\n"
+  ],
+  [
+   "Running task; Finished task; Block stored in memory; Found block; Got assigned task;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "gige temperature 1118429955 1 normal\n",
+   "gige temperature 1118432782 1 warning\n",
+   "gige temperature 1118433039 1 warning\n",
+   "gige temperature 1118428755 1 warning\n",
+   "gige temperature 1118429739 1 warning\n",
+   "gige temperature 1118424042 1 warning\n",
+   "gige temperature 1118428537 1 warning\n",
+   "gige temperature 1118428237 1 normal\n",
+   "gige temperature 1118427855 1 normal\n",
+   "gige temperature 1118424555 1 normal\n",
+   "gige temperature 1118424337 1 warning\n",
+   "gige temperature 1118424638 1 normal\n",
+   "gige temperature 1118435140 1 warning\n",
+   "gige temperature 1118429139 1 normal\n",
+   "gige temperature 1118434539 1 normal\n",
+   "gige temperature 1118424937 1 warning\n",
+   "gige temperature 1118436040 1 normal\n",
+   "gige temperature 1118432139 1 normal\n",
+   "gige temperature 1118432183 1 normal\n",
+   "gige temperature 1118425758 1 warning\n"
+  ],
+  [
+   "gige temperature warning; gige temperature normal;\n"
+  ],
+  0
+ ]
+]

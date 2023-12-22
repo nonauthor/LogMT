@@ -1,0 +1,730 @@
+[
+ [
+  [
+   "gige temperature 1124718062 1 normal\n",
+   "gige temperature 1124711813 1 normal\n",
+   "gige temperature 1124717213 1 warning\n",
+   "gige temperature 1124714213 1 warning\n",
+   "gige temperature 1124715467 1 normal\n",
+   "gige temperature 1124720213 1 warning\n",
+   "gige temperature 1124709713 1 warning\n",
+   "gige temperature 1124716613 1 normal\n",
+   "gige temperature 1124710668 1 normal\n",
+   "gige temperature 1124713613 1 warning\n",
+   "gige temperature 1124713067 1 normal\n",
+   "gige temperature 1124717462 1 warning\n",
+   "gige temperature 1124711868 1 warning\n",
+   "gige temperature 1124716067 1 warning\n",
+   "gige temperature 1124714268 1 warning\n",
+   "gige temperature 1124719913 1 normal\n",
+   "gige temperature 1124713313 1 normal\n",
+   "gige temperature 1124712413 1 warning\n",
+   "gige temperature 1124713613 1 normal\n",
+   "gige temperature 1124710013 1 warning\n"
+  ],
+  [
+   "caught exception; Closed socket connection; Accepted socket connection; Connection request will be dropped;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "clusterfilesystem clusterfilesystem.not_served 1108810062 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-0\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108814440 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-160\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108811407 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-0\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108809556 1 ClusterFileSystem : ServerFileSystem domain cluster_root_backup is no longer served by node node-96\n",
+   "clusterfilesystem clusterfilesystem.not_served 1109416110 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-0\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108809211 1 ClusterFileSystem : ServerFileSystem domain cluster_root_backup is no longer served by node node-128\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108810475 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-224\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108810075 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-224\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108815882 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-128\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108814198 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-128\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108810890 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-32\n",
+   "clusterfilesystem clusterfilesystem.not_served 1109421508 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-224\n",
+   "clusterfilesystem clusterfilesystem.not_served 1109419708 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-224\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108809614 1 ClusterFileSystem : ServerFileSystem domain cluster_root_backup is no longer served by node node-32\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108809219 1 ClusterFileSystem : ServerFileSystem domain cluster_root_backup is no longer served by node node-0\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108810560 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-32\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108814770 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-160\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108816201 1 ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-192\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108809419 1 ClusterFileSystem : ServerFileSystem domain cluster_root_backup is no longer served by node node-160\n",
+   "clusterfilesystem clusterfilesystem.not_served 1108814281 1 ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-192\n"
+  ],
+  [
+   "generated core files for program;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-2080586503612520765 src : /10.251.106.50 : 54519 dest : /10.251.106.50 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_5765961882058493783 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-7017534084498832799 of size 67108864 from /10.251.90.134\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_4019144727322594569 src : /10.251.65.203 : 40329 dest : /10.251.65.203 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-5884530879299137988 of size 67108864 from /10.251.106.50\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_5359003203705246813 of size 67108864 from /10.251.67.211\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_-7017534084498832799 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_5765961882058493783 of size 67108864 from /10.251.65.203\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_5359003203705246813 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_8170311305640613236 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-6680923168237043915 of size 67108864 from /10.251.75.79\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_5359003203705246813 of size 67108864 from /10.251.203.166\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_1683153816868570039 src : /10.251.91.15 : 44519 dest : /10.251.91.15 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_1930575931488684173 src : /10.251.106.37 : 35347 dest : /10.251.106.37 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_-6680923168237043915 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-3517148258470441797 src : /10.251.67.211 : 57490 dest : /10.251.67.211 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_6553566803436400273 src : /10.251.74.227 : 37078 dest : /10.251.74.227 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_8170311305640613236 of size 67108864 from /10.251.106.37\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_1466050633891207174 src : /10.251.75.79 : 49481 dest : /10.251.75.79 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_-5884530879299137988 terminating\n"
+  ],
+  [
+   "Closed socket connection; caught stream exception;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "boot_cmd success 1114095826 1 Command has completed successfully\n",
+   "boot_cmd success 1114095879 1 Command has completed successfully\n",
+   "boot_cmd success 1112052826 1 Command has completed successfully\n",
+   "boot_cmd success 1112717477 1 Command has completed successfully\n",
+   "boot_cmd success 1112186501 1 Command has completed successfully\n",
+   "boot_cmd success 1114095835 1 Command has completed successfully\n",
+   "boot_cmd success 1112086518 1 Command has completed successfully\n",
+   "boot_cmd success 1114095839 1 Command has completed successfully\n",
+   "boot_cmd success 1114095881 1 Command has completed successfully\n",
+   "boot_cmd success 1112673625 1 Command has completed successfully\n",
+   "boot_cmd success 1112417665 1 Command has completed successfully\n",
+   "boot_cmd success 1112718533 1 Command has completed successfully\n",
+   "boot_cmd success 1114095832 1 Command has completed successfully\n",
+   "boot_cmd success 1112170415 1 Command has completed successfully\n",
+   "shutdown_cmd success 1112673625 1 Command has completed successfully\n",
+   "boot_cmd success 1113189261 1 Command has completed successfully\n",
+   "boot_cmd success 1114096624 1 Command has completed successfully\n",
+   "boot_cmd success 1114095833 1 Command has completed successfully\n",
+   "boot_cmd success 1114095834 1 Command has completed successfully\n",
+   "boot_cmd success 1112720274 1 Command has completed successfully\n"
+  ],
+  [
+   "Connection request; Client attempting to establish new session; Established session timeout; Processed session termination;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL FATAL data TLB error interrupt\n"
+  ],
+  [
+   "Partition not found; Block stored in memory; Finished task;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47105 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47302 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47033 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47296 , Link has been severed\n",
+   "RAS KERNEL INFO ciod : Received signal 15 , code = 0 , errno = 0 , address = 0x000001f5\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47295 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47024 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47023 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47034 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47106 , Link has been severed\n",
+   "RAS KERNEL INFO ciod : Received signal 15 , code = 0 , errno = 0 , address = 0x000001f2\n",
+   "RAS KERNEL INFO ciod : Received signal 15 , code = 0 , errno = 0 , address = 0x000001f7\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47293 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47294 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47301 , Link has been severed\n"
+  ],
+  [
+   "Connection request will be dropped; Closed socket connection; caught exception;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "- oimagea2.ydstatic.com : 80 close , 357 bytes sent , 77931 bytes ( 76.1 KB ) received , lifetime 00 : 30\n",
+   "- oimagea2.ydstatic.com : 80 error : A connection request was canceled before the completion.\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- oimagec4.ydstatic.com : 80 close , 357 bytes sent , 67438 bytes ( 65.8 KB ) received , lifetime 00 : 30\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2917 bytes ( 2.84 KB ) sent , 1093 bytes ( 1.06 KB ) received , lifetime 04 : 00\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 7685 bytes ( 7.50 KB ) sent , 51839 bytes ( 50.6 KB ) received , lifetime 09 : 54\n",
+   "- oimageb6.ydstatic.com : 80 error : A connection request was canceled before the completion.\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 4746 bytes ( 4.63 KB ) sent , 62398 bytes ( 60.9 KB ) received , lifetime 04 : 03\n",
+   "- oimagec3.ydstatic.com : 80 close , 358 bytes sent , 48647 bytes ( 47.5 KB ) received , lifetime 00 : 30\n",
+   "- oimagec3.ydstatic.com : 80 close , 0 bytes sent , 0 bytes received , lifetime 00 : 19\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2584 bytes ( 2.52 KB ) sent , 2077 bytes ( 2.02 KB ) received , lifetime 04 : 00\n",
+   "- oimageb8.ydstatic.com : 80 error : A connection request was canceled before the completion.\n",
+   "- oimageb2.ydstatic.com : 80 error : A connection request was canceled before the completion.\n",
+   "- oimagea5.ydstatic.com : 80 error : A connection request was canceled before the completion.\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "gige temperature 1120311673 1 warning\n",
+   "gige temperature 1120308978 1 normal\n",
+   "gige temperature 1120312937 1 warning\n",
+   "gige temperature 1120312335 1 critical\n",
+   "gige temperature 1120305672 1 warning\n",
+   "gige temperature 1120304472 1 warning\n",
+   "gige temperature 1120309634 1 normal\n",
+   "gige temperature 1120303572 1 normal\n",
+   "gige temperature 1120311734 1 warning\n",
+   "gige temperature 1120308077 1 warning\n",
+   "gige temperature 1120305073 1 normal\n",
+   "gige temperature 1120312634 1 normal\n",
+   "gige temperature 1120312634 1 warning\n",
+   "gige temperature 1120307472 1 normal\n",
+   "gige temperature 1120311434 1 normal\n",
+   "gige temperature 1120313835 1 normal\n",
+   "gige temperature 1120312573 1 normal\n",
+   "gige temperature 1120314434 1 warning\n",
+   "gige temperature 1120310234 1 warning\n"
+  ],
+  [
+   "Expiring session; timeout exceeded; Processed session termination;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_-4696681079900533534 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-7673677421541379936 of size 67108864 from /10.251.199.150\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_2680529131405062773 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_2680529131405062773 of size 67108864 from /10.251.31.180\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_-6633860519087983527 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_6728751894861408046 src : /10.251.30.6 : 34578 dest : /10.251.30.6 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-4696681079900533534 of size 67108864 from /10.251.203.129\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_555316553539696179 of size 67108864 from /10.251.125.193\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_3024199456888915450 src : /10.251.71.146 : 60218 dest : /10.251.71.146 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_555316553539696179 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-6633860519087983527 of size 67108864 from /10.250.15.240\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-1209339058372275089 src : /10.251.203.129 : 49808 dest : /10.251.203.129 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_-9111477895160871892 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_310655360292894941 src : /10.250.6.223 : 41931 dest : /10.250.6.223 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_310655360292894941 src : /10.251.121.224 : 39331 dest : /10.251.121.224 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-9111477895160871892 of size 67108864 from /10.251.202.134\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_7642233144227235575 src : /10.250.15.240 : 40758 dest : /10.250.15.240 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_-7673677421541379936 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_-7673677421541379936 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_3732800080897896961 src : /10.251.91.229 : 42161 dest : /10.251.91.229 : 50010\n"
+  ],
+  [
+   "Found block; Finished task; Running task; Got assigned task;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "WARN Interrupted while waiting for message on queue\n",
+   "INFO Accepted socket connection from /10.10.34.12 : 54759\n",
+   "INFO Notification : 1 ( n.leader ) , 0x100001546 ( n.zxid ) , 0x2 ( n.round ) , LOOKING ( n.state ) , 1 ( n.sid ) , 0x1 ( n.peerEPoch ) , LEADING ( my state )\n",
+   "INFO Client attempting to establish new session at /10.10.34.12 : 54759\n",
+   "INFO Established session 0x24ed931194200da with negotiated timeout 10000 for client /10.10.34.12 : 54759\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 52865\n",
+   "WARN Connection request from old client /10.10.34.13 : 37611 ; will be dropped if server is in r-o mode\n",
+   "INFO Sending DIFF\n",
+   "INFO Accepted socket connection from /10.10.34.13 : 37611\n",
+   "WARN Connection request from old client /10.10.34.11 : 52865 ; will be dropped if server is in r-o mode\n",
+   "INFO Received connection request /10.10.34.11 : 38283\n",
+   "INFO Notification : 1 ( n.leader ) , 0x100001546 ( n.zxid ) , 0x1 ( n.round ) , LOOKING ( n.state ) , 1 ( n.sid ) , 0x1 ( n.peerEPoch ) , LEADING ( my state )\n",
+   "WARN ******* GOODBYE /10.10.34.11 : 52221 ********\n",
+   "INFO Follower sid : 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@19b4ac28\n",
+   "WARN Connection request from old client /10.10.34.12 : 54759 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x24ed931194200db with negotiated timeout 10000 for client /10.10.34.13 : 37611\n",
+   "INFO Synchronizing with Follower sid : 1 maxCommittedLog = 0x100001546 minCommittedLog = 0x100001352 peerLastZxid = 0x100001546\n",
+   "INFO Client attempting to establish new session at /10.10.34.13 : 37611\n"
+  ],
+  [
+   "Linkerror event interval expired;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "tserver status 1131553867 1 responding\n",
+   "domain status 1131558000 1 inconsistent nodesets node-4 0x000001fe <ok> node-7 0x000001fe <ok> node-0 0x000001fe <ok> node-6 0x000001fe <ok> node-3 0x000001fe <ok> node-2 0x000001fe <ok> node-5 0x000001fe <ok> node-1 0x000001fe <ok> node-14 0x0005fdfe <ok> node-13 0x0005fdfe <ok> node-15 0x0005fdfe <ok>\n",
+   "tserver status 1131549066 1 responding\n",
+   "tserver status 1131548946 1 responding\n",
+   "domain status 1131548940 1 inconsistent nodesets node-53 0x1fffffffe <ok> node-59 0x1fffffffe <ok> node-41 0x11fffdfe <ok>\n",
+   "domain status 1131548940 1 inconsistent nodesets node-184 0x1fffffffe <ok> node-171 0x1fffffffe <ok> node-163 0x000001fe <ok>\n",
+   "domain status 1131556260 1 not responding\n",
+   "node status 1131561024 1 running\n",
+   "tserver status 1131553568 1 not-responding\n",
+   "node status 1131561040 1 running\n",
+   "domain status 1131552510 1 inconsistent nodesets node-171 0x1fffffffe <ok> node-187 0x1fffffffe <ok> node-169 0x1fffffffe <ok> node-191 0x1fffffffe <ok> node-170 0x1fffffffe <ok> node-190 0x1fffffffe <ok> node-166 0x000001fe <ok>\n",
+   "domain status 1131551640 1 inconsistent nodesets node-151 0x1fffffffe <ok> node-145 0x1fffffffe <ok> node-150 0x1fffffffe <ok> node-141 0x1fffffffe <ok> node-128 0x1fffffffe <ok> node-129 0x1fffffffe <ok> node-136 0x1fffffffe <ok> node-130 0x1fffffffe <ok> node-153 0x1fffffffe <ok> node-134 0x1fffffffe <ok> node-154 0x1fffffffe <ok> node-142 0x09fffdfe <ok>\n"
+  ],
+  [
+   "Closed socket connection; Accepted socket connection; Established session timeout; Client attempting to establish new session; caught exception;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO generating core.3860\n",
+   "RAS KERNEL INFO ciod : for node 9 , read continuation request but ioState is 0\n",
+   "RAS KERNEL INFO generating core.3999\n",
+   "RAS KERNEL INFO generating core.3871\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 8716 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO generating core.3991\n",
+   "RAS KERNEL INFO generating core.3989\n",
+   "RAS KERNEL INFO generating core.3869\n",
+   "RAS KERNEL INFO ciod : Message code 0 is not 51 or 4294967295\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 8717 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO ciod : for node 15 , read continuation request but ioState is 0\n",
+   "RAS KERNEL INFO generating core.3988\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 13330 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO ciod : cpu 0 at treeaddr 13331 sent unrecognized message 0xffffffff\n",
+   "RAS KERNEL INFO generating core.3863\n"
+  ],
+  [
+   "blockMap updated;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed000f\n",
+   "INFO Expiring session 0x34ee30a5c53000a , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c530008\n",
+   "INFO Expiring session 0x14ee3e057ed000f , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24ee30a54f5000a\n",
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed0005\n",
+   "INFO Expiring session 0x14ee3e057ed000b , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530007 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530009 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530008 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24ee30a54f5000b , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c53000a\n",
+   "INFO Expiring session 0x14ee3e057ed000e , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed000e\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c530009\n",
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed0007\n",
+   "INFO Expiring session 0x14ee3e057ed000c , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c530002\n",
+   "INFO Expiring session 0x24ee30a54f5000a , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530006 , timeout of 10000ms exceeded\n"
+  ],
+  [
+   "partition status running; partition status blocked; starting; down; closing; node status not responding;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "node status 1118937765 0 running\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO storage.BlockManager : Found block rdd_24174_25 locally\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 595034\n",
+   "INFO executor.Executor : Running task 3.0 in stage 14864.0 ( TID 595002 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 595024\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 595002\n",
+   "INFO storage.MemoryStore : Block broadcast_14893 stored as values in memory ( estimated size 10.4 KB , free 7.6 MB )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 595013\n",
+   "INFO python.PythonRunner : Times : total = 40 , boot = -41 , init = 81 , finish = 0\n",
+   "INFO spark.CacheManager : Partition rdd_24419_14 not found , computing it\n",
+   "INFO executor.Executor : Running task 14.0 in stage 14864.0 ( TID 595013 )\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 14893\n",
+   "INFO executor.Executor : Finished task 14.0 in stage 14863.0 ( TID 594975 ) . 2142 bytes result sent to driver\n",
+   "INFO storage.MemoryStore : Block broadcast_14893_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 7.6 MB )\n",
+   "INFO executor.Executor : Running task 25.0 in stage 14864.0 ( TID 595024 )\n",
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 14893 took 3 ms\n",
+   "INFO executor.Executor : Finished task 25.0 in stage 14863.0 ( TID 594986 ) . 2142 bytes result sent to driver\n",
+   "INFO spark.CacheManager : Partition rdd_24419_3 not found , computing it\n",
+   "INFO executor.Executor : Running task 36.0 in stage 14864.0 ( TID 595034 )\n",
+   "INFO spark.CacheManager : Partition rdd_24419_25 not found , computing it\n",
+   "INFO spark.CacheManager : Partition rdd_24419_36 not found , computing it\n"
+  ],
+  [
+   "Processed session termination; Expiring session; timeout exceeded; \n"
+  ],
+  1
+ ],
+ [
+  [
+   "*64 - www.google.com : 443 close , 460 bytes sent , 4191 bytes ( 4.09 KB ) received , lifetime <1 sec\n",
+   "*64 - mail.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - hangouts.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - mtalk.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - hangouts.google.com : 443 close , 296 bytes sent , 4749 bytes ( 4.63 KB ) received , lifetime <1 sec\n",
+   "*64 - 13.client-channel.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - hangouts.google.com : 443 close , 296 bytes sent , 4747 bytes ( 4.63 KB ) received , lifetime <1 sec\n",
+   "- short.weixin.qq.com : 80 error : A connection request was canceled before the completion.\n",
+   "*64 - www.googleapis.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - clientservices.googleapis.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "Received block; PacketResponder terminating; blockMap updated; \n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.\n",
+   "RAS KERNEL INFO 3686 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n",
+   "RAS KERNEL INFO 751 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt.\n"
+  ],
+  [
+   "microseconds spent in the rbs signal handler; critical input interrupts;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO executor.Executor : Finished task 23.0 in stage 825.0 ( TID 33019 ) . 2364 bytes result sent to driver\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706091709_0825_m_000039_33035' to hdfs : //10.10.34.11 : 9000/pjhe/test/11/_temporary/0/task_201706091709_0825_m_000039\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706091709_0825_m_000023_33019' to hdfs : //10.10.34.11 : 9000/pjhe/test/11/_temporary/0/task_201706091709_0825_m_000023\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706091709_0825_m_000007_33003' to hdfs : //10.10.34.11 : 9000/pjhe/test/11/_temporary/0/task_201706091709_0825_m_000007\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706091709_0825_m_000039_33035 : Committed\n",
+   "INFO executor.Executor : Finished task 31.0 in stage 825.0 ( TID 33027 ) . 2364 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 15.0 in stage 826.0 ( TID 33049 )\n",
+   "INFO executor.Executor : Finished task 39.0 in stage 825.0 ( TID 33035 ) . 2364 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 7.0 in stage 826.0 ( TID 33041 )\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706091709_0825_m_000023_33019 : Committed\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 33057\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 33041\n",
+   "INFO executor.Executor : Finished task 15.0 in stage 825.0 ( TID 33011 ) . 2364 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 33049\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706091709_0825_m_000031_33027' to hdfs : //10.10.34.11 : 9000/pjhe/test/11/_temporary/0/task_201706091709_0825_m_000031\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706091709_0825_m_000007_33003 : Committed\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706091709_0825_m_000015_33011 : Committed\n",
+   "INFO mapred.SparkHadoopMapRedUtil : attempt_201706091709_0825_m_000031_33027 : Committed\n",
+   "INFO executor.Executor : Finished task 7.0 in stage 825.0 ( TID 33003 ) . 2364 bytes result sent to driver\n",
+   "INFO output.FileOutputCommitter : Saved output of task 'attempt_201706091709_0825_m_000015_33011' to hdfs : //10.10.34.11 : 9000/pjhe/test/11/_temporary/0/task_201706091709_0825_m_000015\n"
+  ],
+  [
+   "Saved output of task; Finished task; Got assigned task; Running task;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "WARN dfs.DataNode$DataXceiver : 10.251.127.191 : 50010 : Got exception while serving blk_-3508124324236311514 to /10.251.91.32 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.42.191 : 50010 : Got exception while serving blk_6812767985288106611 to /10.251.107.242 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.30.134 : 50010 : Got exception while serving blk_-1441868356431563208 to /10.251.110.8 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.194.245 : 50010 Served block blk_-5211813168492971614 to /10.251.122.79\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.91.84 : 50010 Served block blk_-7400521778070535305 to /10.251.91.84\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.214.225 : 50010 Served block blk_-6799088970522835535 to /10.251.125.174\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.30.134 : 50010 Served block blk_6975793717347432216 to /10.251.199.159\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.193.175 : 50010 Served block blk_-4052090186881753514 to /10.251.193.175\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.43.192 : 50010 Served block blk_-8970184077365086618 to /10.251.43.192\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.91.229 : 50010 Served block blk_575290916246092016 to /10.251.214.112\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.107.227 : 50010 Served block blk_1240041679162385155 to /10.251.107.227\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.127.191 : 50010 : Got exception while serving blk_2385720477680953303 to /10.251.31.160 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.39.179 : 50010 Served block blk_755661045161779640 to /10.251.39.179\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.25.237 : 50010 Served block blk_-3282357426483057522 to /10.251.25.237\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.195.70 : 50010 Served block blk_1598851779650365034 to /10.251.126.227\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.106.37 : 50010 Served block blk_-7982079270836231333 to /10.250.18.114\n",
+   "WARN dfs.DataNode$DataXceiver : 10.250.14.196 : 50010 : Got exception while serving blk_6196776106204969694 to /10.250.6.191 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.27.63 : 50010 Served block blk_-4836687143780829702 to /10.251.27.63\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.127.47 : 50010 : Got exception while serving blk_-7051355924952283221 to /10.251.127.47 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.197.161 : 50010 Served block blk_-2603264849896217189 to /10.251.202.181\n"
+  ],
+  [
+   "Got exception; Served block;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS APP FATAL ciod : Error loading /home/yates//broadcast.rts : invalid or missing program image , No such file or directory\n"
+  ],
+  [
+   "Error loading; invalid or missing program image;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "node status 1076619203 1 running\n"
+  ],
+  [
+   "node status running;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Established session 0x24f1724b8af0017 with negotiated timeout 20000 for client /10.10.34.11 : 51551\n",
+   "INFO Closed socket connection for client /10.10.34.11 : 51551 which had sessionid 0x24f1724b8af0017\n",
+   "WARN Connection request from old client /10.10.34.11 : 51551 ; will be dropped if server is in r-o mode\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 51562\n",
+   "INFO Client attempting to establish new session at /10.10.34.14 : 54248\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 51551\n",
+   "INFO Established session 0x24f1724b8af0015 with negotiated timeout 10000 for client /10.10.34.26 : 35425\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 51551\n",
+   "WARN Connection request from old client /10.10.34.11 : 51553 ; will be dropped if server is in r-o mode\n",
+   "INFO Accepted socket connection from /10.10.34.14 : 54248\n",
+   "INFO Established session 0x24f1724b8af0018 with negotiated timeout 10000 for client /10.10.34.11 : 51553\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 51553\n",
+   "WARN Connection request from old client /10.10.34.11 : 51562 ; will be dropped if server is in r-o mode\n",
+   "INFO Closed socket connection for client /10.10.34.11 : 51553 which had sessionid 0x24f1724b8af0018\n",
+   "INFO Client attempting to establish new session at /10.10.34.26 : 35425\n",
+   "INFO Established session 0x24f1724b8af0016 with negotiated timeout 10000 for client /10.10.34.14 : 54248\n",
+   "WARN Connection request from old client /10.10.34.14 : 54248 ; will be dropped if server is in r-o mode\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 51553\n",
+   "WARN caught end of stream exception\n"
+  ],
+  [
+   "Client attempting to establish new session; Established session timeout; Closed socket connection; caught exception; Accepted socket connection;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS KERNEL INFO critical input interrupt ( unit = 0x0b bit = 0x02 ) : warning for torus x+ wire\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 49984 : Link has been severed\n",
+   "RAS KERNEL INFO critical input interrupt ( unit = 0x0b bit = 0x06 ) : warning for torus y+ wire\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 50174 : Link has been severed\n",
+   "RAS KERNEL INFO critical input interrupt ( unit = 0x0b bit = 0x17 ) : warning for tree C1 wire\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 49797 : Link has been severed\n",
+   "RAS KERNEL INFO critical input interrupt ( unit = 0x0b bit = 0x0a ) : warning for torus z+ wire\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 49988 : Link has been severed\n",
+   "RAS KERNEL FATAL critical input interrupt enable...0\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 49987 : Link has been severed\n",
+   "RAS KERNEL INFO critical input interrupt ( unit = 0x0b bit = 0x12 ) : warning for tree B0 wire\n",
+   "RAS KERNEL INFO suppressing further interrupts of same type\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 50175 : Link has been severed\n"
+  ],
+  [
+   "Error reading message prefix; critical input interrupt; suppressing further interrupts;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS APP FATAL ciod : LOGIN chdir ( /bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.15 ) failed : No such file or directory\n",
+   "RAS APP FATAL ciod : LOGIN chdir ( /bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01 ) failed : No such file or directory\n",
+   "RAS APP FATAL ciod : LOGIN chdir ( /bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.05 ) failed : No such file or directory\n"
+  ],
+  [
+   "LOGIN chdir failed; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Expiring session 0x24ede63a01b0045 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f002f\n",
+   "INFO Processed session termination for sessionid : 0x24ede63a01b003c\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 39791\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f0032\n",
+   "WARN Connection request from old client /10.10.34.11 : 39791 ; will be dropped if server is in r-o mode\n",
+   "INFO Processed session termination for sessionid : 0x24ede63a01b003e\n",
+   "INFO Expiring session 0x34ede65503f003c , timeout of 20000ms exceeded\n",
+   "INFO Expiring session 0x24ede63a01b0044 , timeout of 20000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24ede63a01b0044\n",
+   "INFO Processed session termination for sessionid : 0x24ede63a01b003d\n",
+   "INFO Processed session termination for sessionid : 0x24ede63a01b003b\n",
+   "INFO Closed socket connection for client /10.10.34.11 : 39791 which had sessionid 0x14ede63a5a70032\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f0031\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f003c\n",
+   "INFO Processed session termination for sessionid : 0x24ede63a01b0045\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 39791\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f0030\n",
+   "WARN caught end of stream exception\n"
+  ],
+  [
+   "Processed session termination; Processed session termination; Connection request will be dropped;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO python.PythonRunner : Times : total = 39 , boot = 18 , init = 21 , finish = 0\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 5314\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = 14 , init = 25 , finish = 0\n",
+   "INFO storage.BlockManager : Found block rdd_2_32 locally\n",
+   "INFO executor.Executor : Running task 30.0 in stage 132.0 ( TID 5310 )\n",
+   "INFO executor.Executor : Finished task 29.0 in stage 132.0 ( TID 5309 ) . 2198 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 28.0 in stage 132.0 ( TID 5308 ) . 2198 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 5313\n",
+   "INFO executor.Executor : Running task 34.0 in stage 132.0 ( TID 5314 )\n",
+   "INFO executor.Executor : Finished task 26.0 in stage 132.0 ( TID 5306 ) . 2198 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 5311\n",
+   "INFO executor.Executor : Running task 31.0 in stage 132.0 ( TID 5311 )\n",
+   "INFO executor.Executor : Running task 32.0 in stage 132.0 ( TID 5312 )\n",
+   "INFO executor.Executor : Running task 33.0 in stage 132.0 ( TID 5313 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 5312\n",
+   "INFO executor.Executor : Finished task 25.0 in stage 132.0 ( TID 5305 ) . 2198 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 5310\n",
+   "INFO executor.Executor : Finished task 27.0 in stage 132.0 ( TID 5307 ) . 2198 bytes result sent to driver\n"
+  ],
+  [
+   "Finished task; Got assigned task; Running task; Found block;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO spark.CacheManager : Partition rdd_17_25 not found , computing it\n",
+   "INFO executor.Executor : Running task 29.0 in stage 12.0 ( TID 509 )\n",
+   "INFO storage.BlockManager : Found block rdd_2_27 locally\n",
+   "INFO spark.CacheManager : Partition rdd_17_27 not found , computing it\n",
+   "INFO executor.Executor : Running task 25.0 in stage 12.0 ( TID 505 )\n",
+   "INFO executor.Executor : Running task 26.0 in stage 12.0 ( TID 506 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 509\n",
+   "INFO spark.CacheManager : Partition rdd_17_28 not found , computing it\n",
+   "INFO executor.Executor : Running task 28.0 in stage 12.0 ( TID 508 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 506\n",
+   "INFO storage.BlockManager : Found block rdd_2_26 locally\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 508\n",
+   "INFO executor.Executor : Running task 27.0 in stage 12.0 ( TID 507 )\n",
+   "INFO executor.Executor : Finished task 23.0 in stage 12.0 ( TID 503 ) . 2667 bytes result sent to driver\n",
+   "INFO spark.CacheManager : Partition rdd_17_26 not found , computing it\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = 11 , init = 28 , finish = 0\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 507\n",
+   "INFO storage.BlockManager : Found block rdd_2_28 locally\n",
+   "INFO executor.Executor : Finished task 24.0 in stage 12.0 ( TID 504 ) . 2667 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_2_25 locally\n"
+  ],
+  [
+   "Running task; Found block; Finished task; Partition not found;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO storage.BlockManager : Found block rdd_2_38 locally\n",
+   "INFO storage.BlockManager : Found block rdd_2_36 locally\n",
+   "INFO storage.BlockManager : Found block rdd_2_39 locally\n",
+   "INFO executor.Executor : Running task 37.0 in stage 769.0 ( TID 30797 )\n",
+   "INFO python.PythonRunner : Times : total = 40 , boot = 14 , init = 26 , finish = 0\n",
+   "INFO executor.Executor : Running task 38.0 in stage 769.0 ( TID 30798 )\n",
+   "INFO storage.BlockManager : Found block rdd_2_37 locally\n",
+   "INFO storage.BlockManager : Found block rdd_2_35 locally\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 30797\n",
+   "INFO executor.Executor : Finished task 39.0 in stage 769.0 ( TID 30799 ) . 2184 bytes result sent to driver\n",
+   "INFO executor.Executor : Running task 39.0 in stage 769.0 ( TID 30799 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 30798\n",
+   "INFO executor.Executor : Running task 36.0 in stage 769.0 ( TID 30796 )\n",
+   "INFO executor.Executor : Finished task 36.0 in stage 769.0 ( TID 30796 ) . 2184 bytes result sent to driver\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = 13 , init = 26 , finish = 0\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 30799\n",
+   "INFO executor.Executor : Finished task 35.0 in stage 769.0 ( TID 30795 ) . 2184 bytes result sent to driver\n"
+  ],
+  [
+   "Got assigned task; Running task; Found block; Finished task;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 42438\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = 18 , init = 20 , finish = 0\n",
+   "INFO executor.Executor : Running task 36.0 in stage 1053.0 ( TID 42436 )\n",
+   "INFO executor.Executor : Running task 39.0 in stage 1053.0 ( TID 42439 )\n",
+   "INFO storage.BlockManager : Found block rdd_1531_35 locally\n",
+   "INFO storage.BlockManager : Found block rdd_1531_39 locally\n",
+   "INFO executor.Executor : Finished task 35.0 in stage 1053.0 ( TID 42435 ) . 2170 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 36.0 in stage 1053.0 ( TID 42436 ) . 2170 bytes result sent to driver\n",
+   "INFO storage.BlockManager : Found block rdd_1531_36 locally\n",
+   "INFO executor.Executor : Running task 37.0 in stage 1053.0 ( TID 42437 )\n",
+   "INFO executor.Executor : Running task 38.0 in stage 1053.0 ( TID 42438 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 42439\n",
+   "INFO storage.BlockManager : Found block rdd_1531_37 locally\n",
+   "INFO storage.BlockManager : Found block rdd_1531_38 locally\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 42437\n",
+   "INFO executor.Executor : Finished task 39.0 in stage 1053.0 ( TID 42439 ) . 2170 bytes result sent to driver\n",
+   "INFO python.PythonRunner : Times : total = 38 , boot = 18 , init = 19 , finish = 1\n"
+  ],
+  [
+   "Running task; Finished task; Block stored in memory; Found block; Got assigned task;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47105 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47302 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47033 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47296 , Link has been severed\n",
+   "RAS KERNEL INFO ciod : Received signal 15 , code = 0 , errno = 0 , address = 0x000001f5\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47295 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47024 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47023 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47034 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47106 , Link has been severed\n",
+   "RAS KERNEL INFO ciod : Received signal 15 , code = 0 , errno = 0 , address = 0x000001f2\n",
+   "RAS KERNEL INFO ciod : Received signal 15 , code = 0 , errno = 0 , address = 0x000001f7\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47293 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47294 , Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix on CioStream socket to 172.16.96.116 : 47301 , Link has been severed\n"
+  ],
+  [
+   "Received signal; Error reading message prefix;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Processed session termination for sessionid : 0x14ed93111f20069\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f20068\n",
+   "INFO Expiring session 0x14ed93111f20067 , timeout of 20000ms exceeded\n",
+   "INFO Expiring session 0x34ed9ac1c1e0051 , timeout of 20000ms exceeded\n",
+   "INFO Client attempting to establish new session at /10.10.34.11 : 50948\n",
+   "INFO Expiring session 0x14ed93111f2006c , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14ed93111f20068 , timeout of 20000ms exceeded\n",
+   "INFO Expiring session 0x24ed93119420071 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420071\n",
+   "INFO Closed socket connection for client /10.10.34.11 : 50948 which had sessionid 0x24ed93119420071\n",
+   "INFO Established session 0x24ed93119420071 with negotiated timeout 10000 for client /10.10.34.11 : 50948\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e004e\n",
+   "INFO Accepted socket connection from /10.10.34.11 : 50948\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f20067\n",
+   "WARN Connection request from old client /10.10.34.11 : 50948 ; will be dropped if server is in r-o mode\n",
+   "INFO Expiring session 0x14ed93111f20069 , timeout of 20000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0051\n",
+   "INFO Expiring session 0x34ed9ac1c1e0050 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0050\n",
+   "WARN caught end of stream exception\n"
+  ],
+  [
+   "Processed session termination; Expiring session; timeout exceeded; Processed session termination; Connection request; caught exception; Closed socket connection;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO storage.BlockManager : Removing RDD 795\n",
+   "INFO storage.BlockManager : Removing RDD 805\n",
+   "INFO storage.BlockManager : Removing RDD 733\n",
+   "INFO storage.BlockManager : Removing RDD 718\n",
+   "INFO storage.BlockManager : Removing RDD 787\n",
+   "INFO storage.BlockManager : Removing RDD 710\n",
+   "INFO storage.BlockManager : Removing RDD 765\n",
+   "INFO storage.BlockManager : Removing RDD 743\n",
+   "INFO storage.BlockManager : Removing RDD 791\n",
+   "INFO storage.BlockManager : Removing RDD 801\n",
+   "INFO storage.BlockManager : Removing RDD 761\n",
+   "INFO storage.BlockManager : Removing RDD 729\n",
+   "INFO storage.BlockManager : Removing RDD 751\n",
+   "INFO storage.BlockManager : Removing RDD 779\n",
+   "INFO storage.BlockManager : Removing RDD 723\n",
+   "INFO storage.BlockManager : Removing RDD 747\n",
+   "INFO storage.BlockManager : Removing RDD 737\n",
+   "INFO storage.BlockManager : Removing RDD 755\n",
+   "INFO storage.BlockManager : Removing RDD 783\n",
+   "INFO storage.BlockManager : Removing RDD 769\n"
+  ],
+  [
+   "Removing RDD\n"
+  ],
+  0
+ ]
+]

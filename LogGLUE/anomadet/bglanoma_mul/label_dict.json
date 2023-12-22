@@ -1,0 +1,12 @@
+{
+ "-": 0,
+ "KERNDTLB": 1,
+ "KERNMC": 2,
+ "KERNRTSP": 3,
+ "KERNSTOR": 4,
+ "KERNTERM": 5,
+ "APPSEV": 6,
+ "KERNMNTF": 7,
+ "APPRES": 8,
+ "Others": 9
+}

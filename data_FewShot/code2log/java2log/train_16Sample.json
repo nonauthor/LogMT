@@ -1,0 +1,82 @@
+[
+ [
+  "public void addRebalanceEvent(int part, int type, ClusterNode discoNode, int discoType, long discoTs) {\tassert discoNode != null;\tassert type > 0;\tassert discoType > 0;\tassert discoTs > 0;",
+  "out from ssh vvv command is",
+  1
+ ],
+ [
+  "public void canAddDouble() {\tMap<String, Object> pointInMapFormat = new HashMap<>();\tpointInMapFormat.put(InfluxDbConstants.MEASUREMENT_NAME, \"testCPU\");\tdouble value = 99.999999d;\tpointInMapFormat.put(\"busy\", value);\tPoint p = CamelInfluxDbConverters.fromMapToPoint(pointInMapFormat);\tassertNotNull(p);\tString line = p.lineProtocol();\tassertNotNull(line);",
+  "process reschedule command for job non existent executime time",
+  1
+ ],
+ [
+  "private static boolean checkSubClasses(Class<?> candidate, List<Class<?>> selectors) {\tboolean ret = false;",
+  "connecting to",
+  1
+ ],
+ [
+  "private void updateMessage(Exchange exchange) throws Exception {\tCloudQueue client = QueueServiceUtil.createQueueClient(getConfiguration());\tQueueServiceRequestOptions opts = QueueServiceUtil.getRequestOptions(exchange);\tCloudQueueMessage message = getCloudQueueMessage(exchange);",
+  "invalid cluster provisioning state cannot be set on the cluster because the current state is",
+  1
+ ],
+ [
+  "public void removedBundle(Bundle bundle, BundleEvent event, Object object) {",
+  "sleep was interrupted during eval expected in many cases",
+  1
+ ],
+ [
+  "public void execute() throws MojoExecutionException {\tFile xarFile = new File(outputDirectory, xarName + \".xar\");",
+  "using sequence with name for injected message",
+  1
+ ],
+ [
+  "protected Collection<Entity> shrink(int delta) {\tPreconditions.checkArgument(delta < 0, \"Must call shrink with negative delta.\");\tint size = getCurrentSize();\tif (-delta > size) {",
+  "starting third camelcontext",
+  1
+ ],
+ [
+  "protected void doStop() throws Exception {\tsuper.doStop();\tmessaging.stopLocalListen(endpoint.getTopic(), predicate);",
+  "tenant didn t stop cleanly after shutdown timeout waiting for process exit",
+  1
+ ],
+ [
+  "protected void internalError(TaskEventType type) {",
+  "invalid event on task",
+  0
+ ],
+ [
+  "public void receive(MessageContext messageContext) throws AxisFault {",
+  "application message",
+  0
+ ],
+ [
+  "private void doSend(AmqpMessage message, AsyncResult request, AmqpTransactionId txId) throws Exception {",
+  "producer sending message",
+  0
+ ],
+ [
+  "public void customize() {",
+  "customizing",
+  0
+ ],
+ [
+  "private void reconnectTransactionInProgress1(IgniteEx client, final TransactionConcurrency txConcurrency, final IgniteCache<Object, Object> cache) throws Exception {\tIgnite srv = clientRouter(client);\tfinal TestTcpDiscoverySpi clientSpi = spi(client);\tfinal TestTcpDiscoverySpi srvSpi = spi(srv);\tfinal CountDownLatch disconnectLatch = new CountDownLatch(1);\tfinal CountDownLatch reconnectLatch = new CountDownLatch(1);",
+  "block reconnect",
+  0
+ ],
+ [
+  "public void recoverLease() throws IOException {\tlock.lock();\ttry {\tFileStatus[] oldLogs = getLogFiles();\twhile (isRunning()) {\ttry {\tflushLogId = initOldLogs(oldLogs);\t} catch (FileNotFoundException e) {",
+  "someone else is active and deleted logs retrying",
+  0
+ ],
+ [
+  "Validate.notNull(completionLatch);\tif (clientRunBasis == ClientRunBasis.time) {\tduration = (duration == null) ? clientRunDuration : this.duration;\trampUpTime = (rampUpTime == null) ? (duration / 100 * rampUpPercent) : this.rampUpTime;\trampDownTime = (rampDownTime == null) ? (duration / 100 * rampDownPercent) : this.rampDownTime;\tValidate.isTrue(duration >= (rampUpTime + rampDownTime), \"Ramp times (up: \" + rampDownTime + \", down: \" + rampDownTime + \") exceed the sampler duration (\" + duration + \")\");\tThread notifier = new Thread(new RampDownNotifier(this));\tnotifier.setName(\"RampDownNotifier[\" + this.getClass().getSimpleName() + \"]\");\tnotifier.start();\t} else {",
+  "performance test running on count basis ignoring duration and ramp times",
+  0
+ ],
+ [
+  "MDC.remove(\"activemq.broker\");\tserver.start();\t} finally {\tif (brokerName != null) {\tMDC.put(\"activemq.broker\", brokerName);\t}\tconnectorStarted.countDown();\t}\t}\t} catch (IOException e) {",
+  "reason for failed jmx connector start",
+  0
+ ]
+]

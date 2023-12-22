@@ -1,0 +1,162 @@
+[
+ [
+  "ienumerable<resourcefile> resfilesprop = ijm.resourcefiles;\tif (null != resfilesprop) {\tlist<resourcefile> resfiles = new list<resourcefile>();\t}\telse {\t}\ttaskconstraints tc = ijm.constraints;\tif (null == tc) {\t}\telse {",
+  "maxtaskretrycount null",
+  0
+ ],
+ [
+  "using (xmlwriter w = createwriter(doc)) {\ttry {\tw.writestartelement(\"root\");\tw.writewhitespace(((char)(int)variation.param).tostring());\t}\tcatch (argumentexception) {\ttestlog.compare(w.writestate, writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "did not throw exception",
+  0
+ ],
+ [
+  "public static int main(string[] args) {\tthread t = new thread (run);\tt.start ();\tt.join ();\tif (fault) {\tif (ex == null) {",
+  "fault occured but no exception object available",
+  0
+ ],
+ [
+  "public static void main (string[] args) {\tif (args.length == 0) {\treturn;\t}\tstring directory = args[args.length - 1];\tbool verboseoutput =  args.length > 1 && (args[0] == \"-v\" || args[0] == \"-verbose\");\ttry {\tif (!directory.exists (directory)) {",
+  "directory not found",
+  0
+ ],
+ [
+  "public static void assemblefile (string file, string listing, string target, string output) {\tif (quiet) return;",
+  "assembling to",
+  0
+ ],
+ [
+  "timespan allowedwindow = timespan.fromseconds(3);\tfor (int i = 0; i < 2; i++) {\tprocess p = createprocessportable(remotelyinvokable.readline);\tassert.throws<invalidoperationexception>(() => p.starttime);\tdatetime teststarttime = datetime.now;\tp.startinfo.redirectstandardinput = true;\tp.start();\tassert.equal(p.starttime, p.starttime);\tdatetime processstarttime = p.starttime;\tusing (streamwriter writer = p.standardinput) {",
+  "start",
+  0
+ ],
+ [
+  "this.logger.loginformation((int)azureprovidererrorcode.azuretableprovider_initprovider, $\"azuretablegrainstorage {name} initializing: {this.options.tostring()}\");\tthis.logger.loginformation((int)azureprovidererrorcode.azuretableprovider_paramconnectionstring, $\"azuretablegrainstorage {name} is using dataconnectionstring: {configutilities.redactconnectionstringinfo(this.options.connectionstring)}\");\tthis.jsonsettings = orleansjsonserializer.updateserializersettings(orleansjsonserializer.getdefaultserializersettings(this.typeresolver, this.grainfactory), this.options.usefullassemblynames, this.options.indentjson, this.options.typenamehandling);\tthis.tabledatamanager = new grainstatetabledatamanager(this.options.tablename, this.options.connectionstring, this.loggerfactory);\tawait this.tabledatamanager.inittableasync();\tstopwatch.stop();\tthis.logger.loginformation((int)azureprovidererrorcode.azuretableprovider_initprovider, $\"initializing provider {this.name} of type {this.gettype().name} in stage {this.options.initstage} took {stopwatch.elapsedmilliseconds} milliseconds.\");\t}\tcatch (exception ex) {\tstopwatch.stop();",
+  "initialization failed for provider this name of type this gettype name in stage this options initstage in stopwatch elapsedmilliseconds milliseconds",
+  0
+ ],
+ [
+  "public static void initialize(fileinfo configfile) {\tclientconfiguration config;\ttry {\tconfig = clientconfiguration.loadfromfile(configfile.fullname);\t}\tcatch (exception ex) {\tthrow;\t}\tif (config == null) {",
+  "error loading client configuration file",
+  0
+ ],
+ [
+  "static void initialize () {\tif (initialized) return;\ttry {\tdoinitialize ();\t} catch (exception ex) {",
+  "initialize threw exception",
+  0
+ ],
+ [
+  "_foreigngroups.add((groupprincipal)foreignprincipal);\t}\telse {\tforeignprincipal.dispose();\t}\t}\tneedtoretry = true;\tcontinue;\t}\telse {",
+  "addnlinkedattrset movenextforeign using as currentforeignde currentforeignprincipal",
+  0
+ ],
+ [
+  "private void dochecktimeout() {\tint currentmillis = environment.tickcount;\tif (currentmillis < timeoutoccursat) return;\tif (0 > timeoutoccursat && 0 < currentmillis) return;\t#if dbg if (runregex.debug) {\tdebug.writeline(\"\");",
+  "regex match timeout occurred",
+  0
+ ],
+ [
+  "public void processstart_useshellexecute_onlinux_throwsifnoprograminstalled() {\tif (!s_allowedprogramstorun.any(program => isprograminstalled(program))) {",
+  "none of the following programs were installed on this machine string join s allowedprogramstorun",
+  0
+ ],
+ [
+  "s7.f6 = 6;\ts7.f7 = 7;\ts7 = mono_return_double7(s7, 9);\tif (s7.f1 != 1+9) {\treturn 1;\t}\tif (s7.f2 != 2+9) {\treturn 2;\t}\tif (s7.f3 != 3+9) {",
+  "got but expected",
+  0
+ ],
+ [
+  "static void generatefile (list<tuple<string, string, string>> txtstrings, cmdoptions options) {\tusing (var str = options.outputfile == null ? console.out : new streamwriter (options.outputfile)) {",
+  "partial class sr",
+  0
+ ],
+ [
+  "public static void dataadaptertest2_delete (oracleconnection con) {\tconsole.writeline(\"================================\");\tconsole.writeline(\"=== adapter delete =============\");\tconsole.writeline(\"================================\");\toracletransaction transaction = con.begintransaction ();\toracledataadapter da = new oracledataadapter(\"select * from mono_adapter_test\", con);",
+  "create command builder",
+  0
+ ],
+ [
+  "if (s9.f6 != 6+9) {\treturn 6;\t}\tif (s9.f7 != 7+9) {\treturn 7;\t}\tif (s9.f8 != 8+9) {\treturn 8;\t}\tif (s9.f9 != 9+9) {",
+  "got but expected",
+  0
+ ],
+ [
+  "static private int main(string[] args) {\tassembly assembly = assembly.getexecutingassembly ();\ttype type = assembly.gettype(\"monobug.program\", true);\tmethodinfo info = type.getmethod(\"foo\");\tobject[] attributes = info.getcustomattributes (false);\tint found = 0;\tforeach (object obj in attributes) {",
+  "shouldn t have reached here",
+  1
+ ],
+ [
+  "public void utf8encoding() {",
+  "failed after retrieving times",
+  1
+ ],
+ [
+  "public void test<t2>() {",
+  "codeattributedeclarationcollection",
+  1
+ ],
+ [
+  "public override deftype[] computeruntimeinterfaces(typedesc type) {\ttypebuilderstate state = type.getorcreatetypebuilderstate();\tint totalinterfaces = runtimeaugments.getinterfacecount(state.templatetype.runtimetypehandle);\ttypeloaderlogger.writeline(\"building runtime interfaces for type \" + type.tostring() + \" (total interfaces = \" + totalinterfaces.lowleveltostring() + \") ...\");\tdeftype[] interfaces = new deftype[totalinterfaces];\tint numinterfaces = 0;\tif (type.basetype != null) {\tforeach (var baseinterface in type.basetype.runtimeinterfaces) {\tdebug.assert(!interfaceinset(interfaces, numinterfaces, baseinterface));\tinterfaces[numinterfaces++] = baseinterface;",
+  "could not open the log directory",
+  1
+ ],
+ [
+  "_output.writeline(e1.message);\tif (xslinputtype == xslinputtype.uri) return;\telse {\tassert.true(false);\t}\t}\tcatch (argumentnullexception e2) {\t_output.writeline(e2.message);\tif (xslinputtype == xslinputtype.uri) return;\telse {",
+  "abc",
+  1
+ ],
+ [
+  "private void checkdisposed() {\tif (_disposed) {",
+  "div end topmost div",
+  1
+ ],
+ [
+  "static ienumerator getit (int [] args) {\tforeach (int arg in args) {",
+  "usage locktracerdecoder exe path to mono path to locks pid",
+  1
+ ],
+ [
+  "public graincallbootstrapper() {",
+  "stacktrace",
+  1
+ ],
+ [
+  "static int main () {\ttype t = typeof (t);\tt obj = new t ();\tmethodbase m1;",
+  "instrumentation failure in packagemanagement",
+  1
+ ],
+ [
+  "public static void printlogfunction (string domain, loglevelflags level, string message) {",
+  "skipping nameof manual certificatesentmatchescertificatereceived success",
+  1
+ ],
+ [
+  "if (!double.isnan((double)retobj)) {\tassert.true(false);\t}\tm_xsltarg.addparam(\"myarg4\", szempty, d4);\tretobj = m_xsltarg.getparam(\"myarg4\", szempty);\tif (!d4.equals((double)retobj)) {\tassert.true(false);\t}\tm_xsltarg.addparam(\"myarg5\", szempty, d5);\tretobj = m_xsltarg.getparam(\"myarg5\", szempty);",
+  "oid cache couldn t be saved cause",
+  1
+ ],
+ [
+  "assert.true(false, \"samplewithfilesandpool probably can ignore this if its pool not found: \" + ex.tostring());\t}\t}) });\tlist<cloudtask> tasks = boundjob.listtasks().tolist();\tcloudtask mycompletedtask = tasks.single();\tforeach (cloudtask curtask in tasks) {\t}\tboundpool.refresh();\tstring stdout = mycompletedtask.getnodefile(constants.standardoutfilename).readasstring();\tstring stderr = mycompletedtask.getnodefile(constants.standarderrorfilename).readasstring();",
+  "reader movetocontent",
+  1
+ ],
+ [
+  "catch(oracleexception e) {\ttrans.commit();\t}\tcmd.commandtext = \"create table mono_adapter_test ( \" + \" varchar2_value varchar2(32),  \" + \" number_whole_value number(18,0) primary key ) \";\ttrans = con.begintransaction();\tcmd.transaction = trans;\treader = cmd.executereader();\treader.read();\treader.close();\ttrans.commit();",
+  "wrong method",
+  1
+ ],
+ [
+  "public void testremovebracesfromwhile() {\ttest<removebracescoderefactoringprovider>(@\"class testclass {\tvoid test() {\t$while (true) {\t}\t}\t}\", @\"class testclass {\tvoid test() {",
+  "ienumerable sqldatarecord",
+  1
+ ],
+ [
+  "}\ttry {\tif (registered == null) {\tif (config != null) m.registercontext (contexttype, config);\telse m.registercontext (contexttype);\t}\t} catch (invalidoperationexception ex) {\texception = ex;\t}\tif (exception != null) {",
+  "expected error",
+  1
+ ],
+ [
+  "static void test3 () {\tbool catched_abort = false;\tdriver.mre1.reset ();\tdriver.mre2.reset ();\tthread thread = new thread (() => {\ttry {\tstaticconstructor3.init ();\tenvironment.exit (7);\t} catch (threadabortexception e) {",
+  "other useless string",
+  1
+ ]
+]

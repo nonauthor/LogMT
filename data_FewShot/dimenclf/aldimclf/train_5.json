@@ -1,0 +1,317 @@
+[
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 [MASK] disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "ms",
+  4
+ ],
+ [
+  "booter start at 1251 ms smc 0 ms, [18, 0, 0] total 367 ms, dsply 0, 0 [MASK] tramp 1080 ms",
+  "ms",
+  4
+ ],
+ [
+  "pm response took 1938 [MASK] (54, powerd)",
+  "ms",
+  4
+ ],
+ [
+  "booter start at 1251 ms smc 0 ms, [18, 0, 0] total 367 ms, dsply 0, 0 ms, tramp 1080 [MASK]",
+  "ms",
+  4
+ ],
+ [
+  "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] took 450 [MASK] to deallocate network for instance.",
+  "ms",
+  4
+ ],
+ [
+  "int_src_ovr (bus 0 [MASK] 9 global_irq 9 high level)",
+  "us",
+  7
+ ],
+ [
+  "1 [MASK] receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected",
+  "us",
+  7
+ ],
+ [
+  "int_src_ovr (bus 0 [MASK] 0 global_irq 2 dfl dfl)",
+  "us",
+  7
+ ],
+ [
+  "1 [MASK] receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected",
+  "us",
+  7
+ ],
+ [
+  "device: /dev/sda, temperature changed -2 celsius to 26 [MASK] since last report",
+  "us",
+  7
+ ],
+ [
+  "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] took 0.46 [MASK] to deallocate network for instance.",
+  "sec",
+  6
+ ],
+ [
+  "18507114 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 198 [MASK]",
+  "sec",
+  6
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 21335 bytes @ 5481561 took 0.501237 sec. to complete, 16 reads >= 0.5 [MASK]",
+  "sec",
+  6
+ ],
+ [
+  "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] took 0.45 [MASK] to deallocate network for instance.",
+  "sec",
+  6
+ ],
+ [
+  "hibernate_machine_init pagesdone 451550 sum2 4886d9d9, time: 0.197 [MASK] disk(0x20000) 799 mb/s, comp bytes: 40017920 time: 27 ms 1412 mb/s, crypt bytes: 160550912 time: 39 ms 3904 mb/s",
+  "sec",
+  6
+ ],
+ [
+  "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] took 0.3178 [MASK] to spawn the instance on the hypervisor.",
+  "min",
+  10
+ ],
+ [
+  "booter start at 1251 ms smc 0 ms, [18, 0, 0] total 367 ms, dsply 0, 0 ms, tramp 0.018 [MASK]",
+  "min",
+  10
+ ],
+ [
+  "com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 270.45 [MASK]  ignoring.",
+  "min",
+  10
+ ],
+ [
+  "full wake request (reason 2) 0.5152 [MASK]",
+  "min",
+  10
+ ],
+ [
+  "1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 4.0667 [MASK]",
+  "min",
+  10
+ ],
+ [
+  "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] total disk: 15360 [MASK] used: 0.00 gb",
+  "mb",
+  1
+ ],
+ [
+  "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] total memory: 64172 [MASK] used: 512.00 mb",
+  "mb",
+  1
+ ],
+ [
+  "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] memory limit: 96258.00 mb, free: 95746.00 [MASK]",
+  "mb",
+  1
+ ],
+ [
+  "block broadcast_18_piece0 stored as bytes in memory (estimated size 0.005 [MASK] free 454.4 kb)",
+  "mb",
+  1
+ ],
+ [
+  "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] total memory: 64172 [MASK] used: 512.00 mb",
+  "mb",
+  1
+ ],
+ [
+  "pm response took 0.5583 [MASK] (54, powerd)",
+  "h",
+  11
+ ],
+ [
+  "sqm: cleaning up report files older than 240 [MASK]",
+  "h",
+  11
+ ],
+ [
+  "hibernate_newruntime_map time: 0 [MASK] iopolledfilepollersopen(), ml_get_interrupts_enabled 0",
+  "h",
+  11
+ ],
+ [
+  "pm response took 0.5411 [MASK] (54, powerd)",
+  "h",
+  11
+ ],
+ [
+  "total of 5 ddr error(s) detected and corrected over 2.53 [MASK]",
+  "h",
+  11
+ ],
+ [
+  "pm response took 0.0233 [MASK] (54, powerd)",
+  "day",
+  9
+ ],
+ [
+  "user unknown timed out after 0.0104 [MASK] at sat jun 18 02:23:10 2005",
+  "day",
+  9
+ ],
+ [
+  "sqm: cleaning up report files older than 10 [MASK]",
+  "day",
+  9
+ ],
+ [
+  "checkcurrentday a new day comes , reset basicsynccondition, currentday is 20171224 [MASK] is 20171223",
+  "day",
+  9
+ ],
+ [
+  "total of 3 ddr error(s) detected and corrected over 0.1011 [MASK]",
+  "day",
+  9
+ ],
+ [
+  "tcpconn.tencent.com:80 close, 133 bytes sent, 0 [MASK] received, lifetime <1 sec",
+  "bytes",
+  3
+ ],
+ [
+  "block broadcast_11 stored as values in memory (estimated size 9.2 kb, free 362393.6 [MASK]",
+  "bytes",
+  3
+ ],
+ [
+  "tcpconn.tencent.com:80 close, 133 [MASK] sent, 0 bytes received, lifetime <1 sec",
+  "bytes",
+  3
+ ],
+ [
+  "inode-cache hash table entries: 8192 (order: 3, 32768 [MASK]",
+  "bytes",
+  3
+ ],
+ [
+  "finished task 34.0 in stage 27.0 (tid 1274). 2128 [MASK] result sent to driver",
+  "bytes",
+  3
+ ],
+ [
+  "dquot-cache hash table entries: 1024 (order 0, 4 [MASK]",
+  "kb",
+  0
+ ],
+ [
+  "2017-07-07 10:54:41.296 ksfetch[37925/0x7fff79824000] [lvl=2] kshelperreceivealldata() kshelpertool read 1.88 [MASK] from stdin.",
+  "kb",
+  0
+ ],
+ [
+  "block broadcast_18_piece0 stored as bytes in memory (estimated size 5.8 [MASK] free 454.4 kb)",
+  "kb",
+  0
+ ],
+ [
+  "block broadcast_11 stored as values in memory (estimated size 9.2 kb, free 353.9 [MASK]",
+  "kb",
+  0
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 20.83 [MASK] @ 5481561 took 0.501237 sec. to complete, 16 reads >= 0.5 sec.",
+  "kb",
+  0
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt [MASK]: 0.1475 time: 38 ms 3973 mb/s",
+  "gb",
+  2
+ ],
+ [
+  "memorystore started with capacity 17.7 [MASK]",
+  "gb",
+  2
+ ],
+ [
+  "[instance: 78dc1847-8848-49cc-933e-9239b12c9dcf] total disk: 15 gb, used: 0.00 [MASK]",
+  "gb",
+  2
+ ],
+ [
+  "block broadcast_18_piece0 stored as bytes in memory (estimated size 5.8 kb, free 0.44 [MASK]",
+  "gb",
+  2
+ ],
+ [
+  "api.github.com:443 close, 797 bytes sent, 0.004 [MASK] (4.70 kb) received, lifetime 00:11",
+  "gb",
+  2
+ ],
+ [
+  "applethunderboltgenerichal::earlywake - complete - took 0.001 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "hibernate_page_list_setall time: 0.603 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "reading broadcast variable 12 took 0.03 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "wake time set -0.331349 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "time reset +0.182379 [MASK]",
+  "s",
+  5
+ ],
+ [
+  "we launched 1 speculations.  sleeping 15000 [MASK]",
+  "milliseconds",
+  8
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 4321 bytes @ 48 took 0.607292 sec. to complete, 7 reads >= 500 [MASK]",
+  "milliseconds",
+  8
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 4321 bytes @ 48 took 607.292 [MASK] to complete, 7 reads >= 0.5 sec.",
+  "milliseconds",
+  8
+ ],
+ [
+  "applethunderboltgenerichal::earlywake - complete - took 1 [MASK]",
+  "milliseconds",
+  8
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 [MASK] comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "mb/s",
+  12
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 [MASK]",
+  "mb/s",
+  12
+ ],
+ [
+  "hibernate_machine_init pagesdone 451550 sum2 4886d9d9, time: 197 ms, disk(0x20000) 799 mb/s, comp bytes: 40017920 time: 27 ms 1412 mb/s, crypt bytes: 160550912 time: 39 ms 3904 [MASK]",
+  "mb/s",
+  12
+ ],
+ [
+  "hibernate_machine_init pagesdone 451550 sum2 4886d9d9, time: 197 ms, disk(0x20000) 799 [MASK] comp bytes: 40017920 time: 27 ms 1412 mb/s, crypt bytes: 160550912 time: 39 ms 3904 mb/s",
+  "mb/s",
+  12
+ ]
+]

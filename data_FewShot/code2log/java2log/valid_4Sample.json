@@ -1,0 +1,22 @@
+[
+ [
+  "if (delTokSeqCounter != null) {\tdelTokSeqCounter.close();\t}\t} catch (Exception e) {\t}\ttry {\tif (keyIdSeqCounter != null) {\tkeyIdSeqCounter.close();\t}\t} catch (Exception e) {",
+  "no default constructor available in class ignoring exception",
+  1
+ ],
+ [
+  "}\tFile cfgFile = new File(hibernateCfgPath);\tif (cfgFile.exists()) {\tsesFactory = new Configuration().configure(cfgFile).buildSessionFactory();\treturn;\t}\tsesFactory = new Configuration().configure(hibernateCfgPath).buildSessionFactory();\t}\telse {\tif (hibernateProps == null) {",
+  "no juniper managed networks for the given traffic types",
+  1
+ ],
+ [
+  "public AsyncMethodCallback<String> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {\tfinal org.apache.thrift.AsyncProcessFunction fcall = this;\treturn new AsyncMethodCallback<String>() {\tpublic void onComplete(String o) {\tgetMetaConf_result result = new getMetaConf_result();\tresult.success = o;\ttry {\tfcall.sendResponse(fb,result, org.apache.thrift.protocol.TMessageType.REPLY,seqid);\treturn;\t} catch (Exception e) {",
+  "exception writing to internal frame buffer",
+  0
+ ],
+ [
+  "private UserGroupInformation checkAcls(String method) throws IOException {\tUserGroupInformation user;\ttry {\tuser = UserGroupInformation.getCurrentUser();\t} catch (IOException ioe) {",
+  "couldn t get current user",
+  0
+ ]
+]

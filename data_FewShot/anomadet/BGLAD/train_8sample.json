@@ -1,0 +1,42 @@
+[
+ [
+  "Node card VPD check: U01 node in processor card slot J10 do not match. VPD ecid 04CD81B2DF2FFFFF090D1A310EC4, found 04CF8088802FFFFF070B1B605ED9",
+  0,
+  "66c627c6"
+ ],
+ [
+  "1 ddr error(s) detected and corrected on rank 0, symbol 18 over 2244 seconds",
+  0,
+  "30b3b946"
+ ],
+ [
+  "10754 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "auxiliary processor.........................0",
+  0,
+  "b48b277c"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:60273, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41313, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41463, Link has been severed",
+  1,
+  "8fab64d7"
+ ]
+]

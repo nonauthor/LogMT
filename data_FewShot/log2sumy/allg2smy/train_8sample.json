@@ -1,0 +1,189 @@
+[
+ [
+  [
+   "node status 1104961275 1 running\n",
+   "node status 1104072402 1 running\n",
+   "node status 1104956639 1 running\n",
+   "partition status 1104950640 1 blocked\n",
+   "partition status 1104946500 1 blocked\n",
+   "node status 1104950640 1 configured out\n",
+   "partition status 1104072412 1 running\n",
+   "node status 1104936735 1 not responding\n",
+   "partition status 1104936814 1 running\n",
+   "partition status 1104936780 1 blocked\n",
+   "partition status 1104961295 1 running\n",
+   "partition status 1104943642 1 running\n",
+   "node status 1104946478 1 not responding\n",
+   "node status 1104936780 1 configured out\n",
+   "node status 1104943622 1 running\n",
+   "partition status 1104956653 1 running\n",
+   "node status 1104950606 1 not responding\n",
+   "partition status 1104946520 1 running\n",
+   "node status 1104946500 1 configured out\n",
+   "partition status 1104950657 1 running\n"
+  ],
+  [
+   "gige temperature warning; gige temperature normal;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57385 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58152 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58094 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57383 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58151 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58300 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58093 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57534 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57577 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57533 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57386 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58299 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58156 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57390 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58160 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58155 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57389 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57384 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 57578 : Link has been severed\n",
+   "RAS APP FATAL ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116 : 58159 : Link has been severed\n"
+  ],
+  [
+   "caught exception; Closed socket connection; Accepted socket connection; Established session timeout; Connection request will be dropped; Expiring session; timeout exceeded;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2221 bytes ( 2.16 KB ) sent , 812 bytes received , lifetime 00 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1680 bytes ( 1.64 KB ) sent , 935 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 830 bytes sent , 401 bytes received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 0 bytes sent , 0 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2211 bytes ( 2.15 KB ) sent , 812 bytes received , lifetime 00 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 419 bytes sent , 723 bytes received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 902 bytes sent , 10765 bytes ( 10.5 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2217 bytes ( 2.16 KB ) sent , 812 bytes received , lifetime 00 : 07\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 0 bytes sent , 0 bytes received , lifetime 00 : 07\n"
+  ],
+  [
+   "Expiring session; timeout exceeded; Processed session termination;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO initLimit set to 10\n",
+   "INFO Notification : 2 ( n.leader ) , 0x700000197 ( n.zxid ) , 0x1 ( n.round ) , LOOKING ( n.state ) , 2 ( n.sid ) , 0x7 ( n.peerEPoch ) , LOOKING ( my state )\n",
+   "2015-08-07 07 : 27 : 27 , 390 - INFO [ QuorumPeer [ myid = 2 ] /0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 2181 : QuorumPeer@670 ] - LOOKING\n",
+   "INFO Notification time out : 1600\n",
+   "INFO My election bind port : 0.0.0.0/0.0.0.0 : 3888\n",
+   "INFO Reading snapshot /var/lib/zookeeper/version-2/snapshot.50000062e\n",
+   "INFO Notification time out : 800\n",
+   "WARN Cannot open channel to 1 at election address /10.10.34.11 : 3888\n",
+   "WARN Cannot open channel to 3 at election address /10.10.34.13 : 3888\n",
+   "INFO Notification time out : 400\n",
+   "INFO Notification time out : 3200\n",
+   "INFO New election. My id = 2 , proposed zxid = 0x700000197\n"
+  ],
+  [
+   "Deleting block file; Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO instruction cache parity error corrected\n"
+  ],
+  [
+   "instruction cache parity error corrected;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Revalidating client : 0x14f05578bd8001d\n",
+   "INFO Established session 0x14f05578bd8001c with negotiated timeout 10000 for client /10.10.34.21 : 58107\n",
+   "WARN Connection request from old client /10.10.34.23 : 57961 ; will be dropped if server is in r-o mode\n",
+   "INFO Revalidating client : 0x14f05578bd8001a\n",
+   "INFO Established session 0x14f05578bd8001b with negotiated timeout 10000 for client /10.10.34.20 : 56374\n",
+   "INFO Established session 0x14f05578bd80018 with negotiated timeout 10000 for client /10.10.34.13 : 38491\n",
+   "INFO Client attempting to renew session 0x14f05578bd80019 at /10.10.34.16 : 40425\n",
+   "INFO Accepted socket connection from /10.10.34.22 : 46863\n",
+   "INFO Client attempting to renew session 0x14f05578bd8001d at /10.10.34.22 : 46863\n",
+   "INFO Established session 0x14f05578bd80015 with negotiated timeout 10000 for client /10.10.34.12 : 46306\n",
+   "INFO Accepted socket connection from /10.10.34.16 : 40425\n",
+   "WARN Connection request from old client /10.10.34.16 : 40425 ; will be dropped if server is in r-o mode\n",
+   "INFO Accepted socket connection from /10.10.34.18 : 60219\n",
+   "WARN Connection request from old client /10.10.34.18 : 60219 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x14f05578bd8001a with negotiated timeout 10000 for client /10.10.34.18 : 60219\n",
+   "INFO Revalidating client : 0x14f05578bd80019\n",
+   "INFO Revalidating client : 0x14f05578bd8001b\n",
+   "WARN Connection request from old client /10.10.34.22 : 46863 ; will be dropped if server is in r-o mode\n",
+   "INFO Client attempting to renew session 0x14f05578bd8001a at /10.10.34.18 : 60219\n",
+   "INFO Accepted socket connection from /10.10.34.23 : 57961\n"
+  ],
+  [
+   "Revalidating client; Accepted socket connection; Established session timeout; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "unix.hw net.niff.up 1141676468 1 NIFF : node node-208 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676472 1 NIFF : node node-210 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676476 1 NIFF : node node-213 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676480 1 NIFF : node node-212 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676473 1 NIFF : node node-80 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676472 1 NIFF : node node-209 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676468 1 NIFF : node node-208 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676477 1 NIFF : node node-107 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676477 1 NIFF : node node-107 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676475 1 NIFF : node node-81 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676472 1 NIFF : node node-209 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676475 1 NIFF : node node-81 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676473 1 NIFF : node node-80 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676476 1 NIFF : node node-145 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676480 1 NIFF : node node-212 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676472 1 NIFF : node node-210 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676476 1 NIFF : node node-213 has detected an available network connection on network 10.128.0.0 via interface ee0\n",
+   "unix.hw net.niff.up 1141676475 1 NIFF : node node-110 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676476 1 NIFF : node node-145 has detected an available network connection on network 5.5.224.0 via interface alt0\n",
+   "unix.hw net.niff.up 1141676475 1 NIFF : node node-110 has detected an available network connection on network 10.128.0.0 via interface ee0\n"
+  ],
+  [
+   "node has detected an available network connection;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.71.68 : 50010 is added to blk_-1886295043152742159 size 67108864\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_-4513615671112005170\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_9209516605233823360 terminating\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.105.189 : 50010 is added to blk_5085472776226767513 size 67108864\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_9209516605233823360 of size 67108864 from /10.251.197.226\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_-8423623469019218108\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.42.84 : 50010 is added to blk_-8884264645385711172 size 67108864\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_5601669058330320847 src : /10.250.19.16 : 43287 dest : /10.250.19.16 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_3000947732958086582 src : /10.251.197.226 : 55233 dest : /10.251.197.226 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_5601669058330320847 src : /10.251.195.70 : 48457 dest : /10.251.195.70 : 50010\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand/_temporary/_task_200811092030_0001_m_000190_0/part-00190. blk_6236687718597980422\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand/_temporary/_task_200811092030_0001_m_000322_0/part-00322. blk_-2618613639588073189\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_3091099087150179177\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.67.113 : 50010 is added to blk_-6955905015982651412 size 67108864\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_7859981215820637753 src : /10.250.15.240 : 52245 dest : /10.250.15.240 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-4075499163837453137 src : /10.251.26.131 : 45632 dest : /10.251.26.131 : 50010\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.allocateBlock : /user/root/rand/_temporary/_task_200811092030_0001_m_000006_0/part-00006. blk_-2581653693275159104\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.65.203 : 50010 is added to blk_194626696959819525 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.199.19 : 50010 is added to blk_3698016797273149670 size 67108864\n",
+   "INFO dfs.FSNamesystem : BLOCK* NameSystem.addStoredBlock : blockMap updated : 10.251.121.224 : 50010 is added to blk_-1886295043152742159 size 67108864\n"
+  ],
+  [
+   "Receiving block src; blockMap updated; Verification succeded;\n"
+  ],
+  0
+ ]
+]

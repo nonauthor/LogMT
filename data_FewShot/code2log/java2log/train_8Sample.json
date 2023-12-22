@@ -1,0 +1,42 @@
+[
+ [
+  "public void stop() throws Exception {\tint consumers = channelFactory.consumers();\tif (consumers == 0) {",
+  "bootstrapfactory on port is stopping",
+  0
+ ],
+ [
+  "protected synchronized void initialize(Exchange exchange) throws XPathException, IOException {\tif (!initialized.get()) {\tif (configuration == null) {\tconfiguration = new Configuration();\tconfiguration.setStripsWhiteSpace(isStripsAllWhiteSpace() ? Whitespace.ALL : Whitespace.IGNORABLE);",
+  "created new configuration",
+  0
+ ],
+ [
+  "} else {\tRegionInfo region = entry.getValue().get(rand.nextInt(entry.getValue().size()));\ttasks.add(new RegionServerTask(this.connection, serverName, region, regionServerSink, successes));\t}\t}\ttry {\tfor (Future<Void> future : this.executor.invokeAll(tasks)) {\ttry {\tfuture.get();\t} catch (ExecutionException e) {",
+  "sniff regionserver failed",
+  0
+ ],
+ [
+  "for (ServerName server : killedServers) {\tcluster.waitForRegionServerToStop(server, PolicyBasedChaosMonkey.TIMEOUT);\t}\tsleep(sleepTime);\tfor (ServerName server : killedServers) {\tcluster.startRegionServer(server.getHostname(), server.getPort());\t}\tfor (ServerName server : killedServers) {\tcluster.waitForRegionServerToStart(server.getHostname(), server.getPort(), PolicyBasedChaosMonkey.TIMEOUT);\t}",
+  "started region servers reported num of rs",
+  0
+ ],
+ [
+  "public void testFetchApplicationsAndEntity() {\tCollection apps = client().path(\"/applications/fetch\").get(Collection.class);",
+  "content lenght is incorrect",
+  1
+ ],
+ [
+  "private void disableJmx(Set<String> disabledJmx) throws Exception {",
+  "sending message",
+  1
+ ],
+ [
+  "protected void cleanup(Context context) throws IOException, InterruptedException {\tval.setSeed(r.nextLong());\twhile (factory.next(null, val)) {\tcontext.write(NullWritable.get(), val);\tval.setSeed(r.nextLong());\ttry {\tmatcher.match();\t} catch (Exception e) {",
+  "no consumer to service request",
+  1
+ ],
+ [
+  "break;\t}\t}\tif (differingKeys.isEmpty()) same = true;\t}\tif (cmd.commands.containsAll(expectedCmds) && same) {\treturn;\t}\t}\tfor (ExecCmd cmd : RecordingSshTool.execScriptCmds) {",
+  "put from backup",
+  1
+ ]
+]

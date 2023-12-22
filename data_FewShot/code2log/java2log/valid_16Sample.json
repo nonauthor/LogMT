@@ -1,0 +1,82 @@
+[
+ [
+  "public static boolean launchJob(URI fileSys, JobConf conf, int numMaps, int numReduces) throws IOException {\tfinal Path inDir = new Path(\"/testing/input\");\tfinal Path outDir = new Path(\"/testing/output\");\tFileSystem fs = FileSystem.get(fileSys, conf);\tfs.delete(outDir, true);\tif (!fs.mkdirs(inDir)) {",
+  "t dataformats end",
+  1
+ ],
+ [
+  "public void initialize(InputSplit split, TaskAttemptContext context) throws IOException, InterruptedException {\tWALSplit hsplit = (WALSplit)split;\tlogFile = new Path(hsplit.getLogFileName());\tconf = context.getConfiguration();",
+  "processing exchange",
+  1
+ ],
+ [
+  "} else {\tthrow new InvalidClientIDException(\"Broker: \" + getBrokerName() + \" - Client: \" + clientId + \" already connected from \" + oldContext.getConnection().getRemoteAddress());\t}\t} else {\tclientIdSet.put(clientId, context);\t}\t}\tif (oldContext != null) {\tif (oldContext.getConnection() != null) {\tConnection connection = oldContext.getConnection();",
+  "sender paused",
+  1
+ ],
+ [
+  "private DiskRangeList.MutateHelper getDataFromCacheAndDisk(DiskRangeList listToRead, long stripeOffset, boolean hasFileId, IdentityHashMap<ByteBuffer, Boolean> toRelease) throws IOException {\tDiskRangeList.MutateHelper toRead = new DiskRangeList.MutateHelper(listToRead);\tif (LOG.isInfoEnabled()) {",
+  "taskowner hashcode",
+  1
+ ],
+ [
+  "Connection dbConn = null;\tStatement stmt = null;\ttry {\tdbConn = getDbConn(Connection.TRANSACTION_READ_COMMITTED);\tstmt = dbConn.createStatement();\tString s = \"update COMPACTION_QUEUE set CQ_HADOOP_JOB_ID = \" + quoteString(hadoopJobId) + \" WHERE CQ_ID = \" + id;\tint updateCount = stmt.executeUpdate(s);\tcloseStmt(stmt);\tdbConn.commit();\t} catch (SQLException e) {",
+  "adding bouncycastleprovider as security provider",
+  1
+ ],
+ [
+  "public Replica recoverClose(ExtendedBlock b, long newGS, long expectedBlockLen) throws IOException {",
+  "outputcommitter set in config mapred output committer class",
+  1
+ ],
+ [
+  "public void startMergeOperation(String[] backupIdList) throws IOException {\tif (LOG.isTraceEnabled()) {",
+  "could not add current user to admin",
+  1
+ ],
+ [
+  "while (!done.get()) {\tbrokerA1 = createBroker(\"tcp\", \"61611\", null);\tbrokerA1.setBrokerName(\"Pair\");\tbrokerA1.setBrokerObjectName(new ObjectName(brokerA.getManagementContext().getJmxDomainName() + \":\" + \"brokerName=\" + JMXSupport.encodeObjectNamePart(\"A1\") + \",\" + \"Type=Broker\"));\t((KahaDBPersistenceAdapter)brokerA1.getPersistenceAdapter()).getLocker().setLockAcquireSleepInterval(1000);\tbrokerA1.start();\tbrokerA1.waitUntilStopped();\tbrokerA.waitUntilStarted();\t}\t} catch (Exception ignored) {",
+  "failover is round robin enabled and therefore starting from the first endpoint",
+  1
+ ],
+ [
+  "ProcessorDefinition<?> output = it.next();\tif (matchBy.match(output)) {\tList<ProcessorDefinition<?>> outputs = getOutputs(output);\tif (outputs != null) {\tint index = outputs.indexOf(output);\tif (index != -1) {\tmatch = true;\toutputs.add(index + 1, replace);\tObject old = outputs.remove(index);\treplace.setParent(output.getParent());",
+  "advicewith replace",
+  0
+ ],
+ [
+  "blockPutRef.set(GridTestUtils.runAsync(new Callable() {\ttry {\tcache.put(2, 2);\tfail();\t}\tcatch (CacheException e) {\tIgniteClientDisconnectedException e0 = (IgniteClientDisconnectedException)e.getCause();\te0.reconnectFuture().get();\t}\tcache.put(2, 2);",
+  "finish put",
+  0
+ ],
+ [
+  "protected <T extends BaseRecord> BufferedReader getReader( Class<T> clazz, String sub) {\tString filename = StateStoreUtils.getRecordName(clazz);\tif (sub != null && sub.length() > 0) {\tfilename += \"/\" + sub;\t}\tfilename += \"/\" + getDataFileName();\ttry {",
+  "loading file",
+  0
+ ],
+ [
+  "sb.append(\" \" + maskAndFilterInfo.additionalTabInfo);\tString filter = privObject.getRowFilterExpression();\tif (filter != null) {\tsb.append(\" WHERE \" + filter);\tdoRowFiltering = true;\t}\tsb.append(\")\" + HiveUtils.unparseIdentifier(maskAndFilterInfo.alias, conf));\tif (!doColumnMasking && !doRowFiltering) {\treturn null;\t} else {",
+  "tablemask creates",
+  0
+ ],
+ [
+  "else {\tupdates.put(key, new T2<>((Object)key, (Object)key));\texpEvts.add(new T3<>((Object)key, (Object)key, (Object)key));\t}\tif (updateFromClient) qryClientCache.put(key, key);\telse cache.put(key, key);\t}\tif (!latch.await(10, SECONDS)) {\tSet<Integer> keys0 = new HashSet<>(keys);\tkeys0.removeAll(lsnr.keys);",
+  "missed events for keys",
+  0
+ ],
+ [
+  "File file = new File(userGuideDir, \"SUMMARY.md\");\tStringBuilder other = new StringBuilder();\tother.append(\"* Miscellaneous Components\\n\");\tfor (OtherModel model : models) {\tString line = \"\\t* \" + link(model) + \"\\n\";\tother.append(line);\t}\tboolean updated = updateOthers(file, other.toString());\tif (updated) {\t} else {",
+  "no changes to user guide file",
+  0
+ ],
+ [
+  "Parameter keyParam    = transportOut.getParameter(\"keystore\");\tParameter trustParam  = transportOut.getParameter(\"truststore\");\tOMElement ksEle = null;\tOMElement tsEle = null;\tif (keyParam != null) {\tksEle = keyParam.getParameterElement().getFirstElement();\t}\tboolean noValidateCert = ParamUtils.getOptionalParamBoolean(transportOut, \"novalidatecert\", false);\tif (trustParam != null) {\tif (noValidateCert) {",
+  "ignoring novalidatecert parameter since a truststore has been specified",
+  0
+ ],
+ [
+  "protected Transport createProducer() throws Exception {",
+  "producer using uri",
+  0
+ ]
+]

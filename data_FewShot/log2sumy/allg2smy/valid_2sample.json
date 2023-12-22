@@ -1,0 +1,26 @@
+[
+ [
+  [
+   "WARN Interrupted while waiting for message on queue\n",
+   "WARN Connection broken for id 188978561024 , my id = 3 , error =\n",
+   "WARN Send worker leaving thread\n",
+   "INFO Received connection request /10.10.34.11 : 46484\n",
+   "INFO Received connection request /10.10.34.13 : 44168\n",
+   "INFO Received connection request /10.10.34.13 : 44169\n",
+   "WARN Interrupting SendWorker\n"
+  ],
+  [
+   "node status running; partition status running; inconsistent nodesets; node status configured out; partition status blocked;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO program interrupt : unimplemented operation..0\n"
+  ],
+  [
+   "program interrupt; unimplemented operation\uff1b\n"
+  ],
+  0
+ ]
+]

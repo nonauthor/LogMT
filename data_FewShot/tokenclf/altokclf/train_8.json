@@ -1,0 +1,434 @@
+[
+ [
+  "hibernate_alloc_pages act 107794, inact 10088, anon 460, throt 0, spec 58021, wire 572831, wireinit 39927",
+  "hibernate_alloc_pages",
+  "FUN",
+  6
+ ],
+ [
+  "lognotificationvisibilitychanges runinthread over",
+  "lognotificationvisibilitychanges",
+  "FUN",
+  6
+ ],
+ [
+  "rotationfororientationlw (orient=-1, last=0); user=0 user_rotation_locked",
+  "rotationfororientationlw",
+  "FUN",
+  6
+ ],
+ [
+  "tcp_connection_tls_session_error_callback_imp 2044 __tcp_connection_tls_session_callback_write_block_invoke .434 error 22",
+  "__tcp_connection_tls_session_callback_write_block_invoke",
+  "FUN",
+  6
+ ],
+ [
+  "getringermode() ...",
+  "getringermode()",
+  "FUN",
+  6
+ ],
+ [
+  "workerenv.init() ok /etc/httpd/conf/workers2.properties",
+  "workerenv.init()",
+  "FUN",
+  6
+ ],
+ [
+  "autopurge.snapretaincount set to 3",
+  "autopurge.snapretaincount",
+  "FUN",
+  6
+ ],
+ [
+  "starting trustedinstaller finalization.",
+  "trustedinstaller",
+  "FUN",
+  6
+ ],
+ [
+  "refreshbatteryinfo isbatterylow: 23",
+  "refreshbatteryinfo",
+  "OTHER",
+  5
+ ],
+ [
+  "version 1.0.6 starting",
+  "1.0.6",
+  "OTHER",
+  5
+ ],
+ [
+  "registered webapp guice modules",
+  "modules",
+  "OTHER",
+  5
+ ],
+ [
+  "pam service(sshd) ignoring max retries; 5 > 3",
+  "ignoring",
+  "OTHER",
+  5
+ ],
+ [
+  "invalidating watch set.",
+  "watch",
+  "OTHER",
+  5
+ ],
+ [
+  "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] instance destroyed successfully.",
+  "destroyed",
+  "OTHER",
+  5
+ ],
+ [
+  "calculatealtitudewithcache totalaltitude=240",
+  "calculatealtitudewithcache",
+  "OTHER",
+  5
+ ],
+ [
+  "<immacnotificationcentermanager: 0x7ff1b2e00ba0>:   dnd enabled: yes",
+  "dnd",
+  "OTHER",
+  5
+ ],
+ [
+  "authentication failed from 163.27.187.39 (163.27.187.39): permission denied in replay cache code",
+  "163.27.187.39",
+  "IP",
+  7
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "106.5.5.195",
+  "IP",
+  7
+ ],
+ [
+  "enqueuenotificationinternal: pkg= com.tencent.mm id=4097 notification=notification(pri=1 contentview=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=private)",
+  "com.tencent.mm",
+  "IP",
+  7
+ ],
+ [
+  "pam 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost= 119.4.203.64",
+  "119.4.203.64",
+  "IP",
+  7
+ ],
+ [
+  "niff: node node-69 detected a failed network connection on network 5.5.224.0 via interface alt0",
+  "5.5.224.0",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251 .",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 ( 10.100.0.250 ) from 00:11:43:e3:ba:c3 via eth1",
+  "10.100.0.250",
+  "IP",
+  7
+ ],
+ [
+  "resolved msra-sa-39.fareast.corp.microsoft.com to /default-rack",
+  "msra-sa-39.fareast.corp.microsoft.com",
+  "IP",
+  7
+ ],
+ [
+  "total hugetlb memory allocated, 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "arpt: 770518.944345: framerdy 0x0 bmccmd 3 framecnt 1024",
+  "3",
+  "STATE",
+  2
+ ],
+ [
+  "iothunderboltswitch<0>(0x0)::listenercallback - thunderbolt hpd packet for route = 0x0 port = 11 unplug = 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "direct-access ansi scsi revision: 02",
+  "02",
+  "STATE",
+  2
+ ],
+ [
+  "ciod: duplicate canonical-rank 31 to logical-rank 0 mapping at line 3 of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map",
+  "31",
+  "STATE",
+  2
+ ],
+ [
+  "intel(r) xeon(tm) cpu 3.60ghz stepping 03",
+  "03",
+  "STATE",
+  2
+ ],
+ [
+  "probe of vesafb0 failed with error -6",
+  "-6",
+  "STATE",
+  2
+ ],
+ [
+  "pci interrupt link [lnkb] (irqs 3 4 5 6 7 10 *11 12)",
+  "3",
+  "STATE",
+  2
+ ],
+ [
+  "1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 244 seconds",
+  "244",
+  "COUNT",
+  1
+ ],
+ [
+  "taking screenshot from surface with crop:[rect(0, 48 - 720, 1208)], width:[432], height:[696], minlayer:[21000], maxlayer:[21080], inrotation:[false], rot:[0]",
+  "48",
+  "COUNT",
+  1
+ ],
+ [
+  "applethunderboltgenerichal::earlywake - complete - took 1 milliseconds",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "hibernate_flush_memory: buffer_cache_gc freed up 3349 wired pages",
+  "3349",
+  "COUNT",
+  1
+ ],
+ [
+  "reboot mark refs incremented to: 1",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "[11:50:13.362] itemasync_setproperty signalled err= -12785 (kfigbaseobjecterror_invalidated) (invalidated) at /library/caches/com.apple.xbs/sources/coremedia/coremedia-1731.15.207/prototypes/player/figplayer_async.c line 2306",
+  "2306",
+  "COUNT",
+  1
+ ],
+ [
+  "159 ddr error(s) detected and corrected on rank 0, symbol 29 over 2486 seconds",
+  "159",
+  "COUNT",
+  1
+ ],
+ [
+  "10.11.10.1 \"delete /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/c62f4f25-982c-4ea2-b5e4-93000edfcfbf http/1.1\" status: 204 len: 203 time: 0.2904921",
+  "0.2904921",
+  "COUNT",
+  1
+ ],
+ [
+  "opened file /var/log/sleepwakestacks.bin, size 172032, extents 1, maxio 2000000 ssd 1",
+  "1",
+  "VAR",
+  0
+ ],
+ [
+  "apm: bios version 1.2 flags 0x03 (driver version 1.16ac)",
+  "1.2",
+  "VAR",
+  0
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "455920",
+  "VAR",
+  0
+ ],
+ [
+  "pam 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.4.203.64",
+  "5",
+  "VAR",
+  0
+ ],
+ [
+  "getrunningappprocesses: caller 10113 does not hold real_get_tasks; limiting output",
+  "10113",
+  "VAR",
+  0
+ ],
+ [
+  "could discard act 74490 inact 9782 purgeable 34145 spec 56242 cleaned 0",
+  "34145",
+  "VAR",
+  0
+ ],
+ [
+  "17:13:03.545 : starting airdrop server for user 501 on wake",
+  "501",
+  "VAR",
+  0
+ ],
+ [
+  "activityrecord info: activityinfo{d1c8e63 com.tencent.mobileqq.activity.splashactivity}, euid: 0",
+  "0",
+  "VAR",
+  0
+ ],
+ [
+  "objc[35391]: class tsuatomiclrucache is implemented in both /library/quicklook/iwork.qlgenerator/contents/macos/iwork and /system/library/privateframeworks/officeimport.framework/versions/a/officeimport. one of the two will be used. which one is undefined.",
+  "/library/quicklook/iwork.qlgenerator/contents/macos/iwork",
+  "PATH",
+  8
+ ],
+ [
+  "2017-07-07 10:54:41.875 googlesoftwareupdateagent[37924/0x7000002a0000] [lvl=2] -[ksupdatecheckaction performaction] ksupdatecheckaction starting update check for ticket(s): {( <ksticket:0x100365950 productid=com.google.chrome version=59.0.3071.115 xc=<kspathexistencechecker:0x10036e950 path= /applications/google chrome.app> servertype=omaha url=https://tools.google.com/service/update2 creationdate=2017-02-18 15:41:18 tagpath=/applications/google chrome.app/contents/info.plist tagkey=kschannelid brandpath=/users/xpc/library/google/google chrome brand.plist brandkey=ksbrandid versionpath=/applications/google chrome.app/contents/info.plist versionkey=ksversion cohort=1:1y5: cohortname=stable ticketversion=1 > )} using server: <ksomahaserver:0x100243f20 engine=<ksupdateengine:0x1007161b0> >",
+  "/applications/google",
+  "PATH",
+  8
+ ],
+ [
+  "ciod: error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map : permission denied",
+  "/home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map",
+  "PATH",
+  8
+ ],
+ [
+  "creating topspin /dev entries:",
+  "/dev",
+  "PATH",
+  8
+ ],
+ [
+  "removing device node ' /udev/vcsa2 '",
+  "/udev/vcsa2",
+  "PATH",
+  8
+ ],
+ [
+  "(root) cmd (run-parts /etc/cron.hourly )",
+  "/etc/cron.hourly",
+  "PATH",
+  8
+ ],
+ [
+  "lustre mount failed : bglio136 : point /p/gb1",
+  "/p/gb1",
+  "PATH",
+  8
+ ],
+ [
+  "objc[35448]: class tsucustomformatdata is implemented in both /library/quicklook/iwork.qlgenerator/contents/macos/iwork and /system/library/privateframeworks/officeimport.framework/versions/a/officeimport. one of the two will be used. which one is undefined.",
+  "/library/quicklook/iwork.qlgenerator/contents/macos/iwork",
+  "PATH",
+  8
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "50719",
+  "PORT",
+  3
+ ],
+ [
+  "successfully started service 'sparkexecutoractorsystem' on port 55904.",
+  "55904.",
+  "PORT",
+  3
+ ],
+ [
+  "failed password for invalid user default from 5.188.10.180 port 41538 ssh2",
+  "41538",
+  "PORT",
+  3
+ ],
+ [
+  "accepted password for fztu from 119.137.62.142 port 49116 ssh2",
+  "49116",
+  "PORT",
+  3
+ ],
+ [
+  "successfully started service 'org.apache.spark.network.netty.nettyblocktransferservice' on port 40984.",
+  "40984.",
+  "PORT",
+  3
+ ],
+ [
+  "failed password for root from 183.62.140.253 port 59788 ssh2",
+  "59788",
+  "PORT",
+  3
+ ],
+ [
+  "failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2",
+  "55495",
+  "PORT",
+  3
+ ],
+ [
+  "arpt: 673431.714836: wl0: setup_keepalive: local port: 50601, remote port: 5223",
+  "5223",
+  "PORT",
+  3
+ ],
+ [
+  "remoting started; listening on addresses :[ akka.tcp://sparkexecutoractorsystem@mesos-slave-07:55904 ]",
+  "akka.tcp://sparkexecutoractorsystem@mesos-slave-07:55904",
+  "URL",
+  4
+ ],
+ [
+  "connecting to driver: spark://coarsegrainedscheduler@10.10.34.11:48069 ",
+  "spark://coarsegrainedscheduler@10.10.34.11:48069",
+  "URL",
+  4
+ ],
+ [
+  "block* namesystem.delete: blk_7197514030988119866 is added to invalidset of 10.251.75.49:50010",
+  "10.251.75.49:50010",
+  "URL",
+  4
+ ],
+ [
+  "127.0.0.1:135 error : could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - proxy server cannot establish a connection with the target, status code 403",
+  "proxy.cse.cuhk.edu.hk:5070",
+  "URL",
+  4
+ ],
+ [
+  "client attempting to renew session 0x24f0557806a0020 at /10.10.34.17:55969",
+  "/10.10.34.17:55969",
+  "URL",
+  4
+ ],
+ [
+  "the url = http://baike.baidu.com/item/%e8%93%9d%e9%87%87%e5%92%8c/462624?fr=aladdin",
+  "http://baike.baidu.com/item/%e8%93%9d%e9%87%87%e5%92%8c/462624?fr=aladdin",
+  "URL",
+  4
+ ],
+ [
+  "slow readprocessor read fields took 65020ms (threshold=30000ms); ack: seqno: -2 status: success status: error downstreamacktimenanos: 0, targets: [ 10.86.169.121:50010 , 10.190.173.170:50010]",
+  "10.86.169.121:50010",
+  "URL",
+  4
+ ],
+ [
+  "block* ask 10.250.14.38:50010 to replicate blk_-7571492020523929240 to datanode(s) 10.251.122.38:50010",
+  "10.250.14.38:50010",
+  "URL",
+  4
+ ]
+]

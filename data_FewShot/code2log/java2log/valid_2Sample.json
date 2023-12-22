@@ -1,0 +1,12 @@
+[
+ [
+  "try {\tswitch(mode) {\tcase EXCLUSIVE: metrics.incrementCounter(MetricsConstant.ZOOKEEPER_HIVE_EXCLUSIVELOCKS);\tbreak;\tcase SEMI_SHARED: metrics.incrementCounter(MetricsConstant.ZOOKEEPER_HIVE_SEMISHAREDLOCKS);\tbreak;\tdefault: metrics.incrementCounter(MetricsConstant.ZOOKEEPER_HIVE_SHAREDLOCKS);\tbreak;\t}\t} catch (Exception e) {",
+  "error reporting hive client zookeeper lock operation to metrics system",
+  0
+ ],
+ [
+  "private void printDataFormatsReport(Set<File> json, Set<File> duplicate, Map<String, Set<String>> usedLabels, Set<File> missingFirstVersions) {\tgetLog().info(\"================================================================================\");\tgetLog().info(\"\");\tgetLog().info(\"\");\tfor (File file : json) {\t}\tif (!duplicate.isEmpty()) {\tgetLog().info(\"\");",
+  "storage health check not running on",
+  1
+ ]
+]

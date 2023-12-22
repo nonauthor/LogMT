@@ -1,0 +1,82 @@
+[
+ [
+  "1402302928 double-hummer alignment exceptions",
+  0,
+  "6265c739"
+ ],
+ [
+  "iar 003a9260 dear 00e27a98",
+  0,
+  "1b700d02"
+ ],
+ [
+  "guaranteed instruction cache block touch.0",
+  0,
+  "55addd29"
+ ],
+ [
+  "10744 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "machine check: i-fetch......................0",
+  0,
+  "d59f04cd"
+ ],
+ [
+  "program interrupt: privileged instruction...0",
+  0,
+  "cc8ff6de"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:39310, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "machine check interrupt (bit=0x10): L2 DCU read error",
+  1,
+  "a7aa6a31"
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  1,
+  "130bb340"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:59828, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:56199: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:44731: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:46905, Link has been severed",
+  1,
+  "8fab64d7"
+ ]
+]

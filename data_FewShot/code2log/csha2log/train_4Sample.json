@@ -1,0 +1,22 @@
+[
+ [
+  "public static void threadmethod_waiter_2() {\te.waitone();",
+  "got but expected",
+  1
+ ],
+ [
+  "filetostage wordsdottext = new filetostage(resources.localwordsdottext, stagingcreds);\tmytask.filestostage = new list<ifilestagingprovider>();\tmytask.filestostage.add(wordsdottext);\tmytask.stagefiles();\treturn mytask.resourcefiles;\t}\tprivate void outputfailureinfo(taskfailureinformation failureinfo) {\tthis.testoutputhelper.writeline(\"    details:\" + (null == failureinfo.details ? \" <null>\" : string.empty));\tif (null != failureinfo.details) {\tforeach (namevaluepair curdetail in failureinfo.details) {",
+  "write handshake record",
+  1
+ ],
+ [
+  "new virtualnetworkgatewayipconfiguration() {\tname = ipconfigname, privateipallocationmethod = ipallocationmethod.dynamic, publicipaddress = new subresource() {\tid = nic1publicip.id }, subnet = new subresource() {\tid = getsubnetresponse.id }\t}\t}, sku = new virtualnetworkgatewaysku() {\tname = virtualnetworkgatewayskuname.standard, tier = virtualnetworkgatewayskutier.standard }\t};\tvar putvirtualnetworkgatewayresponse = networkmanagementclient.virtualnetworkgateways.createorupdate(resourcegroupname, virtualnetworkgatewayname, virtualnetworkgateway);\tassert.equal(\"succeeded\", putvirtualnetworkgatewayresponse.provisioningstate);",
+  "virtual network gateway is deployed successfully",
+  0
+ ],
+ [
+  "isequenced<int> inner = new treeset<int>();\tinner.add(i); inner.add(i+1);\touter.add(inner);\t}\tipersistentsorted<int> inner1 = new treeset<int>(), inner2 = new treeset<int>(), inner3 = new treeset<int>();\tinner1.addall<int>(new int[] { 2, 3, 5, 7, 11 });\tinner2.addall(inner1); inner2.add(13);\tinner3.addall(inner1);\touter.add(inner1.snapshot());\tinner1.add(13);",
+  "equals",
+  0
+ ]
+]

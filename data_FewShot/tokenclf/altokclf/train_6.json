@@ -1,0 +1,326 @@
+[
+ [
+  "finished task 1.0 in stage 29.0 (tid 1321). 2171 bytes result sent to driver",
+  "1.0",
+  "VAR",
+  0
+ ],
+ [
+  "iar 001061e4 dear 0245a09c",
+  "001061e4",
+  "VAR",
+  0
+ ],
+ [
+  "bulksavedetailhihealthdata() size = 4,totaltime = 30",
+  "30",
+  "VAR",
+  0
+ ],
+ [
+  "checking icdp status for dsid 874161398 (checkwithserver=0)",
+  "874161398",
+  "VAR",
+  0
+ ],
+ [
+  "failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2",
+  "0",
+  "VAR",
+  0
+ ],
+ [
+  "[11:31:49.593] itemasync_copyproperty signalled err=-12785 (kfigbaseobjecterror_invalidated) (invalidated) at /library/caches/com.apple.xbs/sources/coremedia/coremedia-1731.15.207/prototypes/player/figplayer_async.c line 2092",
+  "2092",
+  "VAR",
+  0
+ ],
+ [
+  "flingtoheight: vel=0.0, expand =false, target=0.0, collapsespeedupfactor=1.0, expandbecauseoffalsing=false",
+  "expand",
+  "OTHER",
+  5
+ ],
+ [
+  " getstepcounterstatus= true",
+  "true",
+  "OTHER",
+  5
+ ],
+ [
+  "retrying connect to server: msra-sa-41:8030. already tried 0 time(s); retry policy is retryuptomaximumcountwithfixedsleep(maxretries=10, sleeptime=1000 milliseconds)",
+  "already",
+  "OTHER",
+  5
+ ],
+ [
+  "notification: 1 (n.leader) , 0xb0000007b (n.zxid), 0x2 (n.round), looking (n.state), 1 (n.sid), 0xb (n.peerepoch), leading (my state)",
+  "(n.leader)",
+  "OTHER",
+  5
+ ],
+ [
+  "machine state register: 0x00002000",
+  "state",
+  "OTHER",
+  5
+ ],
+ [
+  "applyoptionslocked: unknown animationtype=0",
+  "unknown",
+  "OTHER",
+  5
+ ],
+ [
+  "block* ask 10.250.14.38:50010 to replicate blk_-7571492020523929240 to datanode(s) 10.251.122.38:50010",
+  "10.250.14.38:50010",
+  "URL",
+  4
+ ],
+ [
+  "2017-07-06 14:57:16.661 googlesoftwareupdateagent[37059/0x7000002a0000] [lvl=2] -[ksoutofprocessfetcher(privatemethods) helperdidterminate:] ksoutofprocessfetcher fetch ended for url: https://tools.google.com/service/update2?cup2hreq=37fbcb7ab6829be04567976e3212d7a67627aef11546f8b7013d4cffaf51f739&cup2key=7:4200177539",
+  "https://tools.google.com/service/update2?cup2hreq=37fbcb7ab6829be04567976e3212d7a67627aef11546f8b7013d4cffaf51f739&cup2key=7:4200177539",
+  "URL",
+  4
+ ],
+ [
+  "received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864",
+  "/10.250.14.38:37362",
+  "URL",
+  4
+ ],
+ [
+  "the job-jar file on the remote fs is hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.jar",
+  "hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.jar",
+  "URL",
+  4
+ ],
+ [
+  "received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864",
+  "/10.250.14.38:50010",
+  "URL",
+  4
+ ],
+ [
+  "183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 socks5",
+  "183.62.156.108:22",
+  "URL",
+  4
+ ],
+ [
+  "bios-e820: 00000000000f0000 - 0000000000100000 (reserved)",
+  "0000000000100000",
+  "COUNT",
+  1
+ ],
+ [
+  "booter start at 1251 ms smc 0 ms, [18, 0, 0] total 367 ms, dsply 0, 0 ms, tramp 1080 ms",
+  "1080",
+  "COUNT",
+  1
+ ],
+ [
+  "network: requery, 0, 0, 0, 0, 291, items, fqueryretries, 0, flastretrytimestamp, 521092126.3",
+  "521092126.3",
+  "COUNT",
+  1
+ ],
+ [
+  "<<<< figbytestream >>>> figbytestreamstatslogoneread: bytestream read of 4321 bytes @ 48 took 0.607292 sec. to complete, 7 reads >= 0.5 sec.",
+  "4321",
+  "COUNT",
+  1
+ ],
+ [
+  "got allocated containers 1",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "on node 0 totalpages: 32430",
+  "32430",
+  "COUNT",
+  1
+ ],
+ [
+  "getbinderpackagename packagename = com.huawei.health",
+  "com.huawei.health",
+  "IP",
+  7
+ ],
+ [
+  "failed password for invalid user default from 5.188.10.180 port 41538 ssh2",
+  "5.188.10.180",
+  "IP",
+  7
+ ],
+ [
+  "dhcpoffer on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "accepted password for fztu from 119.137.62.142 port 49116 ssh2",
+  "119.137.62.142",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251 .",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "ccxpcservice::setstreameventhandler registered for notification callback.",
+  "ccxpcservice::setstreameventhandler",
+  "FUN",
+  6
+ ],
+ [
+  "[hid] [mt] mtactuatormanagement::getactuatorref calling mtactuatoropen() outside of mttrackpadhidmanager.",
+  "mtactuatormanagement::getactuatorref",
+  "FUN",
+  6
+ ],
+ [
+  "added global filter 'safety' (class= org.apache.hadoop.http.httpserver2$quotinginputfilter )",
+  "org.apache.hadoop.http.httpserver2$quotinginputfilter",
+  "FUN",
+  6
+ ],
+ [
+  "warning: hibernate_page_list_setall skipped 11799 xpmapped pages",
+  "hibernate_page_list_setall",
+  "FUN",
+  6
+ ],
+ [
+  "error writing history event: org.apache.hadoop.mapreduce.jobhistory.taskattemptunsuccessfulcompletionevent@7317849d",
+  "org.apache.hadoop.mapreduce.jobhistory.taskattemptunsuccessfulcompletionevent@7317849d",
+  "FUN",
+  6
+ ],
+ [
+  "mapred.task.id is deprecated. instead, use mapreduce.task.attempt.id",
+  "mapreduce.task.attempt.id",
+  "FUN",
+  6
+ ],
+ [
+  "hibernate image path: /var/vm/sleepimage",
+  "/var/vm/sleepimage",
+  "PATH",
+  8
+ ],
+ [
+  "ciod: error creating node map from file /p/gb2/welcome3/32k_128x256x1_8x4x4.map : bad file descriptor",
+  "/p/gb2/welcome3/32k_128x256x1_8x4x4.map",
+  "PATH",
+  8
+ ],
+ [
+  "removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+  "/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+  "PATH",
+  8
+ ],
+ [
+  "path not allowed in target domain: type = pid, path = /system/library/stagedframeworks/safari/safarishared.framework/versions/a/xpcservices/com.apple.safari.history.xpc/contents/macos/com.apple.safari.history error = 147: the specified service did not ship in the requestor's bundle, origin = /system/library/stagedframeworks/safari/webkit.framework/versions/a/xpcservices/com.apple.webkit.webcontent.xpc",
+  "/system/library/stagedframeworks/safari/safarishared.framework/versions/a/xpcservices/com.apple.safari.history.xpc/contents/macos/com.apple.safari.history",
+  "PATH",
+  8
+ ],
+ [
+  "(root) cmd (run-parts /etc/cron.hourly )",
+  "/etc/cron.hourly",
+  "PATH",
+  8
+ ],
+ [
+  "[ql] no sandbox token for request <qlthumbnailrequest vmware-usbarb-25037.log >, it will probably fail",
+  "vmware-usbarb-25037.log",
+  "PATH",
+  8
+ ],
+ [
+  "pci interrupt link [lnkb] (irqs 3 4 5 6 7 10 *11 12)",
+  "3",
+  "STATE",
+  2
+ ],
+ [
+  "airport: link down on awdl0. reason 1 (unspecified).",
+  "1",
+  "STATE",
+  2
+ ],
+ [
+  "notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), looking (n.state), 1 (n.sid), 0xb (n.peerepoch), leading (my state)",
+  "1",
+  "STATE",
+  2
+ ],
+ [
+  "new process app=processrecord{6eaaf00 0:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "tcp_connection_destination_handle_tls_close_notify 111 closing socket due to tls close_notify alert",
+  "111",
+  "STATE",
+  2
+ ],
+ [
+  "10.11.10.1 \"delete /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/c62f4f25-982c-4ea2-b5e4-93000edfcfbf http/1.1\" status: 204 len: 203 time: 0.2904921",
+  "204",
+  "STATE",
+  2
+ ],
+ [
+  "13.client-channel.google.com:443 error : could not connect to proxy proxy.cse.cuhk.edu.hk: 5070 - connection attempt failed with error 10061",
+  "5070",
+  "PORT",
+  3
+ ],
+ [
+  "arpt: 673431.714836: wl0: setup_keepalive: local port: 50601, remote port: 5223",
+  "5223",
+  "PORT",
+  3
+ ],
+ [
+  "jetty bound to port 62267",
+  "62267",
+  "PORT",
+  3
+ ],
+ [
+  "successfully started service 'org.apache.spark.network.netty.nettyblocktransferservice' on port 40984.",
+  "40984.",
+  "PORT",
+  3
+ ],
+ [
+  "successfully started service 'sparkexecutoractorsystem' on port 55904.",
+  "55904.",
+  "PORT",
+  3
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "50719",
+  "PORT",
+  3
+ ]
+]

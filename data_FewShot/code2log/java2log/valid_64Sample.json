@@ -1,0 +1,322 @@
+[
+ [
+  "for (Iterator<MessageConsumer> it = consumers.values().iterator(); it.hasNext();) {\tMessageConsumer consumer = it.next();\tit.remove();\ttry {\tconsumer.setMessageListener(null);\tif (consumer instanceof MessageAvailableConsumer) {\t((MessageAvailableConsumer)consumer).setAvailableListener(null);\t}\tconsumer.close();\t} catch (JMSException e) {",
+  "vectorptf constructor",
+  1
+ ],
+ [
+  "} catch (IOException e) {\tCoprocessorRpcUtils.setControllerException(controller, e);\tsumResult = -1;\t} finally {\tif (scanner != null) {\ttry {\tscanner.close();\t} catch (IOException e) {\tCoprocessorRpcUtils.setControllerException(controller, e);\tsumResult = -1;",
+  "failure signalling completion",
+  1
+ ],
+ [
+  "public void delete(final long procId) {\tif (LOG.isTraceEnabled()) {",
+  "found no agents to be transfered by the management server",
+  1
+ ],
+ [
+  "this.device = device;\tthis.rootBandwidthMbit = rootBandwidthMbit;\tthis.yarnBandwidthMbit = yarnBandwidthMbit;\tdefaultClassBandwidthMbit = (rootBandwidthMbit - yarnBandwidthMbit) <= 0 ? rootBandwidthMbit : (rootBandwidthMbit - yarnBandwidthMbit);\tboolean recoveryEnabled = conf.getBoolean(YarnConfiguration .NM_RECOVERY_ENABLED, YarnConfiguration.DEFAULT_NM_RECOVERY_ENABLED);\tString state = null;\tif (!recoveryEnabled) {\t} else {\tstate = readState();\tif (checkIfAlreadyBootstrapped(state)) {",
+  "unable to fence",
+  1
+ ],
+ [
+  "reader.loadBloomfilter(BlockType.GENERAL_BLOOM_META);\tif (hfileBloomType != cfBloomType) {\t}\t} else if (hfileBloomType != BloomType.NONE) {\t}\treader.loadBloomfilter(BlockType.DELETE_FAMILY_BLOOM_META);\ttry {\tbyte[] data = metadataMap.get(TIMERANGE_KEY);\tthis.reader.timeRange = data == null ? null : TimeRangeTracker.parseFrom(data).toTimeRange();\t} catch (IllegalArgumentException e) {",
+  "sleep was interrupted",
+  1
+ ],
+ [
+  "protected void doStart() throws Exception {\tfinal CMConfiguration configuration = getConfiguration();\tif (configuration.isTestConnectionOnStartup()) {\ttry {\tHttpClientBuilder.create().build().execute(new HttpHead(getEndpoint().getCMUrl()));\t} catch (final Exception e) {\tthrow new HostUnavailableException(String.format(\"Connection to %s: NOT AVAILABLE\", getEndpoint().getCMUrl()), e);\t}\t}\tsuper.doStart();",
+  "sendfailifnospace forcing exception on send usage",
+  1
+ ],
+ [
+  "protected void assertNotSshable(Map<?,?> machineConfig) {\ttry {\tassertSshable(machineConfig);\tAssert.fail(\"ssh should not have succeeded \"+machineConfig);\t} catch (Exception e) {",
+  "background operation thread wait queue size",
+  1
+ ],
+ [
+  "selenium.select(\"add_template_zone\", \"label=\" + template_zone);\tString template_os_type = System.getProperty(\"add_template_os_type\", \"CentOS 5.3 (32-bit)\");\tselenium.select(\"add_template_os_type\", \"label=\" + template_os_type);\tselenium.click(\" Thread.sleep(3000);\tint i = 1;\ttry {\tfor (;; i++) {\tSystem.out.println(\"i=   \" + i);\tselenium.click(\" }\t} catch (Exception ex) {",
+  "using custom interceptstrategy with id and implementation",
+  1
+ ],
+ [
+  "private void rollbackOnFailedRecoveryRedelivery() throws JMSException {\tif (previouslyDeliveredMessages != null) {\tint numberNotReplayed = 0;\tfor (Entry<MessageId, Boolean> entry: previouslyDeliveredMessages.entrySet()) {\tif (!entry.getValue()) {\tnumberNotReplayed++;",
+  "failed to delete",
+  1
+ ],
+ [
+  "public void removeUpdatingArtifact(String fileName) {\tfileName = getNormalizedAbsolutePath(fileName);\tif (log.isDebugEnabled()) {",
+  "resetting to which will enable resizing above previous level of",
+  1
+ ],
+ [
+  "}\tif (count == 25) {\tvalues.mark();\t}\tif (count >= 25) {\texpectedValues.add(i);\t}\tcount ++;\t}\tif (count < expectedValues1.size()) {",
+  "replacement s is invalid",
+  1
+ ],
+ [
+  "public boolean stopSite2SiteVpn(final Site2SiteVpnConnection conn, final VirtualRouter router) throws ResourceUnavailableException {\tif (router.getState() != State.Running) {",
+  "starting test for the user",
+  1
+ ],
+ [
+  "private boolean isDockerDaemonRunningLocally() {\tboolean dockerDaemonRunningLocally = true;\ttry {\tshellExec(\"docker info\");\t} catch (Exception e) {",
+  "httpserver start threw a multiexception",
+  1
+ ],
+ [
+  "String msg = \"Unable to get network usage stats from \" + host.getId() + \" due to: \" + details + \".\";\ts_logger.error(msg);\treturn false;\t} else {\tfor (UsageIPAddressVO usageIp : fullDurationIpUsage) {\tString publicIp = usageIp.getAddress();\tlong[] bytesSentRcvd = answer.get(publicIp);\tLong bytesSent = bytesSentRcvd[0];\tLong bytesRcvd = bytesSentRcvd[1];\tif (bytesSent == null || bytesRcvd == null) {",
+  "couldn t retrieve the offering by the given id",
+  1
+ ],
+ [
+  "if (LOG.isTraceEnabled()) {\t}\t} finally {\tif (Strings.isNullOrEmpty(stdError)) {\tstdOutput = CharStreams.toString(new InputStreamReader(process.getInputStream()));\tstdError = CharStreams.toString(new InputStreamReader(process.getErrorStream()));\t}\tprocess.destroy();\t}\tif (LOG.isTraceEnabled()) {",
+  "unable to get vms",
+  1
+ ],
+ [
+  "Topic topic = session.createTopic(topicName);\tMessageProducer producer = session.createProducer(topic);\tproducer.setDeliveryMode(DeliveryMode.PERSISTENT);\tproducer.setPriority(Message.DEFAULT_PRIORITY);\tproducer.setTimeToLive(Message.DEFAULT_TIME_TO_LIVE);\tfor (int seq = 1; seq <= numMsgs; ++seq) {\tTextMessage msg = session.createTextMessage(String.valueOf(seq));\tproducer.send(msg);\tThread.sleep(1L);\t}",
+  "stop procedurecoordinator error",
+  1
+ ],
+ [
+  "if (Boolean.parseBoolean(getProperty(null, \"developer\"))) {\tinstance = UUID.randomUUID().toString();\t} else {\tinstance = \"\";\t}\t} else {\tinstance += \".\";\t}\tString pidDir = getProperty(null, \"piddir\");\tfinal String run = \"agent.\" + instance + \"pid\";",
+  "observers were not gc ed something seems to be wrong",
+  1
+ ],
+ [
+  "savedBlock = block;\t}\tif (testedLoad && (loadedBlock == null)) {\tloadedBlock = block;\tassertEquals(savedBlock, loadedBlock);\t}\tboolean blockRemoved = blocks.remove(block);\tassertTrue(\"Found unknown block \" + block, blockRemoved);\tif (blocksProcessed > (numFiles / 3)) {\tif (!testedSave) {",
+  "it took ms to remove the last message from a queue a messages",
+  1
+ ],
+ [
+  "s_logger.error(msg);\tthrow new Exception(msg);\t}\t}\tTernary<String, Long, Long> result = createTemplateFromVolume(vmMo, accountId, templateId, cmd.getUniqueName(), secondaryStoragePoolURL, volumePath, hostService.getWorkerName(context, cmd, 0), cmd.getNfsVersion());\treturn new CreatePrivateTemplateAnswer(cmd, true, null, result.first(), result.third(), result.second(), cmd.getUniqueName(), ImageFormat.OVA);\t} catch (Throwable e) {\tif (e instanceof RemoteException) {\thostService.invalidateServiceContext(context);\t}",
+  "failed to unplug nic in network for virtual router",
+  1
+ ],
+ [
+  "protected void setUp() throws Exception {\tgroupId = \"network-load-test-\"+System.currentTimeMillis();\tbrokers = new BrokerService[BROKER_COUNT];\tfor (int i = 0; i < brokers.length; i++) {\tbrokers[i] = createBroker(i);\tbrokers[i].start();\t}\tThread.sleep(BROKER_COUNT*BROKER_COUNT*50);\tforwardingClients = new ForwardingClient[BROKER_COUNT-1];\tfor (int i = 0; i < forwardingClients.length; i++) {",
+  "recovery replayed operations from the journal in seconds",
+  1
+ ],
+ [
+  "public synchronized void delete(Class model, int id) {",
+  "using the sequence named for the outgoing message mediation of the proxy service",
+  1
+ ],
+ [
+  "Axis2MessageContext axis2smc = (Axis2MessageContext) synCtx;\torg.apache.axis2.context.MessageContext axis2MessageCtx = axis2smc.getAxis2MessageContext();\tObject headers = axis2MessageCtx.getProperty( org.apache.axis2.context.MessageContext.TRANSPORT_HEADERS);\tif (headers != null && headers instanceof Map) {\tMap headersMap = (Map) headers;\theadersMap.remove(name);\t} else {\t}\t}\t}",
+  "exception encountered closing echosocket after end of stream received",
+  1
+ ],
+ [
+  "}\tbreak;\tcase NOT_FOUND: syncWork.toRestartInUse.add(sessionToReturn);\tbreak;\tcase IGNORE: break;\tdefault: throw new AssertionError(\"Unknown state \" + rr);\t}\t}\te.toReturn.clear();\tfor (Map.Entry<WmTezSession, SettableFuture<WmTezSession>> entry : e.toReopen.entrySet()) {",
+  "error while processing uri",
+  1
+ ],
+ [
+  "public Exchange onCompleted() throws Exception {\tif (log.isTraceEnabled()) {",
+  "before",
+  1
+ ],
+ [
+  "private PartitionValuesResponse extractPartitionNamesByFilter(String dbName, String tableName, String filter, List<FieldSchema> cols, boolean ascending, boolean applyDistinct, long maxParts) throws MetaException, NoSuchObjectException {",
+  "number of active connections is",
+  1
+ ],
+ [
+  "try {\ttempQueue.delete();\t} catch (JMSException ex) {\t}\t}\tconnTempQueues.clear();\tfor (TemporaryTopic tempTopic : connTempTopics) {\ttry {\ttempTopic.delete();\t} catch (JMSException ex) {",
+  "exception caught this should not affect the test",
+  1
+ ],
+ [
+  "if (null == executionCommand.getConfigurations()) {\texecutionCommand.setConfigurations(new TreeMap<>());\t}\tMap<String, Map<String, String>> configurations = executionCommand.getConfigurations();\tLong clusterId = hostRoleCommandDAO.findByPK( executionCommand.getTaskId()).getStage().getClusterId();\tCluster cluster = clusters.getClusterById(clusterId);\tboolean refreshConfigTagsBeforeExecution = executionCommand.getForceRefreshConfigTagsBeforeExecution();\tif (refreshConfigTagsBeforeExecution) {\tMap<String, DesiredConfig> desiredConfigs = cluster.getDesiredConfigs();\tMap<String, Map<String, String>> configurationTags = configHelper.getEffectiveDesiredTags( cluster, executionCommand.getHostname(), desiredConfigs);",
+  "snapshot is not protected",
+  1
+ ],
+ [
+  "public int compareDeps(RoleCommandOrder rco) {\tSet<RoleCommandPair> v1;\tSet<RoleCommandPair> v2;\tif (this == rco) {\treturn 0;\t}\tif (!dependencies.keySet().equals(rco.dependencies.keySet())){\treturn 1;\t}",
+  "skipping malformed line in machine list",
+  1
+ ],
+ [
+  "long ram_requested = offering.getRamSize() * 1024L * 1024L;\tCluster cluster = _clusterDao.findById(host.getClusterId());\tClusterDetailsVO clusterDetailsCpuOvercommit = _clusterDetailsDao.findDetail(cluster.getId(), \"cpuOvercommitRatio\");\tClusterDetailsVO clusterDetailsRamOvercommmt = _clusterDetailsDao.findDetail(cluster.getId(), \"memoryOvercommitRatio\");\tFloat cpuOvercommitRatio = Float.parseFloat(clusterDetailsCpuOvercommit.getValue());\tFloat memoryOvercommitRatio = Float.parseFloat(clusterDetailsRamOvercommmt.getValue());\tboolean hostHasCpuCapability = _capacityMgr.checkIfHostHasCpuCapability(host.getId(), offering.getCpu(), offering.getSpeed());\tboolean hostHasCapacity = _capacityMgr.checkIfHostHasCapacity(host.getId(), cpu_requested, ram_requested, false, cpuOvercommitRatio, memoryOvercommitRatio, considerReservedCapacity);\tif (hostHasCpuCapability && hostHasCapacity) {\tif (s_logger.isDebugEnabled()) {",
+  "list user test failed for account with error code aborting deployment test the command was sent with url",
+  1
+ ],
+ [
+  "private void generateActualTasks(HiveConf conf, List<Task<? extends Serializable>> resTsks, long trgtSize, long avgConditionSize, Task<? extends Serializable> mvTask, Task<? extends Serializable> mrTask, Task<? extends Serializable> mrAndMvTask, Path dirPath, FileSystem inpFs, ConditionalResolverMergeFilesCtx ctx, MapWork work, int dpLbLevel) throws IOException {\tDynamicPartitionCtx dpCtx = ctx.getDPCtx();\tFileStatus[] status = HiveStatsUtils.getFileStatusRecurse(dirPath, dpLbLevel, inpFs);\tMap<Path, PartitionDesc> ptpi = work.getPathToPartitionInfo();\tassert ptpi.size() == 1;\tPath path = ptpi.keySet().iterator().next();\tPartitionDesc partDesc = ptpi.get(path);\tTableDesc tblDesc = partDesc.getTableDesc();",
+  "consumer",
+  1
+ ],
+ [
+  "PigScript script = null;\tscript = getResourceManager().read(scriptId);\tJSONObject object = new JSONObject();\tobject.put(\"script\", script);\treturn Response.ok(object).build();\t} catch (WebApplicationException ex) {\tthrow ex;\t} catch (ItemNotFound itemNotFound) {\tthrow new NotFoundFormattedException(itemNotFound.getMessage(), itemNotFound);\t} catch (Exception ex) {",
+  "throwing available methods are",
+  1
+ ],
+ [
+  "public void checkZoneAccess(final Account caller, final DataCenter zone) {\tfor (final SecurityChecker checker : _secChecker) {\tif (checker.checkAccess(caller, zone)) {\tif (s_logger.isDebugEnabled()) {",
+  "customizing",
+  1
+ ],
+ [
+  "private List<MTablePrivilege> listPrincipalAllTableGrants( String principalName, PrincipalType principalType, QueryWrapper queryWrapper) {\tboolean success = false;\tList<MTablePrivilege> mSecurityTabPartList = null;\ttry {",
+  "executing listprincipalalltablegrants",
+  0
+ ],
+ [
+  "producer.setTimeToLive(ttl);\tfinal long sendCount = 10;\tfinal CountDownLatch receivedOneCondition = new CountDownLatch(1);\tfinal CountDownLatch waitCondition = new CountDownLatch(1);\tMessageConsumer consumer = session.createConsumer(destination);\tconsumer.setMessageListener(new MessageListener() {\tpublic void onMessage(Message message) {\ttry {\treceivedOneCondition.countDown();\twaitCondition.await(6, TimeUnit.MINUTES);",
+  "acking message",
+  0
+ ],
+ [
+  "case ACCEPTED: appStatusBuilder.maybeCreateAndGetAmInfo().setAppId(appReport.getApplicationId().toString());\tappStatusBuilder.setState(State.LAUNCHING);\treturn ExitCode.SUCCESS;\tcase RUNNING: appStatusBuilder.maybeCreateAndGetAmInfo().setAppId(appReport.getApplicationId().toString());\treturn ExitCode.SUCCESS;\tcase FINISHED: case FAILED: case KILLED: appStatusBuilder.maybeCreateAndGetAmInfo().setAppId(appReport.getApplicationId().toString());\tappStatusBuilder.setAppFinishTime(appReport.getFinishTime());\tappStatusBuilder.setState(State.COMPLETE);\tApplicationDiagnostics appDiagnostics = LlapSliderUtils.getApplicationDiagnosticsFromYarnDiagnostics( appReport, appStatusBuilder, LOG);\tif (appDiagnostics == null) {",
+  "appdiagnostics not available for yarn application report",
+  0
+ ],
+ [
+  "TimelineEntity entity = null;\ttry {\tentity = timelineReaderManager.getEntity( TimelineReaderWebServicesUtils.createTimelineReaderContext( clusterId, userId, flowName, flowRunId, null, TimelineEntityType.YARN_FLOW_RUN.toString(), null, null), TimelineReaderWebServicesUtils.createTimelineDataToRetrieve( null, metricsToRetrieve, null, null, null, null));\t} catch (Exception e) {\thandleException(e, url, startTime, \"flowrunid\");\t}\tlong endTime = Time.monotonicNow();\tif (entity == null) {\tthrow new NotFoundException(\"Flow run {flow name: \" + TimelineReaderWebServicesUtils.parseStr(flowName) + \", run id: \" + TimelineReaderWebServicesUtils.parseLongStr(flowRunId) + \" } is not found\");\t}",
+  "processed url took ms",
+  0
+ ],
+ [
+  "downloadMonitor.handleVolumeSync(agent);\t}\t}*/ else if (cmd instanceof StartupSecondaryStorageCommand) {\ttry{\tList<DataStore> imageStores = _storeMgr.getImageStoresByScope(new ZoneScope(agent.getDataCenterId()));\tfor (DataStore store : imageStores) {\t_volumeSrv.handleVolumeSync(store);\t_imageSrv.handleTemplateSync(store);\t}\t}catch (Exception e){",
+  "caught exception while doing template volume sync",
+  0
+ ],
+ [
+  "final String C4 = C + \".c4\";\tconf.setQueues(C, new String[] {\"c1\", \"c2\", \"c3\", \"c4\"});\tconf.setCapacity(C1, 50);\tconf.setMaximumCapacity(C1, 55);\tconf.setCapacity(C2, 10);\tconf.setMaximumCapacity(C2, 25);\tconf.setCapacity(C3, 35);\tconf.setMaximumCapacity(C3, 38);\tconf.setCapacity(C4, 5);\tconf.setMaximumCapacity(C4, 5);",
+  "setup level queues",
+  0
+ ],
+ [
+  "String isoPath = nfsImageStore.getUrl() + File.separator + iso.getPath();\tPair<String, ManagedObjectReference> isoDatastoreInfo = getIsoDatastoreInfo(hyperHost, isoPath);\tassert (isoDatastoreInfo != null);\tassert (isoDatastoreInfo.second() != null);\tdeviceConfigSpecArray[i] = new VirtualDeviceConfigSpec();\tPair<VirtualDevice, Boolean> isoInfo = VmwareHelper.prepareIsoDevice(vmMo, isoDatastoreInfo.first(), isoDatastoreInfo.second(), true, true, ideUnitNumber++, i + 1);\tdeviceConfigSpecArray[i].setDevice(isoInfo.first());\tif (isoInfo.second()) {\tdeviceConfigSpecArray[i].setOperation(VirtualDeviceConfigSpecOperation.ADD);\t} else {",
+  "prepare iso volume at existing device",
+  0
+ ],
+ [
+  "if (fileInputStream != null) {\ttry {\tfileInputStream.close();\t} catch (Exception e) {\t}\t}\tif (bufferedInputStream != null) {\ttry {\tbufferedInputStream.close();\t} catch (Exception e) {",
+  "error closing bufferedinputstream",
+  0
+ ],
+ [
+  "String msg = \"Unlocking locks associated with transaction not permitted.  \" + info;\tLOG.error(msg);\tthrow new TxnOpenException(msg);\t}\tif(info.txnId == 0) {\tString msg = \"Found lock in unexpected state \" + info;\tLOG.error(msg);\tthrow new MetaException(msg);\t}\t}",
+  "going to commit",
+  0
+ ],
+ [
+  "private void salvageTx(IgniteInternalTx tx, IgniteInternalTx.FinalizationStatus status) {\tassert tx != null;\tTransactionState state = tx.state();\tif (state == ACTIVE || state == PREPARING || state == PREPARED || state == MARKED_ROLLBACK) {\tif (!tx.markFinalizing(status)) {",
+  "will not try to commit invalidate transaction could not mark finalized",
+  0
+ ],
+ [
+  "if (bindAddressParameter != null) {\tthis.bindAddress = ((String) bindAddressParameter.getValue()).trim();\t}\tParameter hostParameter = parameters.getParameter(TransportListener.HOST_ADDRESS);\tif (hostParameter != null) {\thost = ((String) hostParameter.getValue()).trim();\t} else {\ttry {\thost = java.net.InetAddress.getLocalHost().getHostName();\t} catch (UnknownHostException e) {",
+  "unable to lookup local host name using localhost",
+  0
+ ],
+ [
+  "task.setCounter(wrapper);\t} else {\ttask.setCounter(routeMBean);\t}\t}\t}\t}\ttry {\tmanageObject(mr);\t} catch (JMException e) {",
+  "could not register route mbean",
+  0
+ ],
+ [
+  "else {\treturn null;\t}\t}\t}\tif(LOG.isInfoEnabled()) {\t}\t}\tString s = job.get(AvroTableProperties.AVRO_SERDE_SCHEMA.getPropName());\tif(s != null) {",
+  "found the avro schema in the job",
+  0
+ ],
+ [
+  "to.setUuid(nicVO.getUuid());\tif (nicVO.getVmType() != VirtualMachine.Type.User) {\tto.setPxeDisable(true);\t}\tList<String> secIps = null;\tif (nicVO.getSecondaryIp()) {\tsecIps = _nicSecIpDao.getSecondaryIpAddressesForNic(nicVO.getId());\t}\tto.setNicSecIps(secIps);\t} else {",
+  "unabled to load nicvo for nicprofile",
+  0
+ ],
+ [
+  "HostAndPort hp = pfw.lookup(machine, port);\tif (hp!=null) {\treturn hp;\t}\t}\tMaybe<SupportsPortForwarding> supportPortForwardingLoc = Machines.findUniqueElement(ll, SupportsPortForwarding.class);\tif (supportPortForwardingLoc.isPresent()) {\tCidr source = entity.getConfig(MANAGEMENT_ACCESS_CIDR);\tSupportsPortForwarding loc = supportPortForwardingLoc.get();\tif (source!=null) {",
+  "brooklynaccessutils requesting new port forwarding rule to access on at enabled for",
+  0
+ ],
+ [
+  "protected boolean isRunAllowed(RedeliveryData data) {\tboolean forceShutdown = camelContext.getShutdownStrategy().forceShutdown(this);\tif (forceShutdown) {",
+  "isrunallowed false run not allowed as shutdownstrategy is forcing shutting down",
+  0
+ ],
+ [
+  "public void testAggregateMetricInit() {",
+  "test aggregate metrics are initialized correctly",
+  0
+ ],
+ [
+  "public OfflineRegionResponse offlineRegion(RpcController controller, OfflineRegionRequest request) throws ServiceException {\ttry {\tmaster.checkInitialized();\tfinal RegionSpecifierType type = request.getRegion().getType();\tif (type != RegionSpecifierType.REGION_NAME) {",
+  "moveregion specifier type expected actual",
+  0
+ ],
+ [
+  "public void canAddByte() {\tMap<String, Object> pointInMapFormat = new HashMap<>();\tpointInMapFormat.put(InfluxDbConstants.MEASUREMENT_NAME, \"testCPU\");\tbyte value = Byte.MAX_VALUE;\tpointInMapFormat.put(\"busy\", value);\tPoint p = CamelInfluxDbConverters.fromMapToPoint(pointInMapFormat);\tassertNotNull(p);\tString line = p.lineProtocol();\tassertNotNull(line);",
+  "byte command generated",
+  0
+ ],
+ [
+  "}\tif (fixConfigURLParam != null) {\tString fixConfigURLValue = fixConfigURLParam.getValue().toString();\ttry {\tURL url = new URL(fixConfigURLValue);\tfixConfigStream = url.openStream();\t} catch (MalformedURLException e) {\t} catch (IOException e) {\t}\t} else {",
+  "fix configuration url is not specified for the service",
+  0
+ ],
+ [
+  "if (409 == e.getStatusCode()) {\t} else {\tthrow e;\t}\t}\ttry {\tSubscription subscription = new Subscription() .setTopic(topicFullName) .setAckDeadlineSeconds(ackDeadlineSeconds);\tpubsub.projects() .subscriptions() .create(subscriptionFullName, subscription) .execute();\t} catch (GoogleJsonResponseException e) {\tif (409 == e.getStatusCode()) {",
+  "subscription already exist",
+  0
+ ],
+ [
+  "public void updateBindConfiguration() {",
+  "domain zone",
+  0
+ ],
+ [
+  "private int doSearch(Configuration conf, String keysDir) throws Exception {\tPath inputDir = new Path(keysDir);\tgetConf().set(SEARCHER_INPUTDIR_KEY, inputDir.toString());\tSortedSet<byte []> keys = readKeysToSearch(getConf());\tif (keys.isEmpty()) throw new RuntimeException(\"No keys to find\");",
+  "key",
+  0
+ ],
+ [
+  "selectUserIpAddressData.setString(1, publicIp);\ttry (ResultSet userIpAddressData = selectUserIpAddressData.executeQuery();) {\tif (!userIpAddressData.next()) {\tthrow new CloudRuntimeException(\"Unable to find public IP address \" + publicIp);\t}\tint ipAddressId = userIpAddressData.getInt(1);\tlong accountId = userIpAddressData.getLong(2);\tlong domainId = userIpAddressData.getLong(3);\tlong networkId = userIpAddressData.getLong(4);\tString privateIp = (String)rule[3];",
+  "updating port forwarding rules table",
+  0
+ ],
+ [
+  "if (currentPoolSize < maxDesiredPoolSize) {\tdesiredPoolSize = maxDesiredPoolSize;\tstable = stableForGrowing;\t} else if (currentPoolSize > minDesiredPoolSize) {\tdesiredPoolSize = minDesiredPoolSize;\tstable = stableForShrinking;\t} else {\tdesiredPoolSize = currentPoolSize;\tstable = stableForGrowing && stableForShrinking;\t}",
+  "calculated desired pool size from to mindesired maxdesired stable now downsizehistory upsizehistory",
+  0
+ ],
+ [
+  "protected void markStaticRouteForRevoke(final StaticRouteVO route, final Account caller) {",
+  "revoking static route",
+  0
+ ],
+ [
+  "entry.setValue(nestedProperty);\t} catch (NoSuchFieldException e) {\t}\t}\t}\tCamelPropertiesHelper.setCamelProperties(camelContext, component, parameters, false);\tif (ObjectHelper.isNotEmpty(customizers)) {\tfor (ComponentCustomizer<IgniteQueueComponent> customizer : customizers) {\tboolean useCustomizer = (customizer instanceof HasId) ? HierarchicalPropertiesEvaluator.evaluate( applicationContext.getEnvironment(), \"camel.component.customizer\", \"camel.component.ignite-queue.customizer\", ((HasId) customizer).getId()) : HierarchicalPropertiesEvaluator.evaluate( applicationContext.getEnvironment(), \"camel.component.customizer\", \"camel.component.ignite-queue.customizer\");\tif (useCustomizer) {",
+  "configure component with customizer",
+  0
+ ],
+ [
+  "private void createSchema(String schema) throws IgniteCheckedException {\texecuteStatement(\"INFORMATION_SCHEMA\", \"CREATE SCHEMA IF NOT EXISTS \" + H2Utils.withQuotes(schema));\tconns.remove(Thread.currentThread());",
+  "created schema for index database",
+  0
+ ],
+ [
+  "protected String processPayload(ByteBuffer payload, String sourceName) throws SerDeException, IOException {\tDataInputStream in = new DataInputStream(new ByteBufferBackedInputStream(payload));\ttry {\tString columnName = in.readUTF();",
+  "source of event",
+  0
+ ],
+ [
+  "}\tprofilerSyncClusterInfo.stop();\tfinal Profiler profilerInvalidatedNodeList = new Profiler();\tprofilerInvalidatedNodeList.start();\tif (invalidatedNodeList.size() > 0) {\tfor (final ManagementServerHostVO mshost : invalidatedNodeList) {\t_activePeers.remove(mshost.getId());\ttry {\tJmxUtil.unregisterMBean(\"ClusterManager\", \"Node \" + mshost.getId());\t} catch (final Exception e) {",
+  "unable to deregiester cluster node from jmx monitoring due to exception",
+  0
+ ],
+ [
+  "public boolean applyUserData(final Network network, final NicProfile nic, final VirtualMachineProfile profile, final DeployDestination dest, final DomainRouterVO router) throws ResourceUnavailableException {",
+  "applying userdata rules",
+  0
+ ],
+ [
+  "private void addNodeCapacityToPlan(MockRM rm, int memory, int vCores) {\ttry {\trm.registerNode(\"127.0.0.1:1\", memory, vCores);\tint attempts = 10;\tdo {\trm1.drainEvents();\trm.getRMContext().getReservationSystem() .synchronizePlan(ReservationSystemTestUtil.reservationQ, false);\tif (rm.getRMContext().getReservationSystem() .getPlan(ReservationSystemTestUtil.reservationQ).getTotalCapacity() .getMemorySize() > 0) {\tbreak;\t}",
+  "waiting for node capacity to be added to plan",
+  0
+ ]
+]

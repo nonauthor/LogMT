@@ -1,0 +1,202 @@
+[
+ [
+  "suppressing further interrupts of same type",
+  0
+ ],
+ [
+  "10754 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0
+ ],
+ [
+  "1 ddr error(s) detected and corrected on rank 0, symbol 2 over 314 seconds",
+  0
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0
+ ],
+ [
+  "icache prefetch threshold................0",
+  0
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "data storage interrupt",
+  4
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58845, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53175, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58470, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52764, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52561, Connection reset by peer",
+  8
+ ],
+ [
+  "ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:36833",
+  9
+ ],
+ [
+  "MidplaneSwitchController::sendTrain() port disconnected: R07-M1-L1-U19-E",
+  9
+ ],
+ [
+  "MidplaneSwitchController::sendTrain() port disconnected: R07-M1-L1-U19-E",
+  9
+ ],
+ [
+  "ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable",
+  9
+ ],
+ [
+  "Power Good signal deactivated: R73-M1-N12. A service action may be required.",
+  9
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "rts panic! - stopping execution",
+  3
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:52901: Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:46033, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58520, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:40404, Link has been severed",
+  6
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43412, Link has been severed",
+  6
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=9, cpu=0, index=494603, total=1120866506,",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=9, cpu=0, index=99867, total=1121137666, m",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  5
+ ],
+ [
+  "rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=0, cpu=0, index=1207960132, total=33654976",
+  5
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "DDR machine check register: 0x00000000 0x00010010",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "machine check interrupt",
+  2
+ ],
+ [
+  "Lustre mount FAILED : bglio11 : block_id : location",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio489 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio777 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio844 : point /p/gb1",
+  7
+ ],
+ [
+  "Lustre mount FAILED : bglio833 : point /p/gb1",
+  7
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ],
+ [
+  "data TLB error interrupt",
+  1
+ ]
+]

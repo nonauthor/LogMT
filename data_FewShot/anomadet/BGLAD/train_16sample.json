@@ -1,0 +1,82 @@
+[
+ [
+  "10760 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "10678 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "109707 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 157 seconds",
+  0,
+  "26c05abc"
+ ],
+ [
+  "29 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 3",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "10726 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire",
+  0,
+  "40645e82"
+ ],
+ [
+  "total of 1 ddr error(s) detected and corrected",
+  0,
+  "147cfcff"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47317, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47056, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:33844: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "data TLB error interrupt",
+  1,
+  "fd2fdc47"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "121941c0"
+ ],
+ [
+  "MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000",
+  1,
+  "77e2433e"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47116, Link has been severed",
+  1,
+  "8fab64d7"
+ ]
+]

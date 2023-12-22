@@ -1,0 +1,322 @@
+[
+ [
+  "string prog = null;\tif (bundled_header) {\tconst char *name;\tconst unsigned char *data;\tconst unsigned int size;\t} monobundledassembly;\tvoid          mono_register_bundled_assemblies (const monobundledassembly **assemblies);\tvoid          mono_register_config_for_assembly (const char* assembly_name, const char* config_xml);\t\");\t} else {",
+  "include mono metadata mono config h",
+  0
+ ],
+ [
+  "case \"sybaseclient\": con = new sybaseconnection();\tbreak;\treturn;\treturn;\t#endif }\tcon.connectionstring = constr;\ttry {\tcon.open();\t}\tcatch(sqlexception se) {",
+  "procedure",
+  0
+ ],
+ [
+  "public override string tostring () {\tstringwriter sw = new stringwriter ();",
+  "todototal",
+  0
+ ],
+ [
+  "return 4;\t}\tif (!((string)state).equals (\"bla\")) {\treturn 5;\t}\t}\tif (remotingservices.istransparentproxy (e)) {\treturn 6;\t}\tif (test.getstate () != null) {",
+  "have state",
+  0
+ ],
+ [
+  "using (xmlwriter w = utils.createwriter()) {\ttry {\tw.writestartelement(\"root\");\tw.writecharentity('\\ud812');\t}\tcatch (argumentexception e) {\tcerror.compare(w.writestate, writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "did not throw exception",
+  0
+ ],
+ [
+  "private void dualmodeconnect_acceptasync_helper(ipaddress listenon, ipaddress connectto) {\tusing (socket serversocket = new socket(sockettype.stream, protocoltype.tcp)) {\tint port = serversocket.bindtoanonymousport(listenon);\tserversocket.listen(1);\tsocketasynceventargs args = new socketasynceventargs();\targs.completed += asynccompleted;\tmanualresetevent waithandle = new manualresetevent(false);\targs.usertoken = waithandle;\targs.socketerror = socketerror.socketerror;",
+  "socketasynceventargs with manual event",
+  0
+ ],
+ [
+  "psi.arguments = string.format(\"{0} {1}\", arguments, (silent)?\"/silent\":string.empty);\tpsi.useshellexecute = true;\tpsi.verb = \"runas\";\tpsi.windowstyle = processwindowstyle.normal;\ttry {\tprocess p = process.start(psi);\tp.waitforexit();\treturn p.exitcode;\t}\tcatch (exception ex) {",
+  "helpviewer",
+  0
+ ],
+ [
+  "try {\tw.writestartelement(\"root\");\tw.writeentityref(temp);\tw.writeendelement();\t}\tcatch (argumentexception) {\ttestlog.compare(w.writestate, writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "did not throw error",
+  0
+ ],
+ [
+  "public override string tostring() {\tstringwriter writer = new stringwriter(cultureinfo.invariantculture);",
+  "label",
+  0
+ ],
+ [
+  "public static int main(string[] args) {",
+  "hello from bug helper",
+  0
+ ],
+ [
+  "public static int main (string[] args) {\tshort1 s1;\ts1.f1 = 1;\ts1 = mono_return_short1(s1, 90);\tif (s1.f1 != 1+90) {",
+  "got but expected",
+  0
+ ],
+ [
+  "renderbegincardtag(writer);\t_writtenformvariables = true;\tif (_formvariables == null) {\t_formvariables = new listdictionary();\t}\t_formvariables[_postbackeventtargetvarname] = string.empty;\t_formvariables[_postbackeventargumentvarname] = string.empty;\twriter.write(\"<onevent type=\\\"onenterforward\\\"><refresh>\");\trendersetformvariables(writer);\trenderposturlformvariable(writer);",
+  "refresh onevent",
+  0
+ ],
+ [
+  "}\tassert.contains(\"shared\", filelistfromcomputenodeoperations.select(f => f.path));\tlist<nodefile> filelistfromcomputenode = computenode.listnodefiles(recursive: true).tolist();\tforeach (nodefile f in filelistfromcomputenodeoperations) {\t}\tassert.contains(\"shared\", filelistfromcomputenode.select(f => f.path));\tstring filepathtoget = filelistfromcomputenode.first(f => !f.isdirectory.value).path;\tnodefile computenodefilefrommanager = batchcli.pooloperations.getnodefile(this.poolfixture.poolid, computenodeid, filepathtoget);\tthis.testoutputhelper.writeline(computenodefilefrommanager.readasstring());\tnodefile filefromcomputenode = computenode.getnodefile(filepathtoget);",
+  "successfully retrieved file",
+  0
+ ],
+ [
+  "public delegate void func1proc(int a);\tpublic delegate void func2proc(float a);\tstatic bool testpreinitmethoddata() {",
+  "testing preinitialized method array",
+  0
+ ],
+ [
+  "public static void main(string[] args) {\truntwothreads(delegate { addandremove(15000); });",
+  "coll has items should be",
+  0
+ ],
+ [
+  "console.writeline(\"db.orders.add(new order { productid = 2, customerid = 2, orderdate = datetime.now });\");\tdb.orders.insertonsubmit(new order { employeeid = 1, customerid = \"alfki\", orderdate = datetime.now });\tdb.submitchanges();\tforeach (var v in db.orders) objectdumper.write(v);\tconsole.readkey();\tconsole.clear();\tvar order = db.orders.first();\tdb.orders.deleteonsubmit(order);\tdb.submitchanges();\tforeach (var v in db.orders) objectdumper.write(v);",
+  "press enter to continue",
+  0
+ ],
+ [
+  "public static bool isfoldercasesensitive (filepath path) {\tvar testfile = path.combine (guid.newguid ().tostring ().tolower ());\ttry {\tfile.writealltext (testfile, \"\");\treturn !file.exists (testfile.tostring ().toupper ());\t} catch (exception ex) {",
+  "isfoldercasesensitive failed",
+  0
+ ],
+ [
+  "assert.areequal (test, uri.tostring (), \"tostring/\" + test);\t}\t}\t[test]\tpublic void unixlocalpath_wtf () {\tstring path = \"file: uri fileuri = new uri( path );\tassert.areequal (\"/tmp/foo/bar\", fileuri.absolutepath, path);\tstring path2 = \"file: fileuri = new uri (path2);\tassert.areequal (\"file: }\tpublic static void print (uri uri) {",
+  "isloopback",
+  0
+ ],
+ [
+  "static int main (string [] args) {\tif (typeof (int).gettype ().name != \"runtimetype\") {\treturn 1;\t}\tstring file = \"\";\tdestination_file = file;\tif (destination_file == \"\") {",
+  "you ll have to set the destination file see source for instructions",
+  0
+ ],
+ [
+  "public bool onalertcheck (intptr title, intptr text, intptr chkmsg, ref bool chkstate) {\t#if debug ongeneric (\"onalertcheck\");",
+  "onalertcheck",
+  0
+ ],
+ [
+  "static void dumpkeyinfoclause (keyinfoclause kic) {\tkeyinfoname kn = kic as keyinfoname;\tif (kn != null) {\treturn;\t}\tkeyinfox509data k509 = kic as keyinfox509data;\tif (k509 != null) {\tconsole.writeline (\"*** keyinfox509data ***\");",
+  "certificates",
+  0
+ ],
+ [
+  "public static void createxmllangtestfile(string strfilename) {\ttextwriter tw = new streamwriter(filepathutil.getstream(strfilename));",
+  "persona dromio of ephesus persona",
+  0
+ ],
+ [
+  "public void runtest () {\tif (configuration.dtda) {\t} else if (configuration.dt) {\t} else {",
+  "throwing applicationexception in main thread different appdomain",
+  0
+ ],
+ [
+  "public ienumerator<t> getenumerator() {",
+  "principalsearchresult entering getenumerator",
+  0
+ ],
+ [
+  "foreach (string name in typenames) console.writeline (\"\\t{0}\", name);\t}\tconsole.writeline ();\tint inside = 0;\tint total = 0;\tforeach (assemblydefinition assembly in assemblies) {\tforeach (moduledefinition module in assembly.modules) {\tbool all = typenames.all (name => (module.hastypereference (name)));\tif (all) inside++;\ttotal++;",
+  "yes no",
+  0
+ ],
+ [
+  "public static void creategenerictestfile(string strfilename) {\tfilepathutil.addstream(strfilename, new memorystream());\ttextwriter tw = new streamwriter(filepathutil.getstream(strfilename));\ttw.writeline(\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\" standalone=\\\"no\\\"?>\");\ttw.writeline(\"<!-- comment1 -->\");\ttw.writeline(\"<?pi1a?>\");\ttw.writeline(\"<?pi1b?>\");\ttw.writeline(\"<?pi1c?>\");",
+  "entity",
+  0
+ ],
+ [
+  "public override void setvalue(object component, object value) {",
+  "name setvalue component gettype name value gettype name",
+  0
+ ],
+ [
+  "events.loaddata (child);\tchild = child.nextsibling;\t}\tif (child != null && child.name == \"methods\") {\tmethods = new xmlmethods ();\tmethods.loaddata (child);\tchild = child.nextsibling;\t}\tif (child == null) return;\tif (child.name != \"classes\") {",
+  "name type",
+  0
+ ],
+ [
+  "private static void writestuffmode(string counter) {",
+  "run",
+  0
+ ],
+ [
+  "public void ipinfotest_accessallproperties_noerrors() {\tforeach (networkinterface nic in networkinterface.getallnetworkinterfaces()) {",
+  "supports",
+  0
+ ],
+ [
+  "private static bool test3() {\tdynamic a = 10.10f;\tfloat b = +a;\tif (b == 10.10f) return true;",
+  "failed float",
+  0
+ ],
+ [
+  "private static bool exceptionwithreferenceconversionfromuserdefinedexceptioninassignment() {\tint failcount = 0;\tvar origin = new myexception(0xe000);\tdynamic d = origin;\texception result = d;\tif (((myexception)result).code != origin.code) {\tfailcount++;",
+  "test failed at conversion result",
+  0
+ ],
+ [
+  "private static bool verifyclientcertificate (x509certificate certificate, int[] certificateerrors) {\tif (certificate != null) {\tconsole.writeline (certificate.tostring (true));\t} else {\t}",
+  "principalcontext entering ctor",
+  1
+ ],
+ [
+  "for (int j = 0; j < useless.length; j++) {\tif (useless[j] == 'u') console.writeline (\"i have detected an u char\");\t}\ttry {\tforeach (string environmentvariable in environment.getenvironmentvariables ().keys) console.writeline (environmentvariable);\t}\tcatch (system.security.securityexception exception) {\tconsole.writeline (exception.message);\tconsole.writeline (exception);\t}",
+  "resourcetoolkit propertyfieldassociationvisitor inside propertygetregion property seems to reference field",
+  1
+ ],
+ [
+  "if (s7.f3 != 3+90) {\treturn 3;\t}\tif (s7.f4 != 4+90) {\treturn 4;\t}\tif (s7.f5 != 5+90) {\treturn 5;\t}\tif (s7.f6 != 6+90) {",
+  "process closehandle process",
+  1
+ ],
+ [
+  "public static void main () {\tvar vtib = new vti_c<int> ();\tvar result = vtib.graf<int> ();\tif (result) {",
+  "gettagkey",
+  1
+ ],
+ [
+  "static void metodo (exception e) {\tif (e is notimplementedexception){",
+  "test failed conversion result is incorrect",
+  1
+ ],
+ [
+  "foreach (xmlschemaattribute attribute in derivedtype.attributeuses.values) {\txmlschemaattribute attributebase = (xmlschemaattribute)basetype.attributeuses[attribute.qualifiedname];\tif (attributebase != null) {\tcontinue;\t}\tif (baseattributewildcard == null || !baseattributewildcard.allows(attribute.qualifiedname)) {\t#if debug string position = string.empty;\tif (derivedtype.sourceuri != null) {\tposition = \" in \" + derivedtype.sourceuri + \"(\" + derivedtype.linenumber + \", \" + derivedtype.lineposition + \")\";\t}",
+  "serverasyncauthenticatetest authenticateasserverasync start",
+  1
+ ],
+ [
+  "private static int testarrayinterfaces() {\t{\tobject stringarray = new string[] { \"a\", \"b\", \"c\", \"d\" };\tstring result = string.empty;\tforeach (var s in (system.collections.generic.ienumerable<string>)stringarray) result += s;\tif (result != \"abcd\") {",
+  "verifying rxparity event try",
+  1
+ ],
+ [
+  "public void readafterclose() {\tusing (serialport com = new serialport(tcsupport.localmachineserialinfo.firstavailableportname)) {",
+  "default named column added",
+  1
+ ],
+ [
+  "public errorcs0052 method () {",
+  "passing null argument should have thrown argumentnullexception",
+  1
+ ],
+ [
+  "string formatname = null;\tbool formatlist = false;\tlist<string> projects = new list<string> ();\tstring[] itemstoexport = null;\tforeach (string s in arguments) {\tif (s.startswith (\"-d:\")) destpath = s.substring (3);\telse if (s.startswith (\"-f:\")) formatname = s.substring (3);\telse if (s.startswith (\"-p:\")) projects.add (s.substring (3));\telse if (s == \"-l\") formatlist = true;\telse if (projectfile != null) {",
+  "got but expected",
+  1
+ ],
+ [
+  "if (s16.f10 != 10+9) {\treturn 10;\t}\tif (s16.f11 != 11+9) {\treturn 11;\t}\tif (s16.f12 != 12+9) {\treturn 12;\t}\tif (s16.f13 != 13+9) {",
+  "telling worker process to exit",
+  1
+ ],
+ [
+  "static void help (string details) {\tswitch (details) {\tbreak;\tbreak;\tbreak;",
+  "file not found",
+  1
+ ],
+ [
+  "public void transformgeneric5(xslinputtype xslinputtype, readertype readertype, outputtype outputtype, navtype navtype) {\tfilestream s2;\tif ((loadxsl(\"showparam.xsl\", xslinputtype, readertype) == 1) && (transform((string) \"fruits.xml\", (outputtype) outputtype, navtype) == 1)) {\ts2 = new filestream(fullfilepath(\"showparam.xsl\"), filemode.open, fileaccess.read);\ts2.dispose();\ts2 = new filestream(fullfilepath(\"fruits.xml\"), filemode.open, fileaccess.read);\ts2.dispose();\treturn;\t}",
+  "abort reset",
+  1
+ ],
+ [
+  "public void writenode_xmlreader23(xmlwriterutils utils) {\txmlreader xr = createreaderignorews(\"xmlreader.xml\");\twhile (xr.read()) {\tif (xr.localname == \"middle\") {\txr.read();\txr.read();\tbreak;\t}\t}\tif (xr.nodetype != xmlnodetype.text) {",
+  "amdesignator",
+  1
+ ],
+ [
+  "static void listcodegroups () {\tprintglobalinfo ();\tforeach (policylevel pl in levels) {",
+  "usage ilasm filename",
+  1
+ ],
+ [
+  "public static void main (string[] args) {\tif (args.length != 2) {",
+  "error unable to set key reason",
+  1
+ ],
+ [
+  "public void onassembly (object sender, runnereventargs e) {\tforeach (moduledefinition module in e.currentassembly.modules) {\tif (lookforthreadmodelattribute (module.getalltypes ())) {\tactive = true;\treturn;\t} else if (lookforthreadmodelattribute (module.gettypereferences ())) {",
+  "resourcetoolkit nrefactoryastcacheservice resolvelowlevel failed due to the compilation unit being unavailable",
+  1
+ ],
+ [
+  "private static bool test5() {\tdecimal?[] decimalnvalues = new decimal?[]\t{\t1m, 10.10m, 100.01m, null }\t;\tforeach (decimal? a1 in decimalnvalues) {\tdynamic d1 = a1;\tif ((d1 % null) != (a1 % null)) {",
+  "iendpointbehavior addbindingparameters",
+  1
+ ],
+ [
+  "if (s9.f1 != 1+9) {\treturn 1;\t}\tif (s9.f2 != 2+9) {\treturn 2;\t}\tif (s9.f3 != 3+9) {\treturn 3;\t}\tif (s9.f4 != 4+9) {",
+  "failed",
+  1
+ ],
+ [
+  "public async task taskmethodwithoutawait() {",
+  "class testclass void test system console writeline",
+  1
+ ],
+ [
+  "try {\tif (tc.canconvertfrom(typeof(string))) {\tobject val=tc.convertfrominvariantstring(value);\tpi.setvalue(obj, val, null);\t} else if (pi.propertytype == typeof(type)) {\tpi.setvalue(obj, type.gettype(value), null);\t}\t}\tcatch(exception e) {\tvar s = string.format(cultureinfo.currentculture,\"property setter for {0} failed {1}\\r\\n\",pi.name, e.message);",
+  "total error",
+  1
+ ],
+ [
+  "if (!quiet) {\tdouble ratio = ((double) stream.length * 100) / real_size;\t}\t} else {\ttc.writeline (\"static const monobundledassembly assembly_bundle_{0} = {{\\\"{1}\\\", assembly_data_{0}, {2}}};\", encoded, aname, real_size);\t}\tstream.close ();\tc_bundle_names.add (\"assembly_bundle_\" + encoded);\ttry {\tfilestream cf = file.openread (fname + \".config\");",
+  "setting basetype dictionary on type",
+  1
+ ],
+ [
+  "public static void dorun<t1, t2> (other<t1, t2> some) {\tconsole.writeline (\"this is null: {0}\", some.mappings == null);",
+  "usage mono exe instance xmlfile output xsdfile",
+  1
+ ],
+ [
+  "public static void testpersistsucurityinfo3() {",
+  "press enter to continue",
+  1
+ ],
+ [
+  "public override bool select () {\tif (resultobject is nstableview) {\tvar control = (nstableview)resultobject;",
+  "else",
+  1
+ ],
+ [
+  "s7.f3 = 3;\ts7.f4 = 4;\ts7.f5 = 5;\ts7.f6 = 6;\ts7.f7 = 7;\ts7 = mono_return_float7(s7, 906);\tif (s7.f1 != 1+906) {\treturn 1;\t}\tif (s7.f2 != 2+906) {",
+  "onprompt",
+  1
+ ],
+ [
+  "static void clean (hashtable clienthash, string path) {\tif (path.getfilename (path) == \"cvs\") return;\tstring[] files = directory.getfiles (path);\tforeach (string file in files) {\tservicedata sd = clienthash [file] as servicedata;\tif (sd != null) continue;\tfile.delete (file);",
+  "profiler use profiler to make more detailed leak reporting",
+  1
+ ],
+ [
+  "public void os11(object param0, object param1) {\tinit(param0.tostring(), param1.tostring());\t_xsl.load(_xslfile);\tstream stm1 = new filestream(\"out1.xml\", filemode.create, fileaccess.readwrite);\t_xsl.transform(_xmlfile, null, stm1);\tstream stm2 = new filestream(\"out2.xml\", filemode.create, fileaccess.readwrite);\txmlwritersettings os = _xsl.outputsettings;\txmlwriter xw = xmlwriter.create(stm2, os);",
+  "getdouble",
+  1
+ ],
+ [
+  "string connectionstring = string.format( \"data source={0};\" + \"user id={1};\" + \"password={2}\", args[0], args[1], args[2]);\tconstr = connectionstring;\toracleconnection con1 = new oracleconnection();\tshowconnectionproperties (con1);\tcon1.connectionstring = connectionstring;\tcon1.infomessage += new oracleinfomessageeventhandler (oninfomessage);\tcon1.statechange += new statechangeeventhandler (onstatechange);\tcon1.open ();\tshowconnectionproperties (con1);\tinsertblobtest (con1);",
+  "currentconnections",
+  1
+ ],
+ [
+  "public static int main () {\tmethodinfo mi = typeof (c<>).getmethod (\"foo\");\tobject[] a = mi.getcustomattributes (false);\tif (((testattribute)a[0]).type.tostring() != \"c`1[system.string]\") return 1;",
+  "test",
+  1
+ ],
+ [
+  "public int variation_17() {\tobject objactual = datareader.nametable.get(chval, 0, 0);\tobject objactual1 = datareader.nametable.get(chval, 0, 0);",
+  "p or provider to set the provider",
+  1
+ ],
+ [
+  "console.writeline (e.message);\treturn;\t}\tif (show_help) {\tp.writeoptiondescriptions (console.out);\treturn;\t}\tforeach (var m in (from k in macros.keys orderby k select k)) {\tconsole.writeline (\"\\t{0}={1}\", m, macros [m] ?? \"<null>\");\t}",
+  "resourcetoolkit icsharpcodecorenrefactoryresourceresolver resourceservice resource access detected",
+  1
+ ]
+]

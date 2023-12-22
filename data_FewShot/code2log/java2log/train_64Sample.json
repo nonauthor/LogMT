@@ -1,0 +1,322 @@
+[
+ [
+  "else if (osName.equals(\"fedora\")) osName = \"fedora\";\telse {\tosName = \"centos\";\t}\tif (Strings.isBlank(arch)) {\tarch = \"x86_64\";\t}\tif (Strings.isBlank(osMajorVersion)) {\tif (osName.equals(\"fedora\")) osMajorVersion = \"20\";\telse osMajorVersion = \"6\";",
+  "block removestoredblock from",
+  1
+ ],
+ [
+  "public void testBlockListener() throws Exception {\tfor (int i = 0; i < ITERS; i++) {",
+  "seems like connection is lost will retry retries left error was",
+  1
+ ],
+ [
+  "throw new IllegalArgumentException(\"mode cannot be NULL\");\t}\tthis.mode = mode;\trequireClientCert = conf.getBoolean(SSL_REQUIRE_CLIENT_CERT_KEY, DEFAULT_SSL_REQUIRE_CLIENT_CERT);\tConfiguration sslConf = readSSLConfiguration(mode);\tClass<? extends KeyStoresFactory> klass = conf.getClass(KEYSTORES_FACTORY_CLASS_KEY, FileBasedKeyStoresFactory.class, KeyStoresFactory.class);\tkeystoresFactory = ReflectionUtils.newInstance(klass, sslConf);\tenabledProtocols = conf.getStrings(SSL_ENABLED_PROTOCOLS_KEY, SSL_ENABLED_PROTOCOLS_DEFAULT);\texcludeCiphers = Arrays.asList( sslConf.getTrimmedStrings(SSL_SERVER_EXCLUDE_CIPHER_LIST));\tif (LOG.isDebugEnabled()) {",
+  "waiting seconds for the task to run",
+  1
+ ],
+ [
+  "public boolean mediate(MessageContext synCtx) {\tSynapseLog synLog = getLog(synCtx);\tif (synLog.isTraceOrDebugEnabled()) {",
+  "sending request test context",
+  1
+ ],
+ [
+  "public void testFullRestoreSingleEmpty() throws Exception {\tString backupId = fullTableBackup(toList(table1.getNameAsString()));",
+  "sequence has already been undeployed",
+  1
+ ],
+ [
+  "public void onError(WebSocket webSocket, WebSocketException t) {",
+  "sortvalidator job done",
+  1
+ ],
+ [
+  "public boolean processAnswers(long agentId, long seq, Answer[] answers) {",
+  "orphan file is possibly corrupted hfile skipping",
+  1
+ ],
+ [
+  "if (correctVif != null) {\tnetwork = correctVif.getNetwork(conn);\tnetworkUsage(conn, routerIp, \"deleteVif\", \"eth\" + correctVif.getDevice(conn));\tcorrectVif.unplug(conn);\tcorrectVif.destroy(conn);\tdisableVlanNetwork(conn, network);\t}\t}\t}\t} catch (final Exception e) {",
+  "starting testzerominmaintenancereplication",
+  1
+ ],
+ [
+  "while (sessionIter.hasNext()) {\ttry {\t((Session) sessionIter.next()).close();\t} catch (JMSException ignore) {}\t}\ttry {\tconnection.stop();\t} catch (JMSException ignore) {}\t} else {\tif (log.isDebugEnabled()) {",
+  "using the default encryption key is not secure",
+  1
+ ],
+ [
+  "public static Optional<HealthCheck.Result> query(CamelContext camelContext, String id, Map<String, Object> options) {\tfinal HealthCheckRegistry registry = camelContext.getHealthCheckRegistry();\tfinal HealthCheckService service = camelContext.hasService(HealthCheckService.class);\tif (service != null) {\treturn service.getResults().stream() .filter(result -> ObjectHelper.equal(result.getCheck().getId(), id)) .findFirst();\t} else if (registry != null) {\treturn registry.getCheck(id).map(check -> check.call(options));\t} else {",
+  "beginning testcacheanduncacheblock",
+  1
+ ],
+ [
+  "Collection<String> roles = com.google.common.collect.Lists.newArrayList();\tif (autoConfig != null && !CollectionUtils.isEmpty(autoConfig.getRoles())) {\troles.addAll(autoConfig.getRoles());\t}\tfor (StackId stackId : stackIds) {\ttry {\tif (checkAutoInstanceConfig(autoConfig, stackId, event.getServiceName(), serviceNames)) {\tinstallAutoInstance(clusterId, clusterName, cluster.getService(event.getServiceName()), viewEntity, viewName, viewConfig, autoConfig, roles);\t}\t} catch (Exception e) {",
+  "io error while sending the request out",
+  1
+ ],
+ [
+  "public AsyncMethodCallback<List<TCell>> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {\tfinal org.apache.thrift.AsyncProcessFunction fcall = this;\treturn new AsyncMethodCallback<List<TCell>>() {\tpublic void onComplete(List<TCell> o) {\tgetVer_result result = new getVer_result();\tresult.success = o;\ttry {\tfcall.sendResponse(fb,result, org.apache.thrift.protocol.TMessageType.REPLY,seqid);\treturn;\t} catch (Exception e) {",
+  "unsubscribing durable subscriber",
+  1
+ ],
+ [
+  "public void testMarkerFiltering() throws Exception {\tLog4J2Logger log = new Log4J2Logger(LOG_CONFIG);",
+  "item has null workrate skipping",
+  1
+ ],
+ [
+  "public static void tearDown() throws Exception {",
+  "collecting information for the detector",
+  1
+ ],
+ [
+  "StringBuilder builder = new StringBuilder();\tNamingEnumeration<String> ids = attributes.getIDs();\ttry {\twhile (ids.hasMore()) {\tString id = ids.next();\tbuilder.append(\"\\n\\t\");\tbuilder.append(attributes.get(id));\t}\t} catch (NamingException e) {\t}",
+  "an exception occurred looking up the cluster named assuming null resource id",
+  1
+ ],
+ [
+  "public void start() throws AxisFault {\ttry {\tString prefix = namePrefix + \"-PT-Listener I/O Dispatcher\";\tioReactor = new DefaultListeningIOReactor( sourceConfiguration.getReactorConfig(true), new NativeThreadFactory(new ThreadGroup(prefix + \" Thread Group\"), prefix));\tioReactor.setExceptionHandler(new IOReactorExceptionHandler() {\tpublic boolean handle(IOException ioException) {\treturn true;\t}\tpublic boolean handle(RuntimeException runtimeException) {",
+  "exception loading materialized views",
+  1
+ ],
+ [
+  "protected void configureVifDrivers(final Map<String, Object> params) throws ConfigurationException {\tfinal String LIBVIRT_VIF_DRIVER = \"libvirt.vif.driver\";\t_trafficTypeVifDrivers = new HashMap<TrafficType, VifDriver>();\tString defaultVifDriverName = (String)params.get(LIBVIRT_VIF_DRIVER);\tif (defaultVifDriverName == null) {\tif (_bridgeType == BridgeType.OPENVSWITCH) {\tdefaultVifDriverName = DEFAULT_OVS_VIF_DRIVER_CLASS_NAME;\t} else {",
+  "could not retrieve state for namenode s from property s by querying jmx",
+  1
+ ],
+ [
+  "private static void createLocalEntries(SynapseConfiguration synapseConfig, String rootDirPath, Properties properties) {\tFile localEntriesDir = new File(rootDirPath, LOCAL_ENTRY_DIR);\tif (localEntriesDir.exists()) {\tif (log.isDebugEnabled()) {",
+  "detaching",
+  1
+ ],
+ [
+  "return new org.apache.thrift.async.AsyncMethodCallback<java.lang.Integer>() {\tpublic void onComplete(java.lang.Integer o) {\tcalculate_result result = new calculate_result();\tresult.success = o;\tresult.setSuccessIsSet(true);\ttry {\tfcall.sendResponse(fb, result, org.apache.thrift.protocol.TMessageType.REPLY,seqid);\t} catch (org.apache.thrift.transport.TTransportException e) {\tfb.close();\t} catch (java.lang.Exception e) {",
+  "container not launched as cleanup already called",
+  1
+ ],
+ [
+  "QueueingConsumer consumer = new QueueingConsumer(channel);\tboolean isAutoAck = isUseTx == true ? false : true;\tchannel.basicConsume(queueName, isAutoAck, consumer);\tScheduledFuture<?> pollingTaskFuture = pollingTaskScheduler.scheduleWithFixedDelay( new MessageIOTask(consumer, buffers, isUseTx), scheduledTaskInitialDelay, scheduledTaskDelay, scheduledTaskTimeUnit);\ttaskFutureList.add(pollingTaskFuture);\t} catch (IOException e) {\thandleException(e.getMessage(), e);\t}\t}\tif (log.isDebugEnabled()) {",
+  "ovs bridge destroyed",
+  1
+ ],
+ [
+  "ApplicationId appId = containerId.getApplicationAttemptId().getApplicationId();\tApplication app = this.context.getApplications().get(appId);\tif (app == null) {\tcontinue;\t}\tContainer container = app.getContainers().get(containerId);\tif (container == null) {\tcontinue;\t}\tif (container.isRecovering()) {",
+  "waiting for broker persistence adapter checkpoint to succeed before restarting transports",
+  1
+ ],
+ [
+  "public void testGetPendingCollaborations() throws Exception {\tfinal java.util.Collection result = requestBody(\"direct: assertNotNull(\"getPendingCollaborations result\", result);",
+  "seems like connection is lost will retry retries left error was",
+  1
+ ],
+ [
+  "for (HostVO neighbor : neighbors) {\tif (neighbor.getId() == agent.getId() || neighbor.getHypervisorType() != Hypervisor.HypervisorType.Hyperv) {\tcontinue;\t}\ttry {\tAnswer answer = _agentMgr.easySend(neighbor.getId(), cmd);\tif (answer != null) {\treturn answer.getResult() ? Status.Down : Status.Up;\t}\t} catch (Exception e) {",
+  "unable to stop existing writer for block after miniseconds",
+  1
+ ],
+ [
+  "public void testScanningOldDirs() throws Exception {\ttry {\tConfiguration conf = new Configuration();\tconf.setClass( NET_TOPOLOGY_NODE_SWITCH_MAPPING_IMPL_KEY, MyResolver.class, DNSToSwitchMapping.class);\tRackResolver.init(conf);\tMRApp app = new MRAppWithHistory(1, 1, true, this.getClass().getName(), true);\tapp.submit(conf);\tJob job = app.getContext().getAllJobs().values().iterator().next();\tJobId jobId = job.getID();",
+  "expected exception",
+  1
+ ],
+ [
+  "private void addRelevantProjectDependenciesToClasspath(Set<URL> path) throws MojoExecutionException {\tif (this.includeProjectDependencies) {\ttry {\tURL mainClasses = new File(project.getBuild().getOutputDirectory()).toURI().toURL();\tpath.add(mainClasses);\tSet<Artifact> dependencies = CastUtils.cast(project.getArtifacts());\tdependencies.addAll(getAllNonTestScopedDependencies());\tIterator<Artifact> iter = dependencies.iterator();\twhile (iter.hasNext()) {\tArtifact classPathElement = iter.next();",
+  "looking up connectionfactory with jndiname",
+  1
+ ],
+ [
+  "public AmazonDynamoDB createDynamoDBClient(String defaultRegion) throws IOException {\tPreconditions.checkNotNull(getConf(), \"Should have been configured before usage\");\tfinal Configuration conf = getConf();\tfinal AWSCredentialsProvider credentials = createAWSCredentialProviderSet(null, conf);\tfinal ClientConfiguration awsConf = DefaultS3ClientFactory.createAwsConf(conf);\tfinal String region = getRegion(conf, defaultRegion);",
+  "name is converted to when it is used as a queue name",
+  1
+ ],
+ [
+  "}\t} else {\tif (!headerFilterStrategy.applyFilterToCamelHeaders(key, value, exchange)) {\trestletHeaders.set(key, value.toString());\t}\t}\t}\t}\tif (form != null) {\trequest.setEntity(form.getWebRepresentation());",
+  "hazelcast queue consumer interrupted",
+  1
+ ],
+ [
+  "newPartPath = oldPartPath;\t}\tList<Path> newFiles = null;\tPerfLogger perfLogger = SessionState.getPerfLogger();\tperfLogger.PerfLogBegin(\"MoveTask\", \"FileMoves\");\tif (conf.getBoolVar(ConfVars.FIRE_EVENTS_FOR_DML) && !tbl.isTemporary() && (null != oldPart)) {\tnewFiles = Collections.synchronizedList(new ArrayList<Path>());\t}\tif (isMmTableWrite && loadPath.equals(newPartPath)) {\tif (Utilities.FILE_OP_LOGGER.isTraceEnabled()) {",
+  "produced messages",
+  1
+ ],
+ [
+  "public void run() {\ttry {\tif (!isRunning) {\treturn;\t}\tperiodicInvoke();\trunCount++;\tlastRun = Time.now();\t} catch (Exception ex) {\terrorCount++;",
+  "getObjects",
+  1
+ ],
+ [
+  "QName qName = null;\tif (element.getNamespace() != null) {\tqName = new QName(element.getNamespace().getName(), localName);\t} else {\tqName = new QName(localName);\t}\tClass cls = (Class) factoryMap.get(qName);\tif (cls == null && localName.indexOf('.') > -1) {\tString newLocalName = localName.substring(0, localName.indexOf('.'));\tqName = new QName(element.getNamespace().getName(), newLocalName);",
+  "failed to copy to exception",
+  1
+ ],
+ [
+  "}\t}\tprivate TimerTask schedualRestartTask(final Timer timer, final Configurer configurer) {\tclass RestartTask extends TimerTask {\tpublic void run() {\tsynchronized (brokerLock) {\ttry {\tbroker.stop();\tbroker.waitUntilStopped();\t} catch (Exception e) {",
+  "can not remove domain as it is root domain",
+  1
+ ],
+ [
+  "final MessageProducer producer = session.createProducer(queueA);\tfinal AtomicBoolean done = new AtomicBoolean(true);\tfinal AtomicBoolean keepGoing = new AtomicBoolean(true);\tThread thread = new Thread(\"Filler\") {\tint i;\tpublic void run() {\twhile (keepGoing.get()) {\tdone.set(false);\ttry {\tproducer.send(session.createTextMessage(\"Test message \" + ++i));",
+  "compressor obtained from codecpool is already finished",
+  1
+ ],
+ [
+  "public void drop() {\ttry {\tif (call.disconnectSince() >= 0) {\tif (RpcServer.LOG.isDebugEnabled()) {",
+  "skipped",
+  0
+ ],
+ [
+  "protected Answer execute(final SetStaticNatRulesCommand cmd) {\tif (cmd.getVpcId() != null) {\t}\tif (s_logger.isInfoEnabled()) {",
+  "executing resource setfirewallrulecommand",
+  0
+ ],
+ [
+  "protected void checkMobFile(Path p) throws IOException {\tHFile.Reader r = null;\ttry {\tr = HFile.createReader(fs, p, cacheConf, true, conf);\t} catch (CorruptHFileException che) {\tcorruptedMobFiles.add(p);\tif (inQuarantineMode) {\tPath dest = createQuarantinePath(p);",
+  "quarantining corrupt mob file into",
+  0
+ ],
+ [
+  "public void testProtosInParamTypes() throws ClassNotFoundException, IOException, LinkageError {\tSet<Class<?>> classes = findPublicClasses();\tList<Triple<Class<?>, Method, Class<?>>> protosParamType = new ArrayList<>();\tfor (Class<?> clazz : classes) {\tfindProtoInParamType(clazz, protosParamType);\t}\tif (protosParamType.size() != 0) {",
+  "these are the methods that have protos as the param type",
+  0
+ ],
+ [
+  "protected void doStop(ConfigBag parameters, Callable<StopMachineDetails<Integer>> stopTask) {\tpreStopConfirmCustom();\tStopMode stopMachineMode = getStopMachineMode(parameters);\tStopMode stopProcessMode = parameters.get(StopSoftwareParameters.STOP_PROCESS_MODE);\tDynamicTasks.queue(\"pre-stop\", new PreStopCustomTask());\tMaybe<MachineLocation> machine = Machines.findUniqueMachineLocation(entity().getLocations());\tProvisioningTaskState provisioningState = entity().sensors().get(AttributesInternal.INTERNAL_PROVISIONING_TASK_STATE);\tif (machine.isAbsent() && provisioningState == ProvisioningTaskState.RUNNING) {\tDuration maxWait = entity().config().get(STOP_WAIT_PROVISIONING_TIMEOUT);",
+  "when stopping waiting for up to for the machine to finish provisioning before terminating it",
+  0
+ ],
+ [
+  "}\tprocessed++;\t}\ttotalProcessed += processed;\treplicationQueuesInitProgress = Math.min((double) totalProcessed if (!blocksItr.hasNext()) {\tLOG.info(\"Total number of blocks            = \" + blocksMap.size());\tLOG.info(\"Number of invalid blocks          = \" + nrInvalid);\tLOG.info(\"Number of under-replicated blocks = \" + nrUnderReplicated);\tLOG.info(\"Number of  over-replicated blocks = \" + nrOverReplicated + ((nrPostponed > 0) ? (\" (\" + nrPostponed + \" postponed)\") : \"\"));\tLOG.info(\"Number of blocks being written    = \" + nrUnderConstruction);",
+  "state replication queue initialization scan for invalid over and under replicated blocks completed in msec",
+  0
+ ],
+ [
+  "public void testsRoutingWithoutProcessingSecurityHeaders() {\tString url = \"http: String policy = \"./repository/conf/sample/resources/policy/client_policy_3.xml\";",
+  "running test routing the messages arrived to a proxy service without processing the security headers",
+  0
+ ],
+ [
+  "config.append(\"    server_name \"+domain+\";\\n\");\tboolean hasRoot = false;\tProxySslConfig localSslConfig = null;\tfor (UrlMapping mappingInDomain : mappingsByDomain.get(domain)) {\tProxySslConfig sslConfig = mappingInDomain.getConfig(UrlMapping.SSL_CONFIG);\tif (sslConfig!=null) {\tverifyConfig(sslConfig);\tif (localSslConfig!=null) {\tif (localSslConfig.equals(sslConfig)) {\t} else {",
+  "mapping provides ssl config for when a different config had already been provided by another mapping ignoring this one",
+  0
+ ],
+ [
+  "}\tif (statistics.isStatisticsEnabled()) {\tattemptCounter.increment();\t}\tObject result = optimisedTypeConverter.convertTo(type, exchange, value);\tif (result != null) {\tif (statistics.isStatisticsEnabled()) {\tbaseHitCounter.increment();\t}\tif (log.isTraceEnabled()) {",
+  "using optimised core converter to convert",
+  0
+ ],
+ [
+  "public void onTransportClosed() {",
+  "the transport has unexpectedly closed",
+  0
+ ],
+ [
+  "assert (relativePath != null);\tassert (datastoreName != null);\tStringBuffer sb = new StringBuffer();\tsb.append(\"https: sb.append(_serverAddress);\tsb.append(\"/folder/\");\tsb.append(relativePath);\ttry {\tsb.append(\"?dcPath=\").append(URLEncoder.encode(dcName, \"UTF-8\"));\tsb.append(\"&dsName=\").append(URLEncoder.encode(datastoreName, \"UTF-8\"));\t} catch (UnsupportedEncodingException e) {",
+  "unable to encode url dcpath dsname",
+  0
+ ],
+ [
+  "protected String callHostPluginAsync(final Connection conn, final String plugin, final String cmd, final int wait, final String... params) {\tfinal int timeout = wait * 1000;\tfinal Map<String, String> args = new HashMap<String, String>();\tTask task = null;\ttry {\tfor (int i = 0; i < params.length; i += 2) {\targs.put(params[i], params[i + 1]);\t}\tif (s_logger.isTraceEnabled()) {",
+  "callhostplugin executing for command with",
+  0
+ ],
+ [
+  "public static IdentityKeyStoreInformation createIdentityKeyStoreInformation(Properties properties) {\tString keyStoreLocation = MiscellaneousUtil.getProperty( properties, IDENTITY_KEY_STORE, null);\tif (keyStoreLocation == null || \"\".equals(keyStoreLocation)) {\tif (log.isDebugEnabled()) {",
+  "cannot find a keystorelocation for private key store",
+  0
+ ],
+ [
+  "public void perform(PrerequisiteCheck prerequisiteCheck, PrereqCheckRequest request) throws AmbariException {\tString isRangerHTTPEnabled = getProperty(request, \"ranger-admin-site\", \"ranger.service.http.enabled\");\tString isRangerSSLEnabled = getProperty(request, \"ranger-admin-site\", \"ranger.service.https.attrib.ssl.enabled\");\tString rangerSSLKeystoreFile = getProperty(request, \"ranger-admin-site\", \"ranger.https.attrib.keystore.file\");\tif ((\"false\").equalsIgnoreCase(isRangerHTTPEnabled) && (\"true\").equalsIgnoreCase(isRangerSSLEnabled) && rangerSSLKeystoreFile.contains(\"/etc/ranger/admin/conf\") ) {",
+  "ranger is ssl enabled need to show configuration changes warning before upragade proceeds",
+  0
+ ],
+ [
+  "public void execute() throws ResourceAllocationException, ResourceUnavailableException {\tApplicationLoadBalancerRule rule = null;\ttry {\tCallContext.current().setEventDetails(\"Load Balancer Id: \" + getEntityId());\trule = _entityMgr.findById(ApplicationLoadBalancerRule.class, getEntityId());\tApplicationLoadBalancerResponse lbResponse = _responseGenerator.createLoadBalancerContainerReponse(rule, _lbService.getLbInstances(getEntityId()));\tsetResponseObject(lbResponse);\tlbResponse.setResponseName(getCommandName());\t} catch (Exception ex) {",
+  "failed to create load balancer due to exception",
+  0
+ ],
+ [
+  "public void restart() {",
+  "mysampleimpl restart",
+  0
+ ],
+ [
+  "public static void close(String handleId) throws IOException {\tList<Connection> handleConnections;\tsynchronized (lock) {\thandleConnections = connectionMap.remove(handleId);\t}\tif (handleConnections != null) {\tfor (Connection conn : handleConnections) {\ttry {\tconn.close();\t} catch (Exception err) {",
+  "error while closing connection for",
+  0
+ ],
+ [
+  "entry.setValue(nestedProperty);\t} catch (NoSuchFieldException e) {\t}\t}\t}\tCamelPropertiesHelper.setCamelProperties(camelContext, component, parameters, false);\tif (ObjectHelper.isNotEmpty(customizers)) {\tfor (ComponentCustomizer<StompComponent> customizer : customizers) {\tboolean useCustomizer = (customizer instanceof HasId) ? HierarchicalPropertiesEvaluator.evaluate( applicationContext.getEnvironment(), \"camel.component.customizer\", \"camel.component.stomp.customizer\", ((HasId) customizer).getId()) : HierarchicalPropertiesEvaluator.evaluate( applicationContext.getEnvironment(), \"camel.component.customizer\", \"camel.component.stomp.customizer\");\tif (useCustomizer) {",
+  "configure component with customizer",
+  0
+ ],
+ [
+  "try {\tValidator validator = cachedSchema.newValidator();\tvalidator.setErrorHandler(errorHandler);\tvalidator.validate(validateSrc);\tif (errorHandler.isValidationError()) {\tif (synLog.isTraceOrDebugEnabled()) {\tString msg = \"Validation of element returned by XPath : \" + source + \" failed against the given schema(s) \" + schemaKeys + \"with error : \" + errorHandler.getSaxParseException().getMessage() + \" Executing 'on-fail' sequence\";\tsynLog.traceOrDebug(msg);\tsynCtx.getServiceLog().warn(msg);\tif (synLog.isTraceTraceEnabled()) {",
+  "failed message envelope",
+  0
+ ],
+ [
+  "public void testAMQConnectionExecutorThreadCleanUp() throws Exception {",
+  "testamqconnectionexecutorthreadcleanup started",
+  0
+ ],
+ [
+  "protected void startRs(ServerName server) throws IOException {",
+  "starting region server",
+  0
+ ],
+ [
+  "public boolean remove(Node n) {",
+  "removing node",
+  0
+ ],
+ [
+  "private boolean checkHypervisorCompatibility(HypervisorType hyperType, Volume.Type volType, Storage.StoragePoolType poolType){\tif(HypervisorType.LXC.equals(hyperType)){\tif(Volume.Type.ROOT.equals(volType)){\tif(!(Storage.StoragePoolType.NetworkFilesystem.equals(poolType) || Storage.StoragePoolType.Filesystem.equals(poolType)) ){\treturn false;\t}\t} else if (Volume.Type.DATADISK.equals(volType)){\tif(!Storage.StoragePoolType.RBD.equals(poolType)){",
+  "storagepool does not support lxc data disk skipping this pool",
+  0
+ ],
+ [
+  "ServiceInfo serviceInfo = serviceInfoMap.get(serviceName);\tif (serviceInfo != null) {\tSet<String> configTypes = serviceInfo.getConfigTypeAttributes().keySet();\tfor (String configType : configTypes) {\tstackServiceConfigs.put(serviceName, configType);\t}\t} else {\twarning(\"Service {} is not available for stack {} in cluster {}\", serviceName, stackName + \"-\" + stackVersion, clusterName);\t}\t}",
+  "comparing required service configs from stack with mapped service configs from db",
+  0
+ ],
+ [
+  "if (!Objects.equals(rmNode.getDecommissioningTimeout(), timeout)) {\trmNode.decommissioningTimeout = timeout;\t} else {\t}\treturn;\t}\trmNode.updateMetricsForGracefulDecommission(initState, finalState);\trmNode.decommissioningTimeout = timeout;\tif (rmNode.originalTotalCapability == null){\trmNode.originalTotalCapability = Resources.clone(rmNode.totalCapability);",
+  "preserve original total capability",
+  0
+ ],
+ [
+  "public void run() {\ttry {\ttime = System.currentTimeMillis();\t} catch (Throwable th) {",
+  "unable to time",
+  0
+ ],
+ [
+  "uamResponse = uamPool.finishApplicationMaster(subClusterId, finishRequest);\t} catch (Throwable e) {\t}\treturn new FinishApplicationMasterResponseInfo(uamResponse, subClusterId);\t}\t});\t}\t}\tFinishApplicationMasterResponse homeResponse = AMRMClientUtils.finishAMWithReRegister(request, this.homeRM, this.amRegistrationRequest, getApplicationContext().getApplicationAttemptId());\tif (subClusterIds.size() > 0) {",
+  "waiting for finish application response from sub cluster rms",
+  0
+ ],
+ [
+  "return new BasicLease(existing);\t} else {\ttotalClosedCount.incrementAndGet();\tcloser.apply(existing);\t}\t}\t} while (existing != null);\tT result = supplier.get();\ttotalCreatedCount.incrementAndGet();\tcurrentLeasedCount.incrementAndGet();",
+  "acquired and returning new entry",
+  0
+ ],
+ [
+  "Collections.reverse(extensions);\tfor (ExtensionInfo extension : extensions) {\tif (extension.isActive() && extension.isAutoLink()) {\tfor (ExtensionMetainfoXml.Stack supportedStack : extension.getStacks()) {\tList<StackInfo> stacks = stackMap.get(supportedStack.getName());\tfor (StackInfo stack : stacks) {\tif (stack.getExtension(extension.getName()) == null && VersionUtils.compareVersions(stack.getVersion(), supportedStack.getVersion()) > -1) {\tcreateExtensionLink(stackManager, stack, extension);\t}\telse {",
+  "autolink not a match extension stack",
+  0
+ ],
+ [
+  "bridge.setConsumerQueue(replyToConsumerQueue);\tbridge.setProducerQueue(replyToProducerQueue);\tbridge.setProducerConnection((QueueConnection)replyToProducerConnection);\tbridge.setConsumerConnection((QueueConnection)replyToConsumerConnection);\tbridge.setDoHandleReplyTo(false);\tif (bridge.getJmsMessageConvertor() == null) {\tbridge.setJmsMessageConvertor(getInboundMessageConvertor());\t}\tbridge.setJmsConnector(this);\tbridge.start();",
+  "created replyto bridge for",
+  0
+ ],
+ [
+  "public FileOutputCommitter(Path outputPath, JobContext context) throws IOException {\tConfiguration conf = context.getConfiguration();\talgorithmVersion = conf.getInt(FILEOUTPUTCOMMITTER_ALGORITHM_VERSION, FILEOUTPUTCOMMITTER_ALGORITHM_VERSION_DEFAULT);\tif (algorithmVersion != 1 && algorithmVersion != 2) {\tthrow new IOException(\"Only 1 or 2 algorithm version is supported\");\t}\tskipCleanup = conf.getBoolean( FILEOUTPUTCOMMITTER_CLEANUP_SKIPPED, FILEOUTPUTCOMMITTER_CLEANUP_SKIPPED_DEFAULT);\tignoreCleanupFailures = conf.getBoolean( FILEOUTPUTCOMMITTER_CLEANUP_FAILURES_IGNORED, FILEOUTPUTCOMMITTER_CLEANUP_FAILURES_IGNORED_DEFAULT);",
+  "fileoutputcommitter skip cleanup temporary folders under output directory ignore cleanup failures",
+  0
+ ],
+ [
+  "public void testObjectSize() throws IOException {",
+  "array header",
+  0
+ ]
+]

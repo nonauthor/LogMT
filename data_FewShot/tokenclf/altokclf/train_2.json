@@ -1,0 +1,110 @@
+[
+ [
+  "ciod: error loading /p/gb1/stella/sppm/1322/sppm_dd : invalid or missing program image, permission denied",
+  "/p/gb1/stella/sppm/1322/sppm_dd",
+  "PATH",
+  8
+ ],
+ [
+  "ciod: missing or invalid fields on line 1 of node map file /home/auselton/bgl/64mps.sequential.mapfile",
+  "/home/auselton/bgl/64mps.sequential.mapfile",
+  "PATH",
+  8
+ ],
+ [
+  "failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2",
+  "55495",
+  "PORT",
+  3
+ ],
+ [
+  "starting socket reader #1 for port 62260",
+  "62260",
+  "PORT",
+  3
+ ],
+ [
+  "could discard act 74490 inact 9782 purgeable 34145 spec 56242 cleaned 0",
+  "34145",
+  "VAR",
+  0
+ ],
+ [
+  "assertion failed: dvcaddrref != ((void *)0) -[driverservices getdeviceaddress:] line: 2789",
+  "2789",
+  "VAR",
+  0
+ ],
+ [
+  "received block blk_-5814328448485070742 of size 67108864 from /10.251.74.134",
+  "67108864",
+  "COUNT",
+  1
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "32",
+  "COUNT",
+  1
+ ],
+ [
+  "refreshbatteryinfo isbatterylow: 23",
+  "23",
+  "STATE",
+  2
+ ],
+ [
+  "db error: 1 \"no such table: tb_c2cmsg_2658655094\"",
+  "1",
+  "STATE",
+  2
+ ],
+ [
+  "sqm: failed to start standard sample upload. [hresult = 0x80004005 - e_fail]",
+  "standard",
+  "OTHER",
+  5
+ ],
+ [
+  "*** unregister callback for com.android.systemui.statusbar.policy.keyguardmonitor@712d093",
+  "for",
+  "OTHER",
+  5
+ ],
+ [
+  "rotationfororientationlw (orient=-1, last=0); user=0 user_rotation_locked",
+  "rotationfororientationlw",
+  "FUN",
+  6
+ ],
+ [
+  "hibernate_machine_init pagesdone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 mb/s, comp bytes: 47288320 time: 32 ms 1369 mb/s, crypt bytes: 158441472 time: 38 ms 3973 mb/s",
+  "hibernate_machine_init",
+  "FUN",
+  6
+ ],
+ [
+  "anonymous ftp login from 84.102.20.2 ,  (anonymous)",
+  "84.102.20.2",
+  "IP",
+  7
+ ],
+ [
+  "[client 216.216.185.130 ] directory index forbidden by rule: /var/www/html/",
+  "216.216.185.130",
+  "IP",
+  7
+ ],
+ [
+  "new process app=processrecord{6eaaf00 0: com.tencent.mobileqq:qzone/u0a111 }, name: com.tencent.mobileqq:qzone, euid: 0",
+  "com.tencent.mobileqq:qzone/u0a111",
+  "URL",
+  4
+ ],
+ [
+  "2017-07-05 16:18:06.450 googlesoftwareupdateagent[36128/0x7000002a0000] [lvl=2] -[ksoutofprocessfetcher beginfetchwithdelegate:] ksoutofprocessfetcher fetching from url: https://tools.google.com/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741",
+  "https://tools.google.com/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741",
+  "URL",
+  4
+ ]
+]

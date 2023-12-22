@@ -1,0 +1,42 @@
+[
+ [
+  "G group = isFGroup ? fgroups.get(newGroupName) : groups.get(newGroupName);\tif (group == null) {\tgroup = groupFactory.newGroup(newGroupName, limits);\tif (isFGroup) {\tfgroups.put(newGroupName, group);\t} else {\tlimits.checkGroups(groups.size() + 1);\tgroups.put(newGroupName, group);\t}\tif (groupNameInLegacyMap) {",
+  "group is deprecated use instead",
+  0
+ ],
+ [
+  "public void TestIncBackupDeleteTable() throws Exception {\tString testName = \"TestIncBackupDeleteTable\";",
+  "create full backup image for all tables",
+  0
+ ],
+ [
+  "String secUrl = cssHost.getStorageUrl();\tSecStorageSetupCommand setupCmd = new SecStorageSetupCommand(secUrl, null);\tfor ( SecondaryStorageVmVO ssVm : alreadyRunning ) {\tHostVO host = _resourceMgr.findHostByName(ssVm.getInstanceName());\tAnswer answer = _agentMgr.easySend(host.getId(), setupCmd);\tif (answer != null && answer.getResult()) {\tif (s_logger.isDebugEnabled()) {\t}\t} else {\tif (s_logger.isDebugEnabled()) {",
+  "successfully programmed secondary storage in secondary storage vm",
+  0
+ ],
+ [
+  "public Map<String, String> getNexusVSMCredentialsByClusterId(Long clusterId) {\tCiscoNexusVSMDeviceVO nexusVSM = null;\tClusterVSMMapVO vsmMapVO = null;\tvsmMapVO = _vsmMapDao.findByClusterId(clusterId);\tlong vsmId = 0;\tif (vsmMapVO != null) {\tvsmId = vsmMapVO.getVsmId();",
+  "vsmid is",
+  0
+ ],
+ [
+  "}\tstatus.setStatus(\"Disabling compacts and flushes for region\");\tboolean canFlush = true;\tsynchronized (writestate) {\tcanFlush = !writestate.readOnly;\twritestate.writesEnabled = false;\twaitForFlushesAndCompactions();\t}\tif (!abort && worthPreFlushing() && canFlush) {\tstatus.setStatus(\"Pre-flushing region before close\");",
+  "getting all savedquery",
+  1
+ ],
+ [
+  "scriptCommand.add(\"destroy_tunnel\");\tscriptCommand.add(\"--bridge\", command.getBridgeName());\tscriptCommand.add(\"--iface_name\", command.getInPortName());\tfinal String result = scriptCommand.execute();\tif (result == null) {\treturn new Answer(command, true, result);\t} else {\treturn new Answer(command, false, result);\t}\t} catch (final Exception e) {",
+  "updated stats for",
+  1
+ ],
+ [
+  "public void testConcurrentRegister() throws InterruptedException, ExecutionException {\tExecutorService threadpool = Executors.newCachedThreadPool();\tExecutorCompletionService<RegisterApplicationMasterResponse> compSvc = new ExecutorCompletionService<>(threadpool);\tObject syncObj = MockResourceManagerFacade.getSyncObj();\tsynchronized (syncObj) {\tcompSvc.submit(new ConcurrentRegisterAMCallable());\ttry {",
+  "the value of is greater than but should be in the range",
+  1
+ ],
+ [
+  "protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {\tHttpRequest request = (HttpRequest) msg;",
+  "value of is",
+  1
+ ]
+]

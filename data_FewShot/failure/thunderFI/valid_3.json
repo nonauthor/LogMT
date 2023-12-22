@@ -1,0 +1,62 @@
+[
+ [
+  "bn519/bn519 sshd[15240]: Accepted publickey for root from ::ffff:10.100.12.7 port 57674 ssh2",
+  0
+ ],
+ [
+  "dn519/dn519 dataeng: dcstor32d shutdown succeeded",
+  0
+ ],
+ [
+  "an119/an119 kernel: Vendor: MegaRAID Model: LD 0 RAID0 69G Rev: 521S",
+  0
+ ],
+ [
+  "an933/an933 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn30/dn30 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (Fatal error (Local Catastrophic Error))",
+  1
+ ],
+ [
+  "dn41/dn41 kernel: scsi0 (0:0): rejecting I/O to offline device",
+  2
+ ],
+ [
+  "dn312/dn312 kernel: scsi0 (0:0): rejecting I/O to offline device",
+  2
+ ],
+ [
+  "cn745/cn745 kernel: scsi0 (0:0): rejecting I/O to offline device",
+  2
+ ],
+ [
+  "an895/an895 kernel: Losing some ticks... checking if CPU frequency changed.",
+  3
+ ],
+ [
+  "dn483/dn483 kernel: Losing some ticks... checking if CPU frequency changed.",
+  3
+ ],
+ [
+  "an43/an43 kernel: Losing some ticks... checking if CPU frequency changed.",
+  3
+ ],
+ [
+  "an312/an312 kernel: EXT3-fs error (device sda5): ext3_journal_start_sb: Detected aborted journal",
+  4
+ ],
+ [
+  "an312/an312 kernel: EXT3-fs error (device sda5) in start_transaction: Journal has aborted",
+  4
+ ],
+ [
+  "dn41/dn41 kernel: EXT3-fs error (device sda5) in start_transaction: Journal has aborted",
+  4
+ ]
+]

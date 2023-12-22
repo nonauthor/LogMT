@@ -1,0 +1,12 @@
+[
+ [
+  "neededReplications.remove(storedBlock, numCurrentReplica, num.readOnlyReplicas(), num.outOfServiceReplicas(), fileReplication);\t} else {\tupdateNeededReplications(storedBlock, curReplicaDelta, 0);\t}\tif (numCurrentReplica > fileReplication) {\tprocessOverReplicatedBlock(storedBlock, fileReplication, node, delNodeHint);\t}\tint corruptReplicasCount = corruptReplicas.numCorruptReplicas(storedBlock);\tint numCorruptNodes = num.corruptReplicas();\tif (numCorruptNodes != corruptReplicasCount) {",
+  "inconsistent number of corrupt replicas for blockmap has but corrupt replicas map has",
+  0
+ ],
+ [
+  "return false;\t}\tbreak;\tcase NEED_WRAP: if (!doHandshakeWrap(socketChannel, sslEngine,  myAppData, myNetData, peerNetData, netBufferSize)) {\treturn false;\t}\tbreak;\tcase NEED_TASK: Runnable task;\twhile ((task = sslEngine.getDelegatedTask()) != null) {\tif (s_logger.isTraceEnabled()) {",
+  "read",
+  1
+ ]
+]

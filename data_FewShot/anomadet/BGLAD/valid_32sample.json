@@ -1,0 +1,162 @@
+[
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "2 ddr error(s) detected and corrected on rank 0, symbol 7 over 30187 seconds",
+  0,
+  "30b3b946"
+ ],
+ [
+  "program interrupt: fp cr update.............0",
+  0,
+  "87710483"
+ ],
+ [
+  "disable apu instruction broadcast........0",
+  0,
+  "0328c31b"
+ ],
+ [
+  "program interrupt: fp cr field .............0",
+  0,
+  "41c5149c"
+ ],
+ [
+  "1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "exception syndrome register: 0x00800000",
+  0,
+  "cce08081"
+ ],
+ [
+  "iar 003a9258 dear 0129a598",
+  0,
+  "1b700d02"
+ ],
+ [
+  "total of 20 ddr error(s) detected and corrected over 22070 seconds",
+  0,
+  "8df7ac9e"
+ ],
+ [
+  "Ido packet timeout",
+  0,
+  "906b7730"
+ ],
+ [
+  "machine state register: 0x00002000",
+  0,
+  "8d23c697"
+ ],
+ [
+  "EndServiceAction 530 performed upon R42-M1-N3 by root",
+  0,
+  "928b0f63"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "byte ordering exception.....................0",
+  0,
+  "d8f41a22"
+ ],
+ [
+  "1 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 0",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:40789, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=15368, cpu=16, index=956454981, total=269101864",
+  1,
+  "ca731736"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43655, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "rts: kernel terminated for reason 1004",
+  1,
+  "130bb340"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix after VERSION_MESSAGE on CioStream socket to 172.16.96.116:56507: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:54392, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:60297: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:40825: Link has been severed",
+  1,
+  "16da8291"
+ ]
+]

@@ -1,0 +1,82 @@
+[
+ [
+  "}\t}\t}\tvar providerstates = new dictionary<coderefactoringdescriptor, bool> ();\tforeach (var node in options.allrefactorings.where (x => x.language.contains (language))) {\tproviderstates [node] = node.isenabled;\t}\tsw.writeline (\"<table border='1'>\");\tvar sortedandfiltered = providerstates.keys.orderby (n => n.name, stringcomparer.ordinal);\tforeach (var node in sortedandfiltered) {",
+  "tr td td td td tr",
+  0
+ ],
+ [
+  "static xmlschemacompletiondata readlocalschema (uri uri) {\ttry {\treturn new xmlschemacompletiondata (uri.tostring (), uri.localpath);\t} catch (exception ex) {",
+  "xmlschemamanager is unable to read schema because of the following error",
+  0
+ ],
+ [
+  "public override string tostring () {\tstringwriter sw = new stringwriter ();",
+  "presenttotal",
+  0
+ ],
+ [
+  "public static int main () {\tx x = new x ();\t((ia) x).draw ();",
+  "ia",
+  0
+ ],
+ [
+  "static internal string hexstringtoldaphexstring(string s) {\tdebug.assert(s != null);\tif (s.length % 2 != 0) {",
+  "adutils hexstringtoldaphexstring string has bad length",
+  0
+ ],
+ [
+  "static void test4() {\tigraph<string, int, int> g = new hashgraph<string, int, int>(new intweight(), snake(5));\tconsole.writeline(\"========= pfs =========\");\tconsole.writeline(\"========= mst =========\");\tstring root;\tigraph<string, int, int> mst = g.minimumspanningtree(out root);\tmst.print(console.out);\tmst.traversevertices(false, root, delegate(edge<string, int> e) { console.writeline(e); });",
+  "atsp",
+  0
+ ],
+ [
+  "stream responsestream = httpwebresponse.getresponsestream ();\tstreamreader responsestreamreader = new streamreader (responsestream);\tstring response = responsestreamreader.readline ();\tresponsestreamreader.close ();\tresponsestream.close ();\thttpwebresponse.close ();\t}\tcatch (webexception e) {\t}\tcatch (exception e) {",
+  "source",
+  0
+ ],
+ [
+  "public bool comparebaseline(xdocument doc, string baselinefile) {\txmlreadersettings rs = new xmlreadersettings();\trs.conformancelevel = conformancelevel.auto;\trs.dtdprocessing = dtdprocessing.ignore;\trs.closeinput = true;\t_diff.option = xmldiffoption.ignoreattributeorder;\tusing (xmlreader r1 = xmlreader.create(filepathutil.getstream(fullpath(baselinefile)), rs)) using (xmlreader r2 = doc.createreader()) {\tif (!_diff.compare(r1, r2)) {",
+  "mismatch expected actual",
+  0
+ ],
+ [
+  "static void show () {",
+  "failed decimal decimal",
+  1
+ ],
+ [
+  "object o = a.createinstance (\"system.exception\");\tif (o == null) return 1;\tif (!(o is system.exception)) return 2;\tobject[] args = new object [2];\targs [0] = 'x';\targs [1] = 10;\to = activator.createinstance (typeof (system.string), args);\tif (o == null) return 3;\tif (!(o is system.string)) return 4;\tif (!\"xxxxxxxxxx\".equals (o)) {",
+  "outputqueuelength",
+  1
+ ],
+ [
+  "showhelp = true;\t}\tif (state.ignorenonbreaking) {\tstate.ignoreaddedpropertysetters = true;\tstate.ignorevirtualchanges = true;\tstate.ignorenew.add (new regex (\".*\"));\tstate.ignoreadded.add (new regex (\".*\"));\t}\tif (showhelp || extra == null || extra.count < 2 || extra.count > 3) {\tconsole.writeline ();",
+  "init servicecontaier",
+  1
+ ],
+ [
+  "private void emitwriteprimitivearray(string typename) {\topenscope($\"public static void write(this nativewriter writer, {typename}[] values)\");\twriteline(\"if (values == null)\");\twriteline(\"{\");",
+  "get at",
+  1
+ ],
+ [
+  "w.writestartdocument();\tw.writestartelement(\"root\");\tw.writeendelement();\tw.writestartelement(\"root\");\t}\tcatch (invalidoperationexception e) {\tcerror.compare(w.writestate, writestate.error, \"writestate should be error\");\treturn;\t}\t}",
+  "create parameters",
+  1
+ ],
+ [
+  "private static bool test3() {\tdynamic d1 = false;\tishit = false;\tdynamic m = d1 ? stringvalue : \"abc\";\tif (ishit || m != \"abc\") {",
+  "replacefile",
+  1
+ ],
+ [
+  "public static void main (string[] args) {\tif (args.length == 0) {\treturn;\t} else if (args.length > 64) {\treturn;\t}\talone = (args.length == 1);\tservicepointmanager.certificatepolicy = new testcertificatepolicy ();\tint id = 1;\tforeach (string url in args) {",
+  "v",
+  1
+ ],
+ [
+  "static void importtostore (x509certificatecollection roots, x509store store) {\tx509certificatecollection trusted = store.certificates;\tint additions = 0;\tforeach (x509certificate root in roots) {\tif (!trusted.contains (root)) {\ttry {\tstore.import (root);\tadditions++;\t} catch (exception e) {",
+  "null exe application config path",
+  1
+ ]
+]

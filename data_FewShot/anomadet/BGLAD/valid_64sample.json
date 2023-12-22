@@ -1,0 +1,322 @@
+[
+ [
+  "data address: 0x00000002",
+  0,
+  "121941c0"
+ ],
+ [
+  "10650 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "machine check: i-fetch......................0",
+  0,
+  "d59f04cd"
+ ],
+ [
+  "10714 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "program interrupt: fp compare...............0",
+  0,
+  "cc8ff6de"
+ ],
+ [
+  "total of 1 ddr error(s) detected and corrected",
+  0,
+  "147cfcff"
+ ],
+ [
+  "program interrupt",
+  0,
+  "0d02c0e2"
+ ],
+ [
+  "floating point operation....................0",
+  0,
+  "89854e51"
+ ],
+ [
+  "iar 0014a150 dear 00a7cb38",
+  0,
+  "1b700d02"
+ ],
+ [
+  "Ido packet timeout",
+  0,
+  "906b7730"
+ ],
+ [
+  "total of 1 ddr error(s) detected and corrected",
+  0,
+  "147cfcff"
+ ],
+ [
+  "problem state (0=sup,1=usr).......0",
+  0,
+  "33699bb4"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "93750 floating point alignment exceptions",
+  0,
+  "1ae4a1e2"
+ ],
+ [
+  "machine state register: 0x00002000",
+  0,
+  "8d23c697"
+ ],
+ [
+  "wait state enable.................0",
+  0,
+  "33699bb4"
+ ],
+ [
+  "total of 9 ddr error(s) detected and corrected",
+  0,
+  "147cfcff"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "10722 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",
+  0,
+  "0045c3a8"
+ ],
+ [
+  "Node card is not fully functional",
+  0,
+  "a2335b6b"
+ ],
+ [
+  "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.",
+  0,
+  "322228ab"
+ ],
+ [
+  "20:00000000 21:1feaa7b0 22:00000000 23:00000000",
+  0,
+  "a4f9731b"
+ ],
+ [
+  "4 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",
+  0,
+  "1840cbfe"
+ ],
+ [
+  "program interrupt: illegal instruction......0",
+  0,
+  "cc8ff6de"
+ ],
+ [
+  "external input interrupt enable...0",
+  0,
+  "368b1120"
+ ],
+ [
+  "plus denormalized number.................0",
+  0,
+  "330672aa"
+ ],
+ [
+  "iar 003a9260 dear 0128fed8",
+  0,
+  "1b700d02"
+ ],
+ [
+  "502524 floating point alignment exceptions",
+  0,
+  "1ae4a1e2"
+ ],
+ [
+  "disable store gathering..................0",
+  0,
+  "60cad074"
+ ],
+ [
+  "1 torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected",
+  0,
+  "c70dad25"
+ ],
+ [
+  "external input interrupt enable...0",
+  0,
+  "368b1120"
+ ],
+ [
+  "2 ddr error(s) detected and corrected on rank 0, symbol 20 over 11510 seconds",
+  0,
+  "30b3b946"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43445, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:49619, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "Lustre mount FAILED : bglio852 : point /p/gb1",
+  1,
+  "64dc455d"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47018, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58333, Connection reset by peer",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:45672, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:60280: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43686, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52818, Connection reset by peer",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",
+  1,
+  "49ff7848"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:45162: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data TLB error interrupt",
+  1,
+  "fd2fdc47"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data TLB error interrupt",
+  1,
+  "fd2fdc47"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53076, Connection reset by peer",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43527, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43652, Link has been severed",
+  1,
+  "8fab64d7"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "rts panic! - stopping execution",
+  1,
+  "220716fc"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ],
+ [
+  "data storage interrupt",
+  1,
+  "121941c0"
+ ]
+]

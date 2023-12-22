@@ -1,0 +1,185 @@
+[
+ [
+  [
+   "Update row : 430615\n",
+   "Update row : 30847\n",
+   "Update row : 457646\n",
+   "Update row : 42894\n",
+   "Update row : 103268\n",
+   "Update row : 530856\n",
+   "Update row : 247636\n",
+   "Update row : 65837\n",
+   "Update row : 377933\n",
+   "Update row : 509505\n",
+   "Update row : 344100\n",
+   "Update row : 11360\n",
+   "Update row : 35382\n",
+   "Update row : 155155\n",
+   "Update row : 196545\n",
+   "Update row : 459106\n",
+   "Update row : 497168\n",
+   "Update row : 368070\n",
+   "Update row : 218470\n",
+   "Update row : 87472\n"
+  ],
+  [
+   "Running task; Finished task; Got assigned task; Block stored in memory; \n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS MMCS ERROR idoproxydb hit ASSERT condition : ASSERT expression = 0 Source file = idotransportmgr.cpp Source line = 1043 Function = int IdoTransportMgr : : SendPacket ( IdoUdpMgr* , BglCtlPavTrace* )\n"
+  ],
+  [
+   "Removing RDD\n"
+  ],
+  1
+ ],
+ [
+  [
+   "clusterfilesystem clusterfilesystem.not_served 1082035891 1 ClusterFileSystem : ServerFileSystem domain root18_domain is no longer served by node node-145\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035888 1 ClusterFileSystem : ServerFileSystem domain root22_domain is no longer served by node node-117\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root18_domain is no longer served by node node-209\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035888 1 ClusterFileSystem : ServerFileSystem domain root19_tmp is no longer served by node node-146\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root21_domain is no longer served by node node-116\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root17_local is no longer served by node node-144\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035889 1 ClusterFileSystem : ServerFileSystem domain root22_tmp is no longer served by node node-149\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035889 1 ClusterFileSystem : ServerFileSystem domain root24_domain is no longer served by node node-151\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root24_tmp is no longer served by node node-119\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035888 1 ClusterFileSystem : ServerFileSystem domain root23_tmp is no longer served by node node-150\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035888 1 ClusterFileSystem : ServerFileSystem domain root20_tmp is no longer served by node node-147\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root24_tmp is no longer served by node node-151\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035889 1 ClusterFileSystem : ServerFileSystem domain root17_tmp is no longer served by node node-144\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035892 1 ClusterFileSystem : ServerFileSystem domain root20_domain is no longer served by node node-147\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035893 1 ClusterFileSystem : ServerFileSystem domain root20_domain is no longer served by node node-211\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root20_tmp is no longer served by node node-115\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root19_tmp is no longer served by node node-114\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035888 1 ClusterFileSystem : ServerFileSystem domain root21_tmp is no longer served by node node-148\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035887 1 ClusterFileSystem : ServerFileSystem domain root22_local is no longer served by node node-149\n",
+   "clusterfilesystem clusterfilesystem.not_served 1082035888 1 ClusterFileSystem : ServerFileSystem domain root18_tmp is no longer served by node node-145\n"
+  ],
+  [
+   "error detected; error corrected;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO Processed session termination for sessionid : 0x34f3fdb1f230009\n",
+   "INFO Processed session termination for sessionid : 0x34f3fdb1f23000d\n",
+   "INFO Expiring session 0x14f3fdae8ba0012 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14f3fdae8ba0011 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14f3fdae8ba0015\n",
+   "INFO Processed session termination for sessionid : 0x24f3fdaf738000b\n",
+   "INFO Processed session termination for sessionid : 0x14f3fdae8ba000f\n",
+   "INFO Processed session termination for sessionid : 0x24f3fdaf7380008\n",
+   "INFO Processed session termination for sessionid : 0x34f3fdb1f23000c\n",
+   "INFO Expiring session 0x24f3fdaf7380009 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14f3fdae8ba000d\n",
+   "INFO Processed session termination for sessionid : 0x14f3fdae8ba0017\n",
+   "INFO Processed session termination for sessionid : 0x34f3fdb1f23000e\n",
+   "INFO Expiring session 0x14f3fdae8ba0016 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14f3fdae8ba000e , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34f3fdb1f230008 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34f3fdb1f230008\n",
+   "INFO Processed session termination for sessionid : 0x14f3fdae8ba0010\n",
+   "INFO Expiring session 0x34f3fdb1f230009 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14f3fdae8ba000c\n"
+  ],
+  [
+   "Temperature exceeds warning threshold;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO BlockManagerInfo : Added broadcast_5_piece200 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece114 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece347 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece65 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece55 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece180 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece9 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece8 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece118 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece104 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece111 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece111 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece293 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece328 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece90 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece303 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece318 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.2 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece31 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece93 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece50 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n"
+  ],
+  [
+   "Added in memory;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1816 bytes ( 1.77 KB ) sent , 1293 bytes ( 1.26 KB ) received , lifetime 02 : 10\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 627 bytes sent , 5602 bytes ( 5.47 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 3306 bytes ( 3.22 KB ) sent , 2215 bytes ( 2.16 KB ) received , lifetime 02 : 20\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 3164 bytes ( 3.08 KB ) sent , 5230 bytes ( 5.10 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2701 bytes ( 2.63 KB ) sent , 11868 bytes ( 11.5 KB ) received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 3670 bytes ( 3.58 KB ) sent , 4236 bytes ( 4.13 KB ) received , lifetime 02 : 15\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 11895 bytes ( 11.6 KB ) sent , 2726 bytes ( 2.66 KB ) received , lifetime 02 : 12\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1840 bytes ( 1.79 KB ) sent , 1212 bytes ( 1.18 KB ) received , lifetime 03 : 05\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 7762 bytes ( 7.58 KB ) sent , 6380 bytes ( 6.23 KB ) received , lifetime 02 : 22\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1123 bytes ( 1.09 KB ) sent , 6217 bytes ( 6.07 KB ) received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2818 bytes ( 2.75 KB ) sent , 1460 bytes ( 1.42 KB ) received , lifetime 02 : 13\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2263 bytes ( 2.20 KB ) sent , 1740 bytes ( 1.69 KB ) received , lifetime 03 : 05\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 10279 bytes ( 10.0 KB ) sent , 252320 bytes ( 246 KB ) received , lifetime 03 : 08\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 18242 bytes ( 17.8 KB ) sent , 10525 bytes ( 10.2 KB ) received , lifetime 02 : 58\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 2184 bytes ( 2.13 KB ) sent , 1361 bytes ( 1.32 KB ) received , lifetime 02 : 21\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RAS KERNEL FATAL program interrupt : illegal instruction......0\n",
+   "RAS KERNEL FATAL data store interrupt caused by icbi.........0\n"
+  ],
+  [
+   "program interrupt; data store interrupt;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "WARN dfs.DataNode$DataXceiver : 10.251.125.174 : 50010 : Got exception while serving blk_9174947768512942498 to /10.251.107.196 :\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_-1425585090000614401\n",
+   "INFO dfs.DataBlockScanner : Verification succeeded for blk_-6914344792678627673\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.39.64 : 50010 Served block blk_8643206482981311070 to /10.251.39.64\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.71.97 : 50010 Served block blk_-5541689239981250117 to /10.251.90.64\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.203.149 : 50010 Served block blk_-3953503468159870416 to /10.251.203.149\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.30.179 : 50010 Served block blk_-8869432848255955268 to /10.251.30.179\n",
+   "WARN dfs.DataNode$DataXceiver : 10.250.14.224 : 50010 : Got exception while serving blk_7382496965532366961 to /10.250.14.224 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.250.6.191 : 50010 Served block blk_4015969183409177371 to /10.251.122.65\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.214.112 : 50010 : Got exception while serving blk_-3312569381667158835 to /10.250.11.85 :\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.194.102 : 50010 : Got exception while serving blk_5985501307783077631 to /10.251.125.237 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.71.146 : 50010 Served block blk_9195289820324249402 to /10.251.27.63\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.106.50 : 50010 Served block blk_312766166255793962 to /10.251.110.196\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.203.149 : 50010 Served block blk_3503552614475989101 to /10.251.122.65\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.89.155 : 50010 Served block blk_7701101133717844984 to /10.251.37.240\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.71.97 : 50010 Served block blk_5667128281106531815 to /10.251.71.97\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.123.132 : 50010 Served block blk_-5746797997311204170 to /10.251.109.236\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.194.129 : 50010 Served block blk_6458242936964781421 to /10.251.194.129\n",
+   "WARN dfs.DataNode$DataXceiver : 10.251.199.225 : 50010 : Got exception while serving blk_7032144434456814435 to /10.250.10.223 :\n",
+   "INFO dfs.DataNode$DataXceiver : 10.251.197.161 : 50010 Served block blk_-4452807407817711079 to /10.251.197.161\n"
+  ],
+  [
+   "Got exception; Served block; Verification succeeded;\n"
+  ],
+  0
+ ]
+]

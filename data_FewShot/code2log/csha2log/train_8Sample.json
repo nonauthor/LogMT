@@ -1,0 +1,42 @@
+[
+ [
+  "static xmlassembly createxmlassembly (string file) {\txmldocument doc = new xmldocument ();\tdoc.load (file.openread (file));\txmlnode node = doc.selectsinglenode (\"/assemblies/assembly\");\txmlassembly result = new xmlassembly ();\ttry {\tresult.loaddata (node);\t} catch (exception e) {",
+  "in catch",
+  1
+ ],
+ [
+  "private void endelementidentityconstraints() {\tfor (int ci = _validationstack.length - 1; ci >= _startidconstraint; ci--) {\tif (((validationstate)(_validationstack[ci])).constr == null) {\tcontinue;\t}\tconstraintstruct[] constraints = ((validationstate)_validationstack[ci]).constr;\tfor (int i = 0; i < constraints.length; ++i) {\tfor (int j = 0; j < constraints[i].axisfields.count; ++j) {\tlocatedactiveaxis laxis = (locatedactiveaxis)constraints[i].axisfields[j];\tif (laxis.ismatched) {",
+  "failed to load stylesheet using default resolver",
+  1
+ ],
+ [
+  "public static void main(string[] args) {\tilist<char> lst = new arraylist<char>();\tlst.addall<char>(new char[] { 'a', 'b', 'c', 'd' });\tilist<char> v1 = lst.view(1, 1);\tconsole.writeline(\"v1 = {0}\", v1);\tinsertbeforefirst(v1, '<', 'b');\tinsertafterfirst(v1, '>', 'b');\tconsole.writeline(\"v1 = {0}\", v1);\tchar x;",
+  "basecolumnname",
+  1
+ ],
+ [
+  "public static void suspendlogging() {",
+  "third",
+  1
+ ],
+ [
+  "static bool callsecondclassindexer() {\tint failcount = 0; verify.firstcalled = false;\tif ( (!(bool)(((dynamic)firstclassreturnclass.staticproperty)[2])) || (!verify.firstcalled)) {\tfailcount++;",
+  "test failed at call result",
+  0
+ ],
+ [
+  "private void writehelp() {\tconsole.out.writeline(sr.format(sr.helpdescription));\tconsole.out.writeline(sr.format(sr.helpdevoptions));",
+  "type",
+  0
+ ],
+ [
+  "public override string tostring() {\tstringwriter writer = new stringwriter(cultureinfo.invariantculture);",
+  "generic xml token",
+  0
+ ],
+ [
+  "string jobid = testname + \"_job_\" + testutilities.getmyname();\tcloudjob unboundjob = batchcli.joboperations.createjob();\tunboundjob.id = jobid;\tunboundjob.displayname = originaldisplayname;\tassert.equal(originaldisplayname, unboundjob.displayname);\tunboundjob.poolinformation = new poolinformation() { poolid = this.poolfixture.poolid };\tunboundjob.commit();\ttry {\tcloudjob boundjob = batchcli.joboperations.getjob(jobid);\tassert.equal(originaldisplayname, boundjob.displayname);",
+  "attempting to set display name on job",
+  0
+ ]
+]

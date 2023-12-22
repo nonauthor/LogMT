@@ -1,0 +1,364 @@
+[
+ [
+  [
+   "RAS APP FATAL ciod : Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex : invalid or missing program image , No such file or directory\n"
+  ],
+  [
+   "Received connection request; Server environment; Established session timeout;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO NFS Mount failed on bglio368 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio472 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio909 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio911 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio379 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio396 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio289 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio958 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio852 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio1004 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio341 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio844 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio843 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio342 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio139 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio405 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio380 , slept 14 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio352 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio451 , slept 18 seconds , retrying ( 1 )\n",
+   "RAS KERNEL INFO NFS Mount failed on bglio756 , slept 14 seconds , retrying ( 1 )\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close; A connection request was canceled;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO storage.BlockManager : Removing RDD 12768\n",
+   "INFO storage.BlockManager : Removing RDD 12776\n",
+   "INFO storage.BlockManager : Removing RDD 12802\n",
+   "INFO storage.BlockManager : Removing RDD 12792\n",
+   "INFO storage.BlockManager : Removing RDD 12798\n",
+   "INFO storage.BlockManager : Removing RDD 12780\n",
+   "INFO storage.BlockManager : Removing RDD 12736\n",
+   "INFO storage.BlockManager : Removing RDD 12806\n",
+   "INFO storage.BlockManager : Removing RDD 12732\n",
+   "INFO storage.BlockManager : Removing RDD 12728\n",
+   "INFO storage.BlockManager : Removing RDD 12788\n",
+   "INFO storage.BlockManager : Removing RDD 12784\n",
+   "INFO storage.BlockManager : Removing RDD 12748\n",
+   "INFO storage.BlockManager : Removing RDD 12740\n",
+   "INFO storage.BlockManager : Removing RDD 12744\n",
+   "INFO storage.BlockManager : Removing RDD 12764\n",
+   "INFO storage.BlockManager : Removing RDD 12760\n",
+   "INFO storage.BlockManager : Removing RDD 12810\n",
+   "INFO storage.BlockManager : Removing RDD 12752\n",
+   "INFO storage.BlockManager : Removing RDD 12756\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed000f\n",
+   "INFO Expiring session 0x34ee30a5c53000a , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c530008\n",
+   "INFO Expiring session 0x14ee3e057ed000f , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24ee30a54f5000a\n",
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed0005\n",
+   "INFO Expiring session 0x14ee3e057ed000b , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530007 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530009 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530008 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24ee30a54f5000b , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c53000a\n",
+   "INFO Expiring session 0x14ee3e057ed000e , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed000e\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c530009\n",
+   "INFO Processed session termination for sessionid : 0x14ee3e057ed0007\n",
+   "INFO Expiring session 0x14ee3e057ed000c , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ee30a5c530002\n",
+   "INFO Expiring session 0x24ee30a54f5000a , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ee30a5c530006 , timeout of 10000ms exceeded\n"
+  ],
+  [
+   "partition status running; partition status blocked; starting; down; closing; node status not responding;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO storage.MemoryStore : Block broadcast_10466_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 8.0 MB )\n",
+   "INFO executor.Executor : Finished task 33.0 in stage 10442.0 ( TID 418154 ) . 2241 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 418196\n",
+   "INFO python.PythonRunner : Times : total = 48 , boot = -6 , init = 54 , finish = 0\n",
+   "INFO executor.Executor : Running task 22.0 in stage 10443.0 ( TID 418187 )\n",
+   "INFO executor.Executor : Running task 33.0 in stage 10443.0 ( TID 418196 )\n",
+   "INFO executor.Executor : Running task 11.0 in stage 10443.0 ( TID 418176 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 418176\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -19 , init = 58 , finish = 0\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -29 , init = 68 , finish = 0\n",
+   "INFO executor.Executor : Finished task 11.0 in stage 10442.0 ( TID 418132 ) . 2241 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 0.0 in stage 10442.0 ( TID 418121 ) . 2241 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 418165\n",
+   "INFO storage.BlockManager : Found block rdd_14944_0 locally\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 418187\n",
+   "INFO executor.Executor : Finished task 22.0 in stage 10442.0 ( TID 418143 ) . 2241 bytes result sent to driver\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 10466\n",
+   "INFO executor.Executor : Running task 0.0 in stage 10443.0 ( TID 418165 )\n",
+   "INFO storage.BlockManager : Found block rdd_14944_22 locally\n"
+  ],
+  [
+   "gige temperature critical; gige temperature normal; gige temperature warning; \n"
+  ],
+  1
+ ],
+ [
+  [
+   "RAS KERNEL INFO 1146800 double-hummer alignment exceptions\n",
+   "RAS KERNEL INFO 1311300 double-hummer alignment exceptions\n"
+  ],
+  [
+   "caught exception; Closed socket connection;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "INFO BlockManagerInfo : Added broadcast_5_piece200 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece114 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece347 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece65 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece55 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece180 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece9 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece8 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece118 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece104 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece111 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece111 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece293 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece328 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece90 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece303 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece318 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.2 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece31 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece93 in memory on mesos-slave-22 : 42468 ( size : 4.0 MB , free : 11.3 GB )\n",
+   "INFO BlockManagerInfo : Added broadcast_5_piece50 in memory on mesos-slave-07 : 49000 ( size : 4.0 MB , free : 11.3 GB )\n"
+  ],
+  [
+   "blockMap updated; PacketResponder terminating; Receiving block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1002 bytes sent , 12309 bytes ( 12.0 KB ) received , lifetime 00 : 01\n",
+   "- dict.youdao.com : 80 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 656 bytes sent , 4795 bytes ( 4.68 KB ) received , lifetime <1 sec\n",
+   "*64 - proxy.cse.cuhk.edu.hk : 5070 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 343 bytes sent , 1078 bytes ( 1.05 KB ) received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 344 bytes sent , 1343 bytes ( 1.31 KB ) received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 493 bytes sent , 523 bytes received , lifetime 00 : 01\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 493 bytes sent , 523 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1474 bytes ( 1.43 KB ) sent , 13129 bytes ( 12.8 KB ) received , lifetime 00 : 02\n",
+   "*64 - proxy.cse.cuhk.edu.hk : 5070 close , 303 bytes sent , 278 bytes received , lifetime <1 sec\n",
+   "- proxy.cse.cuhk.edu.hk : 5070 close , 1127 bytes ( 1.10 KB ) sent , 5465 bytes ( 5.33 KB ) received , lifetime 00 : 02\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  1
+ ],
+ [
+  [
+   "*64 - avatars3.githubusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - s2.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - nsclick.baidu.com : 80 close , 1121 bytes ( 1.09 KB ) sent , 289 bytes received , lifetime 00 : 30\n",
+   "*64 - accounts.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - www.google.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 close , 463 bytes sent , 4787 bytes ( 4.67 KB ) received , lifetime 00 : 11\n",
+   "*64 - fonts.gstatic.com : 443 close , 461 bytes sent , 4785 bytes ( 4.67 KB ) received , lifetime 00 : 22\n",
+   "*64 - googleads.g.doubleclick.net : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - csi.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - fonts.gstatic.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n",
+   "*64 - csi.gstatic.com : 443 close , 0 bytes sent , 0 bytes received , lifetime 00 : 10\n",
+   "*64 - lh4.googleusercontent.com : 443 open through proxy proxy.cse.cuhk.edu.hk : 5070 HTTPS\n"
+  ],
+  [
+   "open through proxy; bytes sent; bytes received; close;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO dfs.DataNode$PacketResponder : Received block blk_4672560693145390541 of size 67108864 from /10.250.10.100\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_1661657384116690310 src : /10.251.106.37 : 56434 dest : /10.251.106.37 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-7109858696037824498 of size 67108864 from /10.251.43.192\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_2745796368469590491 of size 67108864 from /10.251.91.32\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_1661657384116690310 src : /10.251.71.146 : 55875 dest : /10.251.71.146 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 2 for block blk_8476737013179938837 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_2851369282019141990 src : /10.251.39.64 : 52689 dest : /10.251.39.64 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_-6569799292637658356 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-5955497671403936973 src : /10.251.91.32 : 44156 dest : /10.251.91.32 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_8668114326939248092 of size 67108864 from /10.251.123.99\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_6639641389698708441 of size 67108864 from /10.251.202.209\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_4672560693145390541 terminating\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_2745796368469590491 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_1661106420520819945 src : /10.251.71.68 : 35398 dest : /10.251.71.68 : 50010\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-7228995495045327496 src : /10.251.65.203 : 40268 dest : /10.251.65.203 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_8476737013179938837 of size 67108864 from /10.251.39.64\n",
+   "INFO dfs.DataNode$PacketResponder : Received block blk_-6569799292637658356 of size 67108864 from /10.251.67.225\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 0 for block blk_6639641389698708441 terminating\n",
+   "INFO dfs.DataNode$DataXceiver : Receiving block blk_-7228995495045327496 src : /10.251.65.203 : 43558 dest : /10.251.65.203 : 50010\n",
+   "INFO dfs.DataNode$PacketResponder : PacketResponder 1 for block blk_-7109858696037824498 terminating\n"
+  ],
+  [
+   "Receiving block; PacketResponder terminating; Received block;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Client attempting to establish new session at /10.10.34.24 : 50284\n",
+   "INFO Client attempting to establish new session at /10.10.34.40 : 47629\n",
+   "WARN Connection request from old client /10.10.34.36 : 45207 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x24ed9311942008f with negotiated timeout 10000 for client /10.10.34.36 : 45207\n",
+   "INFO Client attempting to establish new session at /10.10.34.39 : 37287\n",
+   "INFO Established session 0x24ed93119420090 with negotiated timeout 10000 for client /10.10.34.39 : 37287\n",
+   "WARN Connection request from old client /10.10.34.42 : 45943 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x24ed93119420092 with negotiated timeout 10000 for client /10.10.34.42 : 45943\n",
+   "INFO Processed session termination for sessionid : 0x24ed9311942008b\n",
+   "INFO Accepted socket connection from /10.10.34.36 : 45207\n",
+   "INFO Accepted socket connection from /10.10.34.40 : 47629\n",
+   "INFO Established session 0x24ed93119420091 with negotiated timeout 10000 for client /10.10.34.40 : 47629\n",
+   "INFO Client attempting to establish new session at /10.10.34.36 : 45207\n",
+   "INFO Accepted socket connection from /10.10.34.39 : 37287\n",
+   "WARN Connection request from old client /10.10.34.40 : 47629 ; will be dropped if server is in r-o mode\n",
+   "INFO Accepted socket connection from /10.10.34.42 : 45943\n",
+   "INFO Client attempting to establish new session at /10.10.34.42 : 45943\n",
+   "WARN Connection request from old client /10.10.34.39 : 37287 ; will be dropped if server is in r-o mode\n",
+   "INFO Established session 0x24ed9311942008e with negotiated timeout 10000 for client /10.10.34.24 : 50284\n",
+   "WARN caught end of stream exception\n"
+  ],
+  [
+   "Connection request; Client attempting to establish new session; Established session timeout; Processed session termination; Accepted socket connection\uff1b\n"
+  ],
+  0
+ ],
+ [
+  [
+   "WARN Interrupted while waiting for message on queue\n",
+   "WARN Connection broken for id 188978561024 , my id = 3 , error =\n",
+   "WARN Send worker leaving thread\n",
+   "INFO Received connection request /10.10.34.12 : 47258\n",
+   "INFO Received connection request /10.10.34.12 : 47264\n",
+   "INFO Received connection request /10.10.34.12 : 47253\n",
+   "INFO Received connection request /10.10.34.12 : 47259\n",
+   "WARN Interrupting SendWorker\n"
+  ],
+  [
+   "Received connection; Connection broken; Interrupting SendWorker; Send worker; Interrupted;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Expiring session 0x14ed93111f2005f , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420065\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f2005d\n",
+   "INFO Expiring session 0x14ed93111f2005d , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0040\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0044\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f20059\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420069\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f2005c\n",
+   "INFO Expiring session 0x14ed93111f2005b , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0043\n",
+   "INFO Expiring session 0x24ed93119420069 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ed9ac1c1e0047 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0041\n",
+   "INFO Processed session termination for sessionid : 0x34ed9ac1c1e0045\n",
+   "INFO Processed session termination for sessionid : 0x24ed93119420067\n",
+   "INFO Expiring session 0x14ed93111f2005c , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ed93111f2005b\n",
+   "INFO Expiring session 0x24ed93119420067 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ed9ac1c1e0040 , timeout of 10000ms exceeded\n"
+  ],
+  [
+   "Processed session termination; Expiring session; timeout exceeded; \n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO broadcast.TorrentBroadcast : Reading broadcast variable 11656 took 2 ms\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -37 , init = 76 , finish = 0\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 465693\n",
+   "INFO python.PythonRunner : Times : total = 39 , boot = -42 , init = 81 , finish = 0\n",
+   "INFO executor.Executor : Finished task 36.0 in stage 11630.0 ( TID 465675 ) . 2076 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 25.0 in stage 11630.0 ( TID 465665 ) . 2076 bytes result sent to driver\n",
+   "INFO executor.Executor : Finished task 14.0 in stage 11630.0 ( TID 465654 ) . 2076 bytes result sent to driver\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 465682\n",
+   "INFO python.PythonRunner : Times : total = 40 , boot = -49 , init = 89 , finish = 0\n",
+   "INFO storage.MemoryStore : Block broadcast_11656_piece0 stored as bytes in memory ( estimated size 6.4 KB , free 8.3 MB )\n",
+   "INFO storage.MemoryStore : Block broadcast_11656 stored as values in memory ( estimated size 10.5 KB , free 8.3 MB )\n",
+   "INFO storage.BlockManager : Found block rdd_17927_3 locally\n",
+   "INFO executor.Executor : Running task 14.0 in stage 11631.0 ( TID 465693 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 465704\n",
+   "INFO broadcast.TorrentBroadcast : Started reading broadcast variable 11656\n",
+   "INFO executor.Executor : Running task 25.0 in stage 11631.0 ( TID 465704 )\n",
+   "INFO executor.Executor : Running task 36.0 in stage 11631.0 ( TID 465714 )\n",
+   "INFO executor.CoarseGrainedExecutorBackend : Got assigned task 465714\n",
+   "INFO executor.Executor : Running task 3.0 in stage 11631.0 ( TID 465682 )\n",
+   "INFO executor.Executor : Finished task 3.0 in stage 11630.0 ( TID 465643 ) . 2076 bytes result sent to driver\n"
+  ],
+  [
+   "Finished task; Got assigned task; Running task; Block stored in memory;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "node status 1077907194 0 running\n"
+  ],
+  [
+   "node status running;\n"
+  ],
+  0
+ ],
+ [
+  [
+   "INFO Expiring session 0x24ede63a01b0030 , timeout of 10000ms exceeded\n",
+   "INFO Closed socket connection for client /10.10.34.13 : 38042 which had sessionid 0x14ede63a5a70023\n",
+   "INFO Expiring session 0x14ede63a5a70022 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x34ede65503f0025 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ede63a5a70022\n",
+   "INFO Expiring session 0x34ede65503f0026 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ede63a5a70020\n",
+   "INFO Expiring session 0x24ede63a01b0032 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x14ede63a5a70021 , timeout of 10000ms exceeded\n",
+   "INFO Expiring session 0x24ede63a01b0031 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f0025\n",
+   "INFO Expiring session 0x34ede65503f0027 , timeout of 10000ms exceeded\n",
+   "INFO Processed session termination for sessionid : 0x14ede63a5a70021\n",
+   "INFO Closed socket connection for client /10.10.34.13 : 38043 which had sessionid 0x14ede63a5a70024\n",
+   "INFO Expiring session 0x14ede63a5a70020 , timeout of 10000ms exceeded\n",
+   "INFO Closed socket connection for client /10.10.34.12 : 43158 which had sessionid 0x14ede63a5a70022\n",
+   "INFO Processed session termination for sessionid : 0x34ede65503f0026\n",
+   "WARN caught end of stream exception\n"
+  ],
+  [
+   "caught stream exception; Closed socket connection; Processed session termination; Expiring session; timeout exceeded;\n"
+  ],
+  0
+ ]
+]

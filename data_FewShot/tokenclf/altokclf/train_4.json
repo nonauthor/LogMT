@@ -1,0 +1,218 @@
+[
+ [
+  "saverealtimehealthdatasstat() size = 1,totaltime = 48",
+  "size",
+  "OTHER",
+  5
+ ],
+ [
+  "setting btcoex config: enable_2g:1, profile_2g:0, enable_5g:1, profile_5g:0",
+  "btcoex",
+  "OTHER",
+  5
+ ],
+ [
+  "[00:29:04.085] <<<< crabs >>>> crabswaitforload: [0x7fbc7ac683a0] wait time out - -1001 (msrequesttimeout -1)",
+  "wait",
+  "OTHER",
+  5
+ ],
+ [
+  "getstreamvolume  treamtype: 5",
+  "5",
+  "OTHER",
+  5
+ ],
+ [
+  "start u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.launcherui (has extras)} from uid 10112 on display 0",
+  "10112",
+  "VAR",
+  0
+ ],
+ [
+  "1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 244 seconds",
+  "1",
+  "VAR",
+  0
+ ],
+ [
+  "session 101921 created",
+  "101921",
+  "VAR",
+  0
+ ],
+ [
+  "pci: pci bios revision 2.10 entry at 0xfc0ce, last bus=1",
+  "2.10",
+  "VAR",
+  0
+ ],
+ [
+  "getringermode() ...",
+  "getringermode()",
+  "FUN",
+  6
+ ],
+ [
+  "iohibernatepolleropen(0)",
+  "iohibernatepolleropen(0)",
+  "FUN",
+  6
+ ],
+ [
+  "applethunderboltnhitype2::waitforok2go2sx - intel_rp = 1 dlla_reporting_supported = 0",
+  "applethunderboltnhitype2::waitforok2go2sx",
+  "FUN",
+  6
+ ],
+ [
+  "hibernate_setup(0) took 8471 ms",
+  "hibernate_setup(0)",
+  "FUN",
+  6
+ ],
+ [
+  "reboot mark refs incremented to: 1",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "we launched 1 speculations.  sleeping 15000 milliseconds.",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "setsystemuivisibility vis=0 mask=1 oldval=40000500 newval=40000500 diff=0 fullscreenstackvis=0 dockedstackvis=0, fullscreenstackbounds=rect(0, 0 - 0, 0), dockedstackbounds=rect(0, 0 - 0, 0)",
+  "0",
+  "COUNT",
+  1
+ ],
+ [
+  "-[uabestappsuggestionmanager notifybestappchanged:type:options:bundleidentifier:activitytype:dynamicidentifier:when:confidence:devicename:deviceidentifier:devicetype:] (null) uasuggestedactiontype=0 (null)/(null) opts=(null) when=2017-07-03 09:32:01 +0000 confidence=1 from=(null)/(null) (uabestappsuggestionmanager.m #319)",
+  "+0000",
+  "COUNT",
+  1
+ ],
+ [
+  "failed password for invalid user default from 5.188.10.180 port 41538 ssh2",
+  "41538",
+  "PORT",
+  3
+ ],
+ [
+  "starting socket reader #1 for port 62260",
+  "62260",
+  "PORT",
+  3
+ ],
+ [
+  "13.client-channel.google.com:443 error : could not connect to proxy proxy.cse.cuhk.edu.hk: 5070 - connection attempt failed with error 10061",
+  "5070",
+  "PORT",
+  3
+ ],
+ [
+  "accepted password for fztu from 119.137.62.142 port 49116 ssh2",
+  "49116",
+  "PORT",
+  3
+ ],
+ [
+  "tcp_connection_destination_handle_tls_close_notify 111 closing socket due to tls close_notify alert",
+  "111",
+  "STATE",
+  2
+ ],
+ [
+  "refreshbatteryinfo isbatterylow: 23",
+  "23",
+  "STATE",
+  2
+ ],
+ [
+  "notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), looking (n.state), 1 (n.sid), 0xb (n.peerepoch), leading (my state)",
+  "1",
+  "STATE",
+  2
+ ],
+ [
+  "reboot mark refs: 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "extract jar:file:/d:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-snapshot.jar!/webapps/mapreduce to c:\\users\\msrabi\\appdata\\local\\temp\\jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp",
+  "jar:file:/d:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-snapshot.jar!/webapps/mapreduce",
+  "PATH",
+  8
+ ],
+ [
+  "ciod: z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map",
+  "/p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map",
+  "PATH",
+  8
+ ],
+ [
+  "creating topspin /dev entries:",
+  "/dev",
+  "PATH",
+  8
+ ],
+ [
+  "rts tree/torus link training failed: wanted: b c x+ x- y+ y- z+ z- got: b c x- y- z+ z-",
+  "tree/torus",
+  "PATH",
+  8
+ ],
+ [
+  "www.google.com:443 error : could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - could not resolve proxy.cse.cuhk.edu.hk error 11001",
+  "proxy.cse.cuhk.edu.hk",
+  "IP",
+  7
+ ],
+ [
+  "connection from 202.82.200.188 () at thu jul  7 16:33:52 2005",
+  "202.82.200.188",
+  "IP",
+  7
+ ],
+ [
+  "dhcprequest for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251 .",
+  "10.100.4.251",
+  "IP",
+  7
+ ],
+ [
+  "authentication failure; logname= uid=0 euid=0 tty=nodevssh ruser= rhost= 212.0.132.20  user=test",
+  "212.0.132.20",
+  "IP",
+  7
+ ],
+ [
+  "receiving block blk_3972778210951456006 src: /10.251.121.224:56526 dest: /10.251.121.224:50010",
+  "/10.251.121.224:56526",
+  "URL",
+  4
+ ],
+ [
+  "the url = http://baike.baidu.com/item/%e8%93%9d%e9%87%87%e5%92%8c/462624?fr=aladdin",
+  "http://baike.baidu.com/item/%e8%93%9d%e9%87%87%e5%92%8c/462624?fr=aladdin",
+  "URL",
+  4
+ ],
+ [
+  "client attempting to establish new session at /10.10.34.12:58913",
+  "/10.10.34.12:58913",
+  "URL",
+  4
+ ],
+ [
+  "sandbox: com.apple.addres (34830) deny(1) network-outbound /private/var/run/mdnsresponder",
+  "com.apple.addres",
+  "URL",
+  4
+ ]
+]

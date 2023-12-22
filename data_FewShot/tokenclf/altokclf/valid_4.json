@@ -1,0 +1,218 @@
+[
+ [
+  "device_generate_lock_screen_screenshot: authw 0x7fa82502bc00(2000)[0, 0, 0, 0] shield 0x7fa823930c00(2001), dev [1440,900]",
+  "dev",
+  "OTHER",
+  5
+ ],
+ [
+  "kerberos authentication failed",
+  "authentication",
+  "OTHER",
+  5
+ ],
+ [
+  "critical input interrupt (unit=0x0b bit=0x17): warning for tree c1 wire, suppressing further interrupts of same type",
+  "further",
+  "OTHER",
+  5
+ ],
+ [
+  "successfully started service ' sparkexecutoractorsystem ' on port 55904.",
+  "service",
+  "OTHER",
+  5
+ ],
+ [
+  "checkcurrentday a new day comes , reset basicsynccondition, currentday is 20171224 oldday is 20171223",
+  "20171224",
+  "VAR",
+  0
+ ],
+ [
+  "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage",
+  "1",
+  "VAR",
+  0
+ ],
+ [
+  "sending alarm alarm{aa90550 type 3 when 509142332 pendingintent{1749923: pendingintentrecord{9600e20 android broadcastintent}}},repeatinterval = 0,listenertag =time_tick",
+  "509142332",
+  "VAR",
+  0
+ ],
+ [
+  "ciod: z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map",
+  "32",
+  "VAR",
+  0
+ ],
+ [
+  "rotationfororientationlw (orient=-1, last=0); user=0 user_rotation_locked",
+  "rotationfororientationlw",
+  "FUN",
+  6
+ ],
+ [
+  "network_reachability_changed : network is not reachable, netbiosd is shutting down",
+  "network_reachability_changed",
+  "FUN",
+  6
+ ],
+ [
+  "jk2_init() can't find child 2085 in scoreboard",
+  "jk2_init()",
+  "FUN",
+  6
+ ],
+ [
+  "mvisiblity.getvalue is false",
+  "mvisiblity.getvalue",
+  "FUN",
+  6
+ ],
+ [
+  "ciod: error loading /g/g24/buber/yunsic/bluegene/partad.develf/taddriver.32.exe: program image too big, 361544528 > 266076160",
+  "266076160",
+  "COUNT",
+  1
+ ],
+ [
+  "stepsyncornot appsyntimes is 0",
+  "0",
+  "COUNT",
+  1
+ ],
+ [
+  "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] attempting claim: memory 2048 mb, disk 20 gb, vcpus 1 cpu",
+  "1",
+  "COUNT",
+  1
+ ],
+ [
+  "running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-16 05:00:00 to 2017-05-16 06:00:00. 87 instances.",
+  "87",
+  "COUNT",
+  1
+ ],
+ [
+  "iothunderboltswitch<0>(0x0)::listenercallback - thunderbolt hpd packet for route = 0x0 port = 11 unplug = 0",
+  "11",
+  "PORT",
+  3
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "50719",
+  "PORT",
+  3
+ ],
+ [
+  "jetty bound to port 62267",
+  "62267",
+  "PORT",
+  3
+ ],
+ [
+  "error: bind to port 22 on 0.0.0.0 failed: address already in use.",
+  "22",
+  "PORT",
+  3
+ ],
+ [
+  "en0: channel changed to 1",
+  "1",
+  "STATE",
+  2
+ ],
+ [
+  "packetresponder 2 for block blk_1508705816376906895 terminating",
+  "2",
+  "STATE",
+  2
+ ],
+ [
+  "10.11.10.1 \"delete /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/c62f4f25-982c-4ea2-b5e4-93000edfcfbf http/1.1\" status: 204 len: 203 time: 0.2904921",
+  "204",
+  "STATE",
+  2
+ ],
+ [
+  "applethunderboltnhitype2::waitforok2go2sx - intel_rp = 1 dlla_reporting_supported = 0",
+  "0",
+  "STATE",
+  2
+ ],
+ [
+  "ciod: error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map : block device required",
+  "/p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map",
+  "PATH",
+  8
+ ],
+ [
+  "hibernate image path: /var/vm/sleepimage",
+  "/var/vm/sleepimage",
+  "PATH",
+  8
+ ],
+ [
+  "base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+  "/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+  "PATH",
+  8
+ ],
+ [
+  "dosavechannels@286: will write to: /library/logs/crashreporter/corecapture/ioreporters /[2017-07-05_16,24,29.663045] - authfail:sts:5_rsn:0.xml",
+  "/library/logs/crashreporter/corecapture/ioreporters",
+  "PATH",
+  8
+ ],
+ [
+  "message repeated 5 times: [ failed password for root from 106.5.5.195 port 50719 ssh2]",
+  "106.5.5.195",
+  "IP",
+  7
+ ],
+ [
+  "received disconnect from 183.62.140.253 : 11: bye bye [preauth]",
+  "183.62.140.253",
+  "IP",
+  7
+ ],
+ [
+  "anonymous ftp login from 84.102.20.2 ,  (anonymous)",
+  "84.102.20.2",
+  "IP",
+  7
+ ],
+ [
+  "enqueuenotificationinternal: pkg= com.tencent.mobileqq id=121 notification=notification(pri=1 contentview=null vibrate=[100] sound=null tick defaults=0x0 flags=0x11 color=0x00000000 vis=private)",
+  "com.tencent.mobileqq",
+  "IP",
+  7
+ ],
+ [
+  "10.250.13.240:50010 served block blk_-3134225108208373949 to /10.250.13.240",
+  "10.250.13.240:50010",
+  "URL",
+  4
+ ],
+ [
+  "attempt_1445144423722_0020_m_000003_0 taskattempt transitioned from success_container_cleanup to succeeded",
+  "success_container_cleanup",
+  "URL",
+  4
+ ],
+ [
+  "tcpconn4.tencent.com:80 error : could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - proxy closed the connection unexpectedly.",
+  "proxy.cse.cuhk.edu.hk:5070",
+  "URL",
+  4
+ ],
+ [
+  "scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.qzonewebpluginproxyservice in 1000ms",
+  "com.tencent.mobileqq/cooperation.qzone.remote.logic.qzonewebpluginproxyservice",
+  "URL",
+  4
+ ]
+]

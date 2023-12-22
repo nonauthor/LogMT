@@ -1,0 +1,22 @@
+[
+ [
+  "program interrupt: privileged instruction...0",
+  0,
+  "cc8ff6de"
+ ],
+ [
+  "machine state register: 0x00002000",
+  0,
+  "8d23c697"
+ ],
+ [
+  "ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:34022: Link has been severed",
+  1,
+  "16da8291"
+ ],
+ [
+  "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=22, cpu=255, index=16, total=24",
+  1,
+  "ca731736"
+ ]
+]
